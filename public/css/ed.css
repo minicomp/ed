@@ -101,3 +101,8 @@ blockquote {
 	border-left: none;
 	font-style: italic;
 }
+
+.footnotes {
+	line-height: .6rem;
+	font-size: .9rem;
+}

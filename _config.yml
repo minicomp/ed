@@ -5,6 +5,9 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
+# Footnote friendly markdown
+markdown: kramdown
+
 # Setup
 title:               Ed
 tagline:             'A Jekyll theme for minimal editions'
