@@ -27,7 +27,7 @@ a, .post-title a {
   text-decoration: none;
 }
 
-.toc {
+div.toc {
 	margin-bottom: 4rem;
 }
 
@@ -38,6 +38,13 @@ a, .post-title a {
 .poem ul {
 	list-style: none;
 	padding-left: 0;
+}
+
+/* This rare bit of CSS helps us indent a line given a value in the span class. Ex. <span class="indent-3">my line</span> gives my line the padding left below multiplied by 3 */
+
+.poem span[class^='indent-']{
+    margin: 0; /* reset browsers default margin styles*/
+    padding-left: 5%; /* add some padding value */
 }
 
 .poem .citation {

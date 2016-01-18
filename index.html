@@ -9,15 +9,16 @@ title: Home
 
 <div class="toc">
   <h1>Table of Contents</h1>
-  {% for item in site.categories.toc do %}
   <ul class="post">
+  {% for item in site.categories.toc do %}
+  
     <li class="post-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
       </a>
     </li>
-  </ul>
   {% endfor %}
+  </ul>  
 </div>
 
 
