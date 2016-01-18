@@ -1669,18 +1669,18 @@ the loss of grandchildren, and the loss of great-grandchildren. They
 are, in the language of the slave's poet, Whittier,—
 
  
-     "Gone, gone, sold and gone
-     To the rice swamp dank and lone,
-     Where the slave-whip ceaseless swings,
-     Where the noisome insect stings,
-     Where the fever-demon strews
-     Poison with the falling dews,
-     Where the sickly sunbeams glare
-     Through the hot and misty air:—
-     Gone, gone, sold and gone
-     To the rice swamp dank and lone,
-     From Virginia hills and waters—
-     Woe is me, my stolen daughters!"
+> Gone, gone, sold and gone
+> To the rice swamp dank and lone,
+> Where the slave-whip ceaseless swings,
+> Where the noisome insect stings,
+> Where the fever-demon strews
+> Poison with the falling dews,
+> Where the sickly sunbeams glare
+> Through the hot and misty air:—
+> Gone, gone, sold and gone
+> To the rice swamp dank and lone,
+> From Virginia hills and waters—
+> Woe is me, my stolen daughters!"
 
 
 The hearth is desolate. The children, the unconscious children, who once
@@ -2459,10 +2459,10 @@ Covey.
 
 Mr. Freeland was himself the owner of but two slaves. Their names were
 Henry Harris and John Harris. The rest of his hands he hired. These
-consisted of myself, Sandy Jenkins,\* and Handy Caldwell.
+consisted of myself, Sandy Jenkins,[ˆ1]\* and Handy Caldwell.
 
  
-     *This is the same man who gave me the roots to prevent my
+     [ˆ1]:*This is the same man who gave me the roots to prevent my
      being whipped by Mr. Covey. He was "a clever soul." We used
      frequently to talk about the fight with Covey, and as often
      as we did so, he would claim my success as the result of the
