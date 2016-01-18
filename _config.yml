@@ -5,18 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Ed
+tagline:             'A Jekyll theme for minimal editions'
+description:         'Min-ed, or simply Ed, is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing principles](http://go-dh.github.io/mincomp/), and focused on legibility and flexibility.'
+url:                 https://github.com/elotroalex/ed
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Alex Gil
+  url:               https://twitter.com/elotroalex
+  email:             colibri.alex@gmail.com
 
 # Custom vars
 version:             1.0.0
