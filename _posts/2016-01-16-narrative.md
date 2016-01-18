@@ -34,7 +34,7 @@ Entered, according to Act of Congress, in the year 1845 by Frederick Douglass, i
 - [CHAPTER X](#chapter-x)
 - [CHAPTER XI](#chapter-xi)
 - [APPENDIX](#appendix)
-- [A PARODY](#parody)
+- [A PARODY](#a-parody)
 
 
 
@@ -790,7 +790,7 @@ words:—
 
 
 > I am going away to the Great House Farm!<br>
-> O, yea! O, yea! O!
+> O, yea! O, yea! O
 
 
 This they would sing, as a chorus, to words which to many would seem
@@ -3531,11 +3531,10 @@ south, had an opportunity to see slaveholding morals, manners, and
 piety, with his own eyes. "Shall I not visit for these things? saith the
 Lord. Shall not my soul be avenged on such a nation as this?"
 
-<a id="parody"/>
+---
 
+## A PARODY
 
-> A PARODY<br>
-><br>
 > Come, saints and sinners, hear me tell<br>
 > How pious priests whip Jack and Nell,<br>
 > And women buy and children sell,<br>
