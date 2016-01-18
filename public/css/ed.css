@@ -40,11 +40,52 @@ div.toc {
 	padding-left: 0;
 }
 
-/* This rare bit of CSS helps us indent a line given a value in the span class. Ex. <span class="indent-3">my line</span> gives my line the padding left below multiplied by 3 */
+/* This rare bit of CSS helps us reset the margin for all spans with the indent- class */
 
 .poem span[class^='indent-']{
     margin: 0; /* reset browsers default margin styles*/
-    padding-left: 5%; /* add some padding value */
+}
+
+/* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is multiplied by 5 to give the padding left in terms of percentages. If you are editing a poem with more specific needs you can add or tweak the values in the padding-left */
+
+.poem span.indent-1 {
+	padding-left: 4%;
+}
+
+.poem span.indent-2 {
+	padding-left: 8%;
+}
+
+.poem span.indent-3 {
+	padding-left: 12%;
+}
+
+.poem span.indent-4 {
+	padding-left: 16%;
+}
+
+.poem span.indent-5 {
+	padding-left: 20%;
+}
+
+.poem span.indent-6 {
+	padding-left: 24%;
+}
+
+.poem span.indent-7 {
+	padding-left: 28%;
+}
+
+.poem span.indent-8 {
+	padding-left: 32%;
+}
+
+.poem span.indent-9 {
+	padding-left: 36%;
+}
+
+.poem span.indent-10 {
+	padding-left: 40%;
 }
 
 .poem .citation {
