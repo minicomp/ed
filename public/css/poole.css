@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 16px;
   line-height: 1.5;
 }
@@ -66,10 +66,10 @@ body {
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
-a {
+/*a {
   color: #268bd2;
   text-decoration: none;
-}
+}*/
 a strong {
   color: inherit;
 }
