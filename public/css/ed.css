@@ -13,3 +13,10 @@
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: -.025rem;
+}
