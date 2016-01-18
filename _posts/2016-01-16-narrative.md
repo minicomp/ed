@@ -3,6 +3,7 @@ layout: narrative
 title: "The Narrative of the Life of Frederick Douglass, an American Slave"
 categories: toc
 author: Frederick Douglass
+rights: Public Domain
 ---
 
 WRITTEN BY HIMSELF

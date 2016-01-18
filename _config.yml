@@ -4,7 +4,6 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Ed
@@ -12,7 +11,6 @@ tagline:             'A Jekyll theme for minimal editions'
 description:         'Min-ed, or simply Ed, is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
 url:                 https://github.com/elotroalex/ed
 baseurl:             ''
-paginate:            5
 
 # About/contact
 author:
