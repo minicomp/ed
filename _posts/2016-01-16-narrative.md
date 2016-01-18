@@ -1,19 +1,15 @@
 ---
 layout: page
-title: "The Narrative of the Life<br>
-of Frederick Douglass<br>
-An American Slave"
+title: "The Narrative of the Life of Frederick Douglass, an American Slave"
 categories: toc
 author: Frederick Douglass
 ---
 
-
 WRITTEN BY HIMSELF
 
+<br>
 
-Boston
-
-Published at the Anti-slavery Office, No. 25 cornhill, 
+Published at the Anti-slavery Office, No. 25 Cornhill, Boston, 
 1845
 
 Entered, according to Act of Congress, in the year 1845 by Frederick Douglass, in the Clerk's Office of the District Court of Massachusetts.
@@ -21,41 +17,24 @@ Entered, according to Act of Congress, in the year 1845 by Frederick Douglass, i
 ---
 
 
-> **CONTENTS**
->
-> 
->
-> [PREFACE](#preface)
->
-> [LETTER FROM WENDELL PHILLIPS, ESQ.](#letter-from-wendell-phillips-esq)
->
-> [FREDERICK DOUGLASS.](#frederick-douglass)
->
-> [CHAPTER I](#chapter-i)
->
-> [CHAPTER II](#chapter-ii)
->
-> [CHAPTER III](#chapter-iii)
->
-> [CHAPTER IV](#chapter-iv)
->
-> [CHAPTER V](#chapter-v)
->
-> [CHAPTER VI](#chapter-vi)
->
-> [CHAPTER VII](#chapter-vii)
->
-> [CHAPTER VIII](#chapter-viii)
->
-> [CHAPTER IX](#chapter-ix)
->
-> [CHAPTER X](#chapter-x)
->
-> [CHAPTER XI](#chapter-xi)
->
-> [APPENDIX](#appendix)
->
-> [A PARODY](#parody)
+## Contents
+
+- [PREFACE](#preface)
+- [LETTER FROM WENDELL PHILLIPS, ESQ.](#letter-from-wendell-phillips-esq)
+- [FREDERICK DOUGLASS.](#frederick-douglass)
+- [CHAPTER I](#chapter-i)
+- [CHAPTER II](#chapter-ii)
+- [CHAPTER III](#chapter-iii)
+- [CHAPTER IV](#chapter-iv)
+- [CHAPTER V](#chapter-v)
+- [CHAPTER VI](#chapter-vi)
+- [CHAPTER VII](#chapter-vii)
+- [CHAPTER VIII](#chapter-viii)
+- [CHAPTER IX](#chapter-ix)
+- [CHAPTER X](#chapter-x)
+- [CHAPTER XI](#chapter-xi)
+- [APPENDIX](#appendix)
+- [A PARODY](#parody)
 
 
 
@@ -809,10 +788,10 @@ weave something of the Great House Farm. Especially would they do this,
 when leaving home. They would then sing most exultingly the following
 words:—
 
-``` {space="preserve"}
+
      "I am going away to the Great House Farm!
      O, yea! O, yea! O!"
-```
+
 
 This they would sing, as a chorus, to words which to many would seem
 unmeaning jargon, but which, nevertheless, were full of meaning to
@@ -1689,7 +1668,7 @@ loneliness; she lives to remember and mourn over the loss of children,
 the loss of grandchildren, and the loss of great-grandchildren. They
 are, in the language of the slave's poet, Whittier,—
 
-``` {space="preserve"}
+ 
      "Gone, gone, sold and gone
      To the rice swamp dank and lone,
      Where the slave-whip ceaseless swings,
@@ -1702,7 +1681,7 @@ are, in the language of the slave's poet, Whittier,—
      To the rice swamp dank and lone,
      From Virginia hills and waters—
      Woe is me, my stolen daughters!"
-```
+
 
 The hearth is desolate. The children, the unconscious children, who once
 sang and danced in her presence, are gone. She gropes her way, in the
@@ -2482,7 +2461,7 @@ Mr. Freeland was himself the owner of but two slaves. Their names were
 Henry Harris and John Harris. The rest of his hands he hired. These
 consisted of myself, Sandy Jenkins,\* and Handy Caldwell.
 
-``` {space="preserve"}
+ 
      *This is the same man who gave me the roots to prevent my
      being whipped by Mr. Covey. He was "a clever soul." We used
      frequently to talk about the fight with Covey, and as often
@@ -2490,7 +2469,7 @@ consisted of myself, Sandy Jenkins,\* and Handy Caldwell.
      roots which he gave me. This superstition is very common
      among the more ignorant slaves. A slave seldom dies but that
      his death is attributed to trickery.
-```
+
 
 Henry and John were quite intelligent, and in a very little while after
 I went there, I succeeded in creating in them a strong desire to learn
@@ -2619,10 +2598,10 @@ were overtaken by our pursuers, and, in our resistance, we were shot
 dead upon the spot! I say, this picture sometimes appalled us, and made
 us
 
-``` {space="preserve"}
+ 
      "rather bear those ills we had,
      Than fly to others, that we knew not of."
-```
+
 
 In coming to a fixed determination to run away, we did more than Patrick
 Henry, when he resolved upon liberty or death. With us it was a doubtful
@@ -2651,13 +2630,13 @@ The week before our intended start, I wrote several protections, one for
 each of us. As well as I can remember, they were in the following words,
 to wit:—
 
-``` {space="preserve"}
+ 
      "This is to certify that I, the undersigned, have given the bearer, my
      servant, full liberty to go to Baltimore, and spend the Easter holidays.
      Written with mine own hand, &c., 1835.
 
      "WILLIAM HAMILTON,
-```
+
 
 "Near St. Michael's, in Talbot county, Maryland."
 
@@ -3240,7 +3219,7 @@ who, in the presence of Mr. Ruggles, Mrs. Michaels, and two or three
 others, performed the marriage ceremony, and gave us a certificate, of
 which the following is an exact copy:—
 
-``` {space="preserve"}
+ 
 "This may certify, that I joined together in holy matrimony Frederick
 Johnson** and Anna Murray, as man and wife, in the presence of Mr. David
 Ruggles and Mrs. Michaels.
@@ -3253,7 +3232,7 @@ Ruggles and Mrs. Michaels.
 
           **I had changed my name from Frederick Bailey to that of
           Johnson.
-```
+
 
 Upon receiving this certificate, and a five-dollar bill from Mr.
 Ruggles, I shouldered one part of our baggage, and Anna took up the
@@ -3393,10 +3372,10 @@ was the strength of prejudice against color, among the white calkers,
 that they refused to work with me, and of course I could get no
 employment.\*
 
-``` {space="preserve"}
+ 
      * I am told that colored persons can now get employment at
      calking in New Bedford—a result of anti-slavery effort.
-```
+
 
 Finding my trade of no immediate benefit, I threw off my calking
 habiliments, and prepared myself to do any kind of work I could get to
@@ -3492,8 +3471,8 @@ blood-stained gold to support the pulpit, and the pulpit, in return,
 covers his infernal business with the garb of Christianity. Here we have
 religion and robbery the allies of each other—devils dressed in angels'
 robes, and hell presenting the semblance of paradise.
+ 
 
-``` {space="preserve"}
      "Just God! and these are they,
      Who minister at thine altar, God of right!
      Men who their hands, with prayer and blessing, lay
@@ -3512,8 +3491,8 @@ robes, and hell presenting the semblance of paradise.
      "Pilate and Herod friends!
      Chief priests and rulers, as of old, combine!
      Just God and holy! is that church which lends
-     Strength to the spoiler thine?"
-```
+     Strength to the spoiler thine?" 
+
 
 The Christianity of America is a Christianity, of whose votaries it may
 be as truly said, as it was of the ancient scribes and Pharisees, "They
@@ -3574,90 +3553,89 @@ south, had an opportunity to see slaveholding morals, manners, and
 piety, with his own eyes. "Shall I not visit for these things? saith the
 Lord. Shall not my soul be avenged on such a nation as this?"
 
-<a href="parody"></a>
+<a id="parody"/>
 
-``` {space="preserve"}
 
-               A PARODY
+> A PARODY
+>
+> "Come, saints and sinners, hear me tell<br>
+> How pious priests whip Jack and Nell,<br>
+> And women buy and children sell,<br>
+> And preach all sinners down to hell,<br>
+> And sing of heavenly union.<br>
+> <br>
+> "They'll bleat and baa, dona like goats,<br>
+> Gorge down black sheep, and strain at motes,<br>
+> Array their backs in fine black coats,<br>
+> Then seize their negroes by their throats,<br>
+> And choke, for heavenly union.<br>
+><br>
+> "They'll church you if you sip a dram,<br>
+> And damn you if you steal a lamb;<br>
+> Yet rob old Tony, Doll, and Sam,<br>
+> Of human rights, and bread and ham;<br>
+> Kidnapper's heavenly union.<br>
+><br>
+> "They'll loudly talk of Christ's reward,<br>
+> And bind his image with a cord,<br>
+> And scold, and swing the lash abhorred,<br>
+> And sell their brother in the Lord<br>
+> To handcuffed heavenly union.<br>
+><br>
+> "They'll read and sing a sacred song,<br>
+> And make a prayer both loud and long,<br>
+> And teach the right and do the wrong,<br>
+> Hailing the brother, sister throng,<br>
+> With words of heavenly union.<br>
+><br>
+> "We wonder how such saints can sing,<br>
+> Or praise the Lord upon the wing,<br>
+> Who roar, and scold, and whip, and sting,<br>
+> And to their slaves and mammon cling,<br>
+> In guilty conscience union.<br>
+><br>
+> "They'll raise tobacco, corn, and rye,<br>
+> And drive, and thieve, and cheat, and lie,<br>
+> And lay up treasures in the sky,<br>
+> By making switch and cowskin fly,<br>
+> In hope of heavenly union.<br>
+><br>
+> "They'll crack old Tony on the skull,<br>
+> And preach and roar like Bashan bull,<br>
+> Or braying ass, of mischief full,<br>
+> Then seize old Jacob by the wool,<br>
+> And pull for heavenly union.<br>
+><br>
+> "A roaring, ranting, sleek man-thief,<br>
+> Who lived on mutton, veal, and beef,<br>
+> Yet never would afford relief<br>
+> To needy, sable sons of grief,<br>
+> Was big with heavenly union.<br>
+><br>
+> "'Love not the world,' the preacher said,<br>
+> And winked his eye, and shook his head;<br>
+> He seized on Tom, and Dick, and Ned,<br>
+> Cut short their meat, and clothes, and bread,<br>
+> Yet still loved heavenly union.<br>
+><br>
+> "Another preacher whining spoke<br>
+> Of One whose heart for sinners broke:<br>
+> He tied old Nanny to an oak,<br>
+> And drew the blood at every stroke,<br>
+> And prayed for heavenly union.<br>
+><br>
+> "Two others oped their iron jaws,<br>
+> And waved their children-stealing paws;<br>
+> There sat their children in gewgaws;<br>
+> By stinting negroes' backs and maws,<br>
+> They kept up heavenly union.<br>
+><br>
+> "All good from Jack another takes,<br>
+> And entertains their flirts and rakes,<br>
+> Who dress as sleek as glossy snakes,<br>
+> And cram their mouths with sweetened cakes;<br>
+> And this goes down for union."<br>
 
-     "Come, saints and sinners, hear me tell
-     How pious priests whip Jack and Nell,
-     And women buy and children sell,
-     And preach all sinners down to hell,
-     And sing of heavenly union.
-
-     "They'll bleat and baa, dona like goats,
-     Gorge down black sheep, and strain at motes,
-     Array their backs in fine black coats,
-     Then seize their negroes by their throats,
-     And choke, for heavenly union.
-
-     "They'll church you if you sip a dram,
-     And damn you if you steal a lamb;
-     Yet rob old Tony, Doll, and Sam,
-     Of human rights, and bread and ham;
-     Kidnapper's heavenly union.
-
-     "They'll loudly talk of Christ's reward,
-     And bind his image with a cord,
-     And scold, and swing the lash abhorred,
-     And sell their brother in the Lord
-     To handcuffed heavenly union.
-
-     "They'll read and sing a sacred song,
-     And make a prayer both loud and long,
-     And teach the right and do the wrong,
-     Hailing the brother, sister throng,
-     With words of heavenly union.
-
-     "We wonder how such saints can sing,
-     Or praise the Lord upon the wing,
-     Who roar, and scold, and whip, and sting,
-     And to their slaves and mammon cling,
-     In guilty conscience union.
-
-     "They'll raise tobacco, corn, and rye,
-     And drive, and thieve, and cheat, and lie,
-     And lay up treasures in the sky,
-     By making switch and cowskin fly,
-     In hope of heavenly union.
-
-     "They'll crack old Tony on the skull,
-     And preach and roar like Bashan bull,
-     Or braying ass, of mischief full,
-     Then seize old Jacob by the wool,
-     And pull for heavenly union.
-
-     "A roaring, ranting, sleek man-thief,
-     Who lived on mutton, veal, and beef,
-     Yet never would afford relief
-     To needy, sable sons of grief,
-     Was big with heavenly union.
-
-     "'Love not the world,' the preacher said,
-     And winked his eye, and shook his head;
-     He seized on Tom, and Dick, and Ned,
-     Cut short their meat, and clothes, and bread,
-     Yet still loved heavenly union.
-
-     "Another preacher whining spoke
-     Of One whose heart for sinners broke:
-     He tied old Nanny to an oak,
-     And drew the blood at every stroke,
-     And prayed for heavenly union.
-
-     "Two others oped their iron jaws,
-     And waved their children-stealing paws;
-     There sat their children in gewgaws;
-     By stinting negroes' backs and maws,
-     They kept up heavenly union.
-
-     "All good from Jack another takes,
-     And entertains their flirts and rakes,
-     Who dress as sleek as glossy snakes,
-     And cram their mouths with sweetened cakes;
-     And this goes down for union."
-```
 
 Sincerely and earnestly hoping that this little book may do something
 toward throwing light on the American slave system, and hastening the
