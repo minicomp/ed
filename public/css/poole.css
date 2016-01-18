@@ -334,9 +334,10 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Blog post or page title */
+/*.post-title a,*/
 .page-title,
-.post-title,
-.post-title a {
+.post-title
+ {
   color: #303030;
 }
 .page-title,

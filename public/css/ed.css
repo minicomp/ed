@@ -22,12 +22,26 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
-a {
+a, .post-title a {
   color: #aa3311;
   text-decoration: none;
+}
+
+.toc {
+	margin-bottom: 4rem;
+}
+
+.toc ul {
+	list-style: circle;
 }
 
 .poem ul {
 	list-style: none;
 	padding-left: 0;
+}
+
+.poem .citation {
+	font-style: italic;
+	font-size: .9rem;
+	color: gray;
 }
