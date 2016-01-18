@@ -3641,10 +3641,10 @@ THE END
 
 ---
 
-Footnotes by Frederick Douglass
+[Footnotes by Frederick Douglass]
 
 
-<sup id="fn1">[↩](#ref1 "Jump back to footnote 1 in the text.")</sup> This is the same man who gave me the roots to prevent my
+<sup id="fn1">[↩](#ref1)</sup> This is the same man who gave me the roots to prevent my
 being whipped by Mr. Covey. He was "a clever soul." We used
 frequently to talk about the fight with Covey, and as often
 as we did so, he would claim my success as the result of the
