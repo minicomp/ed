@@ -2459,16 +2459,17 @@ Covey.
 
 Mr. Freeland was himself the owner of but two slaves. Their names were
 Henry Harris and John Harris. The rest of his hands he hired. These
-consisted of myself, Sandy Jenkins,[ˆ1]\* and Handy Caldwell.
+consisted of myself, Sandy Jenkins,[\*](#f1) and Handy Caldwell.
 
- 
-     [ˆ1]:*This is the same man who gave me the roots to prevent my
-     being whipped by Mr. Covey. He was "a clever soul." We used
-     frequently to talk about the fight with Covey, and as often
-     as we did so, he would claim my success as the result of the
-     roots which he gave me. This superstition is very common
-     among the more ignorant slaves. A slave seldom dies but that
-     his death is attributed to trickery.
+<a id="f1"/>
+
+\* This is the same man who gave me the roots to prevent my
+being whipped by Mr. Covey. He was "a clever soul." We used
+frequently to talk about the fight with Covey, and as often
+as we did so, he would claim my success as the result of the
+roots which he gave me. This superstition is very common
+among the more ignorant slaves. A slave seldom dies but that
+his death is attributed to trickery.
 
 
 Henry and John were quite intelligent, and in a very little while after
