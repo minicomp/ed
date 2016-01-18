@@ -16,7 +16,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight: 400;
+  font-weight: 400; /* revise this line */
+  font-size: 1.5rem;
   color: #666;
   letter-spacing: -.025rem;
 }
@@ -24,4 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #aa3311;
   text-decoration: none;
+}
+
+.poem ul {
+	list-style: none;
+	padding-left: 0;
 }
