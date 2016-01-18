@@ -789,8 +789,8 @@ when leaving home. They would then sing most exultingly the following
 words:—
 
 
-     "I am going away to the Great House Farm!
-     O, yea! O, yea! O!"
+> I am going away to the Great House Farm!<br>
+> O, yea! O, yea! O!
 
 
 This they would sing, as a chorus, to words which to many would seem
@@ -1680,7 +1680,7 @@ are, in the language of the slave's poet, Whittier,—
 > Gone, gone, sold and gone
 > To the rice swamp dank and lone,
 > From Virginia hills and waters—
-> Woe is me, my stolen daughters!"
+> Woe is me, my stolen daughters!
 
 
 The hearth is desolate. The children, the unconscious children, who once
@@ -2589,8 +2589,8 @@ dead upon the spot! I say, this picture sometimes appalled us, and made
 us
 
  
-     "rather bear those ills we had,
-     Than fly to others, that we knew not of."
+> rather bear those ills we had,<br>
+> Than fly to others, that we knew not of.<br>
 
 
 In coming to a fixed determination to run away, we did more than Patrick
@@ -2621,11 +2621,10 @@ each of us. As well as I can remember, they were in the following words,
 to wit:—
 
  
-     "This is to certify that I, the undersigned, have given the bearer, my
-     servant, full liberty to go to Baltimore, and spend the Easter holidays.
-     Written with mine own hand, &c., 1835.
-
-     "WILLIAM HAMILTON,
+> This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
+>
+> Written with mine own hand, &c., 1835.<br>
+> WILLIAM HAMILTON,
 
 
 "Near St. Michael's, in Talbot county, Maryland."
@@ -3200,7 +3199,7 @@ wanted to go; as he deemed it unsafe for me to remain in New York. I
 told him I was a calker, and should like to go where I could get work. I
 thought of going to Canada; but he decided against it, and in favor of
 my going to New Bedford, thinking I should be able to get work there at
-my trade. At this time, Anna,\* my intended wife, came on; for I wrote
+my trade. At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on; for I wrote
 to her immediately after my arrival at New York, (notwithstanding my
 homeless, houseless, and helpless condition,) informing her of my
 successful flight, and wishing her to come on forthwith. In a few days
@@ -3211,17 +3210,11 @@ which the following is an exact copy:—
 
  
 "This may certify, that I joined together in holy matrimony Frederick
-Johnson** and Anna Murray, as man and wife, in the presence of Mr. David
+Johnson<sup><a href="#fn3" id="ref3">\*</a></sup> and Anna Murray, as man and wife, in the presence of Mr. David
 Ruggles and Mrs. Michaels.
 
 "JAMES W. C. PENNINGTON
 "New York, Sept. 15, 1838"
-
-
-          *She was free.
-
-          **I had changed my name from Frederick Bailey to that of
-          Johnson.
 
 
 Upon receiving this certificate, and a five-dollar bill from Mr.
@@ -3360,12 +3353,7 @@ wife. It was to me the starting-point of a new existence. When I got
 through with that job, I went in pursuit of a job of calking; but such
 was the strength of prejudice against color, among the white calkers,
 that they refused to work with me, and of course I could get no
-employment.\*
-
- 
-     * I am told that colored persons can now get employment at
-     calking in New Bedford—a result of anti-slavery effort.
-
+employment.<sup><a href="#fn4" id="ref4">\*</a></sup>
 
 Finding my trade of no immediate benefit, I threw off my calking
 habiliments, and prepared myself to do any kind of work I could get to
@@ -3463,25 +3451,25 @@ religion and robbery the allies of each other—devils dressed in angels'
 robes, and hell presenting the semblance of paradise.
  
 
-     "Just God! and these are they,
-     Who minister at thine altar, God of right!
-     Men who their hands, with prayer and blessing, lay
-     On Israel's ark of light.
-
-     "What! preach, and kidnap men?
-     Give thanks, and rob thy own afflicted poor?
-     Talk of thy glorious liberty, and then
-     Bolt hard the captive's door?
-
-     "What! servants of thy own
-     Merciful Son, who came to seek and save
-     The homeless and the outcast, fettering down
-     The tasked and plundered slave!
-
-     "Pilate and Herod friends!
-     Chief priests and rulers, as of old, combine!
-     Just God and holy! is that church which lends
-     Strength to the spoiler thine?" 
+> Just God! and these are they,<br>
+> Who minister at thine altar, God of right!<br>
+> Men who their hands, with prayer and blessing, lay<br>
+> On Israel's ark of light.<br>
+> <br>
+> What! preach, and kidnap men?<br>
+> Give thanks, and rob thy own afflicted poor?<br>
+> Talk of thy glorious liberty, and then<br>
+> Bolt hard the captive's door?<br>
+> <br>
+> What! servants of thy own<br>
+> Merciful Son, who came to seek and save<br>
+> The homeless and the outcast, fettering down<br>
+> The tasked and plundered slave!<br>
+> <br>
+> Pilate and Herod friends!<br>
+> Chief priests and rulers, as of old, combine!<br>
+> Just God and holy! is that church which lends<br>
+> Strength to the spoiler thine?" <br>
 
 
 The Christianity of America is a Christianity, of whose votaries it may
@@ -3546,81 +3534,81 @@ Lord. Shall not my soul be avenged on such a nation as this?"
 <a id="parody"/>
 
 
-> A PARODY
->
-> "Come, saints and sinners, hear me tell<br>
+> A PARODY<br>
+><br>
+> Come, saints and sinners, hear me tell<br>
 > How pious priests whip Jack and Nell,<br>
 > And women buy and children sell,<br>
 > And preach all sinners down to hell,<br>
 > And sing of heavenly union.<br>
 > <br>
-> "They'll bleat and baa, dona like goats,<br>
+> They'll bleat and baa, dona like goats,<br>
 > Gorge down black sheep, and strain at motes,<br>
 > Array their backs in fine black coats,<br>
 > Then seize their negroes by their throats,<br>
 > And choke, for heavenly union.<br>
 ><br>
-> "They'll church you if you sip a dram,<br>
+> They'll church you if you sip a dram,<br>
 > And damn you if you steal a lamb;<br>
 > Yet rob old Tony, Doll, and Sam,<br>
 > Of human rights, and bread and ham;<br>
 > Kidnapper's heavenly union.<br>
 ><br>
-> "They'll loudly talk of Christ's reward,<br>
+> They'll loudly talk of Christ's reward,<br>
 > And bind his image with a cord,<br>
 > And scold, and swing the lash abhorred,<br>
 > And sell their brother in the Lord<br>
 > To handcuffed heavenly union.<br>
 ><br>
-> "They'll read and sing a sacred song,<br>
+> They'll read and sing a sacred song,<br>
 > And make a prayer both loud and long,<br>
 > And teach the right and do the wrong,<br>
 > Hailing the brother, sister throng,<br>
 > With words of heavenly union.<br>
 ><br>
-> "We wonder how such saints can sing,<br>
+> We wonder how such saints can sing,<br>
 > Or praise the Lord upon the wing,<br>
 > Who roar, and scold, and whip, and sting,<br>
 > And to their slaves and mammon cling,<br>
 > In guilty conscience union.<br>
 ><br>
-> "They'll raise tobacco, corn, and rye,<br>
+> They'll raise tobacco, corn, and rye,<br>
 > And drive, and thieve, and cheat, and lie,<br>
 > And lay up treasures in the sky,<br>
 > By making switch and cowskin fly,<br>
 > In hope of heavenly union.<br>
 ><br>
-> "They'll crack old Tony on the skull,<br>
+> They'll crack old Tony on the skull,<br>
 > And preach and roar like Bashan bull,<br>
 > Or braying ass, of mischief full,<br>
 > Then seize old Jacob by the wool,<br>
 > And pull for heavenly union.<br>
 ><br>
-> "A roaring, ranting, sleek man-thief,<br>
+> A roaring, ranting, sleek man-thief,<br>
 > Who lived on mutton, veal, and beef,<br>
 > Yet never would afford relief<br>
 > To needy, sable sons of grief,<br>
 > Was big with heavenly union.<br>
 ><br>
-> "'Love not the world,' the preacher said,<br>
+> 'Love not the world,' the preacher said,<br>
 > And winked his eye, and shook his head;<br>
 > He seized on Tom, and Dick, and Ned,<br>
 > Cut short their meat, and clothes, and bread,<br>
 > Yet still loved heavenly union.<br>
 ><br>
-> "Another preacher whining spoke<br>
+> Another preacher whining spoke<br>
 > Of One whose heart for sinners broke:<br>
 > He tied old Nanny to an oak,<br>
 > And drew the blood at every stroke,<br>
 > And prayed for heavenly union.<br>
 ><br>
-> "Two others oped their iron jaws,<br>
+> Two others oped their iron jaws,<br>
 > And waved their children-stealing paws;<br>
 > There sat their children in gewgaws;<br>
 > By stinting negroes' backs and maws,<br>
 > They kept up heavenly union.<br>
 ><br>
-> "All good from Jack another takes,<br>
+> All good from Jack another takes,<br>
 > And entertains their flirts and rakes,<br>
 > Who dress as sleek as glossy snakes,<br>
 > And cram their mouths with sweetened cakes;<br>
@@ -3644,10 +3632,17 @@ THE END
 [Footnotes by Frederick Douglass]
 
 
-<sup id="fn1">[↩](#ref1)</sup> This is the same man who gave me the roots to prevent my
-being whipped by Mr. Covey. He was "a clever soul." We used
+<sup id="fn1">[↩](#ref1)</sup> This is the same man who gave me the roots to prevent my being whipped by Mr. Covey. He was "a clever soul." We used
 frequently to talk about the fight with Covey, and as often
 as we did so, he would claim my success as the result of the
 roots which he gave me. This superstition is very common
 among the more ignorant slaves. A slave seldom dies but that
 his death is attributed to trickery.
+
+<sup id="fn2">[↩](#ref2)</sup> She was free.
+
+<sup id="fn3">[↩](#ref3)</sup> I had changed my name from Frederick Bailey to that of
+Johnson.
+
+<sup id="fn4">[↩](#ref4)</sup> I am told that colored persons can now get employment at
+calking in New Bedford—a result of anti-slavery effort.
