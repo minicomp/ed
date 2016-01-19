@@ -35,6 +35,14 @@ ul {
 	list-style: circle;
 }
 
+div.poem, div.narrative {
+	margin-bottom: 5rem;
+}
+
+a.footnote {
+	padding-left: .1rem;
+}
+
 .poem ul {
 	list-style: none;
 	padding-left: 0;
@@ -103,6 +111,6 @@ blockquote {
 }
 
 .footnotes {
-	line-height: .6rem;
+	line-height: .9rem;
 	font-size: .9rem;
 }
