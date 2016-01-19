@@ -64,7 +64,7 @@ div.poem, div.narrative {
 	padding-left: 0;
 }
 
-/* This rare bit of CSS helps us reset the margin for all spans with the indent- class */
+/* This snippet helps us reset the margin for all spans with the indent- class */
 
 .poem span[class^='indent-']{
     margin: 0; /* reset browsers default margin styles*/
