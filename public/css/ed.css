@@ -27,6 +27,10 @@ a, .post-title a {
   text-decoration: none;
 }
 
+a.footnote {
+	padding-left: .1rem;
+}
+
 div.toc {
 	margin-bottom: 4rem;
 }
@@ -39,9 +43,21 @@ div.poem, div.narrative {
 	margin-bottom: 5rem;
 }
 
-a.footnote {
-	padding-left: .1rem;
+.masthead {
+	text-align: center;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
 }
+
+.masthead-title small {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+
 
 .poem ul {
 	list-style: none;
