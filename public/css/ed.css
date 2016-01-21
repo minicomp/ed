@@ -71,6 +71,10 @@ blockquote {
 	padding-bottom: .8rem;
 }
 
+.masthead-title {
+	line-height: 1.5rem;
+}
+
 h3.masthead-title {
 	font-size: 1.5rem;
 }
@@ -81,7 +85,7 @@ h3.masthead-title {
 
 .masthead-title small {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: .75rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
