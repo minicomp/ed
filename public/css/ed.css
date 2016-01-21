@@ -187,3 +187,9 @@ a.footnote {
 	padding-left: .1rem;
 	font-size: .66rem;
 }
+
+/*Bibliography styles*/
+
+ol.bibliography {
+	list-style-type:none;
+}
