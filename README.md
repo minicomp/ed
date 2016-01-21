@@ -11,7 +11,7 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 - Design choices emphasizing a pleasant reading experience of prose and poems
 - Extensible, minimal structure 
 - Responsive and sensible footnote system
-- Dublic Core metadata for Zotero recognition to aid in citation
+- Dublin Core metadata for Zotero recognition to aid in citation
 - Ability to generate bibliographies using the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) plugin 
 
 ## What is a minimal edition?
