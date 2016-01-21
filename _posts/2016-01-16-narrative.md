@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: "The Narrative of the Life of Frederick Douglass, an American Slave"
+title: "The Narrative of the Life of Frederick Douglass"
 categories: toc
 author: Frederick Douglass
 rights: Public Domain
@@ -19,16 +19,16 @@ rights: Public Domain
 - [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
 - [Frederick Douglass.](#frederick-douglass)
 - [Chapter I](#chapter-i)
-- [Chapter Ii](#chapter-ii)
-- [Chapter Iii](#chapter-iii)
-- [Chapter Iv](#chapter-iv)
+- [Chapter II](#chapter-ii)
+- [Chapter III](#chapter-iii)
+- [Chapter IV](#chapter-iv)
 - [Chapter V](#chapter-v)
-- [Chapter Vi](#chapter-vi)
-- [Chapter Vii](#chapter-vii)
-- [Chapter Viii](#chapter-viii)
-- [Chapter Ix](#chapter-ix)
+- [Chapter VI](#chapter-vi)
+- [Chapter VII](#chapter-vii)
+- [Chapter VIII](#chapter-viii)
+- [Chapter IX](#chapter-ix)
 - [Chapter X](#chapter-x)
-- [Chapter Xi](#chapter-xi)
+- [Chapter XI](#chapter-xi)
 - [Appendix](#appendix)
 - [A Parody](#a-parody)
 
