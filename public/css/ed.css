@@ -14,12 +14,26 @@ html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+/* General */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight: 400; /* revise this line */
+  font-weight: 400; 
   font-size: 1.5rem;
   color: #666;
   letter-spacing: -.025rem;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+h1.post-title {
+	font-size: 1.4rem;
+}
+
+h2 {
+	font-size: 1.2rem;
 }
 
 a, .post-title a {
@@ -27,8 +41,8 @@ a, .post-title a {
   text-decoration: none;
 }
 
-a.footnote {
-	padding-left: .1rem;
+div.poem, div.narrative {
+	margin-bottom: 5rem;
 }
 
 div.toc {
@@ -39,85 +53,6 @@ ul {
 	list-style: circle;
 }
 
-div.poem, div.narrative {
-	margin-bottom: 5rem;
-}
-
-.masthead {
-	text-align: center;
-	padding-top: .8rem;
-	padding-bottom: .8rem;
-}
-
-.masthead-title small {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
-}
-
-
-
-.poem ul {
-	list-style: none;
-	padding-left: 0;
-}
-
-/* This snippet helps us reset the margin for all spans with the indent- class */
-
-.poem span[class^='indent-']{
-    margin: 0; /* reset browsers default margin styles*/
-}
-
-/* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is multiplied by 5 to give the padding left in terms of percentages. If you are editing a poem with more specific needs you can add or tweak the values in the padding-left */
-
-.poem span.indent-1 {
-	padding-left: 4%;
-}
-
-.poem span.indent-2 {
-	padding-left: 8%;
-}
-
-.poem span.indent-3 {
-	padding-left: 12%;
-}
-
-.poem span.indent-4 {
-	padding-left: 16%;
-}
-
-.poem span.indent-5 {
-	padding-left: 20%;
-}
-
-.poem span.indent-6 {
-	padding-left: 24%;
-}
-
-.poem span.indent-7 {
-	padding-left: 28%;
-}
-
-.poem span.indent-8 {
-	padding-left: 32%;
-}
-
-.poem span.indent-9 {
-	padding-left: 36%;
-}
-
-.poem span.indent-10 {
-	padding-left: 40%;
-}
-
-.poem .citation {
-	font-style: italic;
-	font-size: .9rem;
-	color: gray;
-}
-
 blockquote {
 	padding: 0rem 1.5rem 2rem 2rem;
 	margin: 0;
@@ -126,7 +61,120 @@ blockquote {
 	font-style: italic;
 }
 
-.footnotes {
-	line-height: .9rem;
+
+
+/* Masthead styles */
+
+.masthead {
+	text-align: center;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+}
+
+h3.masthead-title {
+	font-size: 1.5rem;
+}
+
+.masthead-title a {
+	color: #aa3311;;
+}
+
+.masthead-title small {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+/* Poem styles */
+
+/* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
+
+.poem ul {
+	list-style: none;
+	padding-left: 1rem;
+	text-indent: -1rem;
+}
+
+/* This snippet helps us reset the margin for all spans with the indent- class */
+
+.poem span[class^='indent-']{
+    margin: 0; /* reset browsers default margin styles*/
+}
+
+/* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is represents an rem (root em) value */
+
+.poem span.indent-1 {
+	padding-left: 1rem;
+}
+
+.poem span.indent-2 {
+	padding-left: 2rem;
+}
+
+.poem span.indent-3 {
+	padding-left: 3rem;
+}
+
+.poem span.indent-4 {
+	padding-left: 4rem;
+}
+
+.poem span.indent-5 {
+	padding-left: 5rem;
+}
+
+.poem span.indent-6 {
+	padding-left: 6rem;
+}
+
+.poem span.indent-7 {
+	padding-left: 7rem;
+}
+
+.poem span.indent-8 {
+	padding-left: 8rem;
+}
+
+.poem span.indent-9 {
+	padding-left: 9rem;
+}
+
+.poem span.indent-10 {
+	padding-left: 10rem;
+}
+
+.poem .citation {
+	font-style: italic;
 	font-size: .9rem;
+	color: gray;
+}
+
+/* Footnotes styles */
+
+sup, sub {
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+
+sub { top: 0.4em; }
+
+.footnotes {
+	line-height: 1.2rem;
+	font-size: 0.9rem;
+	letter-spacing: .01rem;
+}
+
+.footnotes .foot-block {
+	display: inline-block;
+	padding: 0 4rem 0 2rem;
+	margin-bottom: .8rem;
+	font-style: italic;
+}
+
+a.footnote {
+	padding-left: .1rem;
+	font-size: .66rem;
 }
