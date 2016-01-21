@@ -66,6 +66,22 @@ blockquote {
 	font-style: italic;
 }
 
+p.centered {
+	text-align: center;
+}
+
+p.larger {
+	font-size: 1.6rem;
+}
+
+p.large {
+	font-size: 1.4rem
+}
+
+p.small {
+	font-size: 0.8rem;
+}
+
 
 
 /* Masthead styles */

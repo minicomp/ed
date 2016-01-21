@@ -6,37 +6,48 @@ author: Frederick Douglass
 rights: Public Domain
 ---
 
-WRITTEN BY HIMSELF
+<p class="citation"> by {{ page.author }}</p>
 
-<br>
-
-Published at the Anti-slavery Office, No. 25 Cornhill, Boston, 
-1845
-
-Entered, according to Act of Congress, in the year 1845 by Frederick Douglass, in the Clerk's Office of the District Court of Massachusetts.
 
 ---
 
 
 ## Contents
 
-- [PREFACE](#preface)
-- [LETTER FROM WENDELL PHILLIPS, ESQ.](#letter-from-wendell-phillips-esq)
-- [FREDERICK DOUGLASS.](#frederick-douglass)
-- [CHAPTER I](#chapter-i)
-- [CHAPTER II](#chapter-ii)
-- [CHAPTER III](#chapter-iii)
-- [CHAPTER IV](#chapter-iv)
-- [CHAPTER V](#chapter-v)
-- [CHAPTER VI](#chapter-vi)
-- [CHAPTER VII](#chapter-vii)
-- [CHAPTER VIII](#chapter-viii)
-- [CHAPTER IX](#chapter-ix)
-- [CHAPTER X](#chapter-x)
-- [CHAPTER XI](#chapter-xi)
-- [APPENDIX](#appendix)
-- [A PARODY](#a-parody)
+- [Title Page](#title-page)
+- [Preface](#preface)
+- [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
+- [Frederick Douglass.](#frederick-douglass)
+- [Chapter I](#chapter-i)
+- [Chapter Ii](#chapter-ii)
+- [Chapter Iii](#chapter-iii)
+- [Chapter Iv](#chapter-iv)
+- [Chapter V](#chapter-v)
+- [Chapter Vi](#chapter-vi)
+- [Chapter Vii](#chapter-vii)
+- [Chapter Viii](#chapter-viii)
+- [Chapter Ix](#chapter-ix)
+- [Chapter X](#chapter-x)
+- [Chapter Xi](#chapter-xi)
+- [Appendix](#appendix)
+- [A Parody](#a-parody)
 
+---
+
+<a id="title-page" />
+
+<p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
+<br>
+<p class="centered larger">FREDERICK DOUGLASS</p>
+
+<p class="centered large">AN<br>AMERICAN SLAVE.<br>WRITTEN BY HIMSELF.</p>
+<br>
+
+<p class="centered">BOSTON</p>
+
+<p class="centered">PUBLISHED AT THE ANTI-SLAVERY OFFICE,<br>NO. 25 CORNHILL<br>1845</p>
+
+<p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
 
 
 ---
