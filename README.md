@@ -7,25 +7,9 @@ Ed is a [Jekyll](https://jekyllrb.com/
 
 Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme based on [Poole](http://getpoole.com), "the Jekyll butler," both created by [Mark Otto](<https://github.com/mdo) and distributed with an MIT license. Thanks to Mark Otto for his helpful streamlining. 
 
-<<<<<<< HEAD
 ## Features
 - Design choices emphasizing a pleasant reading experience of prose and poems
 - Extensible, minimal structure 
 - Responsive and sensible footnote system
 - Dublin Core metadata for Zotero recognition to aid in citation
 - Ability to generate well-formatted bibliographies using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
-=======
-## Features [in development]
-- Specialized layouts and CSS for narratives, screenplays and poems
-- Extensible, minimal structure 
-- Kramdown footnotes
-- Dublin Core metadata for Zotero recognition to aid in citation
-- Ability to generate bibliographies using the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) plugin by @inukshuk
-
-## What is a minimal edition?
-As we see it, a minimal edition is one that reduces elements of the full stack (markup, transformation and presentation) to its bare minimum components given a set of desired functions (reading, searching, annotating, citation, extraction, versioning, etc). This theme focuses on the traditional reading edition with footnotes, since this is the most immediately useful type of edition. Our hope is that this front-end approach can help beginners or veterans deploy editions with less effort, that it can help us [teach a 'full stack'](https://github.com/susannalles/MinimalEditions/blob/master/index.md) in one academic semester, and that it may help us generate editions on github.io in large quantities based on the [git-lit model](http://jonreeve.com/2015/09/introducing-git-lit/) by Jonathan Reeve.
-
->>>>>>> f9d257f8fde94be2a5a391dabbea6991a1e21d7e
-
-
-

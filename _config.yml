@@ -22,7 +22,7 @@ author:
   email:             colibri.alex@gmail.com
 
 # Custom vars
-version:             0.0.1
+version:             0.0.2
 
 # Gems
 gems: ['jekyll/scholar']
