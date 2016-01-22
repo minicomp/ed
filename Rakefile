@@ -1,7 +1,13 @@
 # Rakefile provided by http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html
 
-# Rquire jekyll to compile the site.
+# To run: rake blog:publish
+
+# Require jekyll to compile the site.
+
 require "jekyll"
+
+# Call method
+require 'tmpdir'
 
 # Github pages publishing.
 namespace :blog do
