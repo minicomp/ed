@@ -11,7 +11,7 @@ markdown: kramdown
 # Setup
 title:               Ed
 tagline:             'A Jekyll theme for minimal editions'
-description:         'Min-ed, or simply Ed, is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
 url:                 https://github.com/elotroalex/ed
 baseurl:             'http://elotroalex.github.io/ed'
 
@@ -22,4 +22,34 @@ author:
   email:             colibri.alex@gmail.com
 
 # Custom vars
-version:             0.0.1
+version:             0.0.2
+
+# Gems
+gems: ['jekyll/scholar']
+
+# Scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
