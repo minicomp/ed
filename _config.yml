@@ -29,7 +29,7 @@ gems: ['jekyll/scholar']
 
 # Scholar
 scholar:
-  style: apa
+  style: modern-language-association
   locale: en
 
   sort_by: none

@@ -116,10 +116,10 @@ h3.masthead-title {
   letter-spacing: 0;
 }
 
-/* Sidebar styles */
+/* Sidebar styles: Optional #841212; */
 
 #sidebar {
-	background-color: #841212;
+	background-color: #360000;
 }
 
 /* Poem styles */
