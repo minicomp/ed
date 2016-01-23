@@ -14,6 +14,10 @@ html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.content {
+	margin-bottom: 4rem;
+}
+
 /* General */
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,6 +116,12 @@ h3.masthead-title {
   letter-spacing: 0;
 }
 
+/* Sidebar styles */
+
+#sidebar {
+	background-color: #841212;
+}
+
 /* Poem styles */
 
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
@@ -208,4 +218,6 @@ a.footnote {
 
 ol.bibliography {
 	list-style-type:none;
+	padding-left: 1rem;
+	text-indent: -1rem;
 }
