@@ -208,4 +208,6 @@ a.footnote {
 
 ol.bibliography {
 	list-style-type:none;
+	padding-left: 1rem;
+	text-indent: -1rem;
 }
