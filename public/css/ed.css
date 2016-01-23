@@ -140,52 +140,52 @@ h3.masthead-title {
 
 /* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is represents an rem (root em) value */
 
-em.indent-1 {
+.indent-1 {
 	font-style: normal;
 	padding-left: 1rem;
 }
 
-em.indent-2 {
+.indent-2 {
 	font-style: normal;
 	padding-left: 2rem;
 }
 
-em.indent-3 {
+.indent-3 {
 	font-style: normal;
 	padding-left: 3rem;
 }
 
-em.indent-4 {
+.indent-4 {
 	font-style: normal;
 	padding-left: 4rem;
 }
 
-em.indent-5 {
+.indent-5 {
 	font-style: normal;
 	padding-left: 5rem;
 }
 
-em.indent-6 {
+.indent-6 {
 	font-style: normal;
 	padding-left: 6rem;
 }
 
-em.indent-7 {
+.indent-7 {
 	font-style: normal;
 	padding-left: 7rem;
 }
 
-em.indent-8 {
+.indent-8 {
 	font-style: normal;
 	padding-left: 8rem;
 }
 
-em.indent-9 {
+.indent-9 {
 	font-style: normal;
 	padding-left: 9rem;
 }
 
-em.indent-10 {
+.indent-10 {
 	font-style: normal;
 	padding-left: 10rem;
 }
