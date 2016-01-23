@@ -17,7 +17,7 @@ rights: Public Domain
 - [Title Page](#title-page)
 - [Preface](#preface)
 - [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
-- [Frederick Douglass.](#frederick-douglass)
+- [Frederick Douglass](#frederick-douglass)
 - [Chapter I](#chapter-i)
 - [Chapter II](#chapter-ii)
 - [Chapter III](#chapter-iii)
