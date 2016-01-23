@@ -112,6 +112,12 @@ h3.masthead-title {
   letter-spacing: 0;
 }
 
+/* Sidebar styles */
+
+#sidebar {
+	background-color: #841212;
+}
+
 /* Poem styles */
 
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
