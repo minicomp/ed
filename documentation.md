@@ -179,7 +179,7 @@ The effects of this page can be achieved with slightly complex Kramdown, but I c
 Footnotes are the bread and butter of scholarship. Kramdown makes footnotes a fairly simple affair:
 
 
-~~~ markdown
+~~~ 
 - O Captain! my Captain! rise up and hear the bells; 
 - Rise up—for you the flag is flung—for you the bugle[^fn2] trills,
 
@@ -188,7 +188,27 @@ Footnotes are the bread and butter of scholarship. Kramdown makes footnotes a fa
 [^fn2]: The bugle is a small trumpet implicated in the military industrial complex.
 ~~~
 
-These footnotes can be placed anywhere, but they will always be generated at the bottom of the document. The footnotes system provided provided by Kramdown does have one limitation. It generates the numeration for you automatically.
+These footnotes can be placed anywhere, but they will always be generated at the bottom of the document. To have a multi-paragraph footnote you need to start the footnote text on the next line after the footnote anchor and indent it:
+
+~~~ 
+[^fn3]:
+	Ugh pinterest fixie cronut pitchfork beard. Literally deep 
+	cold-pressed distillery pabst austin. 
+
+	Typewriter 90's roof party poutine, kickstarter raw 
+	denim pabst readymade biodiesel umami chicharrones XOXO. 
+~~~
+
+The footnotes system provided by Kramdown does have one limitation. It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
+
+~~~ html
+
+... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
+
+...
+
+<sup id="fn2">[↩](#ref2)</sup> She was free.
+~~~
 
 ---
 
@@ -204,6 +224,9 @@ These footnotes can be placed anywhere, but they will always be generated at the
 ~~~
 
 Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. For footnotes see the section below.
+
+> rather bear those ills we had,  
+> Than fly to others, that we knew not of.
 
 
 
