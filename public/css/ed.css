@@ -103,6 +103,7 @@ p.small {
 h3.masthead-title {
 	font-family: Courier, monospace;
 	font-size: 2rem;
+	margin-top: 2px;
 }
 
 .masthead-title a {
