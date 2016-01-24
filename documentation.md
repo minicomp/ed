@@ -23,6 +23,12 @@ If you don't get an error, you're good to go. Using the `cd` command on your ter
 $ git clone git@github.com:elotroalex/ed.git
 ~~~
 
+At this point you should navigate inside your project folder and stay there until further notice:
+
+~~~ bash
+$ cd ed
+~~~
+
 Jekyll is a Ruby gem (Ruby's name for software packages). Besides Jekyll, Ed needs another gem to run: jekyll-scholar. I have provided a Gemfile that allows you to install the right versions of jekyll and jekyll-scholar. Before you can use this Gemfile, you need to setup the right Ruby environment for Ed to run smoothly. The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, enter the following two lines into your terminal:
 
 ~~~ bash
@@ -65,17 +71,15 @@ You're very close. Now that Bundler is installed the final step is to install th
 $ bundle install
 ~~~
 
-If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. Navigate inside your project folder:
-
-~~~ bash
-$ cd ed
-~~~
-
-Once inside the ed folder you can build the first version of your site and run the jekyll server at the same time by entering:
+If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. Assuming you're still inside the ed folder, you can now build the first version of your site and run the jekyll server at the same time by entering:
 
 ~~~ bash
 $ jekyll serve
 ~~~
+
+Copy the url on your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/`. At this point you should be looking at your very own working version of Ed:
+
+![Your very own Ed]({{ site.baseurl }}/assets/screenshot.png)
 
 
 
