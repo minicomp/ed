@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Documentation
+author: Alex Gil
 ---
 
-## For beginners: Getting your bearings
-
-Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works. To use Jekyll you will also be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)" 
-
-N.B. Jekyll does not run very well on Windows machines as of now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles on a system like [Hugo](https://gohugo.io/), which does work on Windows.
 
 ## For beginners: Installing Ed
+
+To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)" 
+
+N.B. Jekyll does not run very well on Windows machines as of now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles on a system like [Hugo](https://gohugo.io/), which does work on Windows.
 
 The first step to install Ed is to download the source files from Github. To do so you must have git installed in your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. To make sure git is running on your system enter the following line on your terminal (remember to ignore the $):
 
@@ -29,7 +29,7 @@ At this point you should navigate inside your project folder and stay there unti
 $ cd ed
 ~~~
 
-Jekyll is a Ruby gem (Ruby's name for software packages). Besides Jekyll, Ed needs another gem to run: jekyll-scholar. I have provided a Gemfile that allows you to install the right versions of jekyll and jekyll-scholar. Before you can use this Gemfile, you need to setup the right Ruby environment for Ed to run smoothly. The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, enter the following two lines into your terminal:
+Jekyll is a Ruby gem (Ruby's name for software packages). Besides Jekyll, Ed needs another  gem to run: jekyll-scholar. I have provided a `Gemfile` that allows you to install the right versions of jekyll and jekyll-scholar. Before you can use this `Gemfile`, you need to setup the right Ruby environment for Ed to run smoothly. The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, enter the following two lines into your terminal:
 
 ~~~ bash
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -80,6 +80,39 @@ $ jekyll serve
 Copy the url on your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot.png)
+
+<br>
+
+## For beginners: Jekyll
+
+Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
+
+Once you have gone through these tutorials, you can get started using Ed by using the sample texts provided with your own texts. You will probably also want to change the `_config.yml` file to add your own personal information and a site title and description of your choice. to make new texts, simply copy any one of the sample texts as a new file in the `_posts` folder. Remember to always use the jekyll convention for naming posts `yyyy-mm-dd-filename.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). Ex:
+
+~~~ yaml
+---
+layout: poem
+title: "Cahier d'un retour au pays natal"
+author: Césaire
+---
+~~~
+
+## Kramdown and Markdown
+
+Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Ed environment is kramdown (a flavor of markdown). To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files in your plain text editor. 
+
+## Using Ed: Genres
+
+Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in it's stylesheets that allow you to deal with some of the peculiarities of poetry layouts. 
+
+
+
+
+
+
+
+
+
 
 
 
