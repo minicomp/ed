@@ -11,8 +11,6 @@ author: Alex Gil
 - [Kramdown and Markdown](#kramdown-and-markdown)
 - [Genres](#genres)
 
-<br>
-
 ---
 
 ## Installing Ed
@@ -93,8 +91,6 @@ Copy the url on your terminal log and paste it into your browser of choice (I re
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot.png)
 
-<br>
-
 ---
 
 ## Jekyll
@@ -113,21 +109,49 @@ author: Césaire
 ---
 ~~~
 
-<br>
-
 ---
 
 ## Kramdown and Markdown
 
-Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Ed environment is kramdown (a flavor of markdown). To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files in your plain text editor.
-
-<br>
+Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Ed environment is kramdown (a flavor of markdown). To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files in your plain text editor. 
 
 ---
 
 ## Genres
 
 Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in it's stylesheets that allow you to deal with some of the peculiarities of poetry layouts.
+
+To indicate lines in poetry we use the line syntax from Kramdown:
+
+~~~ markdown
+- Hold fast to dreams
+- For if dreams die
+- Life is a broken-winged bird
+- That cannot fly.
+- Hold fast to dreams
+- For when dreams go
+- Life is a barren field
+- Frozen with snow.
+~~~
+
+To indent specific lines we take advantage of a feature in kramdown that allows us to create classes for the `<em/>` tag (emphasis) in HTML. This approach still allows us the line to be readable in editing mode. 
+
+~~~ markdown
+- *But O heart! heart! heart!*{: class="indent-3"}
+- *O the bleeding drops of red,*{: class="indent-4"}
+- *Where on the deck my Captain lies,*{: class="indent-5"} 
+- *Fallen cold and dead.*{: class="indent-6"}
+~~~
+
+The `-` at the beginning of each line indicates that these are lines. The `*` that wraps the line indicates that this line is to be emphasized. The `{: class="indent-4"}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
+
+
+
+
+
+
+
+
 
 
 

@@ -86,6 +86,10 @@ p.small {
 	font-size: 0.8rem;
 }
 
+hr {
+	margin-top: 60px;
+}
+
 
 
 /* Masthead styles */
