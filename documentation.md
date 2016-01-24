@@ -170,7 +170,9 @@ For more hand-crafted layouts---[the title page in *The Narrative of the Life*](
 <p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
 ~~~
 
-The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored.
+The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. 
+
+A note on line breaks: The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored. 
 
 --- 
 
@@ -202,7 +204,6 @@ These footnotes can be placed anywhere, but they will always be generated at the
 The footnotes system provided by Kramdown does have one limitation. It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
 
 ~~~ html
-
 ... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
 
 ...
@@ -219,29 +220,54 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 ~~~ markdown
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
 >
-> Written with mine own hand, &c., 1835.<br>
+> Written with mine own hand, &c., 1835.  
 > WILLIAM HAMILTON,
 ~~~
 
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. For footnotes see the section below.
-
-> rather bear those ills we had,  
-> Than fly to others, that we knew not of.
+To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
 
 
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
-
-
-
-
-
-
-
-> - Come, saints and sinners, hear me tell
-> - How pious priests whip Jack and Nell,
-> - And women buy and children sell,
-> - And preach all sinners down to hell,
-> - And sing of heavenly union.
+~~~
+...
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+> <br><br>
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - And this goes down for union.
 {:.poem}
+~~~
+
+We have two odd pieces of markup in this example. `<br><br>` is needed to separate the stanzas. The `{:.poem}` tells the processor to think of the line aboves as poetry. Because this segment of poetry exists in the 'narrative' layout, we need to signal the processor to process it as poetry.
+
+---
+
+## Bibliographies
+
+To help us style and generate bibliographies and citations, Ed uses the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about how to use the gem, make sure to read the documentation on the link above. 
+
+Pro tip: I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. This will make it easy for you to generate the `reference.bib` (a BibLaTeX file) you will need to make jekyll-scholar work with Ed. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to reference.bib and move it into the `_bibliography` folder.
+
+Because we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed uses a separate page for your Bibliography or works cited. The page is provided for you as a page, and uses the default page layout. As you can see, the bibliography is generated with the following tag.
+
+~~~
+
+~~~
+
+If you want your inline citations to link to the bibliography page, instead of writing them by hand, use the following tag:
+
+
+
+
+
+
+
 
 
