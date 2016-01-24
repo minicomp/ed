@@ -80,7 +80,9 @@ Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler.
 $ gem install bundler
 ~~~
 
-You're very close. Now that Bundler is installed the final step is to install the gems we will need to run Ed: jekyll and jekyll-scholar. To do so run the Gemfile this way:
+If you ran into problems following these instructions, you should try a more detailed walkthrough. Here’s [a great tutorial](https://www.chapterthree.com/blog/ruby-rvm-gemsets-and-bundlergemfiles) on how to do both rvm and Bundler from Rob Decker. 
+
+You're very close. Now that Bundler is installed, the final step is to install the gems we will need to run Ed: jekyll and jekyll-scholar. To do so run the Gemfile this way:
 
 ~~~ bash
 $ bundle install
