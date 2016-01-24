@@ -10,6 +10,9 @@ author: Alex Gil
 - [Jekyll](#jekyll)
 - [Kramdown and Markdown](#kramdown-and-markdown)
 - [Genres](#genres)
+- [Kramdown and HTML](#kramdown-and-html)
+- [Footnotes](#footnotes)
+- [Blockquotes](#blockquotes)
 
 ---
 
@@ -147,9 +150,66 @@ The `-` at the beginning of each line indicates that these are lines. The `{:.in
 
 The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
 
-The Narrative of Frederick Douglass shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects.
+The Narrative of the Life of Frederick Douglass shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects.
 
-# Kramdown and HTML
+---
+
+## Kramdown and HTML
+
+For more hand-crafted layouts---[the title page in *The Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with Kramdown is that we have a lot of flexibility to mix HTML with the Kramdown syntax. Here is the code for the title page of *The Narrative of the Life*:
+
+~~~ html
+<a id="title-page" />
+<p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
+<br>
+<p class="centered larger">FREDERICK DOUGLASS</p>
+<p class="centered large">AN<br>AMERICAN SLAVE.<br>WRITTEN BY HIMSELF.</p>
+<br>
+<p class="centered">BOSTON</p>
+<p class="centered">PUBLISHED AT THE ANTI-SLAVERY OFFICE,<br>NO. 25 CORNHILL<br>1845</p>
+<p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
+~~~
+
+The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored.
+
+--- 
+
+## Footnotes
+
+Footnotes are the bread and butter of scholarship. Kramdown makes footnotes a fairly simple affair:
+
+
+~~~ markdown
+- O Captain! my Captain! rise up and hear the bells; 
+- Rise up—for you the flag is flung—for you the bugle[^fn2] trills,
+
+...
+
+[^fn2]: The bugle is a small trumpet implicated in the military industrial complex.
+~~~
+
+These footnotes can be placed anywhere, but they will always be generated at the bottom of the document. The footnotes system provided provided by Kramdown does have one limitation. It generates the numeration for you automatically.
+
+---
+
+## Blockquotes
+
+*The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in Kramdown:
+
+~~~ markdown
+> This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
+>
+> Written with mine own hand, &c., 1835.<br>
+> WILLIAM HAMILTON,
+~~~
+
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. For footnotes see the section below.
+
+
+
+
+
+
 
 
 
@@ -160,36 +220,5 @@ The Narrative of Frederick Douglass shows us an example of narrative that includ
 > - And preach all sinners down to hell,
 > - And sing of heavenly union.
 {:.poem}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
