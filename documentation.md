@@ -219,7 +219,7 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 
 *The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in Kramdown:
 
-~~~ markdown
+~~~ 
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
 >
 > Written with mine own hand, &c., 1835.  
@@ -266,10 +266,15 @@ Because we are more likely than not to use citations in footnotes or pages that 
 If you want your inline citations to link to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar. In order to point to the bibliography page we need to take advantage of the `--relative` flag in jekyll-scholar:
 
 <pre>
-&#123;% cite -r /bibliography.html %&#125;
+&#123;% cite cesaire_discourse_2001 -r /bibliography.html %&#125;
 </pre>
 
-For an example in action, see [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in O Captain! My Captain!.
+This code generates the citatation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in O Captain! My Captain!. Here's the breakdown:
+
+* `cite` is the jekyllscholar command. 
+* `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
+* `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
+* `/bibliography.html`, the relative path of our bibliography.
 
 ---
 

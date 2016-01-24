@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 h1.post-title {
@@ -63,7 +63,7 @@ ul {
 }
 
 blockquote {
-	padding: 0rem 1.5rem 2rem 2rem;
+	padding: 0rem 1.5rem 0rem 2rem;
 	margin: 0;
 	color: inherit;
 	border-left: none;
