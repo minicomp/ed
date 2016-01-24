@@ -4,8 +4,20 @@ title: Documentation
 author: Alex Gil
 ---
 
+## Contents
 
-## For beginners: Installing Ed
+- [Installing Ed](#installing-ed)
+- [Jekyll](#jekyll)
+- [Kramdown and Markdown](#kramdown-and-markdown)
+- [Genres](#genres)
+
+<br>
+
+---
+
+## Installing Ed
+
+(For beginners)
 
 To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)" 
 
@@ -83,7 +95,11 @@ Copy the url on your terminal log and paste it into your browser of choice (I re
 
 <br>
 
-## For beginners: Jekyll
+---
+
+## Jekyll
+
+(For beginners)
 
 Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
 
@@ -97,13 +113,23 @@ author: Césaire
 ---
 ~~~
 
+<br>
+
+---
+
 ## Kramdown and Markdown
 
-Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Ed environment is kramdown (a flavor of markdown). To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files in your plain text editor. 
+Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Ed environment is kramdown (a flavor of markdown). To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files in your plain text editor.
 
-## Using Ed: Genres
+<br>
 
-Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in it's stylesheets that allow you to deal with some of the peculiarities of poetry layouts. 
+---
+
+## Genres
+
+Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in it's stylesheets that allow you to deal with some of the peculiarities of poetry layouts.
+
+
 
 
 
