@@ -134,16 +134,16 @@ To indicate lines in poetry we use the line syntax from Kramdown:
 - Frozen with snow.
 ~~~
 
-To indent specific lines we take advantage of a feature in kramdown that allows us to create classes for the `<em/>` tag (emphasis) in HTML. This approach still allows us the line to be readable in editing mode. 
+To indent specific lines we take advantage of a feature in kramdown that allows us to create classes for the line tag. This approach still allows us the line to be readable in editing mode. 
 
 ~~~ markdown
-- *But O heart! heart! heart!*{: class="indent-3"}
-- *O the bleeding drops of red,*{: class="indent-4"}
-- *Where on the deck my Captain lies,*{: class="indent-5"} 
-- *Fallen cold and dead.*{: class="indent-6"}
+- {:.indent-3}But O heart! heart! heart!
+- {:.indent-4}O the bleeding drops of red,
+- {:.indent-5}Where on the deck my Captain lies,
+- {:.indent-6}Fallen cold and dead.
 ~~~
 
-The `-` at the beginning of each line indicates that these are lines. The `*` that wraps the line indicates that this line is to be emphasized. The `{: class="indent-4"}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
+The `-` at the beginning of each line indicates that these are lines. The `{:.indent-3}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
 
 
 
