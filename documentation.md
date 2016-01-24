@@ -271,7 +271,7 @@ If you want your inline citations to link to the bibliography page, instead of w
 &#123;% cite cesaire_discourse_2001 -r /bibliography.html %&#125;
 </pre>
 
-This code generates the citatation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in O Captain! My Captain!. Here's the breakdown:
+This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in "O Captain! My Captain!." Here's the breakdown:
 
 * `cite` is the jekyllscholar command. 
 * `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
@@ -280,4 +280,4 @@ This code generates the citatation in [footnote #3]({{ site.baseurl }}/toc/o-cap
 
 ---
 
-# The Homepage
+## The Homepage
