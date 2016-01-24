@@ -132,7 +132,7 @@ h3.masthead-title {
 
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
 
-.poem ul {
+.poem ul, ul.poem {
 	list-style: none;
 	padding-left: 1rem;
 	text-indent: -1rem;

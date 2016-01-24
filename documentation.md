@@ -134,16 +134,22 @@ To indicate lines in poetry we use the line syntax from Kramdown:
 - Frozen with snow.
 ~~~
 
-To indent specific lines we take advantage of a feature in kramdown that allows us to create classes for the line tag. This approach still allows us the line to be readable in editing mode. 
+To indent specific lines we take advantage of a feature in kramdown that allows us to indicate classes for a line. This approach still allows the line to be readable while editing. 
 
 ~~~ markdown
-- {:.indent-3}But O heart! heart! heart!
-- {:.indent-4}O the bleeding drops of red,
-- {:.indent-5}Where on the deck my Captain lies,
-- {:.indent-6}Fallen cold and dead.
+- {:.indent-3} But O heart! heart! heart!
+- {:.indent-4} O the bleeding drops of red,
+- {:.indent-5} Where on the deck my Captain lies,
+- {:.indent-6} Fallen cold and dead.
 ~~~
 
 The `-` at the beginning of each line indicates that these are lines. The `{:.indent-3}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
+
+The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
+
+The Narrative of Frederick Douglass shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects.
+
+# Kramdown and HTML
 
 
 
