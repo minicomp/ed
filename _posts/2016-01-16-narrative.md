@@ -530,83 +530,84 @@ I conclude these remarks by copying the following portrait of the religion of th
 
 ## A PARODY
 
-> Come, saints and sinners, hear me tell<br>
-> How pious priests whip Jack and Nell,<br>
-> And women buy and children sell,<br>
-> And preach all sinners down to hell,<br>
-> And sing of heavenly union.<br>
-> <br>
-> They'll bleat and baa, dona like goats,<br>
-> Gorge down black sheep, and strain at motes,<br>
-> Array their backs in fine black coats,<br>
-> Then seize their negroes by their throats,<br>
-> And choke, for heavenly union.<br>
-><br>
-> They'll church you if you sip a dram,<br>
-> And damn you if you steal a lamb;<br>
-> Yet rob old Tony, Doll, and Sam,<br>
-> Of human rights, and bread and ham;<br>
-> Kidnapper's heavenly union.<br>
-><br>
-> They'll loudly talk of Christ's reward,<br>
-> And bind his image with a cord,<br>
-> And scold, and swing the lash abhorred,<br>
-> And sell their brother in the Lord<br>
-> To handcuffed heavenly union.<br>
-><br>
-> They'll read and sing a sacred song,<br>
-> And make a prayer both loud and long,<br>
-> And teach the right and do the wrong,<br>
-> Hailing the brother, sister throng,<br>
-> With words of heavenly union.<br>
-><br>
-> We wonder how such saints can sing,<br>
-> Or praise the Lord upon the wing,<br>
-> Who roar, and scold, and whip, and sting,<br>
-> And to their slaves and mammon cling,<br>
-> In guilty conscience union.<br>
-><br>
-> They'll raise tobacco, corn, and rye,<br>
-> And drive, and thieve, and cheat, and lie,<br>
-> And lay up treasures in the sky,<br>
-> By making switch and cowskin fly,<br>
-> In hope of heavenly union.<br>
-><br>
-> They'll crack old Tony on the skull,<br>
-> And preach and roar like Bashan bull,<br>
-> Or braying ass, of mischief full,<br>
-> Then seize old Jacob by the wool,<br>
-> And pull for heavenly union.<br>
-><br>
-> A roaring, ranting, sleek man-thief,<br>
-> Who lived on mutton, veal, and beef,<br>
-> Yet never would afford relief<br>
-> To needy, sable sons of grief,<br>
-> Was big with heavenly union.<br>
-><br>
-> 'Love not the world,' the preacher said,<br>
-> And winked his eye, and shook his head;<br>
-> He seized on Tom, and Dick, and Ned,<br>
-> Cut short their meat, and clothes, and bread,<br>
-> Yet still loved heavenly union.<br>
-><br>
-> Another preacher whining spoke<br>
-> Of One whose heart for sinners broke:<br>
-> He tied old Nanny to an oak,<br>
-> And drew the blood at every stroke,<br>
-> And prayed for heavenly union.<br>
-><br>
-> Two others oped their iron jaws,<br>
-> And waved their children-stealing paws;<br>
-> There sat their children in gewgaws;<br>
-> By stinting negroes' backs and maws,<br>
-> They kept up heavenly union.<br>
-><br>
-> All good from Jack another takes,<br>
-> And entertains their flirts and rakes,<br>
-> Who dress as sleek as glossy snakes,<br>
-> And cram their mouths with sweetened cakes;<br>
-> And this goes down for union."<br>
+> - Come, saints and sinners, hear me tell
+> - How pious priests whip Jack and Nell,
+> - And women buy and children sell,
+> - And preach all sinners down to hell,
+> - And sing of heavenly union.
+> <br><br>
+> - They'll bleat and baa, dona like goats,
+> - Gorge down black sheep, and strain at motes,
+> - Array their backs in fine black coats,
+> - Then seize their negroes by their throats,
+> - And choke, for heavenly union.
+> <br><br>
+> - They'll church you if you sip a dram,
+> - And damn you if you steal a lamb;
+> - Yet rob old Tony, Doll, and Sam,
+> - Of human rights, and bread and ham;
+> - Kidnapper's heavenly union.
+> <br><br>
+> - They'll loudly talk of Christ's reward,
+> - And bind his image with a cord,
+> - And scold, and swing the lash abhorred,
+> - And sell their brother in the Lord
+> - To handcuffed heavenly union.
+> <br><br>
+> - They'll read and sing a sacred song,
+> - And make a prayer both loud and long,
+> - And teach the right and do the wrong,
+> - Hailing the brother, sister throng,
+> - With words of heavenly union.
+> <br><br>
+> - We wonder how such saints can sing,
+> - Or praise the Lord upon the wing,
+> - Who roar, and scold, and whip, and sting,
+> - And to their slaves and mammon cling,
+> - In guilty conscience union.
+> <br><br>
+> - They'll raise tobacco, corn, and rye,
+> - And drive, and thieve, and cheat, and lie,
+> - And lay up treasures in the sky,
+> - By making switch and cowskin fly,
+> - In hope of heavenly union.
+> <br><br>
+> - They'll crack old Tony on the skull,
+> - And preach and roar like Bashan bull,
+> - Or braying ass, of mischief full,
+> - Then seize old Jacob by the wool,
+> - And pull for heavenly union.
+> <br><br>
+> - A roaring, ranting, sleek man-thief,
+> - Who lived on mutton, veal, and beef,
+> - Yet never would afford relief
+> - To needy, sable sons of grief,
+> - Was big with heavenly union.
+> <br><br>
+> - 'Love not the world,' the preacher said,
+> - And winked his eye, and shook his head;
+> - He seized on Tom, and Dick, and Ned,
+> - Cut short their meat, and clothes, and bread,
+> - Yet still loved heavenly union.
+> <br><br>
+> - Another preacher whining spoke
+> - Of One whose heart for sinners broke:
+> - He tied old Nanny to an oak,
+> - And drew the blood at every stroke,
+> - And prayed for heavenly union.
+> <br><br>
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+> <br><br>
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - And this goes down for union."
+{:.poem}
 
 
 Sincerely and earnestly hoping that this little book may do something toward throwing light on the American slave system, and hastening the glad day of deliverance to the millions of my brethren in bonds—faithfully relying upon the power of truth, love, and justice, for success in my humble efforts—and solemnly pledging my self anew to the sacred cause,—I subscribe myself,
