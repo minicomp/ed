@@ -239,16 +239,16 @@ Things get a bit complicated when we want to use poetry inside the block or when
 > - There sat their children in gewgaws;
 > - By stinting negroes' backs and maws,
 > - They kept up heavenly union.
-> <br><br>
+{:.poetry}
 > - All good from Jack another takes,
 > - And entertains their flirts and rakes,
 > - Who dress as sleek as glossy snakes,
 > - And cram their mouths with sweetened cakes;
 > - And this goes down for union.
-{:.poem}
+{:.poetry}
 ~~~
 
-We have two odd pieces of markup in this example. `<br><br>` is needed to separate the stanzas. The `{:.poem}` tells the processor to think of the line aboves as poetry. Because this segment of poetry exists in the 'narrative' layout, we need to signal the processor to process it as poetry.
+The `{:.poetry}` tells the processor to think of the lines above as poetry. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process each stanza this way. The `{:.poetry} syntax is an example of Kramdown class assignments to block-elements. 
 
 ---
 
