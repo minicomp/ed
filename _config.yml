@@ -9,7 +9,7 @@ permalink: none
 markdown: kramdown
 
 # Setup
-title:               Ed
+title:               Ed.
 tagline:             'A Jekyll theme for minimal editions'
 description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
 url:                 https://github.com/elotroalex/ed
@@ -29,7 +29,7 @@ gems: ['jekyll/scholar']
 
 # Scholar
 scholar:
-  style: apa
+  style: modern-language-association
   locale: en
 
   sort_by: none

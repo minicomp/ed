@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 h1.post-title {
@@ -63,7 +63,7 @@ ul {
 }
 
 blockquote {
-	padding: 0rem 1.5rem 2rem 2rem;
+	padding: 0rem 1.5rem 0rem 2rem;
 	margin: 0;
 	color: inherit;
 	border-left: none;
@@ -86,6 +86,10 @@ p.small {
 	font-size: 0.8rem;
 }
 
+hr {
+	margin-top: 60px;
+}
+
 
 
 /* Masthead styles */
@@ -101,7 +105,9 @@ p.small {
 }
 
 h3.masthead-title {
-	font-size: 1.5rem;
+	font-family: Courier, monospace;
+	font-size: 2rem;
+	margin-top: 2px;
 }
 
 .masthead-title a {
@@ -122,11 +128,12 @@ h3.masthead-title {
 	background-color: #841212;
 }
 
+
 /* Poem styles */
 
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
 
-.poem ul {
+.poem ul, ul.poem {
 	list-style: none;
 	padding-left: 1rem;
 	text-indent: -1rem;
@@ -140,43 +147,53 @@ h3.masthead-title {
 
 /* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is represents an rem (root em) value */
 
-.poem span.indent-1 {
+.indent-1 {
+	font-style: normal;
 	padding-left: 1rem;
 }
 
-.poem span.indent-2 {
+.indent-2 {
+	font-style: normal;
 	padding-left: 2rem;
 }
 
-.poem span.indent-3 {
+.indent-3 {
+	font-style: normal;
 	padding-left: 3rem;
 }
 
-.poem span.indent-4 {
+.indent-4 {
+	font-style: normal;
 	padding-left: 4rem;
 }
 
-.poem span.indent-5 {
+.indent-5 {
+	font-style: normal;
 	padding-left: 5rem;
 }
 
-.poem span.indent-6 {
+.indent-6 {
+	font-style: normal;
 	padding-left: 6rem;
 }
 
-.poem span.indent-7 {
+.indent-7 {
+	font-style: normal;
 	padding-left: 7rem;
 }
 
-.poem span.indent-8 {
+.indent-8 {
+	font-style: normal;
 	padding-left: 8rem;
 }
 
-.poem span.indent-9 {
+.indent-9 {
+	font-style: normal;
 	padding-left: 9rem;
 }
 
-.poem span.indent-10 {
+.indent-10 {
+	font-style: normal;
 	padding-left: 10rem;
 }
 

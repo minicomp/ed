@@ -4,6 +4,7 @@ title: "The Narrative of the Life of Frederick Douglass"
 categories: toc
 author: Frederick Douglass
 rights: Public Domain
+source: Project Guttenberg
 ---
 
 <p class="citation"> by {{ page.author }}</p>
@@ -48,7 +49,6 @@ rights: Public Domain
 <p class="centered">PUBLISHED AT THE ANTI-SLAVERY OFFICE,<br>NO. 25 CORNHILL<br>1845</p>
 
 <p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
-
 
 ---
 
@@ -392,8 +392,8 @@ The year passed off smoothly. It seemed only about half as long as the year whic
 At the close of the year 1834, Mr. Freeland again hired me of my master, for the year 1835. But, by this time, I began to want to live *upon free land* as well as *with Freeland;* and I was no longer content, therefore, to live with him or any other slaveholder. I began, with the commencement of the year, to prepare myself for a final struggle, which should decide my fate one way or the other. My tendency was upward. I was fast approaching manhood, and year after year had passed, and I was still a slave. These thoughts roused me—I must do something. I therefore resolved that 1835 should not pass without witnessing an attempt, on my part, to secure my liberty. But I was not willing to cherish this determination alone. My fellow-slaves were dear to me. I was anxious to have them participate with me in this, my life-giving determination. I therefore, though with great prudence, commenced early to ascertain their views and feelings in regard to their condition, and to imbue their minds with thoughts of freedom. I bent myself to devising ways and means for our escape, and meanwhile strove, on all fitting occasions, to impress them with the gross fraud and inhumanity of slavery. I went first to Henry, next to John, then to the others. I found, in them all, warm hearts and noble spirits. They were ready to hear, and ready to act when a feasible plan should be proposed. This was what I wanted. I talked to them of our want of manhood, if we submitted to our enslavement without at least one noble effort to be free. We met often, and consulted frequently, and told our hopes and fears, recounted the difficulties, real and imagined, which we should be called on to meet. At times we were almost disposed to give up, and try to content ourselves with our wretched lot; at others, we were firm and unbending in our determination to go. Whenever we suggested any plan, there was shrinking—the odds were fearful. Our path was beset with the greatest obstacles; and if we succeeded in gaining the end of it, our right to be free was yet questionable—we were yet liable to be returned to bondage. We could see no spot, this side of the ocean, where we could be free. We knew nothing about Canada. Our knowledge of the north did not extend farther than New York; and to go there, and be forever harassed with the frightful liability of being returned to slavery—with the certainty of being treated tenfold worse than before—the thought was truly a horrible one, and one which it was not easy to overcome. The case sometimes stood thus: At every gate through which we were to pass, we saw a watchman—at every ferry a guard—on every bridge a sentinel—and in every wood a patrol. We were hemmed in upon every side. Here were the difficulties, real or imagined—the good to be sought, and the evil to be shunned. On the one hand, there stood slavery, a stern reality, glaring frightfully upon us,—its robes already crimsoned with the blood of millions, and even now feasting itself greedily upon our own flesh. On the other hand, away back in the dim distance, under the flickering light of the north star, behind some craggy hill or snow-covered mountain, stood a doubtful freedom—half frozen—beckoning us to come and share its hospitality. This in itself was sometimes enough to stagger us; but when we permitted ourselves to survey the road, we were frequently appalled. Upon either side we saw grim death, assuming the most horrid shapes. Now it was starvation, causing us to eat our own flesh;—now we were contending with the waves, and were drowned;—now we were overtaken, and torn to pieces by the fangs of the terrible bloodhound. We were stung by scorpions, chased by wild beasts, bitten by snakes, and finally, after having nearly reached the desired spot,—after swimming rivers, encountering wild beasts, sleeping in the woods, suffering hunger and nakedness,—we were overtaken by our pursuers, and, in our resistance, we were shot dead upon the spot! I say, this picture sometimes appalled us, and made us
 
  
-> rather bear those ills we had,<br>
-> Than fly to others, that we knew not of.<br>
+> rather bear those ills we had,  
+> Than fly to others, that we knew not of.  
 
 
 In coming to a fixed determination to run away, we did more than Patrick Henry, when he resolved upon liberty or death. With us it was a doubtful liberty at most, and almost certain death if we failed. For my part, I should prefer death to hopeless bondage.
@@ -498,26 +498,26 @@ I had not long been a reader of the "Liberator," before I got a pretty correct i
 I find, since reading over the foregoing Narrative, that I have, in several instances, spoken in such a tone and manner, respecting religion, as may possibly lead those unacquainted with my religious views to suppose me an opponent of all religion. To remove the liability of such misapprehension, I deem it proper to append the following brief explanation. What I have said respecting and against religion, I mean strictly to apply to the *slaveholding religion* of this land, and with no possible reference to Christianity proper; for, between the Christianity of this land, and the Christianity of Christ, I recognize the widest possible difference—so wide, that to receive the one as good, pure, and holy, is of necessity to reject the other as bad, corrupt, and wicked. To be the friend of the one, is of necessity to be the enemy of the other. I love the pure, peaceable, and impartial Christianity of Christ: I therefore hate the corrupt, slaveholding, women-whipping, cradle-plundering, partial and hypocritical Christianity of this land. Indeed, I can see no reason, but the most deceitful one, for calling the religion of this land Christianity. I look upon it as the climax of all misnomers, the boldest of all frauds, and the grossest of all libels. Never was there a clearer case of "stealing the livery of the court of heaven to serve the devil in." I am filled with unutterable loathing when I contemplate the religious pomp and show, together with the horrible inconsistencies, which every where surround me. We have men-stealers for ministers, women-whippers for missionaries, and cradle-plunderers for church members. The man who wields the blood-clotted cowskin during the week fills the pulpit on Sunday, and claims to be a minister of the meek and lowly Jesus. The man who robs me of my earnings at the end of each week meets me as a class-leader on Sunday morning, to show me the way of life, and the path of salvation. He who sells my sister, for purposes of prostitution, stands forth as the pious advocate of purity. He who proclaims it a religious duty to read the Bible denies me the right of learning to read the name of the God who made me. He who is the religious advocate of marriage robs whole millions of its sacred influence, and leaves them to the ravages of wholesale pollution. The warm defender of the sacredness of the family relation is the same that scatters whole families,—sundering husbands and wives, parents and children, sisters and brothers,—leaving the hut vacant, and the hearth desolate. We see the thief preaching against theft, and the adulterer against adultery. We have men sold to build churches, women sold to support the gospel, and babes sold to purchase Bibles for the *Poor Heathen! All For The Glory Of God And The Good Of Souls!* The slave auctioneer's bell and the church-going bell chime in with each other, and the bitter cries of the heart-broken slave are drowned in the religious shouts of his pious master. Revivals of religion and revivals in the slave-trade go hand in hand together. The slave prison and the church stand near each other. The clanking of fetters and the rattling of chains in the prison, and the pious psalm and solemn prayer in the church, may be heard at the same time. The dealers in the bodies and souls of men erect their stand in the presence of the pulpit, and they mutually help each other. The dealer gives his blood-stained gold to support the pulpit, and the pulpit, in return, covers his infernal business with the garb of Christianity. Here we have religion and robbery the allies of each other—devils dressed in angels' robes, and hell presenting the semblance of paradise.
  
 
-> Just God! and these are they,<br>
-> Who minister at thine altar, God of right!<br>
-> Men who their hands, with prayer and blessing, lay<br>
-> On Israel's ark of light.<br>
-> <br>
-> What! preach, and kidnap men?<br>
-> Give thanks, and rob thy own afflicted poor?<br>
-> Talk of thy glorious liberty, and then<br>
-> Bolt hard the captive's door?<br>
-> <br>
-> What! servants of thy own<br>
-> Merciful Son, who came to seek and save<br>
-> The homeless and the outcast, fettering down<br>
-> The tasked and plundered slave!<br>
-> <br>
-> Pilate and Herod friends!<br>
-> Chief priests and rulers, as of old, combine!<br>
-> Just God and holy! is that church which lends<br>
-> Strength to the spoiler thine?" <br>
-
+> - Just God! and these are they,
+> - Who minister at thine altar, God of right!
+> - Men who their hands, with prayer and blessing, lay
+> - On Israel's ark of light.
+> <br><br>
+> - What! preach, and kidnap men?
+> - Give thanks, and rob thy own afflicted poor?
+> - Talk of thy glorious liberty, and then
+> - Bolt hard the captive's door?
+> <br><br>
+> - What! servants of thy own
+> - Merciful Son, who came to seek and save
+> - The homeless and the outcast, fettering down
+> - The tasked and plundered slave!
+> <br><br>
+> - Pilate and Herod friends!
+> - Chief priests and rulers, as of old, combine!
+> - Just God and holy! is that church which lends
+> - Strength to the spoiler thine?"
+{:.poem} 
 
 The Christianity of America is a Christianity, of whose votaries it may be as truly said, as it was of the ancient scribes and Pharisees, "They bind heavy burdens, and grievous to be borne, and lay them on men's shoulders, but they themselves will not move them with one of their fingers. All their works they do for to be seen of men.—They love the uppermost rooms at feasts, and the chief seats in the synagogues, . . . . . . and to be called of men, Rabbi, Rabbi.—But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men; for ye neither go in yourselves, neither suffer ye them that are entering to go in. Ye devour widows' houses, and for a pretence make long prayers; therefore ye shall receive the greater damnation. Ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.—Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint, and anise, and cumin, and have omitted the weightier matters of the law, judgment, mercy, and faith; these ought ye to have done, and not to leave the other undone. Ye blind guides! which strain at a gnat, and swallow a camel. Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter; but within, they are full of extortion and excess.—Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity."
 
@@ -531,83 +531,84 @@ I conclude these remarks by copying the following portrait of the religion of th
 
 ## A PARODY
 
-> Come, saints and sinners, hear me tell<br>
-> How pious priests whip Jack and Nell,<br>
-> And women buy and children sell,<br>
-> And preach all sinners down to hell,<br>
-> And sing of heavenly union.<br>
-> <br>
-> They'll bleat and baa, dona like goats,<br>
-> Gorge down black sheep, and strain at motes,<br>
-> Array their backs in fine black coats,<br>
-> Then seize their negroes by their throats,<br>
-> And choke, for heavenly union.<br>
-><br>
-> They'll church you if you sip a dram,<br>
-> And damn you if you steal a lamb;<br>
-> Yet rob old Tony, Doll, and Sam,<br>
-> Of human rights, and bread and ham;<br>
-> Kidnapper's heavenly union.<br>
-><br>
-> They'll loudly talk of Christ's reward,<br>
-> And bind his image with a cord,<br>
-> And scold, and swing the lash abhorred,<br>
-> And sell their brother in the Lord<br>
-> To handcuffed heavenly union.<br>
-><br>
-> They'll read and sing a sacred song,<br>
-> And make a prayer both loud and long,<br>
-> And teach the right and do the wrong,<br>
-> Hailing the brother, sister throng,<br>
-> With words of heavenly union.<br>
-><br>
-> We wonder how such saints can sing,<br>
-> Or praise the Lord upon the wing,<br>
-> Who roar, and scold, and whip, and sting,<br>
-> And to their slaves and mammon cling,<br>
-> In guilty conscience union.<br>
-><br>
-> They'll raise tobacco, corn, and rye,<br>
-> And drive, and thieve, and cheat, and lie,<br>
-> And lay up treasures in the sky,<br>
-> By making switch and cowskin fly,<br>
-> In hope of heavenly union.<br>
-><br>
-> They'll crack old Tony on the skull,<br>
-> And preach and roar like Bashan bull,<br>
-> Or braying ass, of mischief full,<br>
-> Then seize old Jacob by the wool,<br>
-> And pull for heavenly union.<br>
-><br>
-> A roaring, ranting, sleek man-thief,<br>
-> Who lived on mutton, veal, and beef,<br>
-> Yet never would afford relief<br>
-> To needy, sable sons of grief,<br>
-> Was big with heavenly union.<br>
-><br>
-> 'Love not the world,' the preacher said,<br>
-> And winked his eye, and shook his head;<br>
-> He seized on Tom, and Dick, and Ned,<br>
-> Cut short their meat, and clothes, and bread,<br>
-> Yet still loved heavenly union.<br>
-><br>
-> Another preacher whining spoke<br>
-> Of One whose heart for sinners broke:<br>
-> He tied old Nanny to an oak,<br>
-> And drew the blood at every stroke,<br>
-> And prayed for heavenly union.<br>
-><br>
-> Two others oped their iron jaws,<br>
-> And waved their children-stealing paws;<br>
-> There sat their children in gewgaws;<br>
-> By stinting negroes' backs and maws,<br>
-> They kept up heavenly union.<br>
-><br>
-> All good from Jack another takes,<br>
-> And entertains their flirts and rakes,<br>
-> Who dress as sleek as glossy snakes,<br>
-> And cram their mouths with sweetened cakes;<br>
-> And this goes down for union."<br>
+> - Come, saints and sinners, hear me tell
+> - How pious priests whip Jack and Nell,
+> - And women buy and children sell,
+> - And preach all sinners down to hell,
+> - And sing of heavenly union.
+> <br><br>
+> - They'll bleat and baa, dona like goats,
+> - Gorge down black sheep, and strain at motes,
+> - Array their backs in fine black coats,
+> - Then seize their negroes by their throats,
+> - And choke, for heavenly union.
+> <br><br>
+> - They'll church you if you sip a dram,
+> - And damn you if you steal a lamb;
+> - Yet rob old Tony, Doll, and Sam,
+> - Of human rights, and bread and ham;
+> - Kidnapper's heavenly union.
+> <br><br>
+> - They'll loudly talk of Christ's reward,
+> - And bind his image with a cord,
+> - And scold, and swing the lash abhorred,
+> - And sell their brother in the Lord
+> - To handcuffed heavenly union.
+> <br><br>
+> - They'll read and sing a sacred song,
+> - And make a prayer both loud and long,
+> - And teach the right and do the wrong,
+> - Hailing the brother, sister throng,
+> - With words of heavenly union.
+> <br><br>
+> - We wonder how such saints can sing,
+> - Or praise the Lord upon the wing,
+> - Who roar, and scold, and whip, and sting,
+> - And to their slaves and mammon cling,
+> - In guilty conscience union.
+> <br><br>
+> - They'll raise tobacco, corn, and rye,
+> - And drive, and thieve, and cheat, and lie,
+> - And lay up treasures in the sky,
+> - By making switch and cowskin fly,
+> - In hope of heavenly union.
+> <br><br>
+> - They'll crack old Tony on the skull,
+> - And preach and roar like Bashan bull,
+> - Or braying ass, of mischief full,
+> - Then seize old Jacob by the wool,
+> - And pull for heavenly union.
+> <br><br>
+> - A roaring, ranting, sleek man-thief,
+> - Who lived on mutton, veal, and beef,
+> - Yet never would afford relief
+> - To needy, sable sons of grief,
+> - Was big with heavenly union.
+> <br><br>
+> - 'Love not the world,' the preacher said,
+> - And winked his eye, and shook his head;
+> - He seized on Tom, and Dick, and Ned,
+> - Cut short their meat, and clothes, and bread,
+> - Yet still loved heavenly union.
+> <br><br>
+> - Another preacher whining spoke
+> - Of One whose heart for sinners broke:
+> - He tied old Nanny to an oak,
+> - And drew the blood at every stroke,
+> - And prayed for heavenly union.
+> <br><br>
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+> <br><br>
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - And this goes down for union.
+{:.poem}
 
 
 Sincerely and earnestly hoping that this little book may do something toward throwing light on the American slave system, and hastening the glad day of deliverance to the millions of my brethren in bonds—faithfully relying upon the power of truth, love, and justice, for success in my humble efforts—and solemnly pledging my self anew to the sacred cause,—I subscribe myself,
