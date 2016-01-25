@@ -11,7 +11,7 @@ Ed is a [Jekyll](https://jekyllrb.com/
 Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme based on [Poole](http://getpoole.com), "the Jekyll butler," both created by [Mark Otto](<https://github.com/mdo) and distributed with an MIT license. Thanks to Mark Otto for his helpful streamlining. 
 
 ## Features
-- Design choices emphasizing a pleasant reading experience of prose and poems
+- Design choices emphasizing a pleasant reading experience of narrative, drama and poetry
 - Extensible, minimal structure 
 - Responsive and sensible footnote system
 - Dublin Core metadata for Zotero recognition to aid in citation
