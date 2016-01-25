@@ -321,4 +321,4 @@ Once you are using that branch, you are ready to publish your site using the Rak
 $ rake blog:publish
 ~~~ 
 
-Happy editing!
+That should do it. Happy editing!
