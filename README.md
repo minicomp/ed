@@ -7,6 +7,8 @@ Ed is a [Jekyll](https://jekyllrb.com/
 
 Here's [the sample site](http://elotroalex.github.io/ed/) built with Ed.
 
+![Sample Ed site](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
+
 Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme based on [Poole](http://getpoole.com), "the Jekyll butler," both created by [Mark Otto](<https://github.com/mdo) and distributed with an MIT license. Thanks to Mark Otto for his helpful streamlining. 
 
 ## Features
