@@ -100,7 +100,7 @@ Copy the url on your terminal log and paste it into your browser of choice (I re
 
 (For beginners)
 
-Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
+Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
 
 Once you have gone through these tutorials, you can get started using Ed by using the sample texts provided with your own texts. You will probably also want to change the `_config.yml` file to add your own personal information and a site title and description of your choice. to make new texts, simply copy any one of the sample texts as a new file in the `_posts` folder. Remember to always use the jekyll convention for naming posts `yyyy-mm-dd-filename.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). Ex:
 
@@ -170,7 +170,9 @@ For more hand-crafted layouts---[the title page in *The Narrative of the Life*](
 <p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
 ~~~
 
-The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored.
+The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. 
+
+A note on line breaks: The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored. 
 
 --- 
 
@@ -202,7 +204,6 @@ These footnotes can be placed anywhere, but they will always be generated at the
 The footnotes system provided by Kramdown does have one limitation. It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
 
 ~~~ html
-
 ... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
 
 ...
@@ -219,29 +220,33 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 ~~~ markdown
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
 >
-> Written with mine own hand, &c., 1835.<br>
+> Written with mine own hand, &c., 1835.  
 > WILLIAM HAMILTON,
 ~~~
 
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. For footnotes see the section below.
-
-> rather bear those ills we had,  
-> Than fly to others, that we knew not of.
+To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
 
 
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
-
-
-
-
-
-
-
-> - Come, saints and sinners, hear me tell
-> - How pious priests whip Jack and Nell,
-> - And women buy and children sell,
-> - And preach all sinners down to hell,
-> - And sing of heavenly union.
+~~~
+...
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+> <br><br>
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - And this goes down for union.
 {:.poem}
+~~~
+
+We have two odd pieces of markup in this example. `<br><br>` is needed to separate the stanzas. The `{:.poem}` tells the processor to think of the line aboves as poetry. Because this segment of poetry exists in the 'narrative' layout, we need to signal the processor to process it as poetry.
+
+
 
 
