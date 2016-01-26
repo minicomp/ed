@@ -5,7 +5,7 @@ One of our most pressing and ever revolving needs as scholars is to pass on our 
 Ed is a [Jekyll](https://jekyllrb.com/
 ) theme designed for textual editors based on [minimal computing principles](http://go-dh.github.io/mincomp/), and focused on legibility, ease and flexibility. In other words, the technology is easier to learn or teach and can produce beautifully rendered scholarly or reading editions of texts. The resulting edition consists of static pages whose rate of decay is substantially lower than database-driven systems. As an added bonus, these static pages require less bandwith.
 
-Here's [the sample site](http://elotroalex.github.io/ed/) built with Ed.
+Here's [our sample site](http://elotroalex.github.io/ed/), built with Ed.
 
 ![Sample Ed site](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
 
