@@ -270,7 +270,6 @@ If you want your inline citations to link to the bibliography page, instead of w
 </pre>
 
 This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in "O Captain! My Captain!." Here's the breakdown:
->>>>>>> a1968225b8201cc34382437254caa849384b3ae7
 
 * `cite` is the jekyllscholar command. 
 * `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
@@ -310,7 +309,6 @@ The second option is to publish your site for free on Github Pages. This option 
 Whether you decide to publish on Github pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
 
 To publish on GitHub pages, you must have a copy of the repository in GitHub. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
->>>>>>> a1968225b8201cc34382437254caa849384b3ae7
 
 You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
 
