@@ -4,6 +4,7 @@ title: "The Narrative of the Life of Frederick Douglass"
 categories: toc
 author: Frederick Douglass
 rights: Public Domain
+source: Project Guttenberg
 ---
 
 <p class="citation"> by {{ page.author }}</p>
@@ -169,9 +170,9 @@ The home plantation of Colonel Lloyd wore the appearance of a country village. A
 
 The slaves selected to go to the Great House Farm, for the monthly allowance for themselves and their fellow-slaves, were peculiarly enthusiastic. While on their way, they would make the dense old woods, for miles around, reverberate with their wild songs, revealing at once the highest joy and the deepest sadness. They would compose and sing as they went along, consulting neither time nor tune. The thought that came up, came out—if not in the word, in the sound;—and as frequently in the one as in the other. They would sometimes sing the most pathetic sentiment in the most rapturous tone, and the most rapturous sentiment in the most pathetic tone. Into all of their songs they would manage to weave something of the Great House Farm. Especially would they do this, when leaving home. They would then sing most exultingly the following words:
 
-> I am going away to the Great House Farm!<br>
-> O, yea! O, yea! O
-
+> - I am going away to the Great House Farm!
+> - O, yea! O, yea!
+{:.poetry}
 
 This they would sing, as a chorus, to words which to many would seem unmeaning jargon, but which, nevertheless, were full of meaning to themselves. I have sometimes thought that the mere hearing of those songs would do more to impress some minds with the horrible character of slavery, than the reading of whole volumes of philosophy on the subject could do.
 
@@ -296,18 +297,19 @@ Thanks to a kind Providence, I fell to the portion of Mrs. Lucretia, and was sen
 Very soon after my return to Baltimore, my mistress, Lucretia, died, leaving her husband and one child, Amanda; and in a very short time after her death, Master Andrew died. Now all the property of my old master, slaves included, was in the hands of strangers,—strangers who had had nothing to do with accumulating it. Not a slave was left free. All remained slaves, from the youngest to the oldest. If any one thing in my experience, more than another, served to deepen my conviction of the infernal character of slavery, and to fill me with unutterable loathing of slaveholders, it was their base ingratitude to my poor old grandmother. She had served my old master faithfully from youth to old age. She had been the source of all his wealth; she had peopled his plantation with slaves; she had become a great grandmother in his service. She had rocked him in infancy, attended him in childhood, served him through life, and at his death wiped from his icy brow the cold death-sweat, and closed his eyes forever. She was nevertheless left a slave—a slave for life—a slave in the hands of strangers; and in their hands she saw her children, her grandchildren, and her great-grandchildren, divided, like so many sheep, without being gratified with the small privilege of a single word, as to their or her own destiny. And, to cap the climax of their base ingratitude and fiendish barbarity, my grandmother, who was now very old, having outlived my old master and all his children, having seen the beginning and end of all of them, and her present owners finding she was of but little value, her frame already racked with the pains of old age, and complete helplessness fast stealing over her once active limbs, they took her to the woods, built her a little hut, put up a little mud-chimney, and then made her welcome to the privilege of supporting herself there in perfect loneliness; thus virtually turning her out to die! If my poor old grandmother now lives, she lives to suffer in utter loneliness; she lives to remember and mourn over the loss of children, the loss of grandchildren, and the loss of great-grandchildren. They are, in the language of the slave's poet, Whittier,
 
  
-> Gone, gone, sold and gone
-> To the rice swamp dank and lone,
-> Where the slave-whip ceaseless swings,
-> Where the noisome insect stings,
-> Where the fever-demon strews
-> Poison with the falling dews,
-> Where the sickly sunbeams glare
-> Through the hot and misty air: 
-> Gone, gone, sold and gone
-> To the rice swamp dank and lone,
-> From Virginia hills and waters—
-> Woe is me, my stolen daughters!
+> - Gone, gone, sold and gone
+> - To the rice swamp dank and lone,
+> - Where the slave-whip ceaseless swings,
+> - Where the noisome insect stings,
+> - Where the fever-demon strews
+> - Poison with the falling dews,
+> - Where the sickly sunbeams glare
+> - Through the hot and misty air: 
+> - Gone, gone, sold and gone
+> - To the rice swamp dank and lone,
+> - From Virginia hills and waters—
+> - Woe is me, my stolen daughters!
+{:.poetry}
 
 
 The hearth is desolate. The children, the unconscious children, who once sang and danced in her presence, are gone. She gropes her way, in the darkness of age, for a drink of water. Instead of the voices of her children, she hears by day the moans of the dove, and by night the screams of the hideous owl. All is gloom. The grave is at the door. And now, when weighed down by the pains and aches of old age, when the head inclines to the feet, when the beginning and ending of human existence meet, and helpless infancy and painful old age combine together—at this time, this most needful time, the time for the exercise of that tenderness and affection which children only can exercise towards a declining parent—my poor old grandmother, the devoted mother of twelve children, is left all alone, in yonder little hut, before a few dim embers. She stands—she sits—she staggers—she falls—she groans—she dies—and there are none of her children or grandchildren present, to wipe from her wrinkled brow the cold sweat of death, or to place beneath the sod her fallen remains. Will not a righteous God visit for these things?
@@ -390,10 +392,9 @@ The year passed off smoothly. It seemed only about half as long as the year whic
 
 At the close of the year 1834, Mr. Freeland again hired me of my master, for the year 1835. But, by this time, I began to want to live *upon free land* as well as *with Freeland;* and I was no longer content, therefore, to live with him or any other slaveholder. I began, with the commencement of the year, to prepare myself for a final struggle, which should decide my fate one way or the other. My tendency was upward. I was fast approaching manhood, and year after year had passed, and I was still a slave. These thoughts roused me—I must do something. I therefore resolved that 1835 should not pass without witnessing an attempt, on my part, to secure my liberty. But I was not willing to cherish this determination alone. My fellow-slaves were dear to me. I was anxious to have them participate with me in this, my life-giving determination. I therefore, though with great prudence, commenced early to ascertain their views and feelings in regard to their condition, and to imbue their minds with thoughts of freedom. I bent myself to devising ways and means for our escape, and meanwhile strove, on all fitting occasions, to impress them with the gross fraud and inhumanity of slavery. I went first to Henry, next to John, then to the others. I found, in them all, warm hearts and noble spirits. They were ready to hear, and ready to act when a feasible plan should be proposed. This was what I wanted. I talked to them of our want of manhood, if we submitted to our enslavement without at least one noble effort to be free. We met often, and consulted frequently, and told our hopes and fears, recounted the difficulties, real and imagined, which we should be called on to meet. At times we were almost disposed to give up, and try to content ourselves with our wretched lot; at others, we were firm and unbending in our determination to go. Whenever we suggested any plan, there was shrinking—the odds were fearful. Our path was beset with the greatest obstacles; and if we succeeded in gaining the end of it, our right to be free was yet questionable—we were yet liable to be returned to bondage. We could see no spot, this side of the ocean, where we could be free. We knew nothing about Canada. Our knowledge of the north did not extend farther than New York; and to go there, and be forever harassed with the frightful liability of being returned to slavery—with the certainty of being treated tenfold worse than before—the thought was truly a horrible one, and one which it was not easy to overcome. The case sometimes stood thus: At every gate through which we were to pass, we saw a watchman—at every ferry a guard—on every bridge a sentinel—and in every wood a patrol. We were hemmed in upon every side. Here were the difficulties, real or imagined—the good to be sought, and the evil to be shunned. On the one hand, there stood slavery, a stern reality, glaring frightfully upon us,—its robes already crimsoned with the blood of millions, and even now feasting itself greedily upon our own flesh. On the other hand, away back in the dim distance, under the flickering light of the north star, behind some craggy hill or snow-covered mountain, stood a doubtful freedom—half frozen—beckoning us to come and share its hospitality. This in itself was sometimes enough to stagger us; but when we permitted ourselves to survey the road, we were frequently appalled. Upon either side we saw grim death, assuming the most horrid shapes. Now it was starvation, causing us to eat our own flesh;—now we were contending with the waves, and were drowned;—now we were overtaken, and torn to pieces by the fangs of the terrible bloodhound. We were stung by scorpions, chased by wild beasts, bitten by snakes, and finally, after having nearly reached the desired spot,—after swimming rivers, encountering wild beasts, sleeping in the woods, suffering hunger and nakedness,—we were overtaken by our pursuers, and, in our resistance, we were shot dead upon the spot! I say, this picture sometimes appalled us, and made us
 
- 
-> rather bear those ills we had,  
-> Than fly to others, that we knew not of.  
-
+> - rather bear those ills we had,  
+> - Than fly to others, that we knew not of.  
+{:.poetry}
 
 In coming to a fixed determination to run away, we did more than Patrick Henry, when he resolved upon liberty or death. With us it was a doubtful liberty at most, and almost certain death if we failed. For my part, I should prefer death to hopeless bondage.
 
@@ -464,10 +465,10 @@ Thank Heaven, I remained but a short time in this distressed situation. I was re
 
 Very soon after I went to Mr. Ruggles, he wished to know of me where I wanted to go; as he deemed it unsafe for me to remain in New York. I told him I was a calker, and should like to go where I could get work. I thought of going to Canada; but he decided against it, and in favor of my going to New Bedford, thinking I should be able to get work there at my trade. At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on; for I wrote to her immediately after my arrival at New York, (notwithstanding my homeless, houseless, and helpless condition,) informing her of my successful flight, and wishing her to come on forthwith. In a few days after her arrival, Mr. Ruggles called in the Rev. J. W. C. Pennington, who, in the presence of Mr. Ruggles, Mrs. Michaels, and two or three others, performed the marriage ceremony, and gave us a certificate, of which the following is an exact copy: 
 
- "This may certify, that I joined together in holy matrimony Frederick Johnson<sup><a href="#fn3" id="ref3">\*</a></sup> and Anna Murray, as man and wife, in the presence of Mr. David Ruggles and Mrs. Michaels.
-
-"JAMES W. C. PENNINGTON
-"New York, Sept. 15, 1838"
+> This may certify, that I joined together in holy matrimony Frederick Johnson<sup><a href="#fn3" id="ref3">\*</a></sup> and Anna Murray, as man and wife, in the presence of Mr. David Ruggles and Mrs. Michaels.  
+>
+> JAMES W. C. PENNINGTON  
+> New York, Sept. 15, 1838
 
 
 Upon receiving this certificate, and a five-dollar bill from Mr. Ruggles, I shouldered one part of our baggage, and Anna took up the other, and we set out forthwith to take passage on board of the steamboat John W. Richmond for Newport, on our way to New Bedford. Mr. Ruggles gave me a letter to a Mr. Shaw in Newport, and told me, in case my money did not serve me to New Bedford, to stop in Newport and obtain further assistance; but upon our arrival at Newport, we were so anxious to get to a place of safety, that, notwithstanding we lacked the necessary money to pay our fare, we decided to take seats in the stage, and promise to pay when we got to New Bedford. We were encouraged to do this by two excellent gentlemen, residents of New Bedford, whose names I afterward ascertained to be Joseph Ricketson and William C. Taber. They seemed at once to understand our circumstances, and gave us such assurance of their friendliness as put us fully at ease in their presence.
@@ -501,22 +502,22 @@ I find, since reading over the foregoing Narrative, that I have, in several inst
 > - Who minister at thine altar, God of right!
 > - Men who their hands, with prayer and blessing, lay
 > - On Israel's ark of light.
-> <br><br>
+{:.poetry}
 > - What! preach, and kidnap men?
 > - Give thanks, and rob thy own afflicted poor?
 > - Talk of thy glorious liberty, and then
 > - Bolt hard the captive's door?
-> <br><br>
+{:.poetry}
 > - What! servants of thy own
 > - Merciful Son, who came to seek and save
 > - The homeless and the outcast, fettering down
 > - The tasked and plundered slave!
-> <br><br>
+{:.poetry}
 > - Pilate and Herod friends!
 > - Chief priests and rulers, as of old, combine!
 > - Just God and holy! is that church which lends
 > - Strength to the spoiler thine?"
-{:.poem} 
+{:.poetry} 
 
 The Christianity of America is a Christianity, of whose votaries it may be as truly said, as it was of the ancient scribes and Pharisees, "They bind heavy burdens, and grievous to be borne, and lay them on men's shoulders, but they themselves will not move them with one of their fingers. All their works they do for to be seen of men.—They love the uppermost rooms at feasts, and the chief seats in the synagogues, . . . . . . and to be called of men, Rabbi, Rabbi.—But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men; for ye neither go in yourselves, neither suffer ye them that are entering to go in. Ye devour widows' houses, and for a pretence make long prayers; therefore ye shall receive the greater damnation. Ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.—Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint, and anise, and cumin, and have omitted the weightier matters of the law, judgment, mercy, and faith; these ought ye to have done, and not to leave the other undone. Ye blind guides! which strain at a gnat, and swallow a camel. Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter; but within, they are full of extortion and excess.—Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness. Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity."
 
@@ -607,7 +608,7 @@ I conclude these remarks by copying the following portrait of the religion of th
 > - Who dress as sleek as glossy snakes,
 > - And cram their mouths with sweetened cakes;
 > - And this goes down for union.
-{:.poem}
+{:.poetry}
 
 
 Sincerely and earnestly hoping that this little book may do something toward throwing light on the American slave system, and hastening the glad day of deliverance to the millions of my brethren in bonds—faithfully relying upon the power of truth, love, and justice, for success in my humble efforts—and solemnly pledging my self anew to the sacred cause,—I subscribe myself,

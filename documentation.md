@@ -13,12 +13,15 @@ author: Alex Gil
 - [Kramdown and HTML](#kramdown-and-html)
 - [Footnotes](#footnotes)
 - [Blockquotes](#blockquotes)
+- [Bibliographies](#bibliographies)
+- [Tips and Tricks](#tips-and-tricks)
+- [Publishing](#publishing)
 
 ---
 
-## Installing Ed
+(This documentation was built with beginners in mind, but has the necessary information for more seasoned producers)
 
-(For beginners)
+## Installing Ed
 
 To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)" 
 
@@ -78,7 +81,9 @@ Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler.
 $ gem install bundler
 ~~~
 
-You're very close. Now that Bundler is installed the final step is to install the gems we will need to run Ed: jekyll and jekyll-scholar. To do so run the Gemfile this way:
+If you ran into problems following these instructions, you should try a more detailed walkthrough. Here’s [a great tutorial](https://www.chapterthree.com/blog/ruby-rvm-gemsets-and-bundlergemfiles) on how to do both rvm and Bundler from Rob Decker. 
+
+You're very close. Now that Bundler is installed, the final step is to install the gems we will need to run Ed: jekyll and jekyll-scholar. To do so run the Gemfile this way:
 
 ~~~ bash
 $ bundle install
@@ -87,7 +92,7 @@ $ bundle install
 If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. Assuming you're still inside the ed folder, you can now build the first version of your site and run the jekyll server at the same time by entering:
 
 ~~~ bash
-$ jekyll serve
+$ bundle exec jekyll serve
 ~~~
 
 Copy the url on your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/`. At this point you should be looking at your very own working version of Ed:
@@ -97,8 +102,6 @@ Copy the url on your terminal log and paste it into your browser of choice (I re
 ---
 
 ## Jekyll
-
-(For beginners)
 
 Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
 
@@ -217,7 +220,7 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 
 *The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in Kramdown:
 
-~~~ markdown
+~~~ 
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
 >
 > Written with mine own hand, &c., 1835.  
@@ -225,8 +228,59 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 ~~~
 
 To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
+<<<<<<< HEAD
+=======
 
 
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
+
+~~~
+...
+> - Two others oped their iron jaws,
+> - And waved their children-stealing paws;
+> - There sat their children in gewgaws;
+> - By stinting negroes' backs and maws,
+> - They kept up heavenly union.
+{:.poetry}
+> - All good from Jack another takes,
+> - And entertains their flirts and rakes,
+> - Who dress as sleek as glossy snakes,
+> - And cram their mouths with sweetened cakes;
+> - And this goes down for union.
+{:.poetry}
+~~~
+
+The `{:.poetry}` tells the processor to think of the lines above as poetry. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process each stanza this way. The `{:.poetry} syntax is an example of Kramdown class assignments to block-elements. 
+
+---
+
+## Bibliographies
+
+To help us style and generate bibliographies and citations, Ed uses the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about how to use the gem, make sure to read the documentation on the link above. 
+
+Pro tip: I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. This will make it easy for you to generate the `reference.bib` (a BibLaTeX file) you will need to make jekyll-scholar work with Ed. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to reference.bib and move it into the `_bibliography` folder.
+
+Because we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed uses a separate page for your Bibliography or works cited. The page is provided for you as a page, and uses the default page layout. Notice that the bibliography itself is generated by a liquid tag:
+
+<pre>
+&#123;% bibliography %&#125;
+</pre>
+
+If you want your inline citations to link to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar. In order to point to the bibliography page we need to take advantage of the `--relative` flag in jekyll-scholar:
+
+<pre>
+&#123;% cite cesaire_discourse_2001 -r /bibliography.html %&#125;
+</pre>
+
+This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in "O Captain! My Captain!." Here's the breakdown:
+>>>>>>> a1968225b8201cc34382437254caa849384b3ae7
+
+* `cite` is the jekyllscholar command. 
+* `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
+* `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
+* `/bibliography.html`, the relative path of our bibliography.
+
+<<<<<<< HEAD
 Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
 ~~~
@@ -246,7 +300,53 @@ Things get a bit complicated when we want to use poetry inside the block or when
 ~~~
 
 We have two odd pieces of markup in this example. `<br><br>` is needed to separate the stanzas. The `{:.poem}` tells the processor to think of the line aboves as poetry. Because this segment of poetry exists in the 'narrative' layout, we need to signal the processor to process it as poetry.
+=======
+---
+
+## Tips and Tricks
+
+- The Table of Contents is produced automatically for all texts with the category 'toc'. To create your own table of contents make sure to include the `categories: toc` in your YAML front matter.
+- Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
+- You can clean unnecessary from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts, the `syntax.css` file (used for styling code).
+- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator).
+- Ed includes RDF metadata in the headers that makes it easier for users of Zotero to grab bibliographic information for the site and individual texts. The RDF functionality is not enough to generate a full proper citation. Consider providing proper citation information in your about page or homepage.
 
 
 
+---
 
+## Publishing
+
+Publishing and Ed edition can be done in one of two ways. You can either host it on a server you rent, own or have access to. Most mortals pay a hosting provider to host their sites. I recommend [Reclaim Hosting](https://reclaimhosting.com/), run by scholars. If you are affiliated with a university, chances are that your institution provides you with a UNIX account and a bit of server space. Since Jekyll generates a full static site for you, that means you can park it there. To do so you need to build the site first. If you have been keeping your eye on your project by using `jekyll serve`, chances are you have a current built site in your project folder labelled `_site`.
+
+If you don't you can build one easily by using the following Jekyll command:
+
+~~~ bash
+$ jekyll build
+~~~
+
+Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on your terminal](https://www.siteground.com/tutorials/ssh/), you need to push the contents of the `_site` folder to the folder on your server where you would like your project to exist. Depending on your host provider, you may be able to receive help from the sys admins with this step. 
+
+The second option is to publish your site for free on Github Pages. This option can be a bit more complicated than the first because Github is run in `--safe` mode, and will normally reject the jekyll-scholar plugin. We can work around this limitation by generating the site before hand and deploying just the site files. I've provided a useful [Rakefile created by Robert Rawlins](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that allows us to do just that. A Rakefile is a series of Ruby commands that can be run at once. More on running this file below.
+
+Whether you decide to publish on Github pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
+
+To publish on GitHub pages, you must have a copy of the repository in GitHub. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
+>>>>>>> a1968225b8201cc34382437254caa849384b3ae7
+
+You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
+
+<<<<<<< HEAD
+=======
+~~~ bash
+$ git checkout -b gh-pages
+~~~
+
+Once you are using that branch, you are ready to publish your site using the Rakefile. To do so use this command:
+>>>>>>> a1968225b8201cc34382437254caa849384b3ae7
+
+~~~ bash
+$ rake blog:publish
+~~~ 
+
+That should do it. Happy editing!

@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 h1.post-title {
@@ -63,8 +63,8 @@ ul {
 }
 
 blockquote {
-	padding: 0rem 1.5rem 2rem 2rem;
-	margin: 0;
+	padding: 0rem 1.5rem 0rem 2rem;
+	margin: 0 0 20px 0; 
 	color: inherit;
 	border-left: none;
 	font-style: italic;
@@ -133,7 +133,7 @@ h3.masthead-title {
 
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
 
-.poem ul, ul.poem {
+.poetry ul, ul.poetry {
 	list-style: none;
 	padding-left: 1rem;
 	text-indent: -1rem;
@@ -141,7 +141,7 @@ h3.masthead-title {
 
 /* This snippet helps us reset the margin for all spans with the indent- class */
 
-.poem span[class^='indent-']{
+.poetry span[class^='indent-']{
     margin: 0; /* reset browsers default margin styles*/
 }
 
@@ -197,7 +197,7 @@ h3.masthead-title {
 	padding-left: 10rem;
 }
 
-.poem .citation {
+.poetry .citation {
 	font-style: italic;
 	font-size: .9rem;
 	color: gray;
