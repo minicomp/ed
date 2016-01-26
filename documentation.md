@@ -92,7 +92,7 @@ $ bundle install
 If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. Assuming you're still inside the ed folder, you can now build the first version of your site and run the jekyll server at the same time by entering:
 
 ~~~ bash
-$ jekyll serve
+$ bundle exec jekyll serve
 ~~~
 
 Copy the url on your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/`. At this point you should be looking at your very own working version of Ed:
