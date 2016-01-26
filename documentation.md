@@ -228,9 +228,6 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 ~~~
 
 To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
-<<<<<<< HEAD
-=======
-
 
 Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
@@ -280,27 +277,8 @@ This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-capta
 * `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
 * `/bibliography.html`, the relative path of our bibliography.
 
-<<<<<<< HEAD
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
-~~~
-...
-> - Two others oped their iron jaws,
-> - And waved their children-stealing paws;
-> - There sat their children in gewgaws;
-> - By stinting negroes' backs and maws,
-> - They kept up heavenly union.
-> <br><br>
-> - All good from Jack another takes,
-> - And entertains their flirts and rakes,
-> - Who dress as sleek as glossy snakes,
-> - And cram their mouths with sweetened cakes;
-> - And this goes down for union.
-{:.poem}
-~~~
 
-We have two odd pieces of markup in this example. `<br><br>` is needed to separate the stanzas. The `{:.poem}` tells the processor to think of the line aboves as poetry. Because this segment of poetry exists in the 'narrative' layout, we need to signal the processor to process it as poetry.
-=======
 ---
 
 ## Tips and Tricks
@@ -336,14 +314,11 @@ To publish on GitHub pages, you must have a copy of the repository in GitHub. On
 
 You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
 
-<<<<<<< HEAD
-=======
 ~~~ bash
 $ git checkout -b gh-pages
 ~~~
 
 Once you are using that branch, you are ready to publish your site using the Rakefile. To do so use this command:
->>>>>>> a1968225b8201cc34382437254caa849384b3ae7
 
 ~~~ bash
 $ rake blog:publish
