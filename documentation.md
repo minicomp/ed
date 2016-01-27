@@ -103,7 +103,7 @@ Copy the url on your terminal log and paste it into your browser of choice (I re
 
 ## Jekyll
 
-Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
+Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works.
 
 Once you have gone through these tutorials, you can get started using Ed by using the sample texts provided with your own texts. You will probably also want to change the `_config.yml` file to add your own personal information and a site title and description of your choice. to make new texts, simply copy any one of the sample texts as a new file in the `_posts` folder. Remember to always use the jekyll convention for naming posts `yyyy-mm-dd-filename.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). Ex:
 
@@ -229,7 +229,6 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 
 To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
 
-
 Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
 
 ~~~
@@ -276,6 +275,8 @@ This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-capta
 * `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
 * `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
 * `/bibliography.html`, the relative path of our bibliography.
+
+
 
 ---
 
