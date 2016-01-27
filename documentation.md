@@ -36,7 +36,7 @@ $ git --version
 If you don't get an error, you're good to go. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. Once you're in the folder where you want Ed to live, download it from github using the following line (remember you can copy and paste):
 
 ~~~ bash
-$ git clone git@github.com:elotroalex/ed.git
+$ git clone https://github.com/elotroalex/ed.git
 ~~~
 
 At this point you should navigate inside your project folder and stay there until further notice:
