@@ -365,11 +365,15 @@ $ bundle exec jekyll serve
 
 Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on your terminal](https://www.siteground.com/tutorials/ssh/), you need to push the contents of the `_site` folder to the folder on your server where you would like your project to exist. Depending on your host provider, you may be able to receive help from the sys admins with this step.
 
+Please refer to the [note below on base urls](#a-note-on-your-base-url) to make sure your new links work on your new site.
+
 ### Option 2
 
 The second option is to publish your site for free on GitHub Pages. This option can be a bit more complicated than the first because GitHub is run in `--safe` mode, and will normally reject the jekyll-scholar plugin. We can work around this limitation by generating the site before hand and deploying just the site files. I've provided a useful [Rakefile created by Robert Rawlins](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that allows us to do just that. A Rakefile is a series of Ruby commands that can be run at once. More on running this file below.
 
 Whether you decide to publish on GitHub pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
+
+If you do decide to use the GitHub pages option, please make sure to read the [note below on base urls](#a-note-on-your-base-url).
 
 To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
 
@@ -386,6 +390,16 @@ $ rake blog:publish
 ~~~ 
 
 You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
+
+### A note on your base url
+
+When you publish on a subfolder—automatic on GitHub pages—many of your links will break unless you indicate the name of your sub-folder in the `baseurl` value in your `_config.html` file. In addition, you need to make sure that your site-wide links (your links to your CSS files, for example) are preceded by the `{{ site.baseurl }}` tag. The base Ed install already uses this system, so you can simply replace the value `/ed` in your `baseurl` to `/your-project-slug`.
+
+If on the other hand you are running your site on a root folder, simply erase `/ed`, but do make sure to leave the single quotes:
+
+~~~ yaml
+baseurl: ''
+~~~
 
 ---
 
