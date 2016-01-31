@@ -57,7 +57,7 @@ That's it. If at any point during this process you had an error you could not re
 
 ## Installing Ed: Robust
 
-The first step to install Ed is to download the source files from GitHub. To do so you must have git installed in your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
+The first step to install Ed is to download the source files from GitHub. To do so you must have git installed on your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
 
 ~~~ bash
 $ git --version
@@ -135,7 +135,7 @@ $ bundle exec jekyll serve
 
 Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/`. At this point you should be looking at your very own working version of Ed:
 
-![Your very own Ed]({{ site.baseurl }}/assets/screenshot.png)
+![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
 ---
 
@@ -326,21 +326,22 @@ Bibliographies may be optional to you. If you will not need a bibliography, or y
 
 ## Pages
 
-In Ed your editions are treated as posts. Other pages exist outside the `_posts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
+Your editions are treated as posts in Ed. Other pages exist outside the `_posts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
 
-You will notice that the homepage in particular has am `.html` file ending instead of a `.md` ending. Although the file is indeed an HTML file, notice that it still contains YAML front matter and liquid tags. To edit the homepage, or any other page, replace the content on the file shipped with Ed.
+You will notice that the homepage in particular has a `.html` file ending instead of a `.md` ending. Although the file is indeed an HTML file, notice that it still contains YAML front matter and liquid tags. To edit the homepage replace the content on the file shipped with Ed, making sure that your changes to `index.html` are written in valid HTML.
 
-Besides the homepage, Ed ships with an about page and a bibliography page. These are regular `.md` files. You can replace the contents of each file. Be careful not to replace the liquid tag that generates your bibliography in the bibliography file, unless you don't want to have a bibliography at all.
+Besides the homepage, Ed ships with an About page, `about.md` and a Bibliography page, `bibliography.md`. As you can see, these are regular `.md` files. You can replace the contents of each file using normal kramdown syntax. This also applies to any new page you create, which you should remember to save with an `.md` extension. When editing the `bibliography.md` file, be careful not to replace the liquid tag that generates your bibliography, unless you don't want to have a bibliography at all.
 
 ---
 
 ## Tips and Tricks
 
 - The Table of Contents is produced automatically for all texts with the category 'toc'. To create your own table of contents make sure to include the `categories: toc` in your YAML front matter.
-- The sidebar menu on is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This can allow you to add external links.
+- The folding sidebar menu is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This structure can allow you to add external links. If you don't have that many pages, you may choose to do all the links by hand.
 - Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
 - You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
-- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) to search within your site.
+- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) to search within your site. Part of the philosophy behind Ed is to avoid duplicating features that are already easily available in most web ecosystems. 
+- If you want to allow annotations on your site, consider providing a `via.hypothes.is` link. Our sample site can be annotated, for example, using the following link: `https://via.hypothes.is/http://elotroalex.github.io/ed/`.
 - Ed includes RDF metadata in the headers that makes it easier for users of Zotero to grab bibliographic information for the site and individual texts. The RDF functionality is not enough to generate a full proper citation. Consider providing proper citation information in your about page or homepage.
 - Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
 
