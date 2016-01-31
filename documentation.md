@@ -16,6 +16,7 @@ author: Alex Gil
 - [Footnotes](#footnotes)
 - [Blockquotes](#blockquotes)
 - [Bibliographies](#bibliographies)
+- [Pages](#pages)
 - [Tips and Tricks](#tips-and-tricks)
 - [Publishing](#publishing)
 
@@ -39,7 +40,8 @@ Open your terminal. Install the software needed to run Jekyll using the followin
 ~~~ bash
 $ gem install jekyll
 $ gem install jekyll-scholar
-~~~ 
+~~~
+
 
 Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed:
 
@@ -52,7 +54,7 @@ That's it. If at any point during this process you had an error you could not re
 
 ## Installing Ed: Robust
 
-The first step to install Ed is to download the source files from Github. To do so you must have git installed in your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
+The first step to install Ed is to download the source files from GitHub. To do so you must have git installed in your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
 
 ~~~ bash
 $ git --version
@@ -286,13 +288,13 @@ Things get a bit complicated when we want to use poetry inside the block or when
 {:.poetry}
 ~~~
 
-The `{:.poetry}` tag at the end tells the processor to think of the lines above it as poetry. The `{:.poetry} syntax is an example of kramdown class assignments to block-elements. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process poetry this way, so that the right class is invoked in the stylesheet. Notice also the `^` separating the stanzas. This bit of kramdown syntax helps us separate the stanzas while staying within the blockquote. 
+The `{:.poetry}` tag at the end tells the processor to think of the lines above it as poetry. The `{:.poetry}` tag is an example of kramdown class assignments for block-elements. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process poetry this way, so that the right class is invoked in the stylesheet. Notice also the `^` separating the stanzas. This bit of kramdown syntax helps us separate the stanzas while staying within the blockquote. The good news is this is the most complex kramdown syntax layout you will encounter in Ed.
 
 ---
 
 ## Bibliographies
 
-To help us style and generate bibliographies and citations, Ed uses the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about how to use the gem, make sure to read the documentation on the link above. 
+To help us style and generate bibliographies and citations, Ed uses the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about how to use the gem, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
 
 Pro tip: I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. This will make it easy for you to generate the `reference.bib` (a BibLaTeX file) you will need to make jekyll-scholar work with Ed. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to reference.bib and move it into the `_bibliography` folder.
 
@@ -315,16 +317,27 @@ This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-capta
 * `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
 * `/bibliography.html`, the relative path of our bibliography.
 
+Bibliographies may be optional to you. If you will not need a bibliography, or your bibliography is small enough that you feel it would be easier to write it out directly, you may want to consider not using the jekyll-scholar gem at all. If this is the case, feel free to erase the gem from the Gemfile, or avoid installing it directly. For Ed to run without jekyll-scholar you need to also erase the `bibliography.html` page, the `_bibliography` folder, and the citation in footnote 3 in the "O Captain! My Captain" sample text. Jekyll should build normally after that.
 
+---
+
+## Pages
+
+In Ed your editions are treated as posts. Other pages exist outside the `_posts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
+
+You will notice that the homepage in particular has am `.html` file ending instead of a `.md` ending. Although the file is indeed an HTML file, notice that it still contains YAML front matter and liquid tags. To edit the homepage, or any other page, replace the content on the file shipped with Ed.
+
+Besides the homepage, Ed ships with an about page and a bibliography page. These are regular `.md` files. You can replace the contents of each file. Be careful not to replace the liquid tag that generates your bibliography in the bibliography file, unless you don't want to have a bibliography at all.
 
 ---
 
 ## Tips and Tricks
 
 - The Table of Contents is produced automatically for all texts with the category 'toc'. To create your own table of contents make sure to include the `categories: toc` in your YAML front matter.
+- The sidebar menu on is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This can allow you to add external links.
 - Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
-- You can clean unnecessary from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts, the `syntax.css` file (used for styling code).
-- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator).
+- You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
+- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) to search within your site.
 - Ed includes RDF metadata in the headers that makes it easier for users of Zotero to grab bibliographic information for the site and individual texts. The RDF functionality is not enough to generate a full proper citation. Consider providing proper citation information in your about page or homepage.
 - Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
 
@@ -334,21 +347,31 @@ This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-capta
 
 ## Publishing
 
-Publishing and Ed edition can be done in one of two ways. You can either host it on a server you rent, own or have access to. Most mortals pay a hosting provider to host their sites. I recommend [Reclaim Hosting](https://reclaimhosting.com/), run by scholars. If you are affiliated with a university, chances are that your institution provides you with a UNIX account and a bit of server space. Since Jekyll generates a full static site for you, that means you can park it there. To do so you need to build the site first. If you have been keeping your eye on your project by using `jekyll serve`, chances are you have a current built site in your project folder labelled `_site`.
+### Option 1
 
-If you don't you can build one easily by using the following Jekyll command:
+Publishing and Ed edition can be done in one of two ways. One way is to host it on a server you rent, own or have access to. Most mortals pay a hosting provider to host their sites. I recommend [Reclaim Hosting](https://reclaimhosting.com/), which is run by scholars for scholars. If you are affiliated with a university, chances are that your institution provides you with a UNIX account and a bit of server space. Since Jekyll generates a full static site for you, that means you can park it there. To do so you need to build the site first. If you have been keeping your eye on your project by using `jekyll serve`, chances are you have a current built site in your project folder labelled `_site`.
+
+If you don't already, you can build one easily by using the following Jekyll command:
 
 ~~~ bash
 $ jekyll build
 ~~~
 
-Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on your terminal](https://www.siteground.com/tutorials/ssh/), you need to push the contents of the `_site` folder to the folder on your server where you would like your project to exist. Depending on your host provider, you may be able to receive help from the sys admins with this step. 
+Or, again, if you have multiple environments:
 
-The second option is to publish your site for free on Github Pages. This option can be a bit more complicated than the first because Github is run in `--safe` mode, and will normally reject the jekyll-scholar plugin. We can work around this limitation by generating the site before hand and deploying just the site files. I've provided a useful [Rakefile created by Robert Rawlins](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that allows us to do just that. A Rakefile is a series of Ruby commands that can be run at once. More on running this file below.
+~~~ bash
+$ bundle exec jekyll serve
+~~~
 
-Whether you decide to publish on Github pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
+Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on your terminal](https://www.siteground.com/tutorials/ssh/), you need to push the contents of the `_site` folder to the folder on your server where you would like your project to exist. Depending on your host provider, you may be able to receive help from the sys admins with this step.
 
-To publish on GitHub pages, you must have a copy of the repository in GitHub. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
+### Option 2
+
+The second option is to publish your site for free on GitHub Pages. This option can be a bit more complicated than the first because GitHub is run in `--safe` mode, and will normally reject the jekyll-scholar plugin. We can work around this limitation by generating the site before hand and deploying just the site files. I've provided a useful [Rakefile created by Robert Rawlins](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that allows us to do just that. A Rakefile is a series of Ruby commands that can be run at once. More on running this file below.
+
+Whether you decide to publish on GitHub pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
+
+To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
 
 You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
 
@@ -356,10 +379,16 @@ You also need to create a different git branch called `gh-pages` within your loc
 $ git checkout -b gh-pages
 ~~~
 
-Once you are using that branch, you are ready to publish your site using the Rakefile. To do so use this command:
+Once you are using that branch, you are ready to publish your site using the Rakefile shipped with Ed. To do so use this command:
 
 ~~~ bash
 $ rake blog:publish
 ~~~ 
 
-That should do it. Happy editing!
+You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
+
+---
+
+That should do it. If you have suggestions on how to improve Ed, make sure to leave us a line on [our issues page](https://github.com/elotroalex/ed/issues), or send us a pull request.
+
+Happy editing!
