@@ -150,7 +150,7 @@ author: Aimé Césaire
 ---
 ~~~
 
-Besides replacing content and creating new texts, you will probably  want to edit the `_config.yml` file to replace the boilerplate information with your own personalized information in the relevant categories. Avoid replacing the information in categories that are not clear to you.
+Besides replacing content and creating new texts, you will probably  want to edit the `_config.yml` file to replace the boilerplate information we provided with your own personalized information in the relevant categories. Avoid replacing the information in categories that are not clear to you. Make sure to use proper YAML formatting when writing in the `_config.yml` file. Here's [a good reference source](http://docs.ansible.com/ansible/YAMLSyntax.html) in case you have doubts.
 
 ---
 
@@ -192,13 +192,13 @@ The `-` at the beginning of each line indicates that these are lines. The `{:.in
 
 The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
 
-The Narrative of the Life of Frederick Douglass shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects.
+*The Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. A future release may include a special sidebar for a long narrative table of contents.
 
 ---
 
 ## Kramdown and HTML
 
-For more hand-crafted layouts---[the title page in *The Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with Kramdown is that we have a lot of flexibility to mix HTML with the Kramdown syntax. Here is the code for the title page of *The Narrative of the Life*:
+For more hand-crafted layouts---[the title page in *The Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with kramdown is that we have a lot of flexibility to mix HTML with the kramdown syntax. Here is the code for the title page of *The Narrative of the Life*:
 
 ~~~ html
 <a id="title-page" />
@@ -212,9 +212,9 @@ For more hand-crafted layouts---[the title page in *The Narrative of the Life*](
 <p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
 ~~~
 
-The effects of this page can be achieved with slightly complex Kramdown, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. 
+The effects of this page can be achieved with kramdown syntax, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. 
 
-A note on line breaks: The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because Kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored. 
+A note on line breaks: The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored. 
 
 --- 
 
@@ -243,7 +243,7 @@ These footnotes can be placed anywhere, but they will always be generated at the
 	denim pabst readymade biodiesel umami chicharrones XOXO. 
 ~~~
 
-The footnotes system provided by Kramdown does have one limitation. It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
+The footnotes system provided by kramdown does have one limitation: It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
 
 ~~~ html
 ... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
@@ -257,7 +257,7 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 
 ## Blockquotes
 
-*The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in Kramdown:
+*The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in kramdown:
 
 ~~~ 
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
@@ -268,7 +268,7 @@ The footnotes system provided by Kramdown does have one limitation. It generates
 
 To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
 
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from A Parody in The Narrative of the Life which shows an example of a blockquote of poetry:
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from "A Parody" in *The Narrative of the Life*, which shows an example of a blockquote of poetry:
 
 ~~~
 ...
@@ -277,7 +277,7 @@ Things get a bit complicated when we want to use poetry inside the block or when
 > - There sat their children in gewgaws;
 > - By stinting negroes' backs and maws,
 > - They kept up heavenly union.
-{:.poetry}
+> ^
 > - All good from Jack another takes,
 > - And entertains their flirts and rakes,
 > - Who dress as sleek as glossy snakes,
@@ -286,7 +286,7 @@ Things get a bit complicated when we want to use poetry inside the block or when
 {:.poetry}
 ~~~
 
-The `{:.poetry}` tells the processor to think of the lines above as poetry. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process each stanza this way. The `{:.poetry} syntax is an example of Kramdown class assignments to block-elements. 
+The `{:.poetry}` tag at the end tells the processor to think of the lines above it as poetry. The `{:.poetry} syntax is an example of kramdown class assignments to block-elements. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process poetry this way, so that the right class is invoked in the stylesheet. Notice also the `^` separating the stanzas. This bit of kramdown syntax helps us separate the stanzas while staying within the blockquote. 
 
 ---
 
