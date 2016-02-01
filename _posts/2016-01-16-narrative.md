@@ -7,11 +7,6 @@ rights: Public Domain
 source: Project Guttenberg
 ---
 
-<p class="citation"> by {{ page.author }}</p>
-
-
----
-
 
 ## Contents
 
