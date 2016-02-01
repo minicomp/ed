@@ -6,7 +6,7 @@
   <body>
 
     <!-- This if statement decides which sidebar to use -->
-    {% if page.layout == 'narrative' || 'drama'  %}
+    {% if page.toc %}
     {% include sidebar-toc.html %}
     {% else %}
     {% include sidebar.html %}

@@ -4,10 +4,32 @@ title: "The Narrative of the Life of Frederick Douglass"
 author: Frederick Douglass
 rights: Public Domain
 source: Project Guttenberg
-sidebar: yes
+toc:
+- Title Page
+- Preface
+- Letter From Wendell Phillips
+- Chapter I
+- Chapter II
+- Chapter III
+- Chapter IV
+- Chapter V
+- Chapter VI
+- Chapter VII
+- Chapter VIII
+- Chapter IX
+- Chapter X
+- Chapter XI
+- Appendix
+- A Parody
 ---
 
 <p class="citation"> by {{ page.author }}</p>
+
+## Contents
+{:.no_toc}
+
+* ToC
+{:toc}
 
 
 ---

@@ -11,19 +11,24 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Return Home</a>
     <a class="sidebar-nav-item" href="https://via.hypothes.is/http://elotroalex.github.io/ed/">Annotate me</a>
+    <span class="sidebar-nav-item">Table of contents</span>
+    {% for node in page.toc %}
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#{{ node | slugify }}">{{ node }}</a>
+    {% endfor %}
+
 
 
     {% comment %}
-      The code below dynamically generates a sidebar nav of chapters. See documentation for details.
+      The code below dynamically generates a sidebar nav of chapters.
     {% endcomment %}
-
+<!-- 
     <span class="sidebar-nav-item">TABLE OF CONTENTS</span>
 
     {% assign chapters = "Title Page|Preface|Letter From Wendell Phillips|Chapter I|Chapter II|Chapter III|Chapter IV|Chapter V|Chapter VI|Chapter VII|Chapter VIII|Chapter IX|Chapter X|Chapter XI|Appendix|A Parody" | split: "|" %}
 
     {% for node in chapters %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#{{ node | slugify }}">{{ node }}</a>
-    {% endfor %}
+    {% endfor %} -->
 
   </nav>
 
