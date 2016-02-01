@@ -12,7 +12,7 @@ sidebar: yes
 
 ---
 
-
+<!-- 
 ## Contents
 
 - [Title Page](#title-page)
@@ -34,7 +34,7 @@ sidebar: yes
 - [A Parody](#a-parody)
 
 ---
-
+ -->
 <a id="title-page" />
 
 <p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
