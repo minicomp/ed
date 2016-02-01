@@ -17,13 +17,18 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 
 
 
-## Features
-- Design choices emphasizing a pleasant reading experience of narrative, drama and poetry
-- Extensible, minimal structure 
-- Responsive and sensible footnote system
-- Dublin Core metadata for Zotero recognition to aid in citation
-- Ability to generate well-formatted bibliographies using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
+## Current Features
+- Templates for narrative, drama and poetry
+- Responsive design for mobile phones, tablets and PCs.
+- Relatively easy to learn and teach
+- Works well in high- or low- bandwitdh scenarios
+- Easier for digital archives and libraries to preserve
+- Open source, open access
+- Unobtrusive footnotes
+- Works well with Zotero
+- Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
+- Annotations via [hypothes.is](https://hypothes.is/)
 
 ## Installing and using Ed
 
-To learn how to install and begin using, Ed, please visit our [documentation page](https://github.com/elotroalex/ed/blob/master/documentation.md).
+To learn how to install and begin using Ed, please visit our [documentation page](https://github.com/elotroalex/ed/blob/master/documentation.md).
