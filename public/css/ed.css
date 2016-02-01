@@ -10,9 +10,12 @@
  * https://github.com/elotroalex/ed.
  */
 
-a {
+@media only screen and (device-width: 768px) {
+  a {
 	-webkit-appearance: none;
 }
+}
+
 
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
