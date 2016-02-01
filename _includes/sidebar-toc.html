@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <p>This sidebar is optional for narratives and plays</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -17,7 +17,9 @@
       The code below dynamically generates a sidebar nav of chapters for narratives and plays. See documentation for details.
     {% endcomment %}
 
-    {% assign chapters = "Title Page|Preface|Letter From Wendell Phillips, Esq.|Chapter I|Chapter II|Chapter III|Chapter IV|Chapter V|Chapter VI|Chapter VII|Chapter VIII|Chapter IX|Chapter X|Chapter XI|Appendix|A Parody" | split: "|" %}
+    <span class="sidebar-nav-item">TABLE OF CONTENTS</span>
+
+    {% assign chapters = "Title Page|Preface|Letter From Wendell Phillips|Chapter I|Chapter II|Chapter III|Chapter IV|Chapter V|Chapter VI|Chapter VII|Chapter VIII|Chapter IX|Chapter X|Chapter XI|Appendix|A Parody" | split: "|" %}
 
     {% for node in chapters %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#{{ node | slugify }}">{{ node }}</a>
