@@ -10,7 +10,7 @@ markdown: kramdown
 
 kramdown:
   auto_ids:       true
-  footnote_nr:    1
+  footnote_nr:    3
   entity_output:  as_char
   footnote_backlink: "&#x21a9;&#xfe0e;"
   toc_levels:     1..6
