@@ -1,10 +1,10 @@
 ---
 layout: narrative
 title: "The Narrative of the Life of Frederick Douglass"
-categories: toc
 author: Frederick Douglass
 rights: Public Domain
 source: Project Guttenberg
+sidebar: yes
 ---
 
 <p class="citation"> by {{ page.author }}</p>
