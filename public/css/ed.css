@@ -10,6 +10,10 @@
  * https://github.com/elotroalex/ed.
  */
 
+.reversefootnotes {
+	-webkit-text-fill-color: red;
+}
+
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
