@@ -12,6 +12,7 @@
 
 a.reversefootnotes {
 	-webkit-text-fill-color: red;
+	-webkit-text-size-adjust: 200%;
 }
 
 html {
