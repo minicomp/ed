@@ -13,9 +13,10 @@
 
 
 a:-webkit-any-link {
-color: -webkit-link;
+/*color: -webkit-link;
 text-decoration: underline;
-cursor: auto;
+cursor: auto;*/
+-webkit-appearance: none;
 }
 
 
