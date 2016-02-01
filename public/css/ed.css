@@ -10,9 +10,8 @@
  * https://github.com/elotroalex/ed.
  */
 
-a.reversefootnotes {
-	-webkit-text-fill-color: red;
-	-webkit-text-size-adjust: 200%;
+a {
+	-webkit-appearance: none;
 }
 
 html {
