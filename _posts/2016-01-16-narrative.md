@@ -623,10 +623,12 @@ THE END
 [Footnotes by Frederick Douglass]
 
 
-<sup id="fn1">[↩](#ref1)</sup> This is the same man who gave me the roots to prevent my being whipped by Mr. Covey. He was "a clever soul." We used frequently to talk about the fight with Covey, and as often as we did so, he would claim my success as the result of the roots which he gave me. This superstition is very common among the more ignorant slaves. A slave seldom dies but that his death is attributed to trickery.
+<!-- Make sure to use &#x21a9;&#xfe0e; to generate ↩︎ manually -->
 
-<sup id="fn2">[↩](#ref2)</sup> She was free.
+<sup id="fn1">[&#x21a9;&#xfe0e;](#ref1)</sup> This is the same man who gave me the roots to prevent my being whipped by Mr. Covey. He was "a clever soul." We used frequently to talk about the fight with Covey, and as often as we did so, he would claim my success as the result of the roots which he gave me. This superstition is very common among the more ignorant slaves. A slave seldom dies but that his death is attributed to trickery.
 
-<sup id="fn3">[↩](#ref3)</sup> I had changed my name from Frederick Bailey to that of Johnson.
+<sup id="fn2">[&#x21a9;&#xfe0e;](#ref2)</sup> She was free.
 
-<sup id="fn4">[↩](#ref4)</sup> I am told that colored persons can now get employment at calking in New Bedford—a result of anti-slavery effort.
+<sup id="fn3">[&#x21a9;&#xfe0e;](#ref3)</sup> I had changed my name from Frederick Bailey to that of Johnson.
+
+<sup id="fn4">[&#x21a9;&#xfe0e;](#ref4)</sup> I am told that colored persons can now get employment at calking in New Bedford—a result of anti-slavery effort.

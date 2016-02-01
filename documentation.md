@@ -255,8 +255,10 @@ The footnotes system provided by kramdown does have one limitation: It generates
 
 ...
 
-<sup id="fn2">[↩](#ref2)</sup> She was free.
+<sup id="fn2">[&#x21a9;&#xfe0e;](#ref2)</sup> She was free.
 ~~~
+
+Notice the double HTML Entity (hex), `&#x21a9;&#xfe0e;`. The first is the ↩︎ symbol proper. The second assigns the proper variant glyph. This is a necessary hack while wait for Apple devices to stop turning everything into unlovely emojis.
 
 ---
 
