@@ -10,10 +10,12 @@
  * https://github.com/elotroalex/ed.
  */
 
-@media only screen and (device-width: 768px) {
-  a {
-	-webkit-appearance: none;
-}
+
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
 }
 
 
