@@ -5,7 +5,14 @@
 
   <body>
 
+    <!-- This if statement decides which sidebar to use -->
+    {% if page.layout == 'narrative' %}
+    {% include sidebar-toc.html %}
+    {% else %}
     {% include sidebar.html %}
+    {% endif %}
+
+
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
