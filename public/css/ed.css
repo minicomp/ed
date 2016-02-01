@@ -12,14 +12,6 @@
 
 
 
-a:-webkit-any-link {
-/*color: -webkit-link;
-text-decoration: underline;
-cursor: auto;*/
--webkit-appearance: none;
-}
-
-
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
