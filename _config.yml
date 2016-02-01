@@ -5,8 +5,17 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: none
 
-# Footnote friendly markdown
+# Markdown specs
 markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Setup
 title:               Ed.
