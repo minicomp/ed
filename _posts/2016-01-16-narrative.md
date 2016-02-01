@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: "The Narrative of the Life of Frederick Douglass"
+title: "Narrative of the Life of Frederick Douglass"
 categories: toc
 author: Frederick Douglass
 rights: Public Domain

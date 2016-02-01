@@ -197,13 +197,13 @@ The `-` at the beginning of each line indicates that these are lines. The `{:.in
 
 The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
 
-*The Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. A future release may include a special sidebar for a long narrative table of contents.
+*Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. A future release may include a special sidebar for a long narrative table of contents.
 
 ---
 
 ## Kramdown and HTML
 
-For more hand-crafted layouts---[the title page in *The Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with kramdown is that we have a lot of flexibility to mix HTML with the kramdown syntax. Here is the code for the title page of *The Narrative of the Life*:
+For more hand-crafted layouts---[the title page in *Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with kramdown is that we have a lot of flexibility to mix HTML with the kramdown syntax. Here is the code for the title page of *Narrative of the Life*:
 
 ~~~ html
 <a id="title-page" />
@@ -248,7 +248,7 @@ These footnotes can be placed anywhere, but they will always be generated at the
 	denim pabst readymade biodiesel umami chicharrones XOXO. 
 ~~~
 
-The footnotes system provided by kramdown does have one limitation: It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *The Narrative of the Life*:
+The footnotes system provided by kramdown does have one limitation: It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *Narrative of the Life*:
 
 ~~~ html
 ... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
@@ -264,7 +264,7 @@ Notice the double HTML Entity (hex), `&#x21a9;&#xfe0e;`, used at the end of the 
 
 ## Blockquotes
 
-*The Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in kramdown:
+*Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in kramdown:
 
 ~~~ 
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
@@ -275,7 +275,7 @@ Notice the double HTML Entity (hex), `&#x21a9;&#xfe0e;`, used at the end of the 
 
 To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
 
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from "A Parody" in *The Narrative of the Life*, which shows an example of a blockquote of poetry:
+Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from "A Parody" in *Narrative of the Life*, which shows an example of a blockquote of poetry:
 
 ~~~
 ...
