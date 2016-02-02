@@ -32,4 +32,4 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 
 ## Installing and using Ed
 
-To learn how to install and begin using Ed, please visit our [documentation page](https://github.com/elotroalex/ed/blob/master/documentation.md).
+To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation.html).
