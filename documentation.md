@@ -370,9 +370,7 @@ The internal links pointing to the right sections in your document are generated
 
 ---
 
-## Publishing
-
-### Option 1
+## Publishing: A UNIX server
 
 Publishing and Ed edition can be done in one of two ways. One way is to host it on a server you rent, own or have access to. Most mortals pay a hosting provider to host their sites. I recommend [Reclaim Hosting](https://reclaimhosting.com/), which is run by scholars for scholars. If you are affiliated with a university, chances are that your institution provides you with a UNIX account and a bit of server space. Since Jekyll generates a full static site for you, that means you can park it there. To do so you need to build the site first. If you have been keeping your eye on your project by using `jekyll serve`, chances are you have a current built site in your project folder labelled `_site`.
 
@@ -392,7 +390,7 @@ Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on
 
 Please refer to the [note below on base urls](#a-note-on-your-base-url) to make sure your new links work on your new site.
 
-### Option 2
+## Publishing: GitHub pages
 
 The second option is to publish your site for free on GitHub Pages. This option can be a bit more complicated than the first because GitHub is run in `--safe` mode, and will normally reject the jekyll-scholar plugin. We can work around this limitation by generating the site before hand and deploying just the site files. I've provided a useful [Rakefile created by Robert Rawlins](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that allows us to do just that. A Rakefile is a series of Ruby commands that can be run at once. More on running this file below.
 
@@ -416,7 +414,7 @@ $ rake blog:publish
 
 You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
 
-### A note on your base url
+**A note on your base url**
 
 When you publish on a subfolder—automatic on GitHub pages—many of your links will break unless you indicate the name of your sub-folder in the `baseurl` value in your `_config.html` file. In addition, you need to make sure that your site-wide links (your links to your CSS files, for example) are preceded by the `{{ site.baseurl }}` tag. The base Ed install already uses this system, so you can simply replace the value `/ed` in your `baseurl` to `/your-project-slug`.
 

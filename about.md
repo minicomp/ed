@@ -21,6 +21,7 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 - Works well with Zotero
 - Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
 - Annotations via [hypothes.is](https://hypothes.is/)
+- Automatic table of content generation
 
 
 

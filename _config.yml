@@ -31,7 +31,7 @@ author:
   email:             colibri.alex@gmail.com
 
 # Custom vars
-version:             0.0.2
+version:             0.0.3
 
 # Gems
 gems: ['jekyll/scholar']
