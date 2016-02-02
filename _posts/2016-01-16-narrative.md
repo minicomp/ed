@@ -1,37 +1,34 @@
 ---
 layout: narrative
-title: "The Narrative of the Life of Frederick Douglass"
-categories: toc
+title: "Narrative of the Life of Frederick Douglass"
 author: Frederick Douglass
+editor: Alex Gil
 rights: Public Domain
 source: Project Guttenberg
+toc:
+- Title Page
+- Preface
+- Letter From Wendell Phillips, Esq
+- Chapter I
+- Chapter II
+- Chapter III
+- Chapter IV
+- Chapter V
+- Chapter VI
+- Chapter VII
+- Chapter VIII
+- Chapter IX
+- Chapter X
+- Chapter XI
+- Appendix
+- A Parody
 ---
 
-<p class="citation"> by {{ page.author }}</p>
-
-
 ---
 
+## Editor's note
 
-## Contents
-
-- [Title Page](#title-page)
-- [Preface](#preface)
-- [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
-- [Frederick Douglass](#frederick-douglass)
-- [Chapter I](#chapter-i)
-- [Chapter II](#chapter-ii)
-- [Chapter III](#chapter-iii)
-- [Chapter IV](#chapter-iv)
-- [Chapter V](#chapter-v)
-- [Chapter VI](#chapter-vi)
-- [Chapter VII](#chapter-vii)
-- [Chapter VIII](#chapter-viii)
-- [Chapter IX](#chapter-ix)
-- [Chapter X](#chapter-x)
-- [Chapter XI](#chapter-xi)
-- [Appendix](#appendix)
-- [A Parody](#a-parody)
+This version of *Narrative of the Life of Frederick Douglass* was adapted from *The Project Gutenberg EBook of The Narrative of the Life of Frederick Douglass, by Frederick Douglass*. The [Guttenberg file](https://www.gutenberg.org/files/23/23-h/23-h.htm) does not tell us which witness was used in making their digital edition. The edition below is only a slightly modified version of the Guttenberg text, and therefore should not be taken too seriously as an edition. I use the text mostly to show a few affordances of using Ed for long form narrative. This page, for example, showcases a different sidebar than the rest of our sample site, with a table of content of the novel generated out of metadata in the source file. In addition, reading morsels of the novel on your different devices can give you a sense of the experience of reading prose using Ed. A few other features of this page are described in more detail in the [Documentation]({{ baseurl }}/documentation.html).
 
 ---
 
@@ -623,10 +620,12 @@ THE END
 [Footnotes by Frederick Douglass]
 
 
-<sup id="fn1">[↩](#ref1)</sup> This is the same man who gave me the roots to prevent my being whipped by Mr. Covey. He was "a clever soul." We used frequently to talk about the fight with Covey, and as often as we did so, he would claim my success as the result of the roots which he gave me. This superstition is very common among the more ignorant slaves. A slave seldom dies but that his death is attributed to trickery.
+<!-- Make sure to use &#x21a9;&#xfe0e; to generate ↩︎ manually -->
 
-<sup id="fn2">[↩](#ref2)</sup> She was free.
+<sup id="fn1">*</sup> This is the same man who gave me the roots to prevent my being whipped by Mr. Covey. He was "a clever soul." We used frequently to talk about the fight with Covey, and as often as we did so, he would claim my success as the result of the roots which he gave me. This superstition is very common among the more ignorant slaves. A slave seldom dies but that his death is attributed to trickery. [&#x21a9;&#xfe0e;](#ref1)
 
-<sup id="fn3">[↩](#ref3)</sup> I had changed my name from Frederick Bailey to that of Johnson.
+<sup id="fn2">*</sup> She was free. [&#x21a9;&#xfe0e;](#ref2)
 
-<sup id="fn4">[↩](#ref4)</sup> I am told that colored persons can now get employment at calking in New Bedford—a result of anti-slavery effort.
+<sup id="fn3">*</sup> I had changed my name from Frederick Bailey to that of Johnson. [&#x21a9;&#xfe0e;](#ref3)
+
+<sup id="fn4">*</sup> I am told that colored persons can now get employment at calking in New Bedford—a result of anti-slavery effort. [&#x21a9;&#xfe0e;](#ref4)
