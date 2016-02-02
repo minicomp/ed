@@ -25,38 +25,8 @@ toc:
 
 <p class="citation"> by {{ page.author }}</p>
 
-## Contents
-{:.no_toc}
-
-* ToC
-{:toc}
-
-
 ---
 
-<!-- 
-## Contents
-
-- [Title Page](#title-page)
-- [Preface](#preface)
-- [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
-- [Frederick Douglass](#frederick-douglass)
-- [Chapter I](#chapter-i)
-- [Chapter II](#chapter-ii)
-- [Chapter III](#chapter-iii)
-- [Chapter IV](#chapter-iv)
-- [Chapter V](#chapter-v)
-- [Chapter VI](#chapter-vi)
-- [Chapter VII](#chapter-vii)
-- [Chapter VIII](#chapter-viii)
-- [Chapter IX](#chapter-ix)
-- [Chapter X](#chapter-x)
-- [Chapter XI](#chapter-xi)
-- [Appendix](#appendix)
-- [A Parody](#a-parody)
-
----
- -->
 <a id="title-page" />
 
 <p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
