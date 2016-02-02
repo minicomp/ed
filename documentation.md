@@ -376,8 +376,6 @@ toc:
 ~~~
 
 The internal links pointing to the right sections in your document are generated from the title names automatically. In order for the links to work the names on section headings must contain the same words as the section headers. The punctuation and capitalization is irrelevant. If you can figure out how Ed accomplishes this trick, you have graduated from the Ed school of minimal editions.   
-
-
 ---
 
 ## Tips and Tricks

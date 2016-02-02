@@ -5,13 +5,10 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>This sidebar is an example of a sidebar attached to a specific text.</p>
+    <p>{{ page.title }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Return Home</a>
-    <a class="sidebar-nav-item" href="https://via.hypothes.is/http://elotroalex.github.io/ed/">Annotate me</a>
-    <span class="sidebar-nav-item">Table of contents</span>
     
     {% for node in page.toc %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#{{ node | slugify }}">{{ node }}</a>
@@ -21,7 +18,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Distributed with an MIT license.
+     Edited by {{ page.editor }}, {{ site.time | date: '%Y' }}.
     </p>
   </div>
 </div>
