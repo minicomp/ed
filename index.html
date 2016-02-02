@@ -15,7 +15,7 @@ title: Home
 <div class="toc">
   <h2>Sample texts</h2>
   <ul class="post">
-  {% for item in site.categories.toc do %}
+  {% for item in site.posts do %}
   
     <li class="post-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
@@ -24,6 +24,7 @@ title: Home
     </li>
   {% endfor %}
   </ul>  
+
 </div>
 
 

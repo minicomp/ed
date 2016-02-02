@@ -1,32 +1,34 @@
 ---
 layout: narrative
 title: "Narrative of the Life of Frederick Douglass"
-categories: toc
 author: Frederick Douglass
+editor: Alex Gil
 rights: Public Domain
 source: Project Guttenberg
+toc:
+- Title Page
+- Preface
+- Letter From Wendell Phillips, Esq
+- Chapter I
+- Chapter II
+- Chapter III
+- Chapter IV
+- Chapter V
+- Chapter VI
+- Chapter VII
+- Chapter VIII
+- Chapter IX
+- Chapter X
+- Chapter XI
+- Appendix
+- A Parody
 ---
 
+---
 
-## Contents
+## Editor's note
 
-- [Title Page](#title-page)
-- [Preface](#preface)
-- [Letter From Wendell Phillips, Esq.](#letter-from-wendell-phillips-esq)
-- [Frederick Douglass](#frederick-douglass)
-- [Chapter I](#chapter-i)
-- [Chapter II](#chapter-ii)
-- [Chapter III](#chapter-iii)
-- [Chapter IV](#chapter-iv)
-- [Chapter V](#chapter-v)
-- [Chapter VI](#chapter-vi)
-- [Chapter VII](#chapter-vii)
-- [Chapter VIII](#chapter-viii)
-- [Chapter IX](#chapter-ix)
-- [Chapter X](#chapter-x)
-- [Chapter XI](#chapter-xi)
-- [Appendix](#appendix)
-- [A Parody](#a-parody)
+This version of *Narrative of the Life of Frederick Douglass* was adapted from *The Project Gutenberg EBook of The Narrative of the Life of Frederick Douglass, by Frederick Douglass*. The [Guttenberg file](https://www.gutenberg.org/files/23/23-h/23-h.htm) does not tell us which witness was used in making their digital edition. The edition below is only a slightly modified version of the Guttenberg text, and therefore should not be taken too seriously as an edition. I use the text mostly to show a few affordances of using Ed for long form narrative. This page, for example, showcases a different sidebar than the rest of our sample site, with a table of content of the novel generated out of metadata in the source file. In addition, reading morsels of the novel on your different devices can give you a sense of the experience of reading prose using Ed. A few other features of this page are described in more detail in the [Documentation]({{ baseurl }}/documentation.html).
 
 ---
 

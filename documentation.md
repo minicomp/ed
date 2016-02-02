@@ -5,20 +5,10 @@ author: Alex Gil
 ---
 
 ## Contents
+{:.no_toc}
 
-- [Prerequisites](#prerequisites)
-- [Installing Ed: Easy](#installing-ed-easy)
-- [Installing Ed: Robust](#installing-ed-robust)
-- [Jekyll](#jekyll)
-- [Markdown and kramdown](#markdown-and-kramdown)
-- [Genres](#genres)
-- [Kramdown and HTML](#kramdown-and-html)
-- [Footnotes](#footnotes)
-- [Blockquotes](#blockquotes)
-- [Bibliographies](#bibliographies)
-- [Pages](#pages)
-- [Tips and Tricks](#tips-and-tricks)
-- [Publishing](#publishing)
+* ToC
+{:toc}
 
 ---
 
@@ -199,28 +189,6 @@ The example from Raisin in the Sun shows us that we don't need much special mark
 
 *Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. A future release may include a special sidebar for a long narrative table of contents.
 
----
-
-## Kramdown and HTML
-
-For more hand-crafted layouts---[the title page in *Narrative of the Life*]({{ site.baseurl }}/toc/narrative.html#title-page), for example---you may choose to work directly with HTML. One of the great advantages of working with kramdown is that we have a lot of flexibility to mix HTML with the kramdown syntax. Here is the code for the title page of *Narrative of the Life*:
-
-~~~ html
-<a id="title-page" />
-<p class="centered large">NARRATIVE<br>OF THE<br>LIFE<br>OF</p>
-<br>
-<p class="centered larger">FREDERICK DOUGLASS</p>
-<p class="centered large">AN<br>AMERICAN SLAVE.<br>WRITTEN BY HIMSELF.</p>
-<br>
-<p class="centered">BOSTON</p>
-<p class="centered">PUBLISHED AT THE ANTI-SLAVERY OFFICE,<br>NO. 25 CORNHILL<br>1845</p>
-<p class="centered small">ENTERED, ACCORDING TO ACT OF CONGRESS,<br>IN THE YEAR 1845<br>BY FREDERICK DOUGLASS,<br>IN THE CLERK'S OFFICE OF THE DISTRICT COURT<br>OF MASSACHUSETTS.</p>
-~~~
-
-The effects of this page can be achieved with kramdown syntax, but I chose to use HTML to demonstrate its use and to highlight the presence of size and center classes in the stylesheet. 
-
-A note on line breaks: The use of `<br>` here bears further commenting. In many cases we need to insert and HTML break because kramdown has the tendency to ignore hard breaks. Feel free to use them whenever you see that the breaks you want are ignored. 
-
 --- 
 
 ## Footnotes
@@ -315,7 +283,7 @@ If you want your inline citations to link to the bibliography page, instead of w
 &#123;% cite cesaire_discourse_2001 -r /bibliography.html %&#125;
 </pre>
 
-This code generates the citation in [footnote #3]({{ site.baseurl }}/toc/o-captain.html#fn:fn3) in "O Captain! My Captain!." Here's the breakdown:
+This code generates the citation in [footnote #3]({{ site.baseurl }}/o-captain.html#fn:fn3) in "O Captain! My Captain!." Here's the breakdown:
 
 * `cite` is the jekyllscholar command. 
 * `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
@@ -336,10 +304,61 @@ Besides the homepage, Ed ships with an About page, `about.md` and a Bibliography
 
 ---
 
+## Tables of Content
+
+You will find three kinds of Tables of Content in Ed. The first example is in the list of Sample Texts in the Homepage. This list is generated using the [Liquid Templating language](http://liquidmarkup.org/). This is one of the major components of Jekyll, and I recommend you deepen your knowledge of it if you want to modify the logic that automates much of Ed. Here is the code that generates the Sample Texts list on the homepage:
+
+
+~~~ html
+<div class="toc">
+  <h2>Sample texts</h2>
+  <ul class="post">
+ 
+  {%raw%}{% for item in site.posts do %}{%endraw%}
+      <li class="post-title">
+      <a href="{%raw%}{{ site.baseurl }}{{ item.url }}{%endraw%}">
+      	{%raw%}{{ item.title }}{%endraw%}
+      </a>
+    </li>
+  {%raw%}{% endfor %}{%endraw%}
+  </ul>  
+</div>
+
+~~~
+
+As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not familiar with a programming language, you may need to start elsewhere. I recommend Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place. The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."
+
+The second kind of table of content is exemplified in this documentation. If you open the source file for the documentation, you will notice at the top this snippet:
+
+~~~ markdown
+## Contents
+{:.no_toc}
+
+* ToC
+{:toc}
+~~~
+
+This is the kramdown way. The first tag, `{:.no_toc}` tells the processor not to add `## Contents` to the ToC. The second part creates an empty list and then tells the processor to replace it with a table of contents based on headers in the document. You can use this syntax in any page on the site that uses headers.
+
+The third way is slightly more involved, but very useful for long texts. If we add the table of contents to the YAML front matter of a page, Ed will activate the optional sidebar (`_includes/sidebar-opt.html`) and move the table of contents to a special sidebar for that page. *Narrative of the Life* uses this method for its table of content. If you would like to replicate this functionality in your own long texts, make sure to use the same syntax:
+
+~~~ yaml
+toc:
+- Title Page
+- Preface
+- Letter From Wendell Phillips
+- Chapter I
+- Chapter II
+~~~
+
+The internal links pointing to the right sections in your document are generated from the title names automatically. In order for the links to work the names on section headings must contain the same words as the section headers. The punctuation and capitalization is irrelevant. If you can figure out how Ed accomplishes this trick, you have graduated from the Ed school of minimal editions.
+
+---
+
 ## Tips and Tricks
 
-- The Table of Contents is produced automatically for all texts with the category 'toc'. To create your own table of contents make sure to include the `categories: toc` in your YAML front matter.
 - The folding sidebar menu is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This structure can allow you to add external links. If you don't have that many pages, you may choose to do all the links by hand.
+- For more hand-crafted layouts---such as [the title page in *The Narrative of the Life*]({{ site.baseurl }}/narrative.html#title-page)---you may choose to work directly with HTML. One of the great advantages of working with kramdown is that we have a lot of flexibility to mix HTML with the kramdown syntax. Note though, that even in the case of the title page, you can achieve these effects using kramdown syntax.
 - Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
 - You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
 - Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> <kbd>+</kbd> and <kbd>Command</kbd> <kbd>-</kbd>; or to leverage the power of Google's [site search operator](https://moz.com/blog/25-killer-combos-for-googles-site-operator) to search within your site. Part of the philosophy behind Ed is to avoid duplicating features that are already easily available in most web ecosystems. 
