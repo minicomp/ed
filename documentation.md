@@ -5,20 +5,10 @@ author: Alex Gil
 ---
 
 ## Contents
+{:.no_toc}
 
-- [Prerequisites](#prerequisites)
-- [Installing Ed: Easy](#installing-ed-easy)
-- [Installing Ed: Robust](#installing-ed-robust)
-- [Jekyll](#jekyll)
-- [Markdown and kramdown](#markdown-and-kramdown)
-- [Genres](#genres)
-- [Kramdown and HTML](#kramdown-and-html)
-- [Footnotes](#footnotes)
-- [Blockquotes](#blockquotes)
-- [Bibliographies](#bibliographies)
-- [Pages](#pages)
-- [Tips and Tricks](#tips-and-tricks)
-- [Publishing](#publishing)
+* ToC
+{:toc}
 
 ---
 
