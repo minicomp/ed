@@ -26,19 +26,14 @@ Jekyll does not run very well on Windows machines as of now. If you are using Wi
 
 The easy way to do this is not necessarily the more robust, and may simply not work on your system. The easy way could also be called the 'lucky' way. It will work if your system is ready for Ed. Two major caveats to keep in mind if you go the easy route: a) You may run into problems later when some Ed components need updating; and, b) You may run into conflicts if you run several Ruby environments for different projects. That said, if you just want to quickly try Ed, and you don't run into problems installing, this is perhaps the best approach.
 
-Open your terminal. Install the software needed to run Jekyll using the following commands:
 
-~~~ bash
-$ gem install jekyll
-$ gem install jekyll-scholar
-~~~
-
-
-Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed:
+Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed enter each of these lines into your terminal (remember to ignore the `$`):
 
 ~~~ bash
 $ git clone https://github.com/elotroalex/ed.git
 $ cd ed
+$ gem install bundler
+$ bundle install
 ~~~
 
 That's it. If at any point during this process you had an error you could not resolve, move on to the next section.
