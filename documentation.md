@@ -18,7 +18,7 @@ This documentation was built with beginners in mind, but has the necessary infor
 
 To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)." Working knowledge of HTML and CSS is also taken for granted. If you're new to HTML and CSS, you may want to check out the relevant courses on [codecademy.com](https://www.codecademy.com/learn/web).
 
-Jekyll does not run very well on Windows machines as of now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles on a system like [Hugo](https://gohugo.io/), which does work on Windows.
+Jekyll does not run very well on Windows machines as of now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles, and parts of our stylesheet, on a system like [Hugo](https://gohugo.io/), which does work on Windows.
 
 ---
 
@@ -27,7 +27,7 @@ Jekyll does not run very well on Windows machines as of now. If you are using Wi
 The easy way to do this is not necessarily the more robust, and may simply not work on your system. The easy way could also be called the 'lucky' way. It will work if your system is ready for Ed. Two major caveats to keep in mind if you go the easy route: a) You may run into problems later when some Ed components need updating; and, b) You may run into conflicts if you run several Ruby environments for different projects. That said, if you just want to quickly try Ed, and you don't run into problems installing, this is perhaps the best approach.
 
 
-Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed enter each of these lines into your terminal (remember to ignore the `$`):
+If you're using a Mac, make sure you have the appropriate version of [XCode command line tools](http://docwiki.embarcadero.com/RADStudio/XE4/en/Installing_the_Xcode_Command_Line_Tools_on_a_Mac) for your OSX. Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed. Enter each of these lines into your terminal (remember to ignore the `$`):
 
 ~~~ bash
 $ git clone https://github.com/elotroalex/ed.git
@@ -42,7 +42,7 @@ That's it. If at any point during this process you had an error you could not re
 
 ## Installing Ed: Robust
 
-The first step to install Ed is to download the source files from GitHub. To do so you must have git installed on your computer. You probably have git already, but if you don't, here are [some great instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get you started. Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
+The first step to install Ed is to download the source files from GitHub. To do so you must have git installed on your computer. You probably have git already, but if you don't, the easiest way is probably to install [Github Desktop](https://desktop.github.com/) (even though we will be using git and github from the terminal in this tutorial). Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed as well. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
 
 ~~~ bash
 $ git --version
@@ -60,13 +60,7 @@ At this point you should navigate inside your Ed project folder and stay there u
 $ cd ed
 ~~~
 
-Jekyll is a Ruby gem (Ruby's name for software packages). Besides Jekyll, Ed needs another gem to run: jekyll-scholar. I have provided a `Gemfile` that allows you to install the versions of jekyll and jekyll-scholar that I used to create Ed. Before you can use this `Gemfile`, you need to setup the right Ruby environment for Ed to run smoothly. The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, enter the following two lines into your terminal:
-
-~~~ bash
-$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-
-$ \curl -sSL https://get.rvm.io | bash -s stable --ruby
-~~~
+Jekyll is a Ruby gem (Ruby's name for software packages). Besides Jekyll, Ed needs another gem to run: jekyll-scholar. I have provided a `Gemfile` that allows you to install the versions of jekyll and jekyll-scholar that I used to create Ed. Before you can use this `Gemfile`, you need to setup the right Ruby environment for Ed to run smoothly. The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, follow the instructions on rvm's site. Remember to add `--ruby` at the end of the `curl` command to install ruby at the same time. 
 
 After the process runs succesfully, read the last few lines generated by the terminal. You will see final instructions for making rvm run. Once you finish the process, check to see if rvm is running by entering:
 
@@ -74,7 +68,7 @@ After the process runs succesfully, read the last few lines generated by the ter
 $ rvm --version
 ~~~
 
-If you don't get an error, you're ready for the next step. If you do get an error, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. If you're comfortable troubleshooting, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
+If you don't get an error, you're ready for the next step. If you do get an error, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/elotroalex/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
 
 The next step is to create a gemset for your jekyll projects. A gemset is a set of gems. If you don't create and use a gemset, every gem you install will be applied system-wide. This is not necessarily a bad thing, but if you will have several projects with several setups, this strategy will serve you well in the long run. To create a gemset:
 
@@ -112,7 +106,7 @@ If you don't get any errors, Ed should work at this point. To see if Ed is worki
 $ jekyll serve
 ~~~
 
-If you are running multiple Ruby environments, you can simplify your life by removing the `bundle exec`:
+If you are running multiple Ruby environments using bundler, you will need to add `bundle exec` to the command:
 
 ~~~ bash
 $ bundle exec jekyll serve
