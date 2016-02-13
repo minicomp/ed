@@ -50,6 +50,7 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
   bibliography_template: "{{reference}}"
+  relative: "/ed/bibliography.html"
 
   replace_strings: true
   join_strings:    true

@@ -3,6 +3,10 @@ _gh_pages
 _site
 .ruby-version
 
+# Sublime project files
+ed.sublime-project
+ed.sublime-workspace
+
 
 # Numerous always-ignore extensions
 *.diff

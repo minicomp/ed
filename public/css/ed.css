@@ -137,9 +137,11 @@ h3.masthead-title {
 
 .poetry ul, ul.poetry {
 	list-style: none;
+	list-style-type: none;
 	padding-left: 1rem;
 	text-indent: -1rem;
 }
+
 
 /* This snippet helps us reset the margin for all spans with the indent- class */
 
