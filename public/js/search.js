@@ -5,21 +5,22 @@
 
 //Create the lunr index for the search
 
-var index = lunr(function () {
-  this.field('title')
-  this.field('author')
-  this.field('layout')
-  this.field('content')
-  this.ref('id')
+var index = elasticlunr(function () {
+  this.addField('title')
+  this.addField('author')
+  this.addField('layout')
+  this.addField('content')
+  this.setRef('id')
 });
 
 //Add to this index the proper metadata from the Jekyll content
 
 {% assign count = 0 %}{% for post in site.posts %}
-index.add({
+index.addDoc({
   title: {{post.title | jsonify}},
   author: {{post.author | jsonify}},
   layout: {{post.layout | jsonify}},
+  content: {{post.content | jsonify | strip_html}},
   id: {{count}}
 });{% assign count = count | plus: 1 %}{% endfor %}
 console.log( jQuery.type(index) );
