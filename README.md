@@ -14,6 +14,7 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 ## Sample Ed editions.
 
 - [Our sample site](http://elotroalex.github.io/ed/) is the first edition built with Ed.
+- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
 
 
 
