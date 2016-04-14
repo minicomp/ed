@@ -81,13 +81,13 @@ If you don't get an error, you're ready for the next step. If you do get an erro
 The next step is to create a gemset for your jekyll projects. A gemset is a set of gems. If you don't create and use a gemset, every gem you install will be applied system-wide. This is not necessarily a bad thing, but if you will have several projects with several setups, this strategy will serve you well in the long run. To create a gemset:
 
 ~~~ bash
-$ rvm gemset create edgems
+$ rvm gemset create ed
 ~~~
 
 To use the gemset you just created:
 
 ~~~ bash
-$ rvm gemset use edgems
+$ rvm gemset use ed
 ~~~
 
 N.B. Everytime you open a new tab on your terminal, you will need to declare the gemset you want to use, or else it will revert to `(default)`.
