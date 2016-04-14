@@ -90,7 +90,7 @@ To use the gemset you just created:
 $ rvm gemset use ed
 ~~~
 
-N.B. Everytime you open a new tab on your terminal, you will need to declare the gemset you want to use, or else it will revert to `(default)`.
+N.B. Everytime you open a new tab or window on your terminal you need to declare your gemset using `rvm gemset use ed`, or else it will revert to `(default)`.
 
 Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler. Bundler is a gem that allows you to install many gems at the same time using Gemfiles, which is a simple list of specific gems that lives in your project folder. Once you install it, you will be ready to run the Gemfile I provided in the source files. To install Bundler:
 
@@ -106,7 +106,6 @@ You're very close. Now that Bundler is installed, the final step is to install t
 $ bundle install
 ~~~
 
-N.B. Everytime you open a new tab or window on your terminal you need to declare your gemset `rvm gemset use edgems`.
 
 If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. You can build the first version of your site and run the jekyll server at the same time by entering:
 
@@ -130,9 +129,9 @@ Copy the url from your terminal log and paste it into your browser of choice (I 
 
 Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll, I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works. 
 
-Once you have gone through these tutorials, you can get started using Ed by replacing the sample texts included in in the `_texts` folder in Ed with your own texts. Remember to always and only edit files in Ed using [a plain text editor](https://en.wikipedia.org/wiki/Text_editor), and *not* a word processor. I'm composing this file using a plain text editor called [Sublime Text](http://www.sublimetext.com/).  
+Once you have gone through these tutorials, you can get started using Ed by replacing the sample texts included in in the `_texts` folder in Ed with your own edited texts. Remember to always and only edit files in Ed using [a plain text editor](https://en.wikipedia.org/wiki/Text_editor), and *not* a word processor. I'm composing this file using a plain text editor called [Sublime Text](http://www.sublimetext.com/).  
 
-An easy way to make new texts is to copy an existing text, replace the content and rename the file. Remember to always use the jekyll convention for naming files `the-title.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). YAML stands for "YAML Ain't Markup Language"---no disrespect to XML---and it's the main way that Jekyll handles named data. Here's an example of YAML front matter:
+An easy way to make new texts is to copy an existing text, replace the content and rename the file. Remember to always use the jekyll convention for naming files: `your-title.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). YAML stands for "YAML Ain't Markup Language"---no disrespect to XML---and it's the main way that Jekyll handles named data. Here's an example of YAML front matter:
 
 ~~~ yaml
 ---
@@ -156,7 +155,7 @@ Our version of Jekyll uses a special Markdown processor called kramdown. The pro
 
 ## Genres
 
-Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in it's stylesheets that allow you to deal with some of the peculiarities of poetry layouts.
+Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. The templates that govern how these genres are displayed can be found in the `_layouts` folder. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in its stylesheets that allow you to deal with some of the peculiarities of poetry layouts.
 
 To indicate lines in poetry we use the line syntax from Markdown:
 
@@ -184,7 +183,7 @@ The `-` at the beginning of each line indicates that these are lines. The `{:.in
 
 The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
 
-*Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. A future release may include a special sidebar for a long narrative table of contents.
+*Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. 
 
 --- 
 
@@ -263,11 +262,13 @@ The `{:.poetry}` tag at the end tells the processor to think of the lines above 
 
 ## Pages
 
-Your editions are treated as collections in Ed. Other web pages in your site exist outside the `_texts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
+Your editions are treated as [collections](https://jekyllrb.com/docs/collections/) in Ed. Other web pages in your site exist outside the `_texts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
 
 You will notice that the homepage in particular has a `.html` file ending instead of a `.md` ending. All template files in Jekyll are HTML, and the index behaves as a template file. Although these files are mostly written in HTML, notice that they still contain YAML front matter and liquid tags. To edit the homepage replace the content on the file shipped with Ed, making sure that your changes to `index.html` are written in valid HTML. The same goes for the template files in the `_layouts` folder.
 
-Besides the homepage, Ed ships with an About page, `about.md` and a Bibliography page, `bibliography.md`. As you can see, these are regular `.md` files. You can replace the contents of each file using normal kramdown syntax. This also applies to any new page you create, which you should remember to save with an `.md` extension. When editing the `bibliography.md` file, be careful not to replace the liquid tag that generates your bibliography, unless you don't want to have a bibliography at all.
+Ed also comes with a search page, `search.html`. This page implements [elastic lunr](http://elasticlunr.com/), "a lightweight full-text search engine in Javascript for browser search and offline search." This simple search page can be useful if you have large collections of texts. If you don't, and don't feel the need, go ahead and delete it along with the `public/js` folder.
+
+Besides the homepage and the search page, Ed ships with an About page, `about.md` and a documentation page, `documentation.md`, i.e. this page. As you can see, these are regular `.md` files. You can replace the contents of each file using normal kramdown syntax. This also applies to any new page you create, which you should remember to save with an `.md` extension. When editing the `bibliography.md` file, be careful not to replace the liquid tag that generates your bibliography, unless you don't want to have a bibliography at all.
 
 ---
 
@@ -293,7 +294,7 @@ You will find three kinds of Tables of Content in Ed. The first example is in th
 
 ~~~
 
-As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not familiar with a programming language, you may need to start elsewhere. I recommend Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place. The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."
+As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not already familiar with programming languages, you may need to start elsewhere. I recommend learning Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place (it's also the first programming language I used, so I'm biased). The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."
 
 The second kind of table of content is exemplified in this documentation. If you open the source file for the documentation, you will notice at the top this snippet:
 
