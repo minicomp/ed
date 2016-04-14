@@ -9,7 +9,8 @@ permalink: none
 markdown: kramdown
 
 collections:
-- texts
+  texts:
+    output: true
 
 kramdown:
   auto_ids:       true
