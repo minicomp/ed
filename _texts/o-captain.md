@@ -57,4 +57,4 @@ source: Poetry Foundation
 
 [^fn2]: The bugle is a small trumpet implicated in the military industrial complex.
 
-[^fn3]: An example of a footnote with a citation. 
+[^fn3]: Another footnote. Why not? 
