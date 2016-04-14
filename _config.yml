@@ -8,6 +8,9 @@ permalink: none
 # Markdown specs
 markdown: kramdown
 
+collections:
+- texts
+
 kramdown:
   auto_ids:       true
   footnote_nr:    1
