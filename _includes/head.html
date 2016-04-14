@@ -21,7 +21,9 @@
   <meta property="og:author" content="{{ page.author }}"/>
   <meta property="og:book:release_date" content="{{ page.publication-date }}"/>
   <meta property="og:type" content="website" />
-  
+  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:image" content="{{ site.baseurl }}/public/favicon.ico"/>
+   
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
