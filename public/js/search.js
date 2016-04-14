@@ -15,23 +15,23 @@ var index = elasticlunr(function () {
 
 //Add to this index the proper metadata from the Jekyll content
 
-{% assign count = 0 %}{% for post in site.posts %}
+{% assign count = 0 %}{% for text in site.texts %}
 index.addDoc({
-  title: {{post.title | jsonify}},
-  author: {{post.author | jsonify}},
-  layout: {{post.layout | jsonify}},
-  content: {{post.content | jsonify | strip_html}},
+  title: {{text.title | jsonify}},
+  author: {{text.author | jsonify}},
+  layout: {{text.layout | jsonify}},
+  content: {{text.content | jsonify | strip_html}},
   id: {{count}}
 });{% assign count = count | plus: 1 %}{% endfor %}
 console.log( jQuery.type(index) );
 
 // Builds reference data (maybe not necessary for us, to check)
 
-var store = [{% for post in site.posts %}{
-  "title": {{post.title | jsonify}},
-  "author": {{post.author | jsonify}},
-  "layout": {{ post.layout | jsonify }},
-  "link": {{post.url | jsonify}},
+var store = [{% for text in site.texts %}{
+  "title": {{text.title | jsonify}},
+  "author": {{text.author | jsonify}},
+  "layout": {{ text.layout | jsonify }},
+  "link": {{text.url | jsonify}},
 }
 {% unless forloop.last %},{% endunless %}{% endfor %}]
 
