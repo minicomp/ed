@@ -14,118 +14,22 @@
  */
 
 
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
 
 
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-body {
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 /*a {
   color: #268bd2;
   text-decoration: none;
 }*/
-a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-
-/* Body text */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-strong {
-  color: #303030;
-}
 
 
-/* Lists */
-ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 
-dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
-}
+
+
+
+
 
 /* Misc */
 hr {
@@ -147,68 +51,9 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-/* Code */
-code,
-pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
-}
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
 
-/* Pygments via Jekyll */
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-.highlight pre {
-  margin-bottom: 0;
-}
 
-/* Gist via GitHub Pages */
-.gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
-}
-.gist .markdown-body {
-  padding: 15px;
-}
-.gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-.gist .gist-file .gist-data {
-  font-size: .8rem !important;
-  line-height: 1.4;
-}
-.gist code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border-radius: 0;
-}
+
 
 /* Quotes */
 blockquote {
@@ -251,6 +96,7 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/* TO DO */
 
 /*
  * Custom type
@@ -320,6 +166,7 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+/* TO DO */
 
 /*
  * Posts and pages
@@ -332,6 +179,7 @@ tbody tr:nth-child(odd) th {
 .post {
   margin-bottom: 4em;
 }
+
 
 /* Blog post or page title */
 /*.post-title a,*/
@@ -351,81 +199,4 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
-}
-
-/* Related posts */
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
-}
-.related-posts {
-  padding-left: 0;
-  list-style: none;
-}
-.related-posts h3 {
-  margin-top: 0;
-}
-.related-posts li small {
-  font-size: 75%;
-  color: #999;
-}
-.related-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none;
-}
-.related-posts li a:hover small {
-  color: inherit;
-}
-
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-
-.pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
-}
-
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
-}
-.pagination-item:first-child {
-  margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
-}
-
-@media (min-width: 30em) {
-  .pagination {
-    margin: 3rem 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 50%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
 }

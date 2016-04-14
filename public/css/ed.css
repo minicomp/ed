@@ -10,24 +10,88 @@
  * https://github.com/elotroalex/ed.
  */
 
+ /*
+ * Contents
+ *
+ * General
+ * Custom type
+ * Messages
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
 
+ /*
+ * General
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
 .content {
 	margin-bottom: 4rem;
 }
+/* links */
 
-/* General */
+a, .post-title a {
+  color: #aa3311;
+  text-decoration: none;
+}
+
+a strong {
+  color: inherit;
+}
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Headings */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-bottom: .5rem;
   font-weight: 400; 
   font-size: 1.5rem;
   color: #666;
   letter-spacing: -.025rem;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -39,6 +103,7 @@ h1.post-title {
 }
 
 h2 {
+	margin-top: 1rem;
 	font-size: 1.2rem;
 }
 
@@ -46,31 +111,69 @@ h3, h4, h5 {
 	font-size: 1rem;
 }
 
+h3 {
+  margin-top: 1.5rem;
 
-a, .post-title a {
-  color: #aa3311;
-  text-decoration: none;
 }
 
-div.poem, div.narrative {
-	margin-bottom: 5rem;
+h4, h5, h6 {
+  margin-top: 1rem;
 }
 
-div.toc {
-	margin-bottom: 4rem;
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
+strong {
+  color: #303030;
+}
+
+
+/* Lists */
 ul {
 	list-style: circle;
 }
 
-blockquote {
-	padding: 0rem 1.5rem 0rem 2rem;
-	margin: 0 0 20px 0; 
-	color: inherit;
-	border-left: none;
-	font-style: italic;
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+
+
+
+hr {
+  margin-top: 60px;
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+
+/* ED special layouts */
 
 p.centered {
 	text-align: center;
@@ -88,9 +191,25 @@ p.small {
 	font-size: 0.8rem;
 }
 
-hr {
-	margin-top: 60px;
+div.poem, div.narrative {
+	margin-bottom: 5rem;
 }
+
+div.toc {
+	margin-bottom: 4rem;
+}
+
+
+
+blockquote {
+	padding: 0rem 1.5rem 0rem 2rem;
+	margin: 0 0 20px 0; 
+	color: inherit;
+	border-left: none;
+	font-style: italic;
+}
+
+
 
 
 
