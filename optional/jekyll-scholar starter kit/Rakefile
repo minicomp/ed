@@ -1,4 +1,4 @@
-# Rakefile provided by http://ed.sorryapp.com/edging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html
+# Rakefile provided by http://blog.sorryapp.com/edging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html
 
 # To run: rake ed:publish
 

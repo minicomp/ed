@@ -395,61 +395,21 @@ baseurl: ''
 
 ## Optional: Bibliographies
 
-Automatically generated bibliographies are an optional feature in Ed. To help us style and generate bibliographies and citations, Ed is well suited to use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
+Automatically generated bibliographies is an optional feature in Ed. To help us style and generate bibliographies and citations, Ed is well suited to use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
 
 If you will not need a bibliography, or your bibliography is small enough that you feel it would be easier to write it out directly, you may want to skip using jekyll-scholar. Installing jekyll-scholar and working with may be a bit difficult for beginners. If you can get over this hurdle, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work.
 
-If you decide to use, you must begin by installing the gem. To do so, you must add the following line to the Gemfile (make sure to check for [the latest release](https://github.com/inukshuk/jekyll-scholar/releases) to add to the end of the line):
+If you decide to use jekyll-scholar, you must begin by moving the contents of the `jekyll-scholar starter kit` in your `optional` folder into the root folder. This will effectively replace the original `_config.yml` and `Gemfile` files, and add a `_bibliography` folder, and the `bibliography.md` and `Rakefile` files. To enable jekyll-scholar you must re-run `bundle install` again.
 
-`gem 'jekyll-scholar', '~>5.7.2'`
+If everything goes smoothly, you should be able to start using jekyll-scholar at this point. The first thing you may want to do is provide Jekyll with your own bibliographic information in the form of a `.bib` file to replace the content of the `references.bib` file we've provided in the `_bibliography` folder. 
 
-Run `bundle install` again.
+To make it easy to create your own version of this file and to keep track of your bibliography for your project, in general I recommend you use [Zotero](http://zotero.org/). To export from Zotero in this format select the references you need from within your Zotero library, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder. You are, of course, free to create your `references.bib` file using any method you prefer as long as it is a BibTeX file.
 
-If everything goes smoothly, you must now add (and perhaps configure) the following lines to your `_config.yml` file:
-
-~~~ yaml
-
-# Gems
-gems: ['jekyll/scholar']
-
-# Jekyll Scholar configuration
-scholar:
-  style: modern-language-association
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  group_by: none
-  group_order: ascending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
-  relative: "/ed/bibliography.html"
-
-  replace_strings: true
-  join_strings:    true
-
-  use_raw_bibtex_entry: false
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
-
-~~~
-
-At this point you need to create a folder called `_bibliography` on your root folder, i.e. as a sibling of `_includes`, `_layouts`, etc. This is where your `references.bib` file will live. This is the file that contains all the bibliographical information for the works you cite in your project. To make it easy to create this file, I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder that you just created. You are, of course, free to create your `references.bib` file using any method you prefer.
-
-Because as textual editors we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed also needs a separate page for your Bibliography or works cited. Create a simple markdown page with a default layout on the YAML header, and add the following liquid tag, where you would like your bibliography to display: 
+Because as textual editors we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed also needs a separate page for your Bibliography or works cited. This is the role of the `bibliography.md` file. Feel free to edit the sample text, but make sure to leave the following line intact: 
 
 <pre>
 &#123;% bibliography %&#125;
 </pre>
-
-Note that these instructions privilege MLA style. To use Chicago style or more advanced citation features, refer to the documentation on jekyll-scholar. 
 
 To link your citations to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar:
 
@@ -460,9 +420,13 @@ To link your citations to the bibliography page, instead of writing them by hand
 Here's the breakdown:
 
 * `cite` is the jekyllscholar command. 
-* `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
+* `cesaire_discourse_2001` is the unique ID for Césaire's *Discourse on Colonialism* entry included in the reference.bib file.
 
-Note on publishing your site: If you install jekyll-scholar, or most other plugins in Jekyll you will need a workaround to publish your site on Github Pages, which runs in 'safe mode.' I've provided a `Rakefile` that will help you accomplish this task. Do do so you would switch to your `gh-pages` branch and run the following command `rake ed:publish`
+Note that our jekyll-scholar starter kit comes ready for MLA style. To use Chicago style or more advanced citation features, refer to the documentation on jekyll-scholar to make the appropriate changes. 
+
+**Publishing your site on Github Pages with jekyll-scholar**
+
+If you install jekyll-scholar, or most other plugins in Jekyll, you will need a workaround to publish your site on Github Pages, which only runs in 'safe mode.' I've provided a slightly modified version of a `Rakefile` originally created by [Robert Rawlins](https://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that will help you accomplish this task. Once you are ready to publish, switch to your `gh-pages` branch and run the following command `rake ed:publish`.
 
 
 ---
