@@ -40,4 +40,33 @@ version:             0.0.5
 # Exclude optional folder
 exclude: [optional]
 
+# Gems
+gems: ['jekyll/scholar']
+
+# Scholar
+scholar:
+  style: modern-language-association
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  relative: "/ed/bibliography.html"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 

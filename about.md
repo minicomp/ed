@@ -10,6 +10,13 @@ Ed is a [Jekyll](https://jekyllrb.com/
 
 Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme based on [Poole](http://getpoole.com), "the Jekyll butler," both created by [Mark Otto](<https://github.com/mdo) and distributed with an MIT license. Thanks to Mark Otto for his helpful streamlining. 
 
+## Sample Ed editions.
+
+- [Our sample site](http://elotroalex.github.io/ed/) is the first edition built with Ed.
+- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
+
+
+
 ## Current Features
 - Templates for narrative, drama and poetry
 - Responsive design for mobile phones, tablets and PCs.
@@ -18,10 +25,13 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 - Easier for digital archives and libraries to preserve
 - Open source, open access
 - Unobtrusive footnotes
-- Works well with Zotero
-- Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
-- Annotations via [hypothes.is](https://hypothes.is/)
+- Metadata in Dublin Core and OpenGraph i.e. Works well with Zotero, libraries and social media.
 - Automatic table of content generation
+- Simple search functionality
+- Optional: Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
+- Optional: Annotations via [hypothes.is](https://hypothes.is/)
 
 
+## Installing and using Ed
 
+To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation.html).
