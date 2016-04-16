@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#">Return to Top</a>    
     {% for node in page.toc %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#{{ node | slugify }}">{{ node }}</a>
     {% endfor %}
