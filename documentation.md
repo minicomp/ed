@@ -435,5 +435,5 @@ That should do it. If you have suggestions on how to improve Ed, make sure to le
 
 Happy editing!
 
-Alex Gil 
+Alex Gil  
 April 2016
