@@ -441,31 +441,28 @@ scholar:
 
 ~~~
 
-At this point you need to create a folder called `_bibliography` on your root folder, i.e. as a sibling of `_includes`, `_layouts`, etc.
+At this point you need to create a folder called `_bibliography` on your root folder, i.e. as a sibling of `_includes`, `_layouts`, etc. This is where your `references.bib` file will live. This is the file that contains all the bibliographical information for the works you cite in your project. To make it easy to create this file, I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder that you just created. You are, of course, free to create your `references.bib` file using any method you prefer.
 
-N.B. If you install jekyll-scholar, or most other plugins in Jekyll you will need a workaround to publish your site on Github Pages, which runs in 'safe mode.' I've provided a `Rakefile` that will help you accomplish this task. Do do so you would switch to your `gh-pages` branch and run the following command `rake ed:publish`
-
-I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. This will make it easy for you to generate the `reference.bib` (a BibLaTeX file) you will need to make jekyll-scholar work with Ed. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to reference.bib and move it into the `_bibliography` that you just created. You are, of course, free to create your `.bib` file using any method you prefer.
-
-Because we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed needs a separate page for your Bibliography or works cited. Create a simple markdown page with a default layout on the YAML header, and add the following liquid tag, where you would like your bibliography to display: 
+Because as textual editors we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed also needs a separate page for your Bibliography or works cited. Create a simple markdown page with a default layout on the YAML header, and add the following liquid tag, where you would like your bibliography to display: 
 
 <pre>
 &#123;% bibliography %&#125;
 </pre>
 
+Note that these instructions privilege MLA style. To use Chicago style or more advanced citation features, refer to the documentation on jekyll-scholar. 
 
-If you want your inline citations to link to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar. In order to point to the bibliography page we need to take advantage of the `--relative` flag in jekyll-scholar:
+To link your citations to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar:
 
 <pre>
-&#123;% cite cesaire_discourse_2001 -r %&#125;
+&#123;% cite cesaire_discourse_2001 %&#125;
 </pre>
 
 Here's the breakdown:
 
 * `cite` is the jekyllscholar command. 
 * `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
-* `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
-* `/bibliography.html`, the relative path of our bibliography.
+
+Note on publishing your site: If you install jekyll-scholar, or most other plugins in Jekyll you will need a workaround to publish your site on Github Pages, which runs in 'safe mode.' I've provided a `Rakefile` that will help you accomplish this task. Do do so you would switch to your `gh-pages` branch and run the following command `rake ed:publish`
 
 
 ---
@@ -473,3 +470,6 @@ Here's the breakdown:
 That should do it. If you have suggestions on how to improve Ed, make sure to leave us a line on [our issues page](https://github.com/elotroalex/ed/issues), or send us a pull request.
 
 Happy editing!
+
+Alex Gil 
+April 2016
