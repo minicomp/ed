@@ -395,7 +395,7 @@ baseurl: ''
 
 ## Optional: Bibliographies
 
-Automatically generated bibliographies are an optional feature in Ed. To help us style and generate bibliographies and citations, Ed uses the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
+Automatically generated bibliographies are an optional feature in Ed. To help us style and generate bibliographies and citations, Ed is well suited to use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
 
 If you will not need a bibliography, or your bibliography is small enough that you feel it would be easier to write it out directly, you may want to skip using jekyll-scholar. Installing jekyll-scholar and working with may be a bit difficult for beginners. If you can get over this hurdle, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work.
 
