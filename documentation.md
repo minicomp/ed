@@ -42,7 +42,7 @@ That's it. To see if Ed is working properly we will take advantage of Jekyll's b
 $ jekyll serve
 ~~~
 
-If at any point during this process you had an error you could not resolve, move on to the next section. If the site was rendered fine, copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/Ed`. At this point you should be looking at your very own working version of Ed:
+If at any point during this process you had an error you could not resolve, move on to the next section. If the site was rendered fine, copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
@@ -119,7 +119,7 @@ If you are running multiple Ruby environments using bundler, you will need to ad
 $ bundle exec jekyll serve
 ~~~
 
-Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/Ed`. At this point you should be looking at your very own working version of Ed:
+Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
