@@ -7,8 +7,6 @@ One of our most pressing and ever revolving needs as scholars is to pass on our 
 
 As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and front end, and the learning curves for the user and the producer. Out of-the-box, this theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes and a bibliography without breaking the bank. In our estimate, these are the two most immediately useful type of editions for editors and readers. An edition produced with Ed consists of static pages whose rate of decay is substantially lower than database-driven systems. As an added bonus, these static pages require less bandwith. Our hope is that our approach can help beginners or veterans deploy beautiful editions with less effort, that it can help us teach a 'full stack' [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/index.md), allow us to care for our projects at less cost, and perhaps, just perhaps, allow us to generate high-quality editions on github.io in large quantities based on the [git-lit](http://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming for you, Kindle! 
 
-We hope that Ed can help you deploy your own minimal editions. 
-
 
 ## Sample Ed editions.
 
@@ -25,11 +23,11 @@ We hope that Ed can help you deploy your own minimal editions.
 - Easier for digital archives and libraries to preserve
 - Open source, open access
 - Unobtrusive footnotes
-- Metadata in Dublin Core and OpenGraph i.e. Works well with Zotero, libraries and social media.
+- Metadata in Dublin Core and OpenGraph to play nice with Zotero, libraries and social media.
 - Automatic table of content generation
 - Simple search functionality
-- Optional: Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
-- Optional: Annotations via [hypothes.is](https://hypothes.is/)
+- Annotations via [hypothes.is](https://hypothes.is/)
+- Optional: Ability to generate well-formatted bibliographies and linked citations
 
 
 ## Installing and using Ed
