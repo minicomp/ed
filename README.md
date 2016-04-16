@@ -1,8 +1,12 @@
 # Ed: A Jekyll Theme for Minimal Editions
 
-Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility, ease and flexibility. In other words, the technology is easier to learn or teach and can produce beautifully rendered scholarly or reading editions of texts.
+Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility, durability, ease and flexibility.
+
+---
 
 ![Sample Ed screenshot](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
+
+---
 
 ## Introduction
 
