@@ -1,6 +1,6 @@
-# Rakefile provided by http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html
+# Rakefile provided by http://ed.sorryapp.com/edging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html
 
-# To run: rake blog:publish
+# To run: rake ed:publish
 
 # Require jekyll to compile the site.
 
@@ -10,7 +10,7 @@ require "jekyll"
 require 'tmpdir'
 
 # Github pages publishing.
-namespace :blog do
+namespace :ed do
   #
   # Because we are using 3rd party plugins for jekyll to manage the asset pipeline
   # and suchlike we are unable to just branch the code, we have to process the site
@@ -19,9 +19,9 @@ namespace :blog do
   # We built this little rake task to help make that a little bit eaiser.
   #
 
-  # Usaage:
-  # bundle exec rake blog:publish
-  desc "Publish blog to gh-pages"
+  # Usage:
+  # bundle exec rake ed:publish
+  desc "Publish ed to gh-pages"
   task :publish do
     # Compile the Jekyll site using the config.
     Jekyll::Site.new(Jekyll.configuration({

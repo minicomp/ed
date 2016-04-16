@@ -393,6 +393,83 @@ baseurl: ''
 
 ---
 
+## Optional: Bibliographies
+
+Automatically generated bibliographies are an optional feature in Ed. To help us style and generate bibliographies and citations, Ed uses the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
+
+If you will not need a bibliography, or your bibliography is small enough that you feel it would be easier to write it out directly, you may want to skip using jekyll-scholar. Installing jekyll-scholar and working with may be a bit difficult for beginners. If you can get over this hurdle, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work.
+
+If you decide to use, you must begin by installing the gem. To do so, you must add the following line to the Gemfile (make sure to check for [the latest release](https://github.com/inukshuk/jekyll-scholar/releases) to add to the end of the line):
+
+`gem 'jekyll-scholar', '~>5.7.2'`
+
+Run `bundle install` again.
+
+If everything goes smoothly, you must now add (and perhaps configure) the following lines to your `_config.yml` file:
+
+~~~ yaml
+
+# Gems
+gems: ['jekyll/scholar']
+
+# Jekyll Scholar configuration
+scholar:
+  style: modern-language-association
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  relative: "/ed/bibliography.html"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+~~~
+
+At this point you need to create a folder called `_bibliography` on your root folder, i.e. as a sibling of `_includes`, `_layouts`, etc.
+
+N.B. If you install jekyll-scholar, or most other plugins in Jekyll you will need a workaround to publish your site on Github Pages, which runs in 'safe mode.' I've provided a `Rakefile` that will help you accomplish this task. Do do so you would switch to your `gh-pages` branch and run the following command `rake ed:publish`
+
+I recommend you use [Zotero](http://zotero.org/) to keep track of your bibliography for your project. This will make it easy for you to generate the `reference.bib` (a BibLaTeX file) you will need to make jekyll-scholar work with Ed. To export from Zotero in this format all you need is to select the references you need, right click and select `export in...` and choose the BibLaTeX format. Rename your file to reference.bib and move it into the `_bibliography` that you just created. You are, of course, free to create your `.bib` file using any method you prefer.
+
+Because we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed needs a separate page for your Bibliography or works cited. Create a simple markdown page with a default layout on the YAML header, and add the following liquid tag, where you would like your bibliography to display: 
+
+<pre>
+&#123;% bibliography %&#125;
+</pre>
+
+
+If you want your inline citations to link to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar. In order to point to the bibliography page we need to take advantage of the `--relative` flag in jekyll-scholar:
+
+<pre>
+&#123;% cite cesaire_discourse_2001 -r %&#125;
+</pre>
+
+Here's the breakdown:
+
+* `cite` is the jekyllscholar command. 
+* `cesaire_discourse_2001` is the unique ID for Césaire's Discours on Colonialism included in the reference.bib file. 
+* `-r` is short for `--relative`, a flag signalling jekyll-scholar that we're about to provide it with a relative link path.
+* `/bibliography.html`, the relative path of our bibliography.
+
+
+---
+
 That should do it. If you have suggestions on how to improve Ed, make sure to leave us a line on [our issues page](https://github.com/elotroalex/ed/issues), or send us a pull request.
 
 Happy editing!

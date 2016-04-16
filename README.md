@@ -26,10 +26,12 @@ Ed is built on top of [Lanyon](https://github.com/poole/lanyon), a Jekyll theme 
 - Easier for digital archives and libraries to preserve
 - Open source, open access
 - Unobtrusive footnotes
-- Works well with Zotero
-- Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
-- Annotations via [hypothes.is](https://hypothes.is/)
+- Metadata in Dublin Core and OpenGraph i.e. Works well with Zotero, libraries and social media.
 - Automatic table of content generation
+- Simple search functionality
+- Optional: Ability to generate well-formatted bibliographies and linked citations using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) by [Sylvester Keil](https://github.com/inukshuk/)
+- Optional: Annotations via [hypothes.is](https://hypothes.is/)
+
 
 ## Installing and using Ed
 
