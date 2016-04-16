@@ -1,8 +1,11 @@
 ---
-layout: default
----
+layout: page
+title: Search
+--- 
 
-<form action="get" id="site_search"><input id="search" type="text"></input></form>
+<form id="site_search">
+<div>Search throught the corpus</div><input id="search" type="text"></input></form>
+
 <div id="results"></div>
 <ul id="search_results"></ul>
 <script src="{{site.baseurl}}/public/js/elasticlunr.min.js"></script>

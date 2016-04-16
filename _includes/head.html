@@ -1,13 +1,13 @@
 <head>
   <!-- Canonical link to help search engines -->
-  <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}"/>
 
   <!-- Basic meta elements -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
 
   <!--   Dublin Core metadata for Zotero -->  
   <meta name="DC.title" content="{{ page.title }}" />
@@ -15,8 +15,15 @@
   <meta name="DC.date" content="2016" />
   <meta name="DC.rights" content="{{ page.rights }}" />
   <meta name="DC.source" content="{{ site.title }}" />
-
-
+  
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:author" content="{{ page.author }}"/>
+  <meta property="og:book:release_date" content="{{ page.publication-date }}"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}"/>
+  <meta property="og:image" content="{{ site.baseurl }}/public/favicon.ico"/>
+   
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
@@ -26,16 +33,16 @@
   </title>
 
   <!-- CSS links -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/ed.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/ed.css"/>
  
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png"/>
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico"/>
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"/>
 </head>
