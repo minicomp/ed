@@ -8,7 +8,7 @@ source: Project Guttenberg
 toc:
 - Title Page
 - Preface
-- Letter From Wendell Phillips, Esq
+- Letter From Phillips
 - Chapter I
 - Chapter II
 - Chapter III
