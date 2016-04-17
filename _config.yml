@@ -38,6 +38,6 @@ author:
 version:             0.0.4
 
 # Exclude optional folder
-exclude: [optional]
+exclude: [optional, vendor]
 
 
