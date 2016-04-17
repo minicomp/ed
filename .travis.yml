@@ -5,8 +5,8 @@ rvm:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:
-- jekyll build
-- htmlproofer ./_site --disable-external
+- bundle exec jekyll build
+- bundle exec htmlproofer ./_site --disable-external
 
 # branch whitelist, only for GitHub Pages
 branches:
