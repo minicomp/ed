@@ -1,6 +1,6 @@
 # Ed: A Jekyll Theme for Minimal Editions
 
-[![Build Status](https://travis-ci.org/elotroalex/ed.svg?branch=master)](https://travis-ci.org/elotroalex/ed)
+[![Build Status](https://travis-ci.org/elotroalex/ed.svg?branch=gh-pages)](https://travis-ci.org/elotroalex/ed)
 
 
 ![Sample Ed screenshot](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
