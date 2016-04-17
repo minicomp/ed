@@ -96,9 +96,7 @@ Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler.
 
 ~~~ bash
 $ gem install bundler
-~~~
-
-If you ran into problems following these instructions so far, you should try a more detailed walkthrough. Here’s [a great tutorial](https://www.chapterthree.com/blog/ruby-rvm-gemsets-and-bundlergemfiles) on how to do both rvm and Bundler from Rob Decker. 
+~~~ 
 
 You're very close. Now that Bundler is installed, the final step is to install the right version of Jekyll. To do so run the Gemfile this way (remember you must be inside the `ed` folder for this to work):
 
@@ -381,7 +379,7 @@ $ git push origin gh-pages
 
 You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
 
-**A note on your base url**
+**<span id="a-note-on-your-base-url">A note on your base url</span>**
 
 When you publish on a subfolder—automatic on GitHub pages—many of your links will break unless you indicate the name of your sub-folder in the `baseurl` value in your `_config.html` file. In addition, you need to make sure that your site-wide links (your links to your CSS files, for example) are preceded by the `{{ site.baseurl }}` tag. The base Ed install already uses this system, so you can simply replace the value `/ed` in your `baseurl` to `/your-project-slug`.
 
