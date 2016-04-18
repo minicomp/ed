@@ -52,8 +52,6 @@ source: Poetry Foundation
 	> - But we'll have our wings and the wind will be with us
 	> - That's enough for me, that's enough for me.
 	{:.poetry}
-	
-	She has never flown since.
 
 [^fn2]: The bugle is a small trumpet implicated in the military industrial complex.
 
