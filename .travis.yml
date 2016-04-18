@@ -5,9 +5,11 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-install: gem install jekyll html-proofer
-script: 
-- jekyll serve -d _site/ed
+
+script:
+- bundle exec jekyll build -d _site/ed
+- bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+
 
 # branch whitelist, only for GitHub Pages
 branches:
@@ -20,3 +22,5 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler

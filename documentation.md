@@ -96,9 +96,7 @@ Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler.
 
 ~~~ bash
 $ gem install bundler
-~~~
-
-If you ran into problems following these instructions so far, you should try a more detailed walkthrough. Here’s [a great tutorial](https://www.chapterthree.com/blog/ruby-rvm-gemsets-and-bundlergemfiles) on how to do both rvm and Bundler from Rob Decker. 
+~~~ 
 
 You're very close. Now that Bundler is installed, the final step is to install the right version of Jekyll. To do so run the Gemfile this way (remember you must be inside the `ed` folder for this to work):
 
@@ -326,7 +324,7 @@ The internal links pointing to the right sections in your document are generated
 ## Tips and Tricks
 
 - The folding sidebar menu is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This structure can allow you to add external links. If you don't have that many pages, you may choose to do all the links by hand.
-- For more hand-crafted layouts---such as [the title page in *The Narrative of the Life*]({{ site.baseurl }}/narrative.html#title-page)---you may choose to work directly with HTML. One of the great advantages of working with the kramdown processor is that we have a lot of flexibility to mix HTML with the kramdown syntax. Note though, that even in the case of the title page, you can achieve these effects using kramdown syntax.
+- For more hand-crafted layouts---such as [the title page in *The Narrative of the Life*]({{ site.baseurl }}/texts/narrative.html#title-page)---you may choose to work directly with HTML. One of the great advantages of working with the kramdown processor is that we have a lot of flexibility to mix HTML with the kramdown syntax. Note though, that even in the case of the title page, you can achieve these effects using kramdown syntax.
 - Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
 - You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
 - Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> + <kbd>+</kbd> and <kbd>Command</kbd> + <kbd>-</kbd>. Or returning to the top of the page using <kbd>Command</kbd> + <kbd>Up Arrow</kbd>. Part of the philosophy behind Ed is to avoid duplicating features that are already easily available in most web ecosystems. 
@@ -381,7 +379,7 @@ $ git push origin gh-pages
 
 You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
 
-**A note on your base url**
+**<span id="a-note-on-your-base-url">A note on your base url</span>**
 
 When you publish on a subfolder—automatic on GitHub pages—many of your links will break unless you indicate the name of your sub-folder in the `baseurl` value in your `_config.html` file. In addition, you need to make sure that your site-wide links (your links to your CSS files, for example) are preceded by the `{{ site.baseurl }}` tag. The base Ed install already uses this system, so you can simply replace the value `/ed` in your `baseurl` to `/your-project-slug`.
 
