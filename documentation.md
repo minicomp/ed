@@ -308,7 +308,7 @@ The second kind of table of content is exemplified in this documentation. If you
 
 This is the kramdown way. The first tag, `{:.no_toc}` tells the processor not to add `## Contents` to the ToC. The second part creates an empty list and then tells the processor to replace it with a table of contents based on headers in the document. You can use this syntax in any page on the site that uses headers.
 
-The third way is slightly more involved, but very useful for long texts. If we add the table of contents to the YAML front matter of a page, Ed will activate the optional sidebar (`_includes/sidebar-opt.html`) and move the table of contents to a special sidebar for that page. *Narrative of the Life* uses this method for its table of content. If you would like to replicate this functionality in your own long texts, make sure to use the same syntax:
+The third way is slightly more involved, but very useful for long texts. If we add the table of contents to the YAML front matter of a page, Ed will activate the optional table of content sidebar (`_includes/sidebar-toc.html`) and move the table of contents to a special sidebar for that page. *Narrative of the Life* uses this method for its table of content. If you would like to replicate this functionality in your own long texts, make sure to use the same syntax:
 
 ~~~ yaml
 toc:
