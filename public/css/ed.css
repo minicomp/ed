@@ -395,6 +395,11 @@ h3.masthead-title {
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }
+
+a.sidebar-nav-item-toc {
+  color: rgba(255,255,255,.8);
+}
+
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
