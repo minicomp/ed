@@ -371,7 +371,7 @@ h3.masthead-title {
 
 /* Sidebar content */
 
-#sidebar {
+.sidebar {
   background-color: #841212;
 }
 
@@ -559,8 +559,7 @@ a.sidebar-nav-item:focus {
 
 /* Orange */
 .theme-base-09 .sidebar,
-.theme-base-09 .sidebar-toggle:active,
-.theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-09 .sidebar-toggle:active {
   background-color: #d28445;
 }
 .theme-base-09 .container a,
@@ -571,8 +570,7 @@ a.sidebar-nav-item:focus {
 
 /* Yellow */
 .theme-base-0a .sidebar,
-.theme-base-0a .sidebar-toggle:active,
-.theme-base-0a #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0a .sidebar-toggle:active {
   background-color: #f4bf75;
 }
 .theme-base-0a .container a,
@@ -583,8 +581,7 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar,
-.theme-base-0b .sidebar-toggle:active,
-.theme-base-0b #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0b .sidebar-toggle:active {
   background-color: #90a959;
 }
 .theme-base-0b .container a,
@@ -595,8 +592,7 @@ a.sidebar-nav-item:focus {
 
 /* Cyan */
 .theme-base-0c .sidebar,
-.theme-base-0c .sidebar-toggle:active,
-.theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0c .sidebar-toggle:active {
   background-color: #75b5aa;
 }
 .theme-base-0c .container a,
@@ -607,8 +603,7 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar,
-.theme-base-0d .sidebar-toggle:active,
-.theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0d .sidebar-toggle:active {
   background-color: #6a9fb5;
 }
 .theme-base-0d .container a,
@@ -619,8 +614,7 @@ a.sidebar-nav-item:focus {
 
 /* Magenta */
 .theme-base-0e .sidebar,
-.theme-base-0e .sidebar-toggle:active,
-.theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0e .sidebar-toggle:active {
   background-color: #aa759f;
 }
 .theme-base-0e .container a,
@@ -631,8 +625,7 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-0f .sidebar,
-.theme-base-0f .sidebar-toggle:active,
-.theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
+.theme-base-0f .sidebar-toggle:active {
   background-color: #8f5536;
 }
 .theme-base-0f .container a,

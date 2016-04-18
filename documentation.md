@@ -331,6 +331,7 @@ The internal links pointing to the right sections in your document are generated
 - If you want to allow annotations on your site, consider providing a `via.hypothes.is` link. Our sample site can be annotated, for example, using the following link: `https://via.hypothes.is/http://elotroalex.github.io/ed/`, which readers can access on the sidebar. To allow annotations on your site you can simply replace our URL with yours. Make sure to visit [hypothes.is](https://hypothes.is/) to learn more.
 - Ed includes RDF and openGraph metadata in the headers that makes it easier for users of Zotero, and other systems to grab bibliographic information for the site and individual texts. Our metadata functionality may not be enough to generate a full proper citation. Consider providing visible citation information in your about page or homepage.
 - Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
+- Our base themes Poole/Lanyon allow for easily customization of the interface. You can, for example, switch the position of the sidebar, change the theme colors and overlay options. To learn more check out the [Lanyon documentation](https://github.com/poole/lanyon#themes), and make sure to try the green, `.theme-base-0b`, it's really nice.
 
 
 
@@ -391,13 +392,29 @@ baseurl: ''
 
 ---
 
-## Optional: Bibliographies
+## Bibliographies
 
-Automatically generated bibliographies is an optional feature in Ed. To help us style and generate bibliographies and citations, Ed is well suited to use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. 
+If you want to include a small bibliography, and you feel it would be easier to write it out directly, Ed can help you render it with hanging indentation.  To achieve this effect make sure to use the `.bibliography` class in an ordered list. For example:
 
-If you will not need a bibliography, or your bibliography is small enough that you feel it would be easier to write it out directly, you may want to skip using jekyll-scholar. Installing jekyll-scholar and working with may be a bit difficult for beginners. If you can get over this hurdle, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work.
+~~~ markdown
+1. Douglass, Frederick et al. Narrative of the Life of Frederick Douglass: An American Slave. Charlottesville, Va.: University of Virginia Library, 1996. Open WorldCat. Web. 17 Apr. 2016.
+2. Hansberry, Lorraine, and Robert Nemiroff. A Raisin in the Sun. Rep Rei edition. New York: Vintage, 2004. Print.
+{.bibliography}
+~~~
 
-If you decide to use jekyll-scholar, you must begin by moving the contents of the `jekyll-scholar starter kit` in your `optional` folder into the root folder. This will effectively replace the original `_config.yml` and `Gemfile` files, and add a `_bibliography` folder, and the `bibliography.md` and `Rakefile` files. To enable jekyll-scholar you must re-run `bundle install` again.
+Which should display like this:
+
+1. Douglass, Frederick et al. Narrative of the Life of Frederick Douglass: An American Slave. Charlottesville, Va.: University of Virginia Library, 1996. Open WorldCat. Web. 17 Apr. 2016.
+2. Hansberry, Lorraine, and Robert Nemiroff. A Raisin in the Sun. Rep Rei edition. New York: Vintage, 2004. Print.
+{:.bibliography}
+
+---
+
+
+To help us style and generate bibliographies and citations *automatically*, Ed can use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. Keep in mind, though, that installing jekyll-scholar and working with it may be a bit difficult for beginners. 
+
+
+If you can get over the hurdles, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work. To begin, you must move the contents of the `jekyll-scholar starter kit` in your `optional` folder into the root folder. This will effectively replace the original `_config.yml` and `Gemfile` files, and add a `_bibliography` folder, and the `bibliography.md` and `Rakefile` files. To enable jekyll-scholar you must re-run `bundle install` again.
 
 If everything goes smoothly, you should be able to start using jekyll-scholar at this point. The first thing you may want to do is provide Jekyll with your own bibliographic information in the form of a `.bib` file to replace the content of the `references.bib` file we've provided in the `_bibliography` folder. 
 
