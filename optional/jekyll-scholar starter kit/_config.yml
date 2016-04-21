@@ -5,6 +5,9 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: none
 
+# Set encoding to UTF-8
+encoding: utf-8
+
 # Markdown specs
 markdown: kramdown
 
