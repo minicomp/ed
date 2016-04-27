@@ -3,10 +3,6 @@ _gh_pages
 _site
 .ruby-version
 
-# Sublime project files
-ed.sublime-project
-ed.sublime-workspace
-
 
 # Numerous always-ignore extensions
 *.diff
@@ -19,6 +15,8 @@ ed.sublime-workspace
 *.zip
 *.vi
 *~
+
+# POSSIBLE ENVIRONMENTS
 
 # OS or Editor folders
 .DS_Store
@@ -45,3 +43,8 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+# Recommended in Ben Balter's Jekyll Style Guide
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
