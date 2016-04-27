@@ -14,7 +14,8 @@ author:
   email:             colibri.alex@gmail.com
 
 # Permalinks
-permalink: none
+permalink: pretty
+permalink: /:title/
 
 # Set encoding to UTF-8
 encoding: utf-8
