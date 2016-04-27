@@ -1,28 +1,4 @@
 # Built with Jekyll 3.2.0
-#
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: none
-
-# Set encoding to UTF-8
-encoding: utf-8
-
-# Markdown specs
-markdown: kramdown
-
-collections:
-  texts:
-    output: true
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 # Setup
 title:               Ed.
@@ -37,10 +13,33 @@ author:
   url:               https://twitter.com/elotroalex
   email:             colibri.alex@gmail.com
 
+# Permalinks
+permalink: none
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 # Custom vars
 version:             0.0.5
 
-# Exclude optional folder
+# Exclusions from the final site
 exclude: [optional, vendor]
 
 
