@@ -27,7 +27,7 @@ source: Bartleby.com
 
 - Oh, if there may departing be	
 - Any forgot by victory	
-- {:.indent-2}In her imperial round,  
+- {:.indent-2}In her imperial round,
 - Show them this meek apparelled thing,	
 - That could not stop to be a king,	
 - {:.indent-2}Doubtful if it be crowned!
