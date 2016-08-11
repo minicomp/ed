@@ -42,4 +42,4 @@ As we see it, a minimal edition is one that aims to reduce the size and complexi
 
 ## Installing and using Ed
 
-To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation.html).
+To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation).
