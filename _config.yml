@@ -14,6 +14,7 @@ author:
   email:             colibri.alex@gmail.com
 
 # Permalinks
+
 permalink: pretty
 permalink: /:title/
 
@@ -38,7 +39,7 @@ kramdown:
   enable_coderay: false
 
 # Custom vars
-version:             0.0.5
+version:             0.0.6
 
 # Exclusions from the final site
 exclude: [optional, vendor]

@@ -94,7 +94,7 @@ body {
 /* links */
 
 a, .post-title a {
-  color: #aa3311;
+  color: #841212;
   text-decoration: none;
 }
 
@@ -197,6 +197,13 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+/* Search Highlihting */
+
+mark {
+    color: white;
+    background-color: #841212;
+}
+
 /* Quotes */
 
 blockquote {
@@ -293,7 +300,7 @@ tbody tr:nth-child(odd) th {
   line-height: 1.5rem;
 }
 .masthead-title a {
-	color: #aa3311;
+	color: #841212;
 }
 
 .masthead-title small {
@@ -773,7 +780,9 @@ sup, sub {
    top: -0.4em;
 }
 
-sub { top: 0.4em; }
+sub { 
+  top: 0.4em; 
+}
 
 .footnotes {
 	line-height: 1.2rem;
