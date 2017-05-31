@@ -7,7 +7,7 @@ source: Poetry Foundation
 
 <p class="citation"> by {{ page.author }}</p>
 
-- O Captain! [my Captain](https://en.wikipedia.org/wiki/Captain_America)! our fearful trip is done;[^fn1]
+- O Captain! [my Captain]({{site.baseurl}}/texts/dreams/)! our fearful trip is done;[^fn1]
 - The ship has weather’d every rack, the prize we sought is won,
 - The port is near, the bells I hear, the people all exulting,
 - While follow eyes the steady keel, the vessel grim and daring; 
