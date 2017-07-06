@@ -111,7 +111,7 @@ body {
   }
 }
 
-/* links */
+/* Links */
 
 a, .post-title a {
   color: $link-color;
@@ -163,6 +163,7 @@ h4, h5, h6 {
   margin-top: 1rem;
 }
 
+
 /* Body text */
 p {
   margin-top: 0;
@@ -170,25 +171,18 @@ p {
 }
 
 
-
 /* Lists */
 ul {
 	list-style: circle;
 }
 
-ul, ol, dl {
+ul, ol {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
-}
 
-/* Misc */
+/* Horizontal ruler */
 
 hr {
   margin-top: 60px;
@@ -199,16 +193,6 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555;
-  text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
-}
 
 /* Search Highlihting */
 
@@ -216,6 +200,7 @@ mark {
     color: white;
     background-color: $link-color;
 }
+
 
 /* Quotes */
 
@@ -238,7 +223,18 @@ blockquote p:last-child {
   }
 }
 
+/* 
+* To add an attribution make sure to make a 
+* line with the attribution class
+*/
 
+li.attribution {
+  text-align: right;
+  list-style: none;
+  padding: 0rem 1.5rem 0rem 2rem;
+  margin: 0 0 20px 0; 
+  color: $text-color;
+}
 
 /* Images */
 
@@ -266,36 +262,12 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-/*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-
-/*
- * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
- */
-
-.message {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
-}
 
 /*
  * Masthead
  *
  * Super small header above the content for site name and short description.
+ *
  */
 
 .masthead {
@@ -335,8 +307,22 @@ h3.masthead-title {
   .masthead-title {
     text-align: center;
   }
+  
   .masthead-title small {
     display: none;
+  }
+
+  h3.masthead-title {
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+}
+
+@media (max-width: 320px) {
+  h3.masthead-title {
+  margin-top: 2em;
+  margin-left: 0%;
+  margin-right: 0%;
   }
 }
 
@@ -841,10 +827,10 @@ ol.bibliography {
 }
 
 
-/* Line layouts for prose poetry and theater 
+/* Line layouts for prose-poetry and theater 
 *
 * To use these layouts you need to add the classes to 
-* your markdown or HTML.
+* your markdown or HTML lines. (ex. "- {:.centered} hello!")
 *
 */
 
@@ -879,3 +865,4 @@ li.prose {
 li.prose-indent {
   text-indent: 2rem;
 }
+
