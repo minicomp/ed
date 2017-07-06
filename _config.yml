@@ -41,4 +41,6 @@ kramdown:
 # Exclusions from the final site
 exclude: [optional, vendor]
 
+theme: "ed."
+
 

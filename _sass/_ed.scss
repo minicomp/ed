@@ -5,10 +5,30 @@
  *  |        \ |    `   \
  * /_______  //_______  /
  *         \/         \/ 
- * Designed, built, and released under an MIT license by @elotroalex.
+ * Designed, built, and released under an MIT license by @elotroalex and brill friends. See credits for more info.
  * Based on the Poole and Lanyon theme by @mdo. Learn more at
  * https://github.com/elotroalex/ed.
  */
+
+
+ /*
+ * Common Variables
+ *
+ * Feel free to change!
+ *
+ */
+
+$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+$heading-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+$heading-color: #404040;
+
+$text-color: #454545;
+
+$regular-font-size: 20px;
+
+$link-color: #841212;
 
 
  /*
@@ -31,19 +51,19 @@ body {
 }
 
 html {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 1.5;
 }
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: $regular-font-size;
   }
 }
 
 body {
-  color: red;
+  color: $text-color;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -94,12 +114,8 @@ body {
 /* links */
 
 a, .post-title a {
-  color: #841212;
+  color: $link-color;
   text-decoration: none;
-}
-
-a strong {
-  color: inherit;
 }
 
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -111,11 +127,11 @@ a:focus {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: $heading-font;
   margin-bottom: .5rem;
   font-weight: 400; 
   font-size: 1.5rem;
-  color: #404040;
+  color: $heading-color;
   letter-spacing: -.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -153,9 +169,6 @@ p {
   margin-bottom: 1rem;
 }
 
-strong {
-  color: #303030;
-}
 
 
 /* Lists */
@@ -201,7 +214,7 @@ abbr[title] {
 
 mark {
     color: white;
-    background-color: #841212;
+    background-color: $link-color;
 }
 
 /* Quotes */
@@ -209,7 +222,7 @@ mark {
 blockquote {
 	padding: 0rem 1.5rem 0rem 2rem;
 	margin: 0 0 20px 0; 
-  	color: #454545;
+  color: $text-color;
 	border-left: none;
 	font-style: italic;
 }
@@ -300,11 +313,11 @@ tbody tr:nth-child(odd) th {
   line-height: 1.5rem;
 }
 .masthead-title a {
-	color: #841212;
+	color: $link-color;
 }
 
 .masthead-title small {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: $main-font;
   font-size: 1rem;
   font-weight: 400;
   color: #c0c0c0;
@@ -312,7 +325,7 @@ tbody tr:nth-child(odd) th {
 }
 
 h3.masthead-title {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: $main-font;
 	font-size: 1.8rem;
 	margin-top: 2px;
 }
@@ -334,7 +347,7 @@ h3.masthead-title {
 }
 
 .page-title {
-  color: #404040;
+  color: $heading-color;
   margin-top: 0;
 }
 
@@ -379,7 +392,7 @@ h3.masthead-title {
 /* Sidebar content */
 
 .sidebar {
-  background-color: #841212;
+  background-color: $link-color;
 }
 
 .sidebar a {
