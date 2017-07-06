@@ -2,7 +2,7 @@
 layout: poem
 title: Delayed till she had ceased to know
 author: Emily Dickinson
-source: Bartleby.com
+source: "Bartleby.com"
 ---
 
 <p class="citation"> by {{ page.author }}</p>
