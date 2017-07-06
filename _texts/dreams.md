@@ -2,6 +2,7 @@
 layout: poem
 title: Dreams
 author: Langston Hughes
+editor: Alex Gil
 source: Project Guttenberg
 ---
 
@@ -13,6 +14,4 @@ source: Project Guttenberg
 - For when dreams go
 - Life is a barren field
 - Frozen with snow.
-
-<p class="citation">{{ page.author }}</p>
 

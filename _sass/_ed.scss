@@ -127,8 +127,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   margin-bottom: .5rem;
-  font-weight: 300; 
-  font-size: 1.5rem;
+  font-weight: 300;
   color: $heading-color;
   letter-spacing: -.025rem;
   line-height: 1.25;
@@ -271,8 +270,8 @@ tbody tr:nth-child(odd) th {
 .masthead {
 	margin-bottom: 3rem;
 	text-align: center;
-	padding-top: .8rem;
-	padding-bottom: .8rem;
+	padding-top: 26px;
+	padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -280,7 +279,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  line-height: 1.5rem;
+  line-height: .666em;
 }
 .masthead-title a {
 	color: $link-color;
@@ -288,10 +287,11 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title small {
   font-family: $main-font;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+  font-size: .88rem;
+  font-weight: 300;
+  color: $text-color;
+  letter-spacing: .05rem;
+  font-family: $heading-font;
 }
 
 h3.masthead-title {
@@ -763,12 +763,13 @@ div.toc {
 	padding-left: 10rem;
 }
 
-.poetry .author {
-	font-style: italic;
-	font-size: .9rem;
-	color: gray;
+.poetry .byline {
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0;
   margin-top: -.5rem;
 }
+
 
 /* Footnotes styles */
 
