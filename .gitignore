@@ -14,6 +14,7 @@ _site
 *.swp
 *.zip
 *.vi
+*.gem
 *~
 
 # POSSIBLE ENVIRONMENTS

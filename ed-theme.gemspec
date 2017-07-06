@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "ed-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.2"
   spec.authors       = ["Alex Gil"]
   spec.email         = ["colibri.alex@gmail.com"]
 
