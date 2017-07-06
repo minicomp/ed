@@ -20,12 +20,10 @@
 
 $main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
-$heading-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
+$heading-font: sans-serif;
 $heading-color: #404040;
 
 $text-color: #454545;
-
 $regular-font-size: 20px;
 
 $link-color: #841212;
@@ -113,7 +111,7 @@ body {
 
 /* Links */
 
-a, .post-title a {
+a, .text-title a {
   color: $link-color;
   text-decoration: none;
 }
@@ -129,7 +127,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   margin-bottom: .5rem;
-  font-weight: 400; 
+  font-weight: 300; 
   font-size: 1.5rem;
   color: $heading-color;
   letter-spacing: -.025rem;
@@ -141,7 +139,7 @@ h1 {
 	font-size: 1.4rem;
 }
 
-h1.post-title {
+h1.text-title {
 	font-size: 1.4rem;
 }
 
@@ -307,7 +305,7 @@ h3.masthead-title {
   .masthead-title {
     text-align: center;
   }
-  
+
   .masthead-title small {
     display: none;
   }
@@ -765,22 +763,24 @@ div.toc {
 	padding-left: 10rem;
 }
 
-.poetry .citation {
+.poetry .author {
 	font-style: italic;
 	font-size: .9rem;
 	color: gray;
+  margin-top: -.5rem;
 }
 
 /* Footnotes styles */
 
-sup, sub {
-   vertical-align: baseline;
-   position: relative;
-   top: -0.4em;
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
-sub { 
-  top: 0.4em; 
+sup {
+  top: -0.5em;
 }
 
 .footnotes {
@@ -822,7 +822,7 @@ ol.bibliography {
     color: #AA3232;
 }
 
-.underlined{
+.underline {
     text-decoration: underline;
 }
 

@@ -5,10 +5,6 @@ author: Emily Dickinson
 source: "Bartleby.com"
 ---
 
-<p class="citation"> by {{ page.author }}</p>
-
-<br>
-
 - DELAYED till she had ceased to know,	
 - Delayed till in its vest of snow	
 - {:.indent-2}Her loving bosom lay.	

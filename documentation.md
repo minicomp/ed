@@ -274,22 +274,19 @@ Besides the homepage and the search page, Ed ships with an About page, `about.md
 
 You will find three kinds of Tables of Content in Ed. The first example is in the list of Sample Texts in the Homepage. This list is generated using the [Liquid Templating language](http://liquidmarkup.org/). This is one of the major components of Jekyll, and I recommend you deepen your knowledge of it if you want to modify the logic that automates much of Ed. Here is the code that generates the Sample Texts list on the homepage:
 
-
 ~~~ html
 <div class="toc">
   <h2>Sample texts</h2>
   <ul class="post">
- 
-  {%raw%}{% for item in site.posts do %}{%endraw%}
-      <li class="post-title">
-      <a href="{%raw%}{{ site.baseurl }}{{ item.url }}{%endraw%}">
-      	{%raw%}{{ item.title }}{%endraw%}
+  {% for item in site.texts %}  
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
       </a>
     </li>
-  {%raw%}{% endfor %}{%endraw%}
-  </ul>  
+  {% endfor %}
+  </ul>
 </div>
-
 ~~~
 
 As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not already familiar with programming languages, you may need to start elsewhere. I recommend learning Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place (it's also the first programming language I used, so I'm biased). The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."

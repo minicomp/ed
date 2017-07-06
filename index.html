@@ -12,17 +12,16 @@ title: "Ed."
 
 <div class="toc">
   <h2>Sample texts</h2>
-  <ul class="post">
+  <ul class="texts">
   {% for item in site.texts %}
   
-    <li class="post-title">
+    <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
       </a>
     </li>
   {% endfor %}
-  </ul>  
-
+  </ul>
 </div>
 
 
