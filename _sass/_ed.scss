@@ -28,6 +28,8 @@ $regular-font-size: 20px;
 
 $link-color: #841212;
 
+/* To apply a different color scheme to the whole scroll down to the themes section for instructions */
+
 
  /*
  * General
@@ -279,7 +281,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  line-height: .666em;
+  line-height: .777em;
 }
 .masthead-title a {
 	color: $link-color;
