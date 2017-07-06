@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/elotroalex/ed.svg?branch=gh-pages)](https://travis-ci.org/elotroalex/ed)
 
+[![Gem Version](https://badge.fury.io/rb/ed..svg)](https://badge.fury.io/rb/ed.)
+
 
 ![Sample Ed screenshot](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
 
