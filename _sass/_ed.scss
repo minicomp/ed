@@ -823,5 +823,59 @@ ol.bibliography {
 	text-indent: -1rem;
 }
 
+/* Diplomatic editions */
 
 
+.add {
+    color:#288828;
+    font-style: italic;
+}
+
+.delete {
+    text-decoration: line-through;
+    color: #AA3232;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+
+/* Line layouts for prose poetry and theater 
+*
+* To use these layouts you need to add the classes to 
+* your markdown or HTML.
+*
+*/
+
+
+li.centered {
+    text-align: center;
+}
+
+li.speaker, li.speakerGroup {
+    text-align: center;
+    padding-top: 1.2em;
+}
+
+li.speakerGroup {
+  margin-bottom: -1.6em;
+}
+
+li.attribution {
+  text-align: right;
+  list-style: none;
+  padding: 0rem 1.5rem 0rem 2rem;
+  margin: 0 0 20px 0; 
+  color: #454545;
+}
+
+li.prose { 
+  list-style-position: inside;
+  margin-left: -1em;
+  text-indent: 0;
+}
+
+li.prose-indent {
+  text-indent: 2rem;
+}
