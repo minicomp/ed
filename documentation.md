@@ -205,7 +205,7 @@ To indent specific lines we take advantage of a feature in kramdown that allows 
 - {:.indent-6} Fallen cold and dead.
 ~~~
 
-The `-` at the beginning of each line indicates that these are lines. The `{:.indent-3}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
+The `-` at the beginning of each line indicates that these are lines. The `{:.indent-3}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the Ed stylesheet (`_ed.scss`) in the `_sass` folder.
 
 The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
 
@@ -292,7 +292,7 @@ Your editions are treated as [collections](https://jekyllrb.com/docs/collections
 
 You will notice that the homepage in particular has a `.html` file ending instead of a `.md` ending. All template files in Jekyll are HTML, and the index behaves as a template file. Although these files are mostly written in HTML, notice that they still contain YAML front matter and liquid tags. To edit the homepage replace the content on the file shipped with Ed, making sure that your changes to `index.html` are written in valid HTML. The same goes for the template files in the `_layouts` folder.
 
-Ed also comes with a search page, `search.html`. This page implements [elastic lunr](http://elasticlunr.com/), "a lightweight full-text search engine in Javascript for browser search and offline search." This simple search page can be useful if you have large collections of texts. If you don't, and don't feel the need, go ahead and delete it along with the `public/js` folder.
+Ed also comes with a search page, `search.html`. This page implements [elastic lunr](http://elasticlunr.com/), "a lightweight full-text search engine in Javascript for browser search and offline search." This simple search page can be useful if you have large collections of texts. If you don't, and don't feel the need, go ahead and delete it along with the `assets/js` folder.
 
 Besides the homepage and the search page, Ed ships with an About page, `about.md` and a documentation page, `documentation.md`, i.e. this page. As you can see, these are regular `.md` files. You can replace the contents of each file using normal kramdown syntax. This also applies to any new page you create, which you should remember to save with an `.md` extension. When editing the `bibliography.md` file, be careful not to replace the liquid tag that generates your bibliography, unless you don't want to have a bibliography at all.
 
@@ -410,6 +410,7 @@ If you install jekyll-scholar, or most other plugins in Jekyll, you will need a 
 - Ed includes metadata in the headers that makes it easier for users of Zotero, and other systems to grab bibliographic information for the site and individual texts. Our metadata functionality may not be enough to generate a full proper citation. Consider providing visible citation information in your about page or homepage.
 - Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
 - Our base themes Poole/Lanyon allow for easily customization of the interface. You can, for example, switch the position of the sidebar, change the theme colors and overlay options. To learn more check out the [Lanyon documentation](https://github.com/poole/lanyon#themes), and make sure to try the green, `.theme-base-0b`, it's really nice.
+- You can change the look and feel of more common variables by simply changing the variable values in the `_sass/_ed.scss` file
 
 ---
 
