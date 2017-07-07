@@ -139,10 +139,10 @@ gem "ed.", "0.1.1"
 
 Make sure to replace the version number with the one you need. I will do my best to document what changes come with each new gem. If your current theme does not have a Gemfile, you would need to create one and add the line above. The Gemfile is a plain text file like all other files in Jekyll, and should not have a file extension.
 
-After these files have been modified, you need to update your Bundle. In the terminal:
+After these files have been modified, you need to update your Bundle in the terminal:
 
-~~~
-bundle update
+~~~ bash
+$ bundle update
 ~~~
 
 When using the gem on top of a previous theme, you will not have all the files of a full Ed install immediately available to you. More importantly, you may not have a _texts folder. You need to create one or copy them from a full installation of Ed. You might also want to add the search and index file. The gem comes bundled with all these files once you install it on your system, but they won't be in the same folder as your project. To locate them you can refer to the [Jekyll documentation for gem-based themes](https://jekyllrb.com/docs/themes/). With some previous themes you might need to erase lingering files that interfere with the functioning of Ed. This can be an advanced operation I can't do justice to here. At that point you might need to familiarize yourself with the architecture of Jekyll, or pay close attention to errors when you try to serve the site, and reverse-engineer from there.
