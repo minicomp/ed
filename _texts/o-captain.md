@@ -15,7 +15,6 @@ source: Poetry Foundation
 - {:.indent-5}Where on the deck my Captain lies,
 - {:.indent-6}Fallen cold and dead.
 
-
 - O Captain! my Captain! rise up and hear the bells; 
 - Rise up—for you the flag is flung—for you the bugle[^fn2] trills,
 - For you bouquets and ribbon’d wreaths—for you the shores a-crowding,
