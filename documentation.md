@@ -443,7 +443,9 @@ If you do decide to use the GitHub pages option, please make sure to read the [n
 
 To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
 
-You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
+The usual way of doing it is to create a different git branch called `gh-pages` within your local repository for your site. This is a branch is published by GitHub by default. GitHub also gives you the option to select [any branch you want to publish](https://github.com/blog/2228-simpler-github-pages-publishing), including the master branch.
+
+In the following I use the gh-pages branch. To create and use that branch use the following command:
 
 ~~~ bash
 $ git checkout -b gh-pages
