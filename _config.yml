@@ -39,7 +39,9 @@ kramdown:
   enable_coderay: false
 
 # Exclusions from the final site
-exclude: [optional, vendor]
+exclude:
+  - optional
+  - vendor
 
 # Theme
 theme: "ed."
