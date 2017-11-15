@@ -19,8 +19,10 @@ namespace :ed do
   # We built this little rake task to help make that a little bit eaiser.
   #
 
-  # Usage:
+  # To publish your site:
   # bundle exec rake ed:publish
+
+
   desc "Publish ed to gh-pages"
   task :publish do
     # Compile the Jekyll site using the config.
