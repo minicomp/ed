@@ -19,7 +19,7 @@ As we see it, a minimal edition is one that aims to reduce the size and complexi
 
 ## Sample Ed editions.
 
-- [Our sample site](http://elotroalex.github.io/ed/) is the first edition built with Ed.
+- [Our sample site](http://minicomp.github.io/ed/) is the first edition built with Ed.
 - [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
 - [mini lazarillo](http://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
 - [Making and Knowing](https://cu-mkp.github.io/GR8975-edition/): The BnF Ms Fr 640 in Translation
@@ -44,4 +44,4 @@ As we see it, a minimal edition is one that aims to reduce the size and complexi
 
 ## Installing and using Ed
 
-To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation).
+To learn how to install and begin using Ed, please visit our [documentation page](http://minicomp.github.io/ed/documentation).
