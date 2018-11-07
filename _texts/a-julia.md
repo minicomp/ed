@@ -9,9 +9,9 @@ source: Ciudad Seva
 - Ya las gentes murmuran que yo soy tu enemiga
 - porque dicen que en verso doy al mundo mi yo.
 
-- Mienten, Julia de Burgos. Mienten, Julia de Burgos.
+- Mienten, *Julia de Burgos*. Mienten, Julia de Burgos.
 - La que se alza en mis versos no es tu voz: es mi voz
-- porque tú eres ropaje y la esencia soy yo; y el más
+- porque tú eres [ropaje](http://www.spanishdict.com/translate/ropaje) y la esencia soy yo; y el más
 - profundo abismo se tiende entre las dos.
 
 - Tú eres fria muñeca de mentira social,
