@@ -15,9 +15,12 @@ toc:
 
 ---
 ## Editor's note
-This text has been OCRed and hand-corrected from the  [Print at Penn Digital Collection surrogate]
-(http://dla.library.upenn.edu/dla/print/pageturn.html?id=PRINT_9941062283503681&fq=collection_facet%3A%22Collection+of+British+and+American+Fiction%2C+1660-1830%22&doubleside=0&rotation=0&size=2&currentpage=21)
+This text has been OCRed and hand-corrected from the [digital surrogate](http://hdl.library.upenn.edu/1017/d/print/9941062283503681) in Penn Libraries' Digital Collection of British and American Fiction. The original book is held by the Kislak Center for Special Collections (Penn Libraries, University of Pennsylvania).
+
+![title page of Letters from the Living to the Living](https://repo.library.upenn.edu/djatoka/resolver?url_ver=Z39.88-2004&svc_id=info:lanl-repo/svc/getRegion&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc.format=image/jpeg&rft_id=print_pr3291_a1_l465_1703_body0005&svc.level=3&svc.rotate=0)
+
 ---
+
 <a id ="title-page" />
 
 <p class ="centered larger">LETTERS</p>
@@ -28,46 +31,46 @@ LIVING to the LIVING,</p>
 <p class ="centered">With their several ANSWERS.<i>
 Under the following Heads,</i> Viz.</p>
 
-- Reformation. The P--- of the P--pl--r, to a City Knight, for some years since one of the Elect,
+Reformation. The P--- of the P--pl--r, to a City Knight, for some years since one of the Elect,
 but now under a State of Reprobation, &c.
 
-- Sing-song Tigellius the
+Sing-song Tigellius the
 Yndone, the Unfortu-
 nate Tigellius, to his
 Brethen at Will's Cof-
 fee-House.
 
-- Clement the Pope, to
+Clement the Pope, to
 the Doge, and Republick
 of venice.
 
-- Mr. J--- F--- to Mr.
+Mr. J--- F--- to Mr.
 J--- P---
 
-- Abridgment a Booksel-
+Abridgment a Booksel-
 ler, to Original an Author.
 
-- The Two hundred
+The Two hundred
 Maidens at the Bath, to
 the Virgins in Oxford.
 
-- The duke of Burgundy to the King of Spain.
+The duke of Burgundy to the King of Spain.
 
-- Tom Double to his
+Tom Double to his
 Brother Under-Spur-Leather in the Country.
 
-- John D---by, the Pharisaical Printer, to John
+John D---by, the Pharisaical Printer, to John
 T--d the Scribe.
 
-- From the Voluntier at
+From the Voluntier at
 St. Maries, to his Friend
 in London.
 
-- A Letter from a
+A Letter from a
 young Officer at Vigo,
 to his Friend at London.
 
-- Gossip Murray the pro-
+Gossip Murray the pro-
 jector to Inquisitive Lover-
 News.
 
@@ -101,7 +104,8 @@ was master of that Assurance to think
 it stood in need of none. Wherefore, as
 I would not be thought to behave my self
 
-[Epistle Dedicatory.
+[Epistle Dedicatory.]
+
 so Ill in the World, but to have some one
 left me yet to have Recourse to, so I wou'd
 not offer to put upon Peoples Understand-

@@ -44,6 +44,7 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+vendor
 
 # Recommended in Ben Balter's Jekyll Style Guide
 .sass-cache
