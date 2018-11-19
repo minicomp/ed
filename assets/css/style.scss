@@ -12,14 +12,14 @@ sitemap: false
 /* FONTS */
 
 $main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$heading-font: sans-serif;
+$heading-font: Palatino;
 $regular-font-size: 20px;
 
-/* 
+/*
 * COLOR.
-* 
+*
 * Make sure to leave color-scheme in config file empty for granular control
-* 
+*
 */
 
 $text-color: #454545;
@@ -29,8 +29,3 @@ $link-color: #841212;
 
 @import "ed";
 @import "syntax";
-
-
-
-
-
