@@ -12,24 +12,24 @@ toc:
 - To the English Ladies
 - Letter I
 - Letter II
-- Lettter III
+- Letter III
 - Letter IV
 - Letter V
-- Lettter VI
+- Letter VI
 - Letter VII
-- Lettter VIII
+- Letter VIII
 - Letter IX
 - Letter X
-- Lettter XI
+- Letter XI
 - Letter XII
-- Lettter XIII
+- Letter XIII
 - Letter XIV
 - Letter XV
-- Lettter XVI
-- Lettter XVII
+- Letter XVI
+- Letter XVII
 - Letter XVIII
 - Letter XIX
-- Lettter XX
+- Letter XX
 - Letter XXI
 ---
 
