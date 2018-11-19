@@ -3,7 +3,7 @@
 # Setup
 title:               Early Novels Digital Editions
 tagline:             'Rare eighteenth-century fiction'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+description:         'A set of hand-corrected c18 novel editions using Ed.'
 url:                 'http://atmcgrath.github.io'
 baseurl:             '/END-Digital-Collection'
 
