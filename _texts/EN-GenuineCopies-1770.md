@@ -44,12 +44,6 @@ toc:
 ## Digital editor's note
 This text has been OCRed and hand-corrected from the [digital surrogate](http://hdl.library.upenn.edu/1017/d/print/992006723503681) in Penn Libraries' Digital Collection of British and American Fiction. The original book is held by the Kislak Center for Special Collections (Penn Libraries, University of Pennsylvania).
 
----
-<a id ="half title-page" />
-
-<p class ="centered large">LOVE LETTERS</p>
-<p class ="centered">AND</p>
-<p class ="centered large">CARDS, &c.</p>
 
 ---
 <a id ="title-page" />
@@ -64,11 +58,10 @@ This text has been OCRed and hand-corrected from the [digital surrogate](http://
 <p class="centered large">NOBLE LADY,</p>
 <p class="centered small">DURING THE COURSE OF</p>
 <p class="centered large">A LATE AMOUR.</p>
----
-Published by a Proctor of <i>Doctors Commons</i>.
----
-<p class="centered">LONDON:</p>
-<p>Printed for T. Brown, at No. 14, in Pater-noster Row. [Price 1 s, and 6 d.]</p>
+
+<p class="centered">Published by a Proctor of <i>Doctors Commons</i>.</p>
+
+<p class="centered">LONDON:<br>Printed for T. Brown, at No. 14, in Pater-noster Row. [Price 1 s, and 6 d.]</p>
 
 <p class="centered small">[manicule]<i>This Pamphlet is entered at Stationers Hall; and whoever Prints it, or any Part of it, will be prosecuted as the Law directs.</i></p>
 
@@ -80,69 +73,74 @@ LOVE LETTERS, &c.</p>
 ---
 ## LETTER I.
 
-My dear ----
+*My dear ----*
 
 I could not have imagined that the mistake of the millener’s girl would have occasioned such a *fracas* between me and your r---- h----. I am insensible to every other wish than that of gratifying the desires of a man whom I adore. To-morrow, at four o’clock, I shall be at —-’s in Sackville-street, where I shall wait, with the utmost impatience, the honour of seeing you. Harriot will be as faithful as she is assiduous. Perhaps I am imprudent in signing myself, what, however, I cannot avoid,
 
-Your’s everlastingly,
+> Your’s everlastingly,
 
-—G—
+>> —G—
 
+---
 [2]
 ## LETTER II.
-My charming angel,
+*My charming angel,*
 
 By a horrid mistake, which I will hereafter explain, 1 did not receive the last favour, till half an hour after the appointed hour of meeting; but unwilling to lose even the chance of an opportunity of testifying my attachment, I lost not a moment in repairing to ——’s, from whence you had been retired some minutes. I was hardy enough to follow you to —— Square, and should even have entered your house, but that I saw his lordship, with three of his friends, advancing immediately before me. Prudence therefore forbad that gratification which love had otherwise demanded. To-morrow, at six o’clock, you will find captain —— at that side of Buckingham gate next Chelsea. You know the rest; but you do not know how sincerely I am
 
-Your ladyship’s most obedient,
+>Your ladyship’s most obedient, Most devoted and most faithful humble Servant,
 
-Most devoted and most faithful humble Servant,
+>>C—-
 
-C—-
-
-[3]
+---
+<p align="right">[3]</p>
 ## LETTER III.
 
 Alas Madam ! what shall I say! l am not less enraptured with your person, than charmed with your punctuality. The mistake was a horrid one! and the fault was all my own; instead of Buckingham gate, I should have written Constitution hill: Will you, can you, pardon me ? I have nothing to offer, in mitigation of my crime, but that, transported with the enchanting idea of clasping you in my arms, I could not write like a man in his senses. I will be at Drury-lane this evening, and, if you are not too much irritated, shall see you in the usual part of the house. Forgive me, if possible.
 
-C——
+>>C——
 
-[4]
+---
+<p align="right">[4]</p>
 ## LETTER IV.
 My chagrin, Sir, at not finding the captain at the place mentioned in your letter, can be equalled by nothing but that which I experienced, when I found you did not come to the play neither. Indeed, Sir, I am not to be thus trifled with; my Spirit revolts at the idea ; and though I would have preferred a cottage with you, to a palace with any other person, yet your
 r—— h—— may be assured, that I shall not hastily subject myself to similar insults to those lately experienced by
 
-G——
+>>G——
 
-[5]
+---
+<p align="right">[5]</p>
 ## LETTER V.
-Most incomparable woman!
+*Most incomparable woman!*
 
 Believe me when I say that the first mistake ought to be forgiven, and that the second must be so — Love will plead my excuse in the first instance, for it took away my faculties — and Duty is my second plea. At the instant I was preparing for the Theatre, I received orders which I could not disobey. My trusty —— was absent, so that I had not even an opportunity of acquainting you with the circumstance. To-night, at nine o’clock, whatever be the consequence, you shall see me at Mrs. ———’s, in ——— street; and I hope you will then ratify the pardon of
 
-Your ladyship’s most profound,
-most devoted admirer,
+>Your ladyship’s most profound,
+>most devoted admirer,
 
-C-------
+>>C-------
 
+---
 ## CARD.
 I own I am properly treated. Your ladyship had a right to be revenged. I acknowledge the justice of the chastisement.
+<p align="right">[6]</p>
 
-[6]
-
+---
 ## LETTER VI.
-My dear,
+*My dear,*
 
 If you please we will agree on a suspension of hostilities. I am revenged, I am satisfied. The waiting-woman has well performed her part. Your r—— h—— will for the future be more cautious, and perhaps your future assignations may not be followed by any neglect on the part of
 
-Your very sincere —
+>Your very sincere —
 
-—-G—.
+>>—-G—.
 
+---
 ## CARD.
 An accident, which cannot at present be explained, prevents my having the
 honour of seeing your r—— h—— this afternoon. The bearer will acquaint you with particulars.
 
+---
 [7]
 ## LETTER VII.
 My angel!
