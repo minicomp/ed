@@ -7,11 +7,9 @@ rights: Public Domain
 source: UPenn Digital Collection of British and American Fiction, 1660-1830
 publication-date: 2018
 toc:
-- Half-title-page
-- Full-title-page
 - Volume I
-- Letter I. The Honourable Miss Beaumont to Miss Finch.
-- Letter II. Miss Finch to the Honourable Miss Beaumont.
+- Letter I.
+- Letter II.
 - Volume II
 - Volume III
 ---
@@ -27,22 +25,21 @@ This text has been OCRed and hand-corrected from the [digital surrogate](http://
 <p class="centered larger">SKETCH</p>
 <p class="centered">OF</p>
 <p class="centered larger">GENTEEL LIFE.</p>
----
+
 <p class="centered larger">BY A LADY.</p>
----
+
 <p class="centered small">VOL. I.</p>
----
+
 <p class="centered small">SOUTHAMPTON:</p>
 <p class="centered small">PRINTED BY LINDEN & CUNNINGHAM. SOLD BY SKELTON & MILLS, SOUTHAMPTON, and B. LAW, AVEMARY LANE, LONDON.</p>
----
 <p class="centered small">M DCC LXXXII</p>
 
----
-<p class="centered">AN INTERESTING SKETCH OF GENTEEL LIFE.</p>
----
-## LETTER I. The Honourable Miss Beaumont to Miss Finch.
 
-Grove Place, Yorkshire.
+---
+## LETTER I.
+<p align="center"><i>The Honourable Miss Beaumont to Miss Finch.</i></p>
+
+<p align="right">Grove Place, Yorkshire.</p>
 
 My ever dear Charlotte will, I am persuaded, be anxious to hear from her friend, and receive some satisfaction from being informed, that the peaceful retreat, which fate has
 [ 2 ]
@@ -58,15 +55,17 @@ Let me hear from you soon, my dearest and best friend; and be persuaded that I l
 [ 5 ]
 and spirits, and the company and converse of my Charlotte.
 
-Affectionately your’s,
+> Affectionately your’s,
 
-Amelia Beaumont.
+>> Amelia Beaumont.
 
 ---
 
-## LETTER II. Miss Finch to the Honourable Miss Beaumont.
+## LETTER II.
 
-Summer Hill, Devon.
+<p align="center">Miss Finch to the Honourable Miss Beaumont.</p>
+
+<p align="right">Summer Hill, Devon.</p>
 
 WHAT pleasure did my Amelia’s last letter convey to the heart of her Charlotte, who sincerely rejoices that her philosophic soul teaches her to bear, with so much fortitude, the uncommon share of misfortunes she has (at so early a period) undergone. Continue, my amiable friend, to bear
 [ 6 ]
@@ -192,12 +191,14 @@ abilities; but, as I had not practiced since I came to town, I fear I did not co
 
 Truly affectionate
 
-Amelia beaumont.
+Amelia Beaumont.
 
+---
 [ 34 ]
-## LETTER VII. Miss Finch to The Honourable Miss Beaumont.
+## LETTER VII.
+### Miss Finch to The Honourable Miss Beaumont.
 
-Summer Hill, Devon.
+<p align="right">Summer Hill, Devon.</p>
 
 A THOUSAND thanks to my dear Amelia, for her last kind letter, which afforded me infinite satisfaction, as I could perceive through the whole, that her heart was more at ease than it had been for Some time past, and icst me room to hope site will Soon regain her wonted cheerfulness. That this may be the case I Sincerely wish. And, really, my dear Amelia, you must not let grief get the better of you; argue yourself out of it, and
 [ 35 ]
@@ -219,8 +220,11 @@ be made acquainted with all the fashionable places of resort.
 
 My dear father and mother beg you to accept their most affectionate love. You are already acquainted with every sentiment of my heart, and therefore must know, that it glows with the warmest wishes for health and happiness. From
 
-Your much attached friend, Charlotte Finch,
+Your much attached friend,
 
+Charlotte Finch,
+
+---
 [ 39 ]
 ## LETTER VIII. The Honourable Miss H. Beaumont to The Hon. Miss Beaumont.
 
@@ -232,13 +236,16 @@ dwell on evils that cannot now be remedied, but rather offer up my grateful than
 [ 41 ]
 indeed if she perceives the least air of restraint or mystery in your letters. — I have many things to say, but I feel myself too weak to hold my pen any longer. I beg Lord and Lady Spencer to accept of every dutiful remembrance, and you of every affectionate one, from,
 
-your’s sincerely,
+> your’s sincerely,
 
-Harriot Beaumont.
+>> Harriot Beaumont.
 
-## LETTER IX The Honourable Miss Beaumont to The Hon. Miss H. Beaumont.
+---
 
-Berkeley Square.
+## LETTER IX
+### The Honourable Miss Beaumont to The Hon. Miss H. Beaumont.
+
+<p align="right">Berkeley Square.</p>
 
 MANY thanks to my ever dear Harriot for her kindness in
 [ 42 ]
@@ -253,15 +260,15 @@ Present my best respects affectionate compliments to Sir William and Lady Mannin
 [ 45 ]
 to you. Accept the sincerest love of,
 
-Your affectionate,
+> Your affectionate,
 
-Amelia Beaumont.
+>> Amelia Beaumont.
 
-P. S. You may expect a journal soon. Let me hear frequently of your welfare.
+>>> P. S. You may expect a journal soon. Let me hear frequently of your welfare.
 
 ## LETTER X. The Honourable Miss H. Beaumont to The Hon. Miss Milner.
 
-Manning Castle, Wiltshire.
+<p align="right">Manning Castle, Wiltshire.</p>
 
 ALL my Horatia’s kind letters lay now before me, for which I send her a thousand and a thousand thanks. I wish it had been in my power to have answered them sooner;
 [ 46 ]
@@ -286,14 +293,16 @@ and indeed I may easily pass for such, as few people in these parts know to the 
 
 This is the longest letter I have written for sometime. I assure you I am quite tired; and as all the family are retired to rest, and I feel myself disposed to steep, I think I had better indulge its influence., Accept every wish that an affectionate heart can offer, from,
 
-Your sincere friend, Harriot Beaumont.
+Your sincere friend,
+
+Harriot Beaumont.
 [ 52 ]
 
 ---
 
-## LETTER XI.The Honourable Miss Milner to The Hon. Miss H. Beaumont.*
+## LETTER XI. The Honourable Miss Milner to The Hon. Miss H. Beaumont.
 
-> > St. James’s Street,
+<p align="right">St. James’s Street.</p>
 
 The long looked for and anxiously expected pleasure of a letter from my Harriot I have at length received. I had indeed heard of the melancholy event of Lady beaumont’s, death, and wrote a letter to you on the occasion, which must have miscarried, as you do not mention the receipt of it.
 
