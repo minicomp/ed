@@ -69,7 +69,7 @@ T. Evans, No, 54, Paternoster-Row.</p>
 
 ---
 
-##TO THE ENGLISH LADIES.
+## TO THE ENGLISH LADIES.
 
 Ladies, 
 Let your sensibility be the judge of this work, and my desire of pleasing you my advocate. 
@@ -82,7 +82,7 @@ Treyssac de Vergy.
 
 --- 
 
-##LETTER I. 
+## LETTER I. 
 
 John Rambler, Esq; to Sir Francis Crosley. 
 
@@ -110,7 +110,7 @@ London 1770.
 
 --- 
 
-##LETTER II. 
+## LETTER II. 
 
 Sir Francis Crosley, to John Rambler, Esq. 
 
@@ -120,7 +120,7 @@ Bath 1770.
 
 ---
 
-##LETTER III. 
+## LETTER III. 
 
 John Rambler, Esq; to Sir Francis Crosley. 
 
@@ -133,7 +133,7 @@ will relate in my next. Adieu.
 
 ---
 
-##LETTER IV
+## LETTER IV
 
 Thou hadst not ledt Oxford three months, when a letter I received from my father, plunged me into real misery, and from the happiest of the thoughtless Oxonians, made me the most anxious of all the rational beings. The loss of two ships richly loaded, which had been taken by a French privateer off Cape Finisterre, reduced him to the utmost indigence. -  He had but time to write the fatal news, as the fear of his creditors compelled him to fly immediately to Holland. — “I have 
 no money to send you, added he, nor can I provide for your futuresSupport - you have knowledge and wit - there are opulent fools in England - your fate is in your own hand; it will be your fault if it is unhappy. - Please or be useful, if you possess either of those advantages you need no other - without them, be ever so virtuous or learned, you shall languish your life away, the scorn of mankind.” -
@@ -147,7 +147,7 @@ had made, and begged his lordship's protection. Lord C ----- turned to the jocke
 
 ---
 
-##LETTER V
+## LETTER V
 
 As soon as I came to lord C-----'s he sent for me.
 
@@ -221,7 +221,7 @@ The joy I felt at having so happily succeeded, diffused itself through every fea
 
 At that minute her waiting woman coming in, she reassumed her air of dignity, and with a nod bid me out of her room. 
 
-##LETTER VI.
+## LETTER VI.
 
 When I could, undisturbed, indulge a reverie upon my conversation with the countess, miy pride recollected carefully every word she spoke, every emotion she felt, which I might construe as a symptom of inclination in my favour. However impertinent my presumption, I did not attempt to check it. I was young, graceful, and of an athletic form; this last quality 
 was, in my opinion, superior to the advantage of a noble birth; and, I had heard that several ladies of quality, preferred it always to title, fortune, and merit. “Why should not lady C-----
@@ -273,7 +273,7 @@ London 1771.
 
 ---
 
-##LETTER VII. 
+## LETTER VII. 
 
 I had not been gone an hour from the countess’s apartment, when my lord sent for me. I found him in the attitude of a man oppressed with grief. He, leaned against the back of a chair, and held a letter in his hand, which he seemed to read with indignation and fury. 
 
@@ -316,7 +316,7 @@ Give me that letter, my lord: I may possibly discover who wrote it - if I do, do
 
 “Then I retired, overjoyed at having it in power to convince the countess of my affection”. 
 
-##LETTER VIII. 
+## LETTER VIII. 
 
 Impatient to communicate to lady C----- what I had been told by 
 her lord, I step’d immediately to her apartment. Her ladyship being at her toilet, I thought the moment unfavourable; and, before she had finished the important business of dressing, some ladies of the neighbourhood coming in, I had but towards the evening an opportunity of whispering in her ear, that I had a secret to disclose to her”. 
@@ -520,7 +520,7 @@ I returned, Francis, not as I came, but the most amorous of men.
 
 ---
 
-##LETTER IX. 
+## LETTER IX. 
 
 The certainty of being loved by the countess made up for my disappointment, and determined me to make the best of the first opportunity. For the loss of this I upbraided myself with “had I gallantly attempted to realise her voluntary dream. Said I to myself, she would not have awaked - I hesitated too long - her virtue put in a word, and I was deprived of happiness.” 
 
@@ -532,99 +532,42 @@ I had not been an hour out of my lady’s apartment, when shesSent for me. She w
 
 And she trip’d to her closet.
 
-“I know Rambler, the author of the letter Sent to my lord. .Dis ’squire Ben son, an unfortunate lover, who to revenge himself of my indifference has charged me with gallantry. Here is the last billet-doux he wrote to me; 
-It 
-[ «9 ] 
-It will convince my lord of my innocence — Say you found it in my closet, 
-* 
-or stole it from me — I wish the ’squire may Severely Suffer for the mischief he intended todo — induce his lordship to chastise the fellow as he deserves.” — 
-“Your wish shall be gratified. 
+“I know Rambler, the author of the letter Sent to my lord. 'Tis ’squire Benson, an unfortunate lover, who to revenge himself of my indifference has charged me with gallantry. Here is the last billet-doux he wrote to me.
+
+It will convince my lord of my innocence - Say you found it in my closet, or stole it from me - I wish the ’squire may severely suffer for the mischief he intended to do - induce his lordship to chastise the fellow as he deserves.” -
+
+“Your wish shall be gratified." - 
+
 I ravished a kiss, and went away thinking how to bring the ’squire to the punishment of the bastinado. 
-Hearing that his lordship had just returned from the airing he had taken, I went to him. 
-“What news, Rambler 
-\ 
-4 
-« The 
-« 
-/ 
-V 
-w 
-t 7® ] 
-The best your lordship could expect— — countess is innocent, and her calumniator is known.’* 
-“Who is he ^ 
-“’squire benson.” — 
-“Then I doubt my lady’s innocence « — benson is my friend — he would not deceive me — I cannot question his probity.” — - 
-“That friend you think So honourable, has attempted to Seduce your wife.” -- - — 
-“Have care of what you Say, Rambler — it is not upon your mere word i’ll believe Benibn a rascal.” -- 
-“Judge 
-L 7' 1 
-“Jddge of him upon facts, my lord. 
-Read this billet — it is of the Same hand 
-wdiich wrote the letter you received lately, and' directed to the coim tess.” 
-His lordship took the paper, and opening it with — ‘ Lord! can it be 
-possible ?” Read as follows. 
-i 
-♦ 
-* / 
-To the Countess of C -- -- -- -- -- -/ 
-I 
-V 
-X * 
-I 
-0 
-\ 
-Throw not into despair, a man who loves you to distradlion -- -- -- -- -- 1 can no 
-longer bear your disdains with patience -- -- they are worse than death, or infamy. -- -- -- Fear the evils I may bring ] 
-upon 
-[ 72 ] 
-upon you -- -- -- lord — is jealous 5 
-he will easily believe any charge against you -- -- think of the life of miscry which 
-his credulity will force you tolive^_ol 
-- > 
-the loss of your reputation, which his 
-behaviour will confirm — and dare to be 
-/ 
-still Severe, still indifferent. -- I have 
-threatened the woman I adore! O for 
-4 
-give, forgive! -- -- -- My heart would 
-r 
-Sooner cease to beat -- -- 1 am incapable 
-of injuring you — I love — 1 can but 
-love — charming C -- -- -- -! repay my passion, 
-only with a Smile — with a line 
-from your hand -- -- -- let me hope — I alk 
-for no more -- -- if I am but certain of 
-not being difiiked. i’ll be content and 
-happy -- -- -- What is a Smile — 2l line? — 
-Deny not that comfort to the disconso late Benson. 
-I 
-« The 
-t 73 1 
-'S 
-The villain! Exclaimed lord C — when he had read. How he has ai 
 
-bused my confidence and friendship! 
-He made an absolute fool of me — it was he, Rambler, who created my Suspicions against lady C -- -- -- -. He observed 
-to she; that she was courted, and often whispered to by Some young men, who compose her Society — by his advice I forbid the countess to admit the visit of those he pointed out to me for her favourites, and prevented her from forming connexions he did not approve of — My diffidence of her ala 
+Hearing that his lordship had just returned from the airing he had taken, I went to him.
 
-tered my temper — an offensive Severity Succeeded my former indulgence, and my good nature gave way to misanthropy. From this change in me, and my implicit adhesion to his counsels, he hoped, the villain! to meet vol. I. E with 
-[ 74 ] 
-with a more favourable reception from a woman exasperated against her husband— — 
+“What news, Rambler?" -
 
-I am ashamed of the part the Scoundrel 
-has engaged me to perform. — I owe a 
-% 
-reparation to the countess, and I will 
-* ' 
-V 
-give it -- -- -- She must not any more 
-curse the hour when she became my 
-wife. -- -- -- My Sole care will be to 
-make her happy — -- this instant i’ll go to her, fall at her feet, and ash pardon 
-for the pash — 
-\ 
-\ 
+"The best your lordship could expect - countess is innocent, and her calumniator is known."
+
+“Who is he?" - 
+
+"'Squire Benson." -
+
+“Then I doubt my lady’s innocence - Benson is my friend - he would not deceive me - I cannot question his probity.” -
+
+“That friend you think so honourable, has attempted to Seduce your wife.” - 
+
+“Have care of what you Say, Rambler - it is not upon your mere word I’ll believe Benson a rascal.” -
+
+“Judge of him upon facts, my lord. Read this billet - it is of thesSame hand which wrote the letter you received lately, and directed to the countess.” 
+
+His lordship took the paper, and opening it with - ‘ Lord! can it be possible?” Read as follows. 
+
+To the Countess of C-----.
+
+Throw not into despair, a man who loves you to distraction - I can no longer bear your disdains with patience - they are worse than death, or infamy. - Fear the evils I may bring upon you - lord C----- is jealous; he will easily believe any charge against you - think of the life of misery which his credulity will force you to live - of the loss of your reputation, which his behaviour will confirm - and dare to be still severe, still indifferent. - I have threatened the woman I adore! O forgive, forgive! - My heart would sooner cease to beat - I am incapable 
+of injuring you 0 I love — I can but love - charming C----! repay my passion, only with a smile - with a line from your hand - let me hope - I ask for no more - if I am but certain of 
+not being disliked, I’ll be content and happy - What is a smile - a line? -  Deny not that comfort to the disconsolate Benson. 
+
+"The villain! Exclaimed lord C----- when he had read. How he has abused my confidence and friendship! He made an absolute fool of me - it was he, Rambler, who created my suspicions against lady C-----. He observed to me, that she was courted, and often whispered to by some young men, who compose her society - by his advice I forbid the countess to admit the visit of those he pointed out to me for her favourites, and prevented her from forming connexions he did not approve of - My diffidence of her altered my temper - an offensive severity succeeded my former indulgence, and my good nature gave way to misanthropy. From this change in me, and my implicit adhesion to his counsels, he hoped, the villain! to meet with a more favourable reception from a woman exasperated against her husband - I am ashamed of the part the scoundrel has engaged me to perform. - I owe a reparation to the countess, and I will give it - She must not any more curse the hour when she became my wife. - My sole care will be to make her happy - this instant I’ll go to her, fall at her feet, and ask for the past. - 
+
 “Betray me not, my lord — I stole 
 f 
 this billet from her — let me not be mi serable for having Served you.” — : -- -- 
