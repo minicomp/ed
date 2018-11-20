@@ -10,7 +10,10 @@ toc:
 - Title Page
 - Preface to the Reader
 - Contents
-- The Test of Friendship
+- Chap. I
+- Chap. II
+- Chap III
+- Chap IV
 ---
 
 ---
@@ -18,61 +21,45 @@ toc:
 This text has been OCRed and hand-corrected from the [digital surrogate](http://hdl.library.upenn.edu/1017/d/print/991610763503681) in Penn Libraries' Digital Collection of British and American Fiction. The original book is held by the Kislak Center for Special Collections (Penn Libraries, University of Pennsylvania).
 
 ---
-THE
-ROYAL ADVENTURERS;
-OR, THE
-CONFLICT of LOVE.
+<p class="centered large">THE<br>ROYAL ADVENTURERS;<br>OR, THE<br>CONFLICT of LOVE.</p>
 
-A NOVEL.
+<p class="centered large">A NOVEL.</p>
 
-When virtue and modesty enlighten her charms, the
+>When virtue and modesty enlighten her charms, the
 lustre of a beautiful woman is brighter than the
 stars of heaven, and the influence of her power it
 is in vain to refill.
+>>Oeconomy of Human Life.
 
-Oeconomy of Human Life.
 
-
-LONDON:
-Printed for G. Allen, No. 59. in Pater-noster-Row;
-M DCC LXXIII.
+<p class="centered">LONDON:<br>Printed for G. Allen, No. 59. in Pater-noster-Row;<br>
+M DCC LXXIII.</p>
 
 ---
 ## PREFACE TO THE READER.
 
 At a time when there is so great
 a dearth of good writers, it is,
-almost needless to say any thing in fa-
-vour of the following work. The town
+almost needless to say any thing in favour of the following work. The town
 has long been pestered with novels.
 The vitiated taste of youth, owing to
 the perusal of such productions, is an
 undeniable proof of the great necessity
-of exploding the publication of all simi-
-lar works, which most deservedly me-
-rits to be consigned to eternal obli-
-vion. The adventurers of an imagin-
-ary being is generally the theme of
+of exploding the publication of all similar works, which most deservedly merits to be consigned to eternal oblivion. The adventurers of an imaginary being is generally the theme of
 these writings: An abandoned female,
-a profligate rake, or a reformed de-
-bauchee, the principal events of whose
+a profligate rake, or a reformed debauchee, the principal events of whose
 life are treated of in books of this
-
 (iv)
 are the general topic; these are
 daily offered to the perusal of the idle
 and dissipated, and the minds of young
 people are corrupted by that which
 ought to be the source of instruction
-and entertainment. They either be-
-come acquainted with scenes of intrigue
-and wickedness to which they were be-
-fore utter strangers, or, which is e-
+and entertainment. They either become acquainted with scenes of intrigue
+and wickedness to which they were before utter strangers, or, which is e-
 qually as bad, their minds are filled
 with ideas of incidents as impropable
-as they are absurd. Thus the origi-
-nal design of novels is entirely perver-
-ted. They were at first intended to
+as they are absurd. Thus the original design of novels is entirely perverted. They were at first intended to
 instruct, at the same time that they
 amuse the reader; but alas! the state
 of virtue is become so degenerate, that
@@ -81,58 +68,39 @@ seems with obscenity of language and
 profligacy of sentiment. To this cause
 also may be justly attributed the never
 to be sufficiently lamented depravity of
-manners. Young people of both sex-
-es, who were once renowned for being
-the brightest examples of the most ex-
-alted virtue, are now become the scorn of
-
+manners. Young people of both sexes, who were once renowned for being
+the brightest examples of the most exalted virtue, are now become the scorn of
 (v)
-their acquaintance; and that good-
-ness of heart which once seemed to be
+their acquaintance; and that goodness of heart which once seemed to be
 the sole spring of all their actions, is seen
-no more, and vice now rears her stand-
-ard, where virtue lately displayed her
+no more, and vice now rears her standard, where virtue lately displayed her
 banners. To stem this torrent of evil,
-and to restore virtue to its pristine lus-
-tre is the most ardent wish of the au-
-thor of the following sheets. From
-the subsequent short sketch, the rea-
-der will be enabled to form a proper
+and to restore virtue to its pristine lustre is the most ardent wish of the author of the following sheets. From
+the subsequent short sketch, the reader will be enabled to form a proper
 judgment of the whole work. The
 story is very interesting, the incidents
 are related in the most correct, clear
 and concise method imaginable; the
-language is pure and chaste; all ex-
-pressions which might afford the light-
-est shadow of corruption are studious-
-ly avoided, and the utmost care has
+language is pure and chaste; all expressions which might afford the lightest shadow of corruption are studiously avoided, and the utmost care has
 been taken to insert nothing but what
 will tend to instruct: and reform, as
 well as amuse the mind of the reader
-As this is the scope which the au-
-thor has prescribed to himself, he
+As this is the scope which the author has prescribed to himself, he
 doubts not in the least of meeting
 with the approbation of all those who
-
 (vi)
 shall take the pains of perusing this
 work, which if he is so happy as
 to meet with, he will ever entertain
 a grateful rememberance of the favour
 conferred on him, and will endeavour
-to testify his most sincere acknow-
-ledgement by dedicating his labours
+to testify his most sincere acknowledgement by dedicating his labours
 to the service of those who honour them
 with their countenance. As he has
-neither the views of honours or in-
-terest to influence him, he flatters
-himself that he has gained the sum-
-mit of his desires, by having pro-
+neither the views of honours or interest to influence him, he flatters
+himself that he has gained the summit of his desires, by having pro-
 duced a work which, at the same time
-that it delights, conveys the most in-
-structive lessons of virtue. He there-
-fore takes the liberty of recommend-
-ing his work to the attention of the
+that it delights, conveys the most instructive lessons of virtue. He therefore takes the liberty of recommending his work to the attention of the
 polite youth of both sexes, and flat-
 ters himself that their approbation of
 his endeavours to plese them will
@@ -144,8 +112,7 @@ remembered that VIRTUE alone should
 
 (vii)
 be the distinguishing characteristic of
-every class, and that without this or-
-nament all our actions lose their
+every class, and that without this ornament all our actions lose their
 merit. If he is so happy as to afford
 any pleasure to his readers, he will
 esteem his labours overpaid, and will
@@ -172,209 +139,176 @@ or the too credulous public.
 [i]
 ## CONTENTS
 
-CHAP. I.
-The birth of Thalmeno—At the age of fif-
-teen he resolves privately to leave his father’s
-court.—Palmos is informed of his inten-
-tion, and determines to accompany him.
+<a href="#chap-i">CHAP. I.</a>
+*The birth of Thalmeno—At the age of fifteen he resolves privately to leave his father’s
+court.—Palmos is informed of his intention, and determines to accompany him.
 They elope together—embark on board a
 vessel—and land safely on the African
-shore.
-Page 1.
+shore.*			Page 1.
 
-CHAP. II.
-After traveling through the Arabian deserts,
+<a href="#chap-ii">CHAP. II.</a>
+*After traveling through the Arabian deserts,
 they arrive at a castle inhabited by Flo-
 rina, daughter of a Numidian king-, where
 making themselves known, their necessities
 are relieved, and furnished with means to
-pursue their travels
+pursue their travels.*
 10.
 
 [ii]
-CHAP. III.
+<a href="#chap-iii">CHAP. III.</a>
 They arrive at the palace of Folly—a dwarf
 appears, and prevails on them to quit the
 palace, which they have no sooner done,
 but the whole building is swallowed up.
 25.
 
-CHAP. IV.
+<a href="#chap-iv">CHAP. IV.</a>
 By the sound of music, they are drawn into a
-forest, where they find an aged father, seat-
-ed in a fragrant bower.—He informs them,
+forest, where they find an aged father, seated in a fragrant bower.—He informs them,
 at their request, why he lives that retired
 life.—At their departure he gives them
-the necessary instructions for their jour-
-ney.
+the necessary instructions for their journey.
 38.
 
-CHAP. V.
-They arrive at the court of Zanfara——and
+<a href="#chap-v">CHAP. V.</a>
+*They arrive at the court of Zanfara——and
 enter into the king's service—changing
 their names from Thalmeno to Thalmo,
-and from Palmos to Plivio—Thalmo is
-
-
-[ iii ]
-appointed preceptor to the king’s daughter
+and from Palmos to Plivio—Thalmo is*[ iii ]
+*appointed preceptor to the king’s daughter
 —and Plivio appointed governor of Ithaca
-castle.
+castle.*
 47.
 
-CHAP. VI.
-Thalmo goes to the forest and unexpectedly
+<a href="#chap-vi">CHAP. VI.</a>
+*Thalmo goes to the forest and unexpectedly
 meets with Athelia,— He determines to
 discover his passion. The lady treats
 him with great contempt, and departs
-abruptly.
+abruptly.*
 60.
 
-CHAP. VII.
-Thalmo is enraged at Athelia’s abrupt
+<a href="#chap-vii">CHAP. VII.</a>
+*Thalmo is enraged at Athelia’s abrupt
 departure. He resolves to write to her.
 —The princess determines to correspond
 with Thalmo, and acknowledges her love
-for him alone.
+for him alone.*
 
-
-
-CHAP. VIII.
-Plivio resolves in the absence of the gover-
-nor to visit the fair captive, and to set
-
+<a href="#chap-viii">CHAP. VIII.</a>
+*Plivio resolves in the absence of the governor to visit the fair captive, and to set*
 [iv]
-her at liberty.—The prince discovers his
+*her at liberty.—The prince discovers his
 passion for her, which the lady, for the
-present pays no regard to.
+present pays no regard to.*
 67.
 
-CHAP. IX.
-The king refuses to match his daughter to
+<a href="#chap-ix">CHAP. IX.</a>
+*The king refuses to match his daughter to
 Medor.—Florina is sent from court.—
 Medor resolves to travel.—In his passage
 is forced by a storm into a port in Africa;
 where he takes up his residence—Resolves
 to visit the court of Zanfara.—In his
 journey he finds a solitary habitation
-where he takes up his residence, and dis-
-guises himself like an hermit.
+where he takes up his residence, and disguises himself like an hermit.*
 87.
 
-CHAP. X.
-Thalmo sues in vain to gain the affections of
+<a href="#chap-x">CHAP. X.</a>
+*Thalmo sues in vain to gain the affections of
 Athelia.—He receives a challenge from
-Albion, a Zanfarian prince, and pro-
-mises to meet him.—Instead of meeting
-with the challenger, he is beset by a gang
-
+Albion, a Zanfarian prince, and promises to meet him.—Instead of meeting
+with the challenger, he is beset by a gang*
 [ v ]
-of ruffians placed there on purpose to des-
-troy him,—But is timely relieved by
-Plivio.
+*of ruffians placed there on purpose to destroy him,—But is timely relieved by Plivio.*
 92.
 
-CHAP. XI.
-Plivio acquaints Athelia of Thalmo’s mis-
+<a href="#chap-xi">CHAP. XI.</a>
+*Plivio acquaints Athelia of Thalmo’s mis-
 fortune.—At this dreadful news the prin-
 cess avows her love for him.—She fends to
 Thalmo by his cousin—and afterwards
-visits him at his apartments.
+visits him at his apartments.*
 100.
 
-CHAP XII
-Florina is ordered to the court by her father
+<a href="#chap-xii">CHAP XII</a>
+*Florina is ordered to the court by her father
 —She refuses to comply.—He sends a guard
 to force her, and she escapes to the seaside,
-where she is protected by an aged fisher-
-man.—They are taken prisoners by a Tur-
-kish Xebeque.—Florina is detained, and
-the rest set at liberty.
+where she is protected by an aged fisherman.—They are taken prisoners by a Turkish Xebeque.—Florina is detained, and
+the rest set at liberty.*
 108.
-
 [vi]
-CHAP. XIII.
-Plivio being acquainted with Thalmos suc-
+
+<a href="#chap-xiii">CHAP. XIII.</a>
+*Plivio being acquainted with Thalmos suc-
 cess with the princess Athelia, resolves to
 renew his suit.—He goes to the court for
 that purpose, and hearing that Mersilva,
 with the queen and her attendants, were
-taking the diversion of hunting, he deter-
-mines to join the chase.—By some accident
+taking the diversion of hunting, he determines to join the chase.—By some accident
 Mersilva loses sight of the company, and
-is overtaken by a young lord, named Bli-
-thion, one of the party; he attempts her
+is overtaken by a young lord, named Blithion, one of the party; he attempts her
 virtue, but is unexpectedly defeated in his
 brutal attempt by the arrival of Plivio,
-from whom he meets his death.
+from whom he meets his death.*
 116.
 
-CHAP. XIV.
-The princess Mersilva recovers from the
+<a href="#chap-xiv">CHAP. XIV.</a>
+*The princess Mersilva recovers from the
 fright, and, with Plivio, immediately
 join the company, to whom they relate their
-adventure.—The queen informs the king of
-
+adventure.—The queen informs the king of*
 [vii]
-Plivio’s generous behaviour to the princess.
+*Plivio’s generous behaviour to the princess.
 —The king rewards him with a command
 in the army.—He renews his suit to the
-princess, but meets with little encourage-
-ment.
+princess, but meets with little encouragement.*
 123.
 
-CHAP. XV.
-The princess returns to Plivio—Having ob-
-tained sufficient proofs of his constancy and
+<a href="#chap-xv">CHAP. XV.</a>
+*The princess returns to Plivio—Having obtained sufficient proofs of his constancy and
 affection, she acknowledges her passion
-for him, and meets with a suitable re-
-turn.
+for him, and meets with a suitable return.*
 130.
 
-CHAP. XVI.
-Plivio informs his cousin Thalmo of his suc-
-cess with the princess Mersilva.—Thal-
-mo mentions his desire to return home.—
+<a href="#chap-xvi">CHAP. XVI.</a>
+*Plivio informs his cousin Thalmo of his success with the princess Mersilva.—Thalmo mentions his desire to return home.—
 Plivio consents to go with him.—They
-discover to the ladies their birth and pa-
-rentage, with their real names, and their
-
+discover to the ladies their birth and parentage, with their real names, and their*
 [viii]
-intentions of leaving the court of Zanfara.
+*intentions of leaving the court of Zanfara.
 —The ladies resolve to join their company.
-—They depart the next night without mo-
-lestation
+—They depart the next night without molestation*
 136.
 
-CHAP. XVII.
-Messengers are dispatched in search of the
+<a href="#chap-xvii">CHAP. XVII.</a>
+*Messengers are dispatched in search of the
 ladies, who are supposed to be taken away
 by Thalmeno and Palmos, but without
 effect—Travelling through a forest, they
-find a cottage, where they alight for re-
-freshment, and find it inhabited by prince
+find a cottage, where they alight for refreshment, and find it inhabited by prince
 Medor, mentioned in the former part of
 this book—Thalmeno acquaints him of
-Florina’s retirement, and offers to con-
-duct him to her, which he readily accepts of.
+Florina’s retirement, and offers to conduct him to her, which he readily accepts of.*
 142.
 
-CHAP XVIII.
-Medor conducts them to the sea side, where
-they meet with a ship, and sail immediately  
-
+<a href="#chap-xviii">CHAP XVIII.</a>
+*Medor conducts them to the sea side, where
+they meet with a ship, and sail immediately*
 [ix]
-Cicilia—In their voyage they fall in
+*Cicilia—In their voyage they fall in
 with a Turkish xebeque—and after an
 obstinate engagement she surrenders to them
 —Prince Medor is sent on hoard to take
 the command of her, and, to his great
 surprize, finds his lost Florina, a captive
-on hoard.
+on hoard.*
 153.
 
-CHAP. XIX.
-The happy meeting of Medor and Florina.
+<a href="#chap-xix">CHAP. XIX.</a>
+*The happy meeting of Medor and Florina.
 —The prince informs her he is hound for
 Cecilia, she consents to go with him—-The
 princess prevails on Medor to set the prize
@@ -382,99 +316,72 @@ at liberty, in return for the indulgence
 shewn to her, which he complies with—
 They return on hoard his own ship,
 where the lady is joyfully received by his
-princely associates.
-
+princely associates.*
 [x]
-CHAP. XX.
-The Royal Adventurers relate the most ex0
-traordinary and interesting circumstances of
-their travels—are interrupted by a vio-
-lent storm arising—a scene of horror and
+
+<a href="#chap-xx">CHAP. XX.</a>
+*The Royal Adventurers relate the most extraordinary and interesting circumstances of
+their travels—are interrupted by a violent storm arising—a scene of horror and
 confusion, but productive of the severest
-trial of love and friendship.
+trial of love and friendship.*
 170.
 
-CHAP. XXI.
-Our adventurers after this scene of distress,
+<a href="#chap-xxi">CHAP. XXI.</a>
+*Our adventurers after this scene of distress,
 are favoured with the continuance of a
 fair wind; and with a pleasant gale
 reached the Cicilian shore, to the mutual
 joy of every party.—Druyno recognizes
 his lost son with paternal affection, and
 Thalmeno, his royal father with filial
-duty.
+duty.*
 184.
-
 [xi]
-CHAP. XXII.
-The nuptials of Thalmeno and Athelia,
+
+<a href="#chap-xxii">CHAP. XXII.</a>
+*The nuptials of Thalmeno and Athelia,
 are magnificently solemnized, at the court
 of Messina, in preference of their royal
-companions, who are sumptuously enter-
-tained by Druyno. At length they de-
-part for their respective kingdoms, and are
+companions, who are sumptuously entertained by Druyno. At length they depart for their respective kingdoms, and are
 made mutually happy, by the marriage
 union, and an entire possession of the hearts
-of their subjects.
+of their subjects.*
 193.
 
 ---
 
-### THE TEST OF FRIENDSHIP
+<p class="centered large">THE TEST OF FRIENDSHIP</p>
 
 
-CHAP I.
+## CHAP I.
 
-The birth of Thalmeno—At the age of fifteen he resolves privately to leave his father’s court.—Palmos is informed of his intention, and determines to accompany him.
-
-They elope together—embark on board a vessel—and land safely on the African shore.
-
+>The birth of Thalmeno—At the age of fifteen he resolves privately to leave his father’s court.—Palmos is informed of his intention, and determines to accompany him. They elope together—embark on board a vessel—and land safely on the African shore.
 
 In the island of Cecilia, situated in the center of the Mediterranean sea, there reigned a monarch named DRUYNO, endued with every virtue that could adorn the prince; he swayed the regal scepter
-
-
-
-2 The ROYAL ADVENTURERS.
-
 with the universal applauses of a grateful people; who, considering him as the guardian of their liberties, and the source of the tranquillity which they enjoyed under his government.—To his skill in martial affairs he had added a knowledge of every other science, that at once elevates and adorns the mind.—At this time peace blest his happy isle, and that he might contribute as much as possible to the happiness of his subjects, he constantly resided among them.
 
+But alas! his own felicity was incomplete! for though he married when only eighteen years of age, he had no issue to succeed to his crown—and GRATIANA, his consort, was scarcely fourteen when she became the partner of the royal bed. His head, with age was almost silver’d o’er; the lily and the rose had faded on Gratiana’s cheeks, where once they triumphed blooming and unrivaled.
 
-But alas! his own felicity was incomplete! for though he married when only eighteen years of age, he had no issue to succeed to his crown—and GRATIANA, his consort, was scarcely fourteen when she became the partner of the royal bed. His head, with age was almost silver’d o’er; the lily and the rose had faded on Gratiana’s cheeks, where once they
-
-triumphed blooming and unrivaled.
-
-
-
-The ROYAL ADVENTURERS. 3
-
-
-
-	The Snake each year fresh SKIN resumes.
-
-	And eagles change their aged plumes  
-	The faded rose each spring receives 	
-	A fresh red tincture on her leaves:
-
-	But beauties, when they once decay
-	Have never known a second May
-
+> -	The Snake each year fresh SKIN resumes.
+{:.poetry}
+> - And eagles change their aged plumes  
+> - The faded rose each spring receives 	
+> - A fresh red tincture on her leaves:
+{:.poetry}
+> - But beauties, when they once decay
+> - Have never known a second May
+{:.poetry}
 
 However, to the universal joy of the kingdom in general, and Druyno in particular, the queen’s pregnancy was announced, when all hopes of such an event had been totally given up; at length, the long wished-for blessing arrives; a prince is born—and nothing but acclamations are heard throughout the island.—The temples resounded with hymns of gratitude to the gods—their praises were chanted in every grove—and caroled through every street. Foreigners, who happened to be there, viewed with pleasure and surprize the magnificence with which they solemnized this auspicious day, when the subjects of so good a king seemed emulous
 
-
-
-4 The ROYAL ADVENTURERS.
+4
 
 to excel each other in giving demonstrations of their joy. Without carrying our readers into the nursery, and informing them with what tenderness and assiduity parental fondness watched over his infantile years, we shall only observe that at a very early age, when others are amused with toys, THALMENO, (for so was the young prince named) had acquired an uncommon degree of skill in martial exercizes, which were his delight; and so great was his proficiency in this kind of study, that ere he attained the years of maturity, he gave the most flattering hopes of one day becoming an experienced and successful general; and in every respect worthy of his royal extraction.
 
 
-As he grew up, his person bespoke his dignity—his complexion was beautifully
+As he grew up, his person bespoke his dignity—his complexion was beautifully fair—his demeanour courteous—and for affability surpassed even Alexander himself; by nature formed to please, he took every
 
-fair—his demeanour courteous—and for affability surpassed even Alexander himself; by nature formed to please, he took every
-
-
-
-The ROYAL ADVENTURERS. 5
+5
 
 
 
@@ -485,7 +392,7 @@ Thus distinguished by nature and by art, who had each so largely contributed to 
 
 
 
-6 The ROYAL ADVENTURERS.
+6
 
 
 harmonious notes to hail only Thalmeno their favourite.
@@ -493,9 +400,7 @@ harmonious notes to hail only Thalmeno their favourite.
 
 The royal parents viewed their rising, hopes in the bloomy spring of life with extacy of joy; nor did their piety want any incitement to their gratitude towards heaven for so sweet a son.-—They daily rendered millions of thanks to the propitious deity had thus blest their declining years with the precious boon, while the happy citizens thronged to the temple of the goddess Fortune, to offer up their daily thanks for so inestimable a blessing as the young and gallant heir of their flourishing empire.
 
-
-The herald had now proclaimed his sixteenth year—when, to improve his natural abilities and education—to experience what his princely fortunes might be-—and what events they might produce, he determines to travel.—The inclination was not to be opposed by any arguments his
-
+The herald had now proclaimed his sixteenth year—when, to improve his natural abilities and education—to experience what his princely fortunes might be-—and what events they might produce, he determines to travel.—The inclination was not to be opposed by any arguments
 
 
 The ROYAL ADVENTURERS. 7
@@ -513,39 +418,27 @@ me with the resolution, and I am determined to obey the impulse”
 
 But this his private resolution, was not so secretly concealed, but that the news soon reached the cars of his cousin PALMOS, son and heir of BLITHGORA, king of Egypt; who, being well pleased with the report, could reap no perfect rest, until he had engaged himself a participator of his cousin’s adventurous proceedings. He therefore went in Search of Thalmeno, and familiarly discovered to him the news he had heard of his intentions, which the young prince no sooner understood, but he was overjoyed that he had found so princely a partner of his future fortunes: in consequence of this meeting, they resolved to depart immediately; and furnishing themselves with such necessaries as were befitting for their voyage, they secretly departed, directing their course to Trapani, one of the principal ports of Cecilia; where finding
 
-
-
-The ROYAL ADVENTURERS. 9
+9
 
 
 a ship ready to sail, bound for Arabia, they instantly embarked, rejoicing that Fortune had so luckily provided for them a speedy passage, without making the king or the court in the least acquaint with their intentions. The young princes were soon missing, and for their absence, what sorrowful mournings and melancholy aggravations were seen in all places (especially in the palace royal) I leave to the delicate feelings of the susceptible reader.
 
 
+10
 
 
+## CHAP. II.
 
-
-
-10 The ROYAL ADVENTURERS.
-
-
-CHAP. II.
-
-After traveling through the Arabian deserts, they arrive at a castle inhabited by Florina, daughter of a Numidian king-, where making themselves known, their necessities are relieved, and furnished with means to pursue their travels
+>After traveling through the Arabian deserts, they arrive at a castle inhabited by Florina, daughter of a Numidian king-, where making themselves known, their necessities are relieved, and furnished with means to pursue their travels
 
 
 After a short and pleasant voyage, our royal adventurers attained the shore, and bountifully rewarding the crew, they betook themselves to their desperate adventures; where through the African deserts they so long had travelled, that at last, being destitute of food, and not finding wherewithal to suffice nature (these parts not being inhabited) passionately tracing these unknown groves, they exclaim upon the inhuman disasters of their miserable situation; but in vain; for they found no food to replenish their hungry
-
-
-
-The ROYAL ADVENTURERS. 11
-
-
+[11]
 appetites, unless to have fed upon unknown roots which were not agreeable to their palates; yet hoping ere long to harbour themselves in some homely cottage where with rustic fare they might appease their hunger: upon the foundation of this hope they continued their journey, and at last came to the descent of a deep valley, where, with a faint courage, walking pensively through the thicket of an ancient forest, they espied the architecture of some domestic mansion, which to their sorrowful contemplations produced unexpected encouragement: resuming courage at this change of fortune, they directed their course to the outward gate, where they beheld an ancient castle, but so solitarily situated in the center of the forest, that the wind piercing through the branches of the lofty cedars, made such a mournful murmur, that the dolefulness thereof drove our
 
 
 
-12 The ROYAL ADVENTURERS.
+[12]
 
 young princes into a fit of effeminate despair; hunger so far constrained them, that they resolved to enter; and opening the outward gate, they pasted the first court without the appearance of any living creature; on entering the second, they beheld a spacious court richly paved with curious marble, which was circumferenced with a sumptuous arched gallery, propped by pillars of shining alabaster; casting their eyes a small distance, they discovered a lady, sweet and amiable, sitting under the shady leaves of a fig-tree, recreating her senses with the sweet found of a well-timed lute, to which she joined her ravishing voice.
 
@@ -687,7 +580,7 @@ The ROYAL ADVENTURERS. 25
 
 
 
-CHAP III.
+## CHAP III.
 They arrive at the palace of Folly—a dwarf appears, and prevails on them to quit the palace, which they have no sooner done, but the whole building is swallowed up.
 
 
@@ -805,38 +698,30 @@ a cloud over-veiling her in his embraces, she immediately vanished.
 The young princes were greatly astonished at what they had seen, and on opening the paper found the following rules contained in it:
 
 
-1. Build the foundation of thy faith upon purity and piety, that thy zeal be not eclipsed with the contagion of idolatry, but rather perfumed with the sweet incense of sincerity.
+> 1. Build the foundation of thy faith upon purity and piety, that thy zeal be not eclipsed with the contagion of idolatry, but rather perfumed with the sweet incense of sincerity.
 
-2. Let devout prayers be a mediatrix between heaven and thyself, for it is the most assured step to obtain felicity.
+> 2. Let devout prayers be a mediatrix between heaven and thyself, for it is the most assured step to obtain felicity.
 
-3. Conceal thy secrets in the closet of thy breast, lest rashly displaying them to others, thou produce the prejudice of thine own tranquillity.
+> 3. Conceal thy secrets in the closet of thy breast, lest rashly displaying them to others, thou produce the prejudice of thine own tranquillity.
 
-4. Fly ambition, as the poison of the sense, and detest envy as the canker of thy contemplations.
+> 4. Fly ambition, as the poison of the sense, and detest envy as the canker of thy contemplations.
 
+[37]
 
+> 5. Gaze not on beauty lest it engender repentance, but loath a lascivious courtesan as the scourge of iniquity.
 
-The ROYAL ADVENTURERS. 37
+> 6. In thy actions be faithful lest being blemished with reproach thou impair thy reputation.
 
-5. Gaze not on beauty lest it engender repentance, but loath a lascivious courtesan as the scourge of iniquity.
+> 7. Honour thy king as God’s anointed, and if occasion present, live and die for thy country.
 
-6. In thy actions be faithful lest being blemished with reproach thou impair thy reputation.
+> 8. Detest vain glory as the venom of sin, and abolish superstition as the cloak of ungodliness.
 
-7. Honour thy king as God’s anointed, and if occasion present, live and die for thy country.
+---
+[38]
 
-8. Detest vain glory as the venom of sin, and abolish superstition as the cloak of ungodliness.
+## CHAP. IV.
 
-
-
-
-
-
-38 The ROYAL ADVENTURERS.
-
-
-
-CHAP. IV.
-
-By the sound of music, they are drawn into a forest, where they find an aged father, seated in a fragrant bower.-—He informs them, at their request, why he lives that retired life.-—At their departure he gives them the necessary instructions for their journey.
+*By the sound of music, they are drawn into a forest, where they find an aged father, seated in a fragrant bower.-—He informs them, at their request, why he lives that retired life.-—At their departure he gives them the necessary instructions for their journey.*
 
 
 Having perused the contents of the paper, and knowing the sacred influence thereof tended to the establishing of their celestial tranquility, they imprinted it in their memories, that it might serve for a fenced circumference, to retain them in the confines of piety; and triumphing that fortune had presented them with so sacred an instance, they joyfully departed.
@@ -963,41 +848,26 @@ king of Bohemia was confined prisoner.—-Leaving Plivio and Mersilva to Fortune
 
 
 
-C H A P. VI
+## CHAP. VI
 
-Thalmo goes to the forest and unexpectedly meets with Athelia,— He determines to discover his passion. The lady treats him with great contempt, and departs abruptly.
-
-
-Early in the morn  before the pearled dew was exhaled by the shining rays of golden Phoebus, when the fragrant flowers were displaying the pride of their beauty, and the melodious birds on the swelling bushes, warbling forth their melody, it chanced that Thalmo, captivated with the beauty of Athelia, betook himself to the fields, not only to refresh his tormented mind, but to make the flowery meadows acquainted with his amorous
-
-fancies.—-
+>Thalmo goes to the forest and unexpectedly meets with Athelia,— He determines to discover his passion. The lady treats him with great contempt, and departs abruptly.
 
 
-The ROYAL ADVENTURERS. 51
+Early in the morn  before the pearled dew was exhaled by the shining rays of golden Phoebus, when the fragrant flowers were displaying the pride of their beauty, and the melodious birds on the swelling bushes, warbling forth their melody, it chanced that Thalmo, captivated with the beauty of Athelia, betook himself to the fields, not only to refresh his tormented mind, but to make the flowery meadows acquainted with his amorous fancies.—-
 
-Directing his course to the verdant forests, he came to a spacious grove, whose branches expelling the darts of Titan, made a beautiful shade for retired passengers.—This retirement corresponding with his desires, he cast himself on a bank of flowers; and, having vented his passions, and made the forests echo with his malady, he resolved to return.—At his departure, fortune so ordained it, that the princess Athelia with her attendant ladies, were coming to the grove.—-Pleased with this unexpected sight, and elevating his resolutions upon the wing of honour, he resolved to present her with the idea of his affection—-and finding her sequestered
+[51]
 
-from her attendants (within a myrtle bower) after the ceremonies due to her royal birth, he thus addressed himself to her.
+Directing his course to the verdant forests, he came to a spacious grove, whose branches expelling the darts of Titan, made a beautiful shade for retired passengers.—This retirement corresponding with his desires, he cast himself on a bank of flowers; and, having vented his passions, and made the forests echo with his malady, he resolved to return.—At his departure, fortune so ordained it, that the princess Athelia with her attendant ladies, were coming to the grove.—-Pleased with this unexpected sight, and elevating his resolutions upon the wing of honour, he resolved to present her with the idea of his affection—-and finding her sequestered from her attendants (within a myrtle bower) after the ceremonies due to her royal birth, he thus addressed himself to her.
 
-
-
-52 The ROYAL ADVENTURERS “ Madam,
-
-
+[52]
 
 “Madam, When, by the aid of Fortune, I saw so much beauty, I immediately felt my tender breast inspired with a lover’s paSsion; and to such a degree, that ever since, I have firmly sworn my fidelity to the service of your superior excellence—-at the appearance of so many charms, my senses are so much captivated, that all I am now capable of, is to admire you.-—My birth is such, that, if known to you, might plead much in my behalf—therefore, dear madam, if my sighs might disclose, my tears explain, or my passions discover what a zealous flame my heart possesses in your favour, I think you would not only recompense my desert, but also repay my fidelity with your affection; and here I determine, till the period of my pilgrimage,
 
-
-
-The ROYAL ADVENTURERS. 53
-
+[53]
 
 to remain as constant to the princess Athelia, as I with she should be affable to the perplexed Thalmo.”
 
-
 The princess, (being unacquainted with such amorous encounters sharply returned him this answer.
-
-
 
 “Why Thalmo, said she, hath my kindness made thee so arrogant, or my underserving favour so presumptuous, that thou shouldst discourse to me of love —-hath my affability emboldened thee to aspire so high, as to declare thy affection to one so much thy superior? Hath idleness in my service, taught thee to adorn thy tongue with flattery ?—-And is there no other object for thee to aim at but me?-—As for thy birth, I disdain it as nothing, and thyself as less:—-if thou hast sacrificed sighs, or shed tears for my sake,
 
@@ -1092,21 +962,14 @@ The princess, to conceal her passion, immediately departed; and directed her ste
 
 
 
-CHAP. VII.
+## CHAP. VII.
 
 Thalmo is enraged at Athelia’s abrupt departure. He resolves to write to her.—-The princess determines to correspond with Thalmo, and acknowledges her love for him alone.
 
 
-Thalmo feeing the princess depart so unexpectedly, changed his pleasant countenance to a pale complexion ; continually crying out upon cruel, destiny, and often sighing as-if his heart would break; falling from sighs to tears, and then from tears to sigh again; then calling on Athelia, as if that name had I ravished his senses with divine cogitations;
+Thalmo feeing the princess depart so unexpectedly, changed his pleasant countenance to a pale complexion ; continually crying out upon cruel, destiny, and often sighing as-if his heart would break; falling from sighs to tears, and then from tears to sigh again; then calling on Athelia, as if that name had I ravished his senses with divine cogitations;at length, he retired to his closet, and resolved to write to her; that he might in some measure ease his tormented mind.
 
-at length, he retired to his closet, and resolved to write to her; that he might in
-
-some measure ease his tormented mind.
-
-
-
-The ROYAL ADVENTURERS. 61
-
+[61]
 
 As soon as he had finished his epistle, he hasted to a lady of the princess Athelia, and requested her to deliver it to the princess, to which she readily consented and finding her alone in her chamber, with an humble reverence, effected her promise. The princess, at first, was unwilling to receive it, not knowing from whence it came; however, she took the letter, which she had no sooner opened than she saw the name of Thalmo, and commanding her woman to depart, she locked her chamber door, and read the contents: this brought to her remembrance the doleful sighs, and passionate agonies, which, as messengers of faithful constancy, he sent to witness the miseries he endured: she forgot not the proud repulses, sharp answers, bitter threats, and obstinate denials that she gave his enter-prize; which, when considered, made her burn
 
@@ -1160,648 +1023,297 @@ torments might be compared to the tortures of Ixion, only with this exception, t
 
 67 The ROYAL ADVENTURERS.
 
-CHAP. VIII.
+## CHAP. VIII.
 
-Plivio resolves in the absence of the governor to visit the fair captive, and to set her at liberty,—The prince discovers his passion for her, which the lady, for the present pays no regard to.
+*Plivio resolves in the absence of the governor to visit the fair captive, and to set her at liberty,—The prince discovers his passion for her, which the lady, for the present pays no regard to.*
 
 
 Plivio having been appointed by the king deputy-governor of Ithica castle, where Mersilva was kept prisoner, could not brook the treatment which that princess received from PORUS, the governor. The king allowed her a decent chamber, pleasant walks, a table answerable to her person, and a woman to attend her; on the contrary, Porus abridged her of these privileges, and placed her in an obscure dungeon, where the thoughts of so detestable a place might have
-
-
-
-68 The ROYAL ADVENTURERS.
-
-
+[68]
 hurried the greatest hero into a labyrinth of despair. Instead of pleasant walks, she had only the liberty of her close prison; her diet was homely, and scarce enough to assist nature; and instead of an attendant woman, was served by an ugly ruffian, within the furrows of whose angry brow, envious wrath sat triumphant; having, from his governor, a strict order to hinder all those that, in compassion to her distress, should attempt to give her relief.
 
-
 Mersilva, perceiving her hard usage, exclaimed on Fortune, lamenting that ever she had attained so dismal an aspect.—Weep she might, for there were no spectators of her lamentation; and well might she lament, and cast forth sighs, for there was none to comfort her in the depth of her miseries.—If at any time she
-
-
-
-The ROYAL ADVENTURES. 69
-
-
-
+[69]
 bemoaned herself; to her rigorous keeper, with forcible arguments to induce him to pity, she was immediately checked with a catalogue of reproaches; alleging, that her entertainment exceeded her merits; which, as a second wound, transported her reason so far, that with wringing hands and throbbing sighs, she to herself made the following lamentation.
-
-
 
 “Mersilva, thou hast just occasion to acknowledge how inconsistent fortune hath been to thee; thy delights are changed to melancholy contemplations, thy pleasantness reversed to mourning, and all thy former pleasures metamorphosed to solitude. Certain it is, that glory fades as well as flourishes, beauty dies as well as insults, and honour withers as the flowers of the field, which no sooner spring forth with Titan, but die with Cynthia.
 
-
-70 The ROYAL ADVENTURERS.
-
-
+[70]
 What then is the world but a labyrinth of perplexities? What then is dignity, but the seat of ambition? And what is glory but the throne of grandeur? Therefore, account thy miseries as a recompense predestinated for thy fortune; thy torments, as a reward for thy sin; and lastly; think thy calamities as a meritorious affliction projected for thy ill conduct.”
 
-
-
-She uttered these words with such a zealous fervency, that the report thereof
-
-would have caused disdain herself to have pitied her. The Sound of Her complaints reached the ears of Plivio, and knowing her to be a princess royally descended, and, committed without being guilty of any crime against the crown or kingdom of Zanfara, quite overcame with compassion, he cried out, “Can humanity suffer so beautiful a princess as Mersilva to endure
-
-
-
-The ROYAL ADVENTURERS. 71
-
-
-imprisonment, and I enjoy my liberty? Or can the dignity of that divine sex, obtain no more favour at thy hands where thou canst afford relief? Are thy senses so clouded with obscurity, thy eyes so darkened with impiety, or thy heart so loaded with cruelty, that her tears cannot solicit to thee for her freedom; or her complaints, as advocates for innocency; plead to thee for her speedy enlargement. How will the world blame you for such ingratitude, thy conscience accuse thee of rigor, and thy thoughts condemn thee of tyranny, when the fact shall appear at the judgment seat of reason, where thy
-
-faults are descried, and thy folly disclosed? What argument wilt thou allege for thy excuse? Or what mark of sensibility canst thou produce to overveil thy inhumamnity? Only seriously consider with thyself from whence thou art extracted; if from the
-
-
-
-7a2The ROYAL ADVENTURERS.
-
-
+She uttered these words with such a zealous fervency, that the report thereof would have caused disdain herself to have pitied her. The Sound of Her complaints reached the ears of Plivio, and knowing her to be a princess royally descended, and, committed without being guilty of any crime against the crown or kingdom of Zanfara, quite overcame with compassion, he cried out, “Can humanity suffer so beautiful a princess as Mersilva to endure
+[71]
+imprisonment, and I enjoy my liberty? Or can the dignity of that divine sex, obtain no more favour at thy hands where thou canst afford relief? Are thy senses so clouded with obscurity, thy eyes so darkened with impiety, or thy heart so loaded with cruelty, that her tears cannot solicit to thee for her freedom; or her complaints, as advocates for innocency; plead to thee for her speedy enlargement. How will the world blame you for such ingratitude, thy conscience accuse thee of rigor, and thy thoughts condemn thee of tyranny, when the fact shall appear at the judgment seat of reason, where thy faults are descried, and thy folly disclosed? What argument wilt thou allege for thy excuse? Or what mark of sensibility canst thou produce to overveil thy inhumamnity? Only seriously consider with thyself from whence thou art extracted; if from the
+[72]
 loins of a woman, how comes it so pass that thou art so cruel in thy nature.—Plivio, recall thy senses to the throne of pity; therefore resolve to relieve the distressed, and remember that it is worthy commendation. What, though the governor be cruel, must thou follow his example? Let not thy cruelty obscure thy liberality, nor perverse impiety overwhelm thy affability; but rather let thy actions savor of friendship, and thy resolutions be gratified with generosity; in so doing the gods will esteem it an act of justice, and all mankind a glorious compassion to so much virtue.”
 
-
-
 Upon the ground of these resolutions, he resolved at all events to visit the princess; whereupon he hasted to her dungeon, and had no Sooner entered, but he beheld her sitting on her bed of misery.—At
-
-
-
-The ROYAL ADVENTURERS. 73
-
+[73]
 the sight of Plivio she raised herself I from her feat of sorrow, and throwing aside her scarf, he discover a perfect copy of transcendent beauty, whose radiant eyes displayed their splendent influence, like fixed stars divinely seated in the celestial elements: approaching nearer to her with an humble reverence, he addressed himself to her in these words.
 
-
 “Madam, I am come to crave pardon for my neglect of duty, in deferring so long that consolation I might have administered to you, during your long and unmerited confinement in this dismal dungeon; but, fair princess, impute it not wholly to my want of compassion, for the governor’s commands was the main obstacle that kept me from prosecuting my
-
-
-
-74 The ROYAL ADVENTURERS.
-
+[74]
 intentions; these objections being now removed by his departure to the court, fortune has given me this opportunity of waiting on you, and of offering to you all the civilities which this castle, or my interest can afford; therefore, Madam, if you choose to recreate yourself in the garden walks adjoining, I will with pleasure attend you, and secure your person from harm and violence.”
-
 
 The princess Mersilva wondering at this unexpected kindness, dying her crystal cheeks with a vermillion blush, courteously returned him this short but grateful answer.
 
-
-
 “Sir, My vanquished hope, which hath been transported to the very brink of
-
-
-
-The ROYAL ADVENTURERS. 75
-
-
+[75]
 despair, being now by your unexpected goodness inspired with consolation, doth for this your kind relief, render you many thanks; and since you are pleased to afford me such happiness, I should be very ungrateful to you, and much wanting to myself, did not I accept of fs great a freedom as to enjoy the air of the fragrant fields.”
 
-
 Plivio, rejoiced at her condescension, and perceiving her inclination to go, took her by the hand, and conducted her thro’ the castle, and from thence to the gardens; where they ranged from bank to bank, and from fountain to fountain; whose walls of shining marble, gave such grace to Mersilva’s eyes, that her spirits, at so pleafant a prospect, received the long looked for motion of delightful contentment. On the tops of these fountains stood
-
-
-
-76 The ROYAL ADVENTURERS.
-
-
+[76]
 stood two female images, curiously painted, representing Minerva and Diana, each holding in their hands a little vane, and supporting the third grace crowned with an Olympian garland.—
 
-
-
 Whilst Mersilva, was viewing these delightful gardens, Plivio ordered a banquet to be prepared, to which he invited the princess and spared no pains to make the entertainment agreeable to his royal captive. In this manner for a while, they deluded the time; and Plivio never failed to cast his eyes on the object of his wishes, which Cupid observing, immediately bent his bow, and let fly an arrow headed with desire and feathered with affection, which had such an effect on him, that he fainted at the stroke, so that he acknowledged no goddess but Cytherea, no faint but Venus, nor no lord but love; after
-
-
-
-The ROYAL ADVENTURERS. 77
-
-
+[77]
 conducting Mersilva to the castle, he hasted to his own apartment, and passedthe rest of the day in amorous contemplations.
 
-
-What, Plivio ! (said he) art thou at last vanquished in the field of beauty! or hath Cupid such influence at the first approach to penetrate thy breast with affection  Can thy resolutions which were devoted to Bellona now stoop to Venus? and though to thy prejudice devote thyself a sacrifice to love’s altar? Beware Plivio! the Syrens have sweet voices, yet are deceitful, the Panthers fair skins, yet infectious, and the Amazons beautiful faces, yet are mere dissemblers.—Though Helen was fair, she was petulant; Thais was lovely, but lewd; and Semiramis, though curious, was a courtesan:
-
-but alas! one example makes not a maxim,
-
-
-
-78 The ROYAL ADVENTURERS.
-
+What, Plivio ! (said he) art thou at last vanquished in the field of beauty! or hath Cupid such influence at the first approach to penetrate thy breast with affection  Can thy resolutions which were devoted to Bellona now stoop to Venus? and though to thy prejudice devote thyself a sacrifice to love’s altar? Beware Plivio! the Syrens have sweet voices, yet are deceitful, the Panthers fair skins, yet infectious, and the Amazons beautiful faces, yet are mere dissemblers.—Though Helen was fair, she was petulant; Thais was lovely, but lewd; and Semiramis, though curious, was a courtesan: but alas! one example makes not a maxim,
+[78]
 nor doth fore-past crimes include general actions: for speak without partiality, and thy conscience will tell thee, that as there hath been a wanton Helen, so there was a wife Calliope; a lewd Thais, so a chaste Lucretia ; a vicious Semiramis, yet a virtuous Susanna; therefore, retire not with pusillanimity, but advance with fortitude, for, as the poet says,
 
-
-
-A faint heart never pluck’d fruit from the tree of love.
-
+>A faint heart never pluck’d fruit from the tree of love.
 
 Consider with thyself what Mersilva is, by descent a princess, of qualities a queen, of beauty an angel, and of perfection the phoenix of her sex. Who then but could esteem such a virgin ? Who then but could love such a matchless paragon? Nay, who but would sacrifice his life in behalf of such a saint.””
-
-
-
-The ROYAL ADVENTURERS. 79
+[79]
 
 After these amorous contemplations, he remained so restless that no object could please him but the idea of the fair Mersilva; no thought could content him unless sprung from her virtue; nor no imagination delight him, unless derived from her perfections; and burning with desire to display his passion, at length, with a trembling resolution, he wrote the following letter; which, by a trusty messenger, he sent to the fair Mersilva.
 
+>>Madam,
 
+>“The passion which I have discovered in my breast is so great, that none but your gracious self is able to appease: having fixed my eyes on your beauty, I am bent to direct my devotions on the altar of your flourishing charms; since I repose the first fruits of my inclinations on the
+[80]
+>the idea of your divine perfections, I hope a favourable answer will be the reward of my constant fidelity,
 
-Madam,
-
-
-“The passion which I have discovered in my breast is so great, that none but your gracious self is able to appease: having fixed my eyes on your beauty, I am bent to direct my devotions on the altar of your flourishing charms; since I repose the first fruits of my inclinations on the
-
-
-
-80 The ROYAL ADVENTURERS,
-
-
-the idea of your divine perfections, I hope a favourable answer will be the reward of my constant fidelity,
-
-
-
-Plivio.”
-
+>>>Plivio.”
 
 
 Mersilva received the letter, and guessing from whence it came, opened it with a blushing countenance; which having read, she fetched a deep sigh, and found her senses surrounded with many agreeable notions of Plivio’s perfections; every line seemed to make a smooth path for Cupid’s entrance; however, after a little reflection, (considering the favours
-
 he had before shown her) she resolved to send him an answer,
 
 
-Sir,
+>>Sir,
 
-“I received yours without much dish difficulty, thinking only to hear of your
+>I received yours without much dish difficulty, thinking only to hear of your
+[81]
+>welfare; and contrary to my expectation, find it full of amorous fancy; considering the former favours received from you, I thought it agreeable to return an answer; the purport whereof is to request, that you bid a solemn adieu to your enterprise, for the thought of affection cannot harbour in my breast; therefore, forbear to trouble me any more on the subject; and cease your solicitations to her, who intends not to be won by any:—-not omitting thanks for your kind indulgence, I remain your friend,
 
-
-
-The ROYAL ADVENTURERS. 81
-
-
-
-welfare; and contrary to my expectation, find it full of amorous fancy; considering the former favours received from you, I thought it agreeable to return an answer; the purport whereof is to request, that you bid a solemn adieu to your enterprise, for the thought of affection cannot harbour in my breast; therefore, forbear to trouble me any more on the subject; and cease your solicitations to her, who intends not to be won by any:—-not omitting thanks for your kind indulgence, I remain your friend,
-
-MERSILVA.”
+>>>MERSILVA.”
 
 
 
 Having finished her letter, she was doubtful whether she shouldaSend it, lest it might redound to the prejudice of her fame; however, founding the depth of her affection, by the mutability of her fancies,
-
-
-
-82 The ROYAL ADVENTURERS.
-
-
+[82]
 and the foundation of her love by the allurement of her liking, she resolved to pursue her purpose; in consequence of which resolution, she delivered it to a messenger, that it might be conveyed to Plivio; who, sing his utmost diligence, soon arrived at the castle, where he then resided, and being conducted to his presence, delivered him the answer to his letter.
 
-
 The prince, not knowing from whence it came, broke the seal, and directing his eyes to the bottom, found the name of Mersilva:  whether his thoughts were then obscured by divine inspiration, or his breast replenished with ravishing contemplation, I refer to those who have been in the like situation. However, he read the letter, and not finding it agreeable to his inclinations, he stormed and raged as if his brains
-
-
-
-The ROYAL ADVENTURERS. 83
-
+[83]
 had been besotted with a lunatic frenzy. The messenger was all the while a spectator of his passions, and thinking it proceeded from the letter, went immediately to the princess, and informed her of the melancholy humour of his perplexed calamity.
 
-
 The princess no sooner heard the condition of her lover, but she expressed great uneasiness; being angry with herself that she had occasioned so much aggravation she therefore separated herself from all company, and betook her to her closet; where she was no sooner entered, but Athelia came to visit and pass the night with her. Mersilva smothered her sorrows as well as she could, and putting on a cheerful countenance, entertained her with great familiarity and friendly
-
-
-
-84 The ROYAL ADVENTURERS.
-
-
+[84]
 conference. Supper being ended, they betook themselves to their bed; where both, but especially Mersilva, slept with watchful countenance. But Aurora, the joyful messenger of Phoebus, had no sooner conquered the vestal night, and given the fable clouds an overthrow, than Mersilva arose, leaving Athelia in bed;—directing her course towards the fields, she came to a lofty mountain, and finding that the spring presented her with a delicious umbrage, she laid her down on the verdant grass: casting her eyes round, she saw Plivio making towards the bank whereon she sat, and immediately prepared to receive him: being arrived at the happy spot, though affection had a long time silenced his tongue, with a trembling voice he thus addressed himself to her;
-
-
-
-The ROYAL ADVENTURERS. 85
-
+[85]
 
 “Madam, my eyes no sooner reflected on your divine beauty, but my heart was made your captive; and those troublesome lines which you received, were but messengers of my mind, and an earnest of my entire affections: I am now come to present you with the original, and to inform you, madam, that my passion is of such extent, as none but that beauty which created it can give it limits: therefore, I beseech you, decline not my affection, but let me enjoy your favours, that I may bid despair farewell.”
 
-
-
 Mersilva replied,  It is proper time to put an end to this conversation, since the theme whereon you descant proceeds
-
-
-
-86 The ROYAL ADVENTURERS.
-
-
-
+[86]
 from folly; for if you imagine that my thoughts will condescend to love’s embraces, you deceive your hopes with a vain absurdity: what I outwardly speak, proclaims my secret intentions; therefore bury your speeches in the grave of silence, and presume not to present her with your love, that can make you no return.”
 
-
 Plivio, greatly perplexed, was framing an answer but Mersilva perceiving by his countenance the purport of it, suddenly departed: therefore, leaving him to his perplexities, and the lady to her passions, we shall for a while silence their proceedings, and return to prince Medor.
+[87]
 
+---
+## CHAP. IX.
 
-
-The ROYAL ADVENTURERS. 87
-
-
-CHAP. IX.
-
-The king refuses to match his daughter to Medor.—Florina is sent from court.— Medor resolves to travel.—In his passage is forced by a storm into a port in Africa; where he takes up his residence—Resolves to visit the court of Zanfara.—In his journey he finds a solitary habitation where he takes up his residence, and disguises himself like an hermit.
-
+>The king refuses to match his daughter to Medor.—Florina is sent from court.— Medor resolves to travel.—In his passage is forced by a storm into a port in Africa; where he takes up his residence—Resolves to visit the court of Zanfara.—In his journey he finds a solitary habitation where he takes up his residence, and disguises himself like an hermit.
 
 Medor, as you have before heard, having acquired the love of the princess Florina, and grounded his affections in her memory, was frustrated in the consummation of his bliss by Agenor, her father, who positively denied to march his daughter with him, on account of an ancient antipathy between the prince’s
-
-
-
-88 The ROYAL ADVENTURERS.
-
-
+[88]
 father and himself. Perceiving he could not obtain his desire, nor so much as confer with the princess, as her father had commanded her to retire into the country, he resolved to travel, hoping that the influence of time would erase out the kings indignation; and therefore determined to take a voyage to the isle of Madagascar, to pay his duty, and offer his service, to his uncle, the duke of Alphonso: before he departed, lest Florina might think him guilty of ingratitude, he sent her the following letter:
 
+>>“Madam,
 
+>“Destiny having resolved to metamorphosed our pleasures into psinveness, hath doubtless instigated your royal father to exercize his invective malice against our innocency; therefore, I am forced to depart,
+[89]
+> and to leave behind me that transcendent pledge of my affection; live I cannot but in torment, being deprived of the sight of you.—But, Madam, in what desolate place forever I find a residence, my contemplations shall dwell upon the idea of your beauty, and my mind ruminate upon your divine perfections; therefore, be not dismayed, for the gods who have made this decree, may in time revoke their sentence.— Committing you to the power of the divine protection, I remain your constant servant
 
-“Madam,
-
-“Destiny having resolved to metamorphosed our pleasures into psinveness, hath doubtless instigated your royal father to exercize his invective malice against our innocency; therefore, I am forced to depart,
-
-
-
-The ROYAL ADVENTURERS. 89
-
-
-and to leave behind me that transcendent pledge of my affection; live I cannot but in torment, being deprived of the sight of you.—But, Madam, in what desolate place forever I find a residence, my contemplations shall dwell upon the idea of your beauty, and my
-
-mind ruminate upon your divine perfections; therefore, be not dismayed, for the gods who have made this decree, may in time revoke their sentence.— Committing you to the power of the divine protection, I remain your constant servant
-
-MEDOR.
+>>>MEDOR.
 
 
 This letter he delivered to an intimate friend to convey to the princess, and without waiting for an answer, finding a ship ready, he embarked for Madagascar. In the passage they were overtaken by
-
-
-90 The ROYAL ADVENTURERS.
-
-
-
+[90]
 by a storm, which continued a long time, and at last forced them into a port in Africa; where gaining the shore, and finding himself much disordered from the fatigues he had undergone, he resolved to make his abode there. After a long stay in these parts, he determined to visit the court of Zanfara; and in his journey thither, some few leagues from the court, he strayed into a forest, and found therein a solitary cottage, whose situation corresponding with his disturbed passions, he resolved to take up his habitation there; the better to cloud his secrets from the sight of the neighbouring spectators, he disguised himself in the habit of an hermit; where, forgetting his former dignity, and solacing himself with the remembrance of his long-lost Florina, he lived as a man who had forsaken all the alluring jollities of, this inconstant world,
-
-
-
-The ROYAL ADVENTURERS. 91
-
-
+[91]
 world, and devoted his soul to the only enjoyment of celestial felicities.—Therefore, leaving him to be relieved by patience, we will return to Thalmo and the fair Athelia,
 
+---
+[92]
 
+## CHAP. X.
 
-92 The ROYAL ADVENTURERS.
-
-C H A P. X.
-
-Thalmo sues in vain to gain the affections of Athelia.—He receives a challenge from Albion, a Zanfarian prince, and promises to meet him.—Instead of meeting with the challenger, he is beset by a gang of ruffians placed there on purpose to destroy him,—But is timely relieved by Plivio.
-
-
+*Thalmo sues in vain to gain the affections of Athelia.—He receives a challenge from Albion, a Zanfarian prince, and promises to meet him.—Instead of meeting with the challenger, he is beset by a gang of ruffians placed there on purpose to destroy him,—But is timely relieved by Plivio.*
 
 Thalmo finding that the fair Athelia always devoted to cruelty, and concluding within himself, that she triumphed over his misfortunes, seeing her in the next arbor, after a small compliment, he addressed himself to her in these few words:
+[93]
 
+>>“Madam,
 
-
-The ROYAL ADVENTURERS. 9,
-
-
-“Madam,
-
-It is my misfortune to love unpitied, charmed with that excellent beauty which you posses, I am come to learn whether I shall be happy or miserable.”
-
-
+>It is my misfortune to love unpitied, charmed with that excellent beauty which you posses, I am come to learn whether I shall be happy or miserable.”
 
 Athelia surprised to find Thalmo near her when she least expected him, yet shadowing her affection under the protection of nicety, sharply replied,
 
-
-
 “Thalmo, I still am what I professed; —and if you approve of it, as you came unlocked for, so when you please you may depart.”
 
-
-
 “Why, Madam, replied the prince, so harsh a sentence? Should I, who have been ever faithful to you, now become inconstant?
-
-
-
-94 The ROYAL ADVENTURERS.
-
-
+[94]
 Or would you advise me to transform my fore-past affection into future hatred?”
-
 
 “Thy hatred, said Athelia, doth more please me than thy affection; and yet I care little for both, and less for thyself; therefore, I desire to hear no more on the subject.”
 
-
-
 Thalmo was ready to answer her, when the unexpected appearance of Levina, her gentlewoman, put an end to the discourse.—The princess told him his absence would be necessary, when with a low bow he humbly took his leave, raging against cupid for predestinating him to serve so tyrannizing a beauty.
 
-
-
 Walking apart in a private place, he saw the fair Athelia direct her steps towards
-
-
-
-The ROYAL ADVENTURERS. 95
-
-
+[95]
 the court; upon which he immediately posted thither, where he no sooner arrived, than he received the following challenge.
 
 
-ALBION to THALMO.
+<p align="center">ALBION to THALMO.</p>
 
-Sir,
+>>Sir,
 
-“Being timely acquainted with your aspiring affections for the princess Athelia, whom the world knows none can claim to so high a favour as myself, I have sent you this defiance, to meet me singly under the castle wall after dinner, there to dispute my right with thy sword, where I will severely chastise thy insolence in crossing my affections, and make thee sensible that thou hast insulted thy superior.
+>“Being timely acquainted with your aspiring affections for the princess Athelia, whom the world knows none can claim to so high a favour as myself, I have sent you this defiance, to meet me singly under the castle wall after dinner, there to dispute my right with thy sword, where I will severely chastise thy insolence in crossing my affections, and make thee sensible that thou hast insulted thy superior.
 
+>>>ALBION.
 
-
-ALBION.
-
-
-
-
-
-
-96 The ROYAL ADVENTURERS.
-
-
-
+[96]
 Thalmo was greatly surprised at this unexpected challenge, and disdaining to be outdone by a Zanfarian prince, by his own page returned him the following answer
 
+>>“Sir,
 
-“S I R,
+>“Understanding by the letter I have just received, that for the duty I pay to the princess Athelia, you have undertaken to correct me for that which you yourself cannot avoid; I must inform you, sir, my nature is such, that I desire to live no longer, when once deprived the sight of the fair yet cruel Athelia; at the time and place appointed, my sword shall demonstrate that my affection is such, that I will live and die in her service; and that neither thy valour, nor
+[97]
+>the fear of death, shall tear her idea from my memory,
 
-“Understanding by the letter I have just received, that for the duty I pay to the princess Athelia, you have undertaken to correct me for that which you yourself cannot avoid; I must inform you, sir, my nature is such, that I desire to live no longer, when once deprived the sight of the fair yet cruel Athelia; at the time and place appointed, my sword shall demonstrate that my affection is such, that I will live and die in her service; and that neither thy valour, nor
-
-
-
-The ROYAL ADVENTURERS. 97
-
-
-the fear of death, shall tear her idea from my memory,
-
-
-
-THALMO.”
-
-
+>>>THALMO.”
 
 As soon as the messenger was dispatched, he hasted to his apartment, in order to prepare for the reception of this unexpected rival:——the time being come, Thalmo, according to his promise, failed not to present himself, where, instead of meeting his challenger, he was treacherously encountered by a desperate gang of ruffians, placed in ambuscade to murder him.—Seeing them approach, he immediately put himself in a posture of defense to receive their fury; and dealt such blows among them, that at first they were forced to retreat: after reassuming their strength, they attacked him a second time, and Thalmo, not able to withstand their
-
-
-
-98 The ROYAL ADVENTURERS.
-
-
+[98]
 united power, was glad to take the castle wall for his defense.—In short, being overpowered with this unequal force, he received several dangerous wounds, and finding his body weak by the great loss of blood, he fell to-the ground, gasping, as he thought, his last; and in memory of his dear Athelia, in broken accents, uttered these words :— “Let my blood testify how well I loved Athelia, and remained constant, even to the last.”
 
-
-He had no sooner uttered these words, than Plivio came unexpectedly to his assistance—and raising him on his feet, flew to his adversaries, and made such havoc amongst them, that in a short time he remained the conqueror, and preserved a life that he loved more dearly than his own.—Having bound up his cousin’s wounds, he instantly conveyed
-
-him
-
-
-
-The ROYAL ADVENTURERS. 99
-
-
+He had no sooner uttered these words, than Plivio came unexpectedly to his assistance—and raising him on his feet, flew to his adversaries, and made such havoc amongst them, that in a short time he remained the conqueror, and preserved a life that he loved more dearly than his own.—Having bound up his cousin’s wounds, he instantly conveyed him
+[99]
 to a skillful surgeon; and on being informed that there was none mortal, he posted to the court, to inform the princess Athelia of what had happened.
+[100]
 
+---
 
+## CHAP. XI.
 
-100 The ROYAL ADVENTURERS.
+*Plivio acquaints Athelia of Thalmo’s misfortune.—At this dreadful news the princess avows her love for him.—She fends to Thalmo by his cousin—and afterwards visits him at his apartments.*
 
-
-
-CHAP. XI.
-
-Plivio acquaints Athelia of Thalmo’s misfortune.—At this dreadful news the princess avows her love for him.—She fends to Thalmo by his cousin—and afterwards visits him at his apartments.
-
-
-
-PLIVIO was no sooner arrived at the palace than he hasted to the princess’s apartments; and with great concern related to her the dangers that Thalmo had undergone, and his present, unhappy situation.—Athelia, could now no longer conceal her passion, and continued weeping for his misery, being sensible that the love he bore her, had
-
-induced him to so hazardous an enterprise.—
-
-
-
-The ROYAL ADVENTURERS. 101
-
+PLIVIO was no sooner arrived at the palace than he hasted to the princess’s apartments; and with great concern related to her the dangers that Thalmo had undergone, and his present, unhappy situation.—Athelia, could now no longer conceal her passion, and continued weeping for his misery, being sensible that the love he bore her, had induced him to so hazardous an enterprise.—
+[101]
 
 However, she resolved, by his friend Plivio, to fend him a few lines, as a manifestation of her affection, which were to this effect:
 
 
+>>“Dear Prince,
 
-“Dear Prince,
+>“Thy misfortunes have obliged me to put pen to paper; and so overwhelmed my senses with grief, that there is not a word herein contained, but hath been washed with a tear; therefore, as Athelia is the original cause of thy misfortunes, I will, to the utmost of my power, recompense thy constant love; recommending my sorrows to your favourable censure, I remain for ever your’s,
 
-“Thy misfortunes have obliged me to put pen to paper; and so overwhelmed my senses with grief, that there is not a word herein contained, but hath been washed with a tear; therefore, as Athelia is the original cause of thy misfortunes, I will, to the utmost of my power, recompense thy constant love; recommending my sorrows to your favourable censure, I remain for ever your’s,
-
-ATHELIA.”
-
-
+>>>ATHELIA.”
 
 
 Thalmo soon received the letter from Plivio, and found, by experience,
-
-
-
-
-
-102 The ROYAL ADVENTURERS.
-
-
-
+[102]
 that the distemper of the mind, far exceeds that of the body; for it wrought such miracles upon his cure, that, in a few days, he was perfectly recovered; and contemplating upon the favourable epistle his dear Athelia had sent him, he returned her this answer:
 
+>>“Madam
 
-“Madam
+>“The honour you were pleased to bestow on your unworthy servant, has wrought such wonders upon my distemper, that no physician but yourself could have effected ; the virtue thereof, being so well applied, that the powerful charm has had its full operation: therefore, madam, on the idea of your divine perfections, I will for ever six my memory; never forgetting my kind persever, but continually offer up my thanks for the receipt of so great a blessing, and unfeignedly
+[103]
+>remain, your’s, now and for ever,
 
-“The honour you were pleased to bestow on your unworthy servant, has wrought such wonders upon my distemper, that no physician but yourself could have effected ; the virtue thereof, being so well applied, that the powerful charm has had its full operation: therefore, madam, on the idea of your divine perfections, I will for ever six my memory; never forgetting my kind persever, but continually offer up my thanks for the receipt of so great a blessing, and unfeignedly
-
-
-
-The ROYAL ADVENTURERS. 103
-
-
-remain, your’s, now and for ever,
-
-THAMLO.”
-
-
+>>>THAMLO.”
 
 The princess was much pleased with the news of Thalmo’s recovery, yet could not be satisfied with the copy, without seeing the original;—and finding an opportunity when the king and queen were absent, taking Levina with her, she went to the lodge where Thalmo resided; and being conducted to his apartment, she beheld him walking alone, with his arm bound up in a handkerchief. —At the sight of Athelia he was transported beyond measure, and forthwith embraced her, and kissed her hands:— their eyes attracted each other’s sight, and like ambassadors of love, they Seemed to ratify a mutual alliance.
+[104]
 
-
-
-104 The ROYAL ADVENTURERS.
-
-/
-
-Thalmo, said the princess, you may well wonder at my unexpected arrival, and yet you may imagine that the news of your misfortune brought me hither;——. however, not to keep you any longer in suspense, I am now come, in some measure, to retaliate your affection, though, before I thought it not convenient to take it so soon in consideration  but since the gods have so decreed it, there is no resisting the divine powers; therefore, you may
-
-place your happiness where your kind stars direct you.”
-
+Thalmo, said the princess, you may well wonder at my unexpected arrival, and yet you may imagine that the news of your misfortune brought me hither;——. however, not to keep you any longer in suspense, I am now come, in some measure, to retaliate your affection, though, before I thought it not convenient to take it so soon in consideration  but since the gods have so decreed it, there is no resisting the divine powers; therefore, you may place your happiness where your kind stars direct you.”
 
 The prince perceived, by the fervency of her words, that she uttered no more than love induced her; and taking her by the hand, returned her this obliging answer:
-
-
-
-The ROYAL ADVENTURERS. 105
-
+[105]
 
 “Madam,
 
 “Your words have so much divinity in themselves, that they carry power with them to whom they are directed, and are a high cordial to afflicted spirits; the operation hath caused my breast to triumph over my sickness, which, I believed, would not only have conquered my mind, but also cut off the thread of my life.—But whither wander my sense, that I forget myself so much, as not to gratify your love with reciprocal affection?—but pardon me, dear madam, and attribute the defects of my reason to the distemper of my weakness;—for I resolve, both now and ever, to honour and adore you as the eternal goddess of my prosperity; and esteem you as the sacred image of my felicity.”
-
-
-
-106 The ROYAL ADVENTURERS.
-
+[106]
 
 To which Athelia answered, “Where there is no offence committed, of consequence the excuse ceaseth :—thy actions being cleared from imputation, be not timoronu, for thy pardon is sealed;—therefore advance in love;—proceed in amity, and I will correspond in friendship:—for, the approbation of which, here, take my heart and hand, as the stedfast seal of immortal constancy; vowing before the imperial throne of heaven to take only Thalmo for my lord and husband
-.
 
-With, amorous ceremonies they firmly contracted themselves;—and in fsch an affectionate manner, that neither the frowns of fortune, the treachery of time, or the flattery of insinuation, could check their friendship, or once daunt their immoveable fidelity. Having now brought this
+With amorous ceremonies they firmly contracted themselves;—and in such an affectionate manner, that neither the frowns of fortune, the treachery of time, or the flattery of insinuation, could check their friendship, or once daunt their immoveable fidelity. Having now brought this
+[107]
+this couple to a sacred union, we will for a while leave them, and discourse of the strange accidents that befell the princess Florina.
+[108]
 
+---
+## CHAP. XII.
 
-
-The ROYAL ADVENTURERS. 107
-
-
-this couple to a sacred union, we will for a while leave them, and discourse of
-
-the strange accidents that befell the princess Florina.
+*Florina is ordered to the court by her father —She refuses to comply.—He sends a guard to force her, and she escapes to the seaside, where she is protected by an aged fisherman.—They are taken prisoners by a Turkish Xebeque.—Florina is detained, and the rest set at liberty.*
 
 
-
-
-
-108 THE ROYAL ADVENTURERS.
-
-
-
-CHAP. XII.
-
-Florina is ordered to the court by her father —She refuses to comply.—He sends a guard
-
-to force her, and she escapes to the seaside, where she is protected by an aged fisherman.—They are taken prisoners by a Turkish Xebeque.—Florina is detained, and the rest set at liberty.
-
-
-
-Florina, after a long banishment, was by the king her father, commanded to repair immediately to the court;—and being apprehensive it would hinder her from paying that respect due
-
-to the prince her lover, she positively refused to comply.—The king being in-formed of her obstinacy, immediately dispatched a messenger to force her to a
-
-
-
-The ROYAL ADVENTURERS. 109
-
-
+Florina, after a long banishment, was by the king her father, commanded to repair immediately to the court;—and being apprehensive it would hinder her from paying that respect due to the prince her lover, she positively refused to comply.—The king being in-formed of her obstinacy, immediately dispatched a messenger to force her to a
+[109]
 compliance;—of this she was timely acquainted, and consulted with herself how to avoid her father’s indignation.—Finding, after mature deliberation, no other means for escape, but to shelter herself under some peasant’s cottage, she laid aside her grandeur, and pursued her intended purpose.—In this situation she remained a considerable time, and as well contented as a lady of her birth and fortune could contain herself, oppressed with love.
 
-
 Florina being invited to see the shepherds lead their flocks to the fragrant fields, in the close of the evening, when the golden fun was declining, as she was returning home in company with a shepardess, they were unexpectedly met by a swain, who brought the following message to Florina.
+[110]
 
+>>“Madam,
 
-
-110 The ROYAL ADVENTURERS;
-
-
-
-“Madam,
-
-“I am sent on purpose to beg that you instantly hide yourself in some secret grove;—their is just arrived at my father’s cottage, four or five ruffians in search of you, who have desperately wounded my father for concealing you;—-if you value your own preservation, make no delay; and since the laws of nature and humanity I oblige us to assist all in distress, I will, if you think proper, conduct you with safety through the woods, where you may remain with most assured privacy,
-
-
+>“I am sent on purpose to beg that you instantly hide yourself in some secret grove;—their is just arrived at my father’s cottage, four or five ruffians in search of you, who have desperately wounded my father for concealing you;—-if you value your own preservation, make no delay; and since the laws of nature and humanity I oblige us to assist all in distress, I will, if you think proper, conduct you with safety through the woods, where you may remain with most assured privacy,
 
 Florina, surprised at her father’s cruelty, yet pleased with the shepherd’s civility, and pondering with herself what course to take in this exigency, at last determined to take the youth’s advice.—The shepherdess
-
-
-
-The ROYAL ADVENTURERS. 111
-
-
-
+[111]
 resolving to bear her company, they directed their course to the sea side, which in two days they attained without interruption.
-
 
 Walking upon the borders of the sea, they came to a little creek, where they saw an aged fisherman repairing his nets.—Having given him the time of the day, they asked him, if for recreation, he would take them a league on the ocean:—the fisherman demanded a recompense, to which they willingly complied, and with a pleasant breeze they put to sea.
 
-
-
-In this manner they passed away the time till night gave them a summons to
-
-return.—However, before they reached the shore, Florina informed the old man
-
-of her deplorable situation; and likewise begged of him, with tears in her eyes, to lend
-
-
-
-112 The ROYAL ADVENTURERS.
-
-
-
+In this manner they passed away the time till night gave them a summons to return.—However, before they reached the shore, Florina informed the old man
+of her deplorable situation; and likewise begged of him, with tears in her eyes, to
+[112]
 lend her his assistance in her great distress; and for her safery to convey her every day
-
 on the sea.—The fisherman moved to compassion by her outward sorrow, and instigated by her liberality, condescended to her reasonable request.
-
-
 
 This course they continued many days, with as much satisfaction to Florina as if she had been triumphing in her former dignity.—At last, fortune resolved to add more misery to her affliction, and caused her unexpectedly to fall within the labyrinth of a greater misfortune.
 
-
-
 Sailing with a pleasant gale about two leagues from the shore, they were brought to by a Turkish Xebeque, who sired a gun as a signal for that purpose, and hoisting their fails, immediately bore down upon them. As soon they came along side
-
-
-
-
-
-The ROYAL ADVENTURERS. 113
-
-
+[113]
 they were commanded to come on board, which greatly alarmed their little crew, especially Florina, from whose eyes the round drops rolled down her beauteous cheeks; which, as the perfect messengers of sorrow, apparently demonstrated her insupportable grief;—but alas!—all in vain—for there was no remedy, nor any near at hand to rescue her from their cruelty.—Florina being the last that entered, the Turkish staves no sooner beheld her angelic beauty, than they clapped their hands, and threw their caps in the air, being overjoyed that they had got so glorious a prize to present to their sultan.
 
-
-
 The captain of the ship admiring the beauty of Florina, by her modest aspect, conceived she was a person of noble extraction; therefore he discharged therest, and retained her only, whom he commanded
-
-
-
-114 The ROYAL ADVENTURERS.
-
-
+[114]
 to be entertained with all the respect and favour the nature of her situation would allow; and the better to effect his orders, he fosook his cabin, and lodged her in it, charging his servants to attend, her with as great diligence as on himself; so that she might perceive, as they entertained her with civility, so they likewise honoured and respected her, by never once attempting to violate her chastity, which , she esteemed more precious than her life.
 
-
-
-Notwithstanding this unexpected indulgence, she could not forget her lost Medor :—she wept, as if his absent idea had a regal prerogative to create her tears, and lamented the unfortunate accident that had lately befallen her.—In her
-
-contemplations she ruminated upon his absence, and her own present misery,frequently bursting into public exclamations.
-
-
-
-The ROYAL ADVENTURERS. 115
-
+Notwithstanding this unexpected indulgence, she could not forget her lost Medor :—she wept, as if his absent idea had a regal prerogative to create her tears, and lamented the unfortunate accident that had lately befallen her.—In her contemplations she ruminated upon his absence, and her own present misery,frequently bursting into public exclamations.
+[115]
 
 The captain perceiving her distress, used his best endeavors to sooth her sorrows; telling her at the same time, that no proceedings should be exercized against her, and that such respect should paid her, as her truth and constancy deserved; she having previously made the captain acquainted with her whole history. Leaving the princess in the captain’s possession,
-
 making the best of his way for Constantinople, we shall return to Plivio and Mersilva,
+[116]
 
+---
+## CHAP. XIII.
 
-116 The ROYAL ADVENTURERS.
-
-
-CHAP. XIII.
-
-Plivio being acquainted with Thalmos success with the princess Athelia, resolves to
-
-renew his suit.—He goes to the court for that purpose, and hearing that Mersilca, with the queen and her attendants, were taking the diversion of hunting, he determines to join the chase.—By some accident Mersilva loses sight of the company, and is overtaken by a young lord, named Blithion, one of the party; he attempts her virtue, but is unexpectedly defeated in hisbrutal attempt by the arrival of Plivio, from whom he meets his death.
-
-
+*Plivio being acquainted with Thalmos success with the princess Athelia, resolves to
+renew his suit.—He goes to the court for that purpose, and hearing that Mersilca, with the queen and her attendants, were taking the diversion of hunting, he determines to join the chase.—By some accident Mersilva loses sight of the company, and is overtaken by a young lord, named Blithion, one of the party; he attempts her virtue, but is unexpectedly defeated in hisbrutal attempt by the arrival of Plivio, from whom he meets his death.*
 
 PLIVIO being informed of his cousin Thalmo’s proceedings, and of the success he had met with in his amours, began to conceive some hope that by the
-
-
-
-The ROYAL ADVENTURERS. 117
-
-
-
+[117]
 intercession of the princess Athelia, he should obtain his beloved Mersilva.—Upon which he hasted to the court in order to renew his suit; and on being informed that the princess, with the queen, Athelia, and their attendant lords and ladies were hunting in the forest, he immediately repaired thither in order to join the royal company; being fond of the diversion, though, at this time, particularly so, that he might behold the beauty of the fair Mersilva.
-
-
 
 In the midst of the forest, it happened, that the stag escaped from their sight, which caused the company to take different routs in order to find him out, and to renew the chase.-—-Among the rest, there was a young lord named Blithion, that had long conceived a passion for the princess Mersilva, but could never get
 
@@ -1877,7 +1389,7 @@ The ROYAL ADVENTURERS. 123
 
 
 
-CHAP. XIV.
+## CHAP. XIV.
 
 The princess Mersilva recovers from the fight, and, with Plivio, immediately join the company, to whom they relate their adventure.—The queen informs the king of Plivio’s generous behaviour to the princess.—The king rewards him with a command in the army.—He renews his suit to the princess, but meets with little encouragement.
 
@@ -1967,7 +1479,7 @@ so far, and that the subject whereon she had grounded her anger was so small, sh
 
 
 
-CHAP. XV.
+## CHAP. XV.
 
 The princess returns to Plivio—Having obtained sufficient proofs of his constancy and affection, she acknowledges her passion for him, and meets with a suitable return.
 
@@ -2045,7 +1557,7 @@ company, I take my sorrowful leave.
 
 
 
-CHAP. XVI.
+## CHAP. XVI.
 
 Plivio informs his cousin Thalmo of his success with the princess Mersilva.—Thalmo mentions his desire to return home.—Plivio consents to go with him.—They discover to the ladies their birth and parentage, with their real names, and their intentions of leaving the court of Zanfara.—The ladies resolve to join their company.—They depart the next night without molestation
 
@@ -2108,7 +1620,7 @@ with a horse, ready to attend them. After rewarding them for their fidelity, and
 
 
 
-CHAP. XVII.
+## CHAP. XVII.
 
 Messengers are dispatched in search of the ladies, who are supposed to be taken away by Thalmeno and Palmos, but without effect—Travelling through a forest, they find a cottage, where they alight for refreshment, and find it inhabited by prince Medor, mentioned in the former part of this book—Thalmeno acquaints him of Florina’s retirement, and offers to conduct him to her, which he readily accepts of.
 
@@ -2233,7 +1745,7 @@ The prince was overjoyed at this un-expected news, and thanking him for his inte
 The ROYAL ADVENTURERS. 153
 
 
-CHAP. XVIII.
+## CHAP. XVIII.
 
 Medor conducts them to the sea side, where they meet with a ship, and sail immediately for Cicilia—In their voyage they fall in with a Turkish xebeque—and after an obstinate engagement she surrenders to them—Prince Medor is sent on hoard to take the command of her, and, to his great surprize, finds his lost Florina, a captive on board.
 
@@ -2309,7 +1821,7 @@ She remembered his voice, though they had been so long separated, and immediatel
 160 The ROYAL ADVENTURERS.
 
 
-CHAP. XIX.
+## CHAP. XIX.
 
 The happy meeting of Medor and Florina.—The prince informs her he is hound for Cecilia, she consents to go with him—-The princess prevails on Medor to set the prize at liberty, in return for the indulgence shewn to her, which he complies with—They return on hoard his own ship, where the lady is joyfully received by his princely associates.
 
@@ -2714,7 +2226,7 @@ The ROYAL ADVENTURERS. 193
 
 
 
-CHAP. XXII.
+## CHAP. XXII.
 
 The nuptials of Thalmeno and Athelia, are magnificently solemnized, at the court of Messina, in preference of their royal companions, who are sumptuously entertained by Druyno. At length they depart for their respective kingdoms, and are made mutually happy, by the marriage union, and an entire possession of the hearts of their subjects.
 
