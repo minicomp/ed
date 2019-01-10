@@ -16,7 +16,7 @@ author:
 # Permalinks
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: 
+color-scheme:
 
 permalink: pretty
 permalink: /:title/
@@ -48,5 +48,3 @@ exclude:
 
 # Theme
 theme: "ed."
-
-

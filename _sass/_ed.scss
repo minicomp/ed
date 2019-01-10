@@ -1,10 +1,10 @@
 /* Ed: the minimal edition theme.
- * ___________________   
- * \_   _____/\______ \  
- *  |    __)_  |    |  \ 
+ * ___________________
+ * \_   _____/\______ \
+ *  |    __)_  |    |  \
  *  |        \ |    `   \
  * /_______  //_______  /
- *         \/         \/ 
+ *         \/         \/
  * Designed, built, and released under an MIT license by @elotroalex and brill friends. See credits for more info.
  * Based on the Poole and Lanyon theme by @mdo. Learn more at
  * https://github.com/minicomp/ed.
@@ -55,7 +55,7 @@ body {
 }
 
 .content {
-	margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 /*
@@ -122,20 +122,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 h1.text-title {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 h2 {
-	margin-top: 1rem;
-	font-size: 1.2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
 h3, h4, h5 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 h3 {
@@ -157,7 +157,7 @@ p {
 
 /* Lists */
 ul {
-	list-style: circle;
+  list-style: circle;
 }
 
 ul, ol {
@@ -189,11 +189,11 @@ mark {
 /* Quotes */
 
 blockquote {
-	padding: 0rem 1.5rem 0rem 2rem;
-	margin: 0 0 20px 0; 
+  padding: 0rem 1.5rem 0rem 2rem;
+  margin: 0 0 20px 0;
   color: $text-color;
-	border-left: none;
-	font-style: italic;
+  border-left: none;
+  font-style: italic;
 }
 
 blockquote p:last-child {
@@ -207,8 +207,8 @@ blockquote p:last-child {
   }
 }
 
-/* 
-* To add an attribution make sure to make a 
+/*
+* To add an attribution make sure to make a
 * line with the attribution class
 */
 
@@ -216,7 +216,7 @@ li.attribution {
   text-align: right;
   list-style: none;
   padding: 0rem 1.5rem 0rem 2rem;
-  margin: 0 0 20px 0; 
+  margin: 0 0 20px 0;
   color: $text-color;
 }
 
@@ -255,10 +255,10 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-	margin-bottom: 3rem;
-	text-align: center;
-	padding-top: 26px;
-	padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding-top: 26px;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -269,7 +269,7 @@ tbody tr:nth-child(odd) th {
   line-height: .777em;
 }
 .masthead-title a {
-	color: $link-color;
+  color: $link-color;
 }
 
 .masthead-title small {
@@ -282,9 +282,9 @@ tbody tr:nth-child(odd) th {
 }
 
 h3.masthead-title {
-	font-family: $main-font;
-	font-size: 1.8rem;
-	margin-top: 2px;
+  font-family: $main-font;
+  font-size: 1.8rem;
+  margin-top: 2px;
 }
 
 
@@ -673,10 +673,10 @@ div.toc {
 /* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
 
 .poetry ul, ul.poetry {
-	list-style: none;
-	list-style-type: none;
-	padding-left: 1rem;
-	text-indent: -1rem;
+  list-style: none;
+  list-style-type: none;
+  padding-left: 1rem;
+  text-indent: -1rem;
 }
 
 
@@ -689,53 +689,53 @@ div.toc {
 /* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is represents an rem (root em) value */
 
 .indent-1 {
-	font-style: normal;
-	padding-left: 1rem;
+  font-style: normal;
+  padding-left: 1rem;
 }
 
 .indent-2 {
-	font-style: normal;
-	padding-left: 2rem;
+  font-style: normal;
+  padding-left: 2rem;
 }
 
 .indent-3 {
-	font-style: normal;
-	padding-left: 3rem;
+  font-style: normal;
+  padding-left: 3rem;
 }
 
 .indent-4 {
-	font-style: normal;
-	padding-left: 4rem;
+  font-style: normal;
+  padding-left: 4rem;
 }
 
 .indent-5 {
-	font-style: normal;
-	padding-left: 5rem;
+  font-style: normal;
+  padding-left: 5rem;
 }
 
 .indent-6 {
-	font-style: normal;
-	padding-left: 6rem;
+  font-style: normal;
+  padding-left: 6rem;
 }
 
 .indent-7 {
-	font-style: normal;
-	padding-left: 7rem;
+  font-style: normal;
+  padding-left: 7rem;
 }
 
 .indent-8 {
-	font-style: normal;
-	padding-left: 8rem;
+  font-style: normal;
+  padding-left: 8rem;
 }
 
 .indent-9 {
-	font-style: normal;
-	padding-left: 9rem;
+  font-style: normal;
+  padding-left: 9rem;
 }
 
 .indent-10 {
-	font-style: normal;
-	padding-left: 10rem;
+  font-style: normal;
+  padding-left: 10rem;
 }
 
 .poetry .byline {
@@ -760,29 +760,29 @@ sup {
 }
 
 .footnotes {
-	line-height: 1.2rem;
-	font-size: 0.9rem;
-	letter-spacing: .01rem;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  letter-spacing: .01rem;
 }
 
 .footnotes .foot-block {
-	display: inline-block;
-	padding: 0 4rem 0 2rem;
-	margin-bottom: .8rem;
-	font-style: italic;
+  display: inline-block;
+  padding: 0 4rem 0 2rem;
+  margin-bottom: .8rem;
+  font-style: italic;
 }
 
 a.footnote {
-	padding-left: .1rem;
-	font-size: .66rem;
+  padding-left: .1rem;
+  font-size: .66rem;
 }
 
 /*Bibliography styles*/
 
 ol.bibliography {
-	list-style-type:none;
-	padding-left: 1rem;
-	text-indent: -1rem;
+  list-style-type:none;
+  padding-left: 1rem;
+  text-indent: -1rem;
 }
 
 /* Diplomatic editions */
@@ -803,9 +803,9 @@ ol.bibliography {
 }
 
 
-/* Line layouts for prose-poetry and theater 
+/* Line layouts for prose-poetry and theater
 *
-* To use these layouts you need to add the classes to 
+* To use these layouts you need to add the classes to
 * your markdown or HTML lines. (ex. "- {:.centered} hello!")
 *
 */
@@ -828,11 +828,11 @@ li.attribution {
   text-align: right;
   list-style: none;
   padding: 0rem 1.5rem 0rem 2rem;
-  margin: 0 0 20px 0; 
+  margin: 0 0 20px 0;
   color: #454545;
 }
 
-li.prose { 
+li.prose {
   list-style-position: inside;
   margin-left: -1em;
   text-indent: 0;
@@ -841,6 +841,3 @@ li.prose {
 li.prose-indent {
   text-indent: 2rem;
 }
-
-
-

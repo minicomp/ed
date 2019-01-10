@@ -10,10 +10,10 @@ Susanna teaches Digital Humanities in the Department of Latin American and Iberi
 
 ### [Terry Catapano](https://github.com/tcatapano) | Metadata ninja
 
-Terry Catapano is a Librarian in Columbia University Libraries' Digital Program Division. He was Chair of the Society of American Archivists' Schema Development Team, responsible for the development of Encoded Archival Description version 3, and is a member of the ArchivesSpace Technical Advisory Group and the Editorial Board for the Metadata Encoding and Transmission Standard (METS). As Vice President of Plazi Verein, he leads the development of the TaxPub extension of the National Library of Medicine/National Center for Biotechnology Information Journal Publishing DTD, and has worked on digitizing, text mining, and providing open access to the literature of biological systematics, including collaborations with WikiData, the Encylopedia of Life, the Global Biodiversity Information Facility (GBIF), ZooBank, and CERN. 
+Terry Catapano is a Librarian in Columbia University Libraries' Digital Program Division. He was Chair of the Society of American Archivists' Schema Development Team, responsible for the development of Encoded Archival Description version 3, and is a member of the ArchivesSpace Technical Advisory Group and the Editorial Board for the Metadata Encoding and Transmission Standard (METS). As Vice President of Plazi Verein, he leads the development of the TaxPub extension of the National Library of Medicine/National Center for Biotechnology Information Journal Publishing DTD, and has worked on digitizing, text mining, and providing open access to the literature of biological systematics, including collaborations with WikiData, the Encylopedia of Life, the Global Biodiversity Information Facility (GBIF), ZooBank, and CERN.
 
 ### [Alex Gil](http://www.elotroalex.com/) | Resident minimalist
- 
+
 Alex is the Digital Scholarship Coordinator for the Humanities and History at Columbia University. He is vice chair of the [Global Outlook::Digital Humanities](http://www.globaloutlookdh.org/) initiative focusing on minimal computing and translation, is one of the founders and directors of [Columbia's Group for Experimental Methods in the Humanities](http://xpmethod.plaintext.in/) and the [Studio@Butler](https://studio.cul.columbia.edu/), and is actively engaged in several digital humanities projects at Columbia and around the world.
 
 ### [Johann Gillium](https://github.com/JohannGillium) | Search master
@@ -31,10 +31,3 @@ As many open source projects, Ed is the work of community. The project starts wi
 We are strongly indebted to the research work and conversations stemming out of our [Columbia's Group for Experimental Methods in the Humanities](http://xpmethod.plaintext.in/)—or as we like to call it: #xpmethod; the wonderful international comradery of [GO::DH](http://www.globaloutlookdh.org/); and of course, the support of our [Columbia University Libraries](http://library.columbia.edu/) and its cozy [Studio@Butler](https://studio.cul.columbia.edu/).
 
 ...and to the writers that inspire us to scribble notes on the margins we protect with our work. Thank you.
-
-
-
-
-
-
-
