@@ -1,5 +1,7 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
+<!--
+  Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for
+  behavior.
+-->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
@@ -14,7 +16,6 @@
     {% for node in page.toc %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} sidebar-nav-item-toc" href="#{{ node | slugify }}">{{ node }}</a>
     {% endfor %}
-
   </nav>
 
   <div class="sidebar-item">
