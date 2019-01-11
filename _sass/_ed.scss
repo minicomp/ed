@@ -5,22 +5,22 @@
  *  |        \ |    `   \
  * /_______  //_______  /
  *         \/         \/
- * Designed, built, and released under an MIT license by @elotroalex and brill friends. See credits for more info.
+ * Designed, built, and released under an MIT license by @elotroalex and brill friends. See credits
+ * for more info.
  * Based on the Poole and Lanyon theme by @mdo. Learn more at
  * https://github.com/minicomp/ed.
- */
+*/
+
+/*
+  To apply a different color scheme to the whole scroll down to the themes section for instructions
+*/
 
 
+/*
+  General
 
-
-/* To apply a different color scheme to the whole scroll down to the themes section for instructions */
-
-
- /*
- * General
- *
- * Update the foundational and global aspects of the page.
- */
+  Update the foundational and global aspects of the page.
+*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -58,24 +58,25 @@ body {
   margin-bottom: 4rem;
 }
 
+
 /*
- * Wrapper
- *
- * The wrapper is used to position site content when the sidebar is toggled. We
- * use an outter wrap to position the sidebar without interferring with the
- * regular page content.
- */
+  Wrapper
+
+  The wrapper is used to position site content when the sidebar is toggled. We use an outter wrap to
+  position the sidebar without interferring with the regular page content.
+*/
 
 .wrap {
   position: relative;
   width: 100%;
 }
 
+
 /*
- * Container
- *
- * Center the page content.
- */
+  Container
+
+  Center the page content.
+*/
 
 .container {
   max-width: 38rem;
@@ -96,21 +97,19 @@ body {
   }
 }
 
-/* Links */
-
+/* Links*/
 a, .text-title a {
   color: $link-color;
   text-decoration: none;
 }
 
-/* `:focus` is linked to `:hover` for basic accessibility */
+/* `:focus` is linked to `:hover` for basic accessibility*/
 a:hover,
 a:focus {
   text-decoration: underline;
 }
 
-/* Headings */
-
+/* Headings*/
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   margin-bottom: .5rem;
@@ -147,15 +146,13 @@ h4, h5, h6 {
   margin-top: 1rem;
 }
 
-
-/* Body text */
+/* Body text*/
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-
-/* Lists */
+/* Lists*/
 ul {
   list-style: circle;
 }
@@ -165,9 +162,7 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
-
-/* Horizontal ruler */
-
+/* Horizontal ruler*/
 hr {
   margin-top: 60px;
   position: relative;
@@ -177,17 +172,13 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-
-/* Search Highlihting */
-
+/* Search Highlihting*/
 mark {
     color: white;
     background-color: $link-color;
 }
 
-
-/* Quotes */
-
+/* Quotes*/
 blockquote {
   padding: 0rem 1.5rem 0rem 2rem;
   margin: 0 0 20px 0;
@@ -207,11 +198,7 @@ blockquote p:last-child {
   }
 }
 
-/*
-* To add an attribution make sure to make a
-* line with the attribution class
-*/
-
+/* To add an attribution make sure to make a line with the attribution class*/
 li.attribution {
   text-align: right;
   list-style: none;
@@ -220,8 +207,7 @@ li.attribution {
   color: $text-color;
 }
 
-/* Images */
-
+/* Images*/
 img {
   display: block;
   max-width: 100%;
@@ -229,7 +215,7 @@ img {
   border-radius: 5px;
 }
 
-/* Tables */
+/* Tables*/
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -248,11 +234,10 @@ tbody tr:nth-child(odd) th {
 
 
 /*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- *
- */
+  Masthead
+
+  Super small header above the content for site name and short description.
+*/
 
 .masthead {
   margin-bottom: 3rem;
@@ -311,8 +296,7 @@ h3.masthead-title {
   }
 }
 
-/* Page and Posts */
-
+/* Page and Posts*/
 .page {
   margin-bottom: 4em;
 }
@@ -324,21 +308,20 @@ h3.masthead-title {
 
 
 /*
- * Sidebar
- *
- * The sidebar is the drawer, the item we are toggling with our handy hamburger
- * button in the corner of the page.
- *
- * This particular sidebar implementation was inspired by Chris Coyier's
- * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
- * comments by a reader. It modifies both implementations to continue using the
- * checkbox (no change in URL means no polluted browser history), but this uses
- * `position` for the menu to avoid some potential content reflow issues.
- *
- * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
- */
+  Sidebar
 
-/* Style and "hide" the sidebar */
+  The sidebar is the drawer, the item we are toggling with our handy hamburger button in the corner
+  of the page.
+
+  This particular sidebar implementation was inspired by Chris Coyier's "Offcanvas Menu with CSS
+  Target" article, and the checkbox variation from the comments by a reader. It modifies both
+  implementations to continue using the checkbox (no change in URL means no polluted browser
+  history), but this uses `position` for the menu to avoid some potential content reflow issues.
+
+  Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+*/
+
+/* Style and "hide" the sidebar*/
 .sidebar {
   position: fixed;
   top: 0;
@@ -348,7 +331,7 @@ h3.masthead-title {
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem; /* 15px */
+  font-size: .875rem;/* 15px*/
   color: rgba(255,255,255,.6);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
@@ -356,12 +339,11 @@ h3.masthead-title {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .75rem;/* 14px*/
   }
 }
 
-/* Sidebar content */
-
+/* Sidebar content*/
 .sidebar {
   background-color: $link-color;
 }
@@ -377,7 +359,7 @@ h3.masthead-title {
   margin-bottom: 0;
 }
 
-/* Sidebar nav */
+/* Sidebar nav*/
 .sidebar-nav {
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
@@ -409,12 +391,12 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle`*/
 .sidebar-checkbox {
     display: none;
 }
 
-/* Style the `label` that we use to target the `.sidebar-checkbox` */
+/* Style the `label` that we use to target the `.sidebar-checkbox`*/
 .sidebar-toggle {
   position: absolute;
   top:  .8rem;
@@ -466,18 +448,19 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Slide effect
- *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
- * from the default styles.
- *
- * As an a heads up, we don't use `transform: translate3d()` here because when
- * mixed with `position: fixed;` for the sidebar toggle, it creates a new
- * containing block. Put simply, the fixed sidebar toggle behaves like
- * `position: absolute;` when transformed.
- *
- * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
- */
+
+/*
+  Slide effect
+
+  Handle the sliding effects of the sidebar and content in one spot, seperate from the default
+  styles.
+
+  As an a heads up, we don't use `transform: translate3d()` here because when mixed with
+  `position: fixed;` for the sidebar toggle, it creates a new containing block. Put simply, the
+  fixed sidebar toggle behaves like `position: absolute;` when transformed.
+
+  Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+*/
 
 .wrap,
 .sidebar,
@@ -504,12 +487,13 @@ a.sidebar-nav-item:focus {
           transform: translateX(14rem);
 }
 
+
 /*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
- * on the right side.
- */
+  Reverse layout
+
+  Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
+  on the right side.
+*/
 
 .layout-reverse .sidebar {
   left: auto;
@@ -530,11 +514,11 @@ a.sidebar-nav-item:focus {
 
 
 /*
- * Overlay sidebar
- *
- * Make the sidebar content overlay the viewport content instead of pushing it
- * aside when toggled.
- */
+  Overlay sidebar
+
+  Make the sidebar content overlay the viewport content instead of pushing it
+  aside when toggled.
+*/
 
 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(0);
@@ -548,18 +532,20 @@ a.sidebar-nav-item:focus {
   box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
 }
 
-/* Only one tweak for a reverse layout */
+/* Only one tweak for a reverse layout*/
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
 
-/*
- * Themes
- *
- * Applies custom color schemes by adding the appropriate class to the `body`. Based on colors from Base16: http://chriskempson.github.io/base16/#default.
- */
 
-/* Red */
+/*
+  Themes
+
+  Applies custom color schemes by adding the appropriate class to the `body`. Based on colors from
+  Base16: http://chriskempson.github.io/base16/#default.
+*/
+
+/* Red*/
 .theme-base-red .sidebar,
 .theme-base-red .sidebar-toggle:active,
 .theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -571,7 +557,7 @@ a.sidebar-nav-item:focus {
   color: #ac4142;
 }
 
-/* Orange */
+/* Orange*/
 .theme-base-orange .sidebar,
 .theme-base-orange .sidebar-toggle:active {
   background-color: #d28445;
@@ -582,8 +568,7 @@ a.sidebar-nav-item:focus {
   color: #d28445;
 }
 
-
-/* Green */
+/* Green*/
 .theme-base-green .sidebar,
 .theme-base-green .sidebar-toggle:active {
   background-color: #90a959;
@@ -594,7 +579,7 @@ a.sidebar-nav-item:focus {
   color: #90a959;
 }
 
-/* Cyan */
+/* Cyan*/
 .theme-base-cyan .sidebar,
 .theme-base-cyan .sidebar-toggle:active {
   background-color: #75b5aa;
@@ -605,7 +590,7 @@ a.sidebar-nav-item:focus {
   color: #75b5aa;
 }
 
-/* Blue */
+/* Blue*/
 .theme-base-blue .sidebar,
 .theme-base-blue .sidebar-toggle:active {
   background-color: #6a9fb5;
@@ -616,7 +601,7 @@ a.sidebar-nav-item:focus {
   color: #6a9fb5;
 }
 
-/* Magenta */
+/* Magenta*/
 .theme-base-magenta .sidebar,
 .theme-base-magenta .sidebar-toggle:active {
   background-color: #aa759f;
@@ -627,7 +612,7 @@ a.sidebar-nav-item:focus {
   color: #aa759f;
 }
 
-/* Brown */
+/* Brown*/
 .theme-base-brown .sidebar,
 .theme-base-brown .sidebar-toggle:active {
   background-color: #8f5536;
@@ -639,9 +624,9 @@ a.sidebar-nav-item:focus {
 }
 
 
-/*                    */
-/* ED SPECIAL LAYOUTS */
-/*                    */
+/*
+ ED SPECIAL LAYOUTS
+*/
 
 p.centered {
   text-align: center;
@@ -668,9 +653,12 @@ div.toc {
 }
 
 
-/* Poem styles */
+/*
+  Poem styles
 
-/* If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent */
+  If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you
+  want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent
+*/
 
 .poetry ul, ul.poetry {
   list-style: none;
@@ -680,13 +668,16 @@ div.toc {
 }
 
 
-/* This snippet helps us reset the margin for all spans with the indent- class */
-
+/* This snippet helps us reset the margin for all spans with the indent- class*/
 .poetry span[class^='indent-']{
-    margin: 0; /* reset browsers default margin styles*/
+    margin: 0;/* reset browsers default margin styles*/
 }
 
-/* To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute. The x is represents an rem (root em) value */
+
+/*
+  To set line indentation for poetry wrap the line in a span, with a class="indent-x" attribute.
+  The x is represents an rem (root em) value
+*/
 
 .indent-1 {
   font-style: normal;
@@ -745,9 +736,7 @@ div.toc {
   margin-top: -.5rem;
 }
 
-
-/* Footnotes styles */
-
+/* Footnotes styles*/
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -778,16 +767,13 @@ a.footnote {
 }
 
 /*Bibliography styles*/
-
 ol.bibliography {
   list-style-type:none;
   padding-left: 1rem;
   text-indent: -1rem;
 }
 
-/* Diplomatic editions */
-
-
+/* Diplomatic editions*/
 .add {
     color:#288828;
     font-style: italic;
@@ -803,13 +789,12 @@ ol.bibliography {
 }
 
 
-/* Line layouts for prose-poetry and theater
-*
-* To use these layouts you need to add the classes to
-* your markdown or HTML lines. (ex. "- {:.centered} hello!")
-*
-*/
+/*
+  Line layouts for prose-poetry and theater
 
+  To use these layouts you need to add the classes to your markdown or HTML lines.
+  (ex. "- {:.centered} hello!")
+*/
 
 li.centered {
     text-align: center;
