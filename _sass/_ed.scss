@@ -91,6 +91,7 @@ body {
     max-width: 32rem;
   }
 }
+
 @media (min-width: 56em) {
   .container {
     max-width: 38rem;
@@ -139,7 +140,6 @@ h3, h4, h5 {
 
 h3 {
   margin-top: 1.5rem;
-
 }
 
 h4, h5, h6 {
@@ -174,8 +174,8 @@ hr {
 
 /* Search Highlihting*/
 mark {
-    color: white;
-    background-color: $link-color;
+  color: white;
+  background-color: $link-color;
 }
 
 /* Quotes*/
@@ -222,11 +222,13 @@ table {
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
+
 td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
+
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
@@ -253,6 +255,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
   line-height: .777em;
 }
+
 .masthead-title a {
   color: $link-color;
 }
@@ -271,7 +274,6 @@ h3.masthead-title {
   font-size: 1.8rem;
   margin-top: 2px;
 }
-
 
 @media (max-width: 48em) {
   .masthead-title {
@@ -337,6 +339,7 @@ h3.masthead-title {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
+
 @media (min-width: 30em) {
   .sidebar {
     font-size: .75rem;/* 14px*/
@@ -352,9 +355,11 @@ h3.masthead-title {
   font-weight: normal;
   color: #fff;
 }
+
 .sidebar-item {
   padding: 1rem;
 }
+
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }
@@ -363,6 +368,7 @@ h3.masthead-title {
 .sidebar-nav {
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
+
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
@@ -385,6 +391,7 @@ a.sidebar-nav-item:focus {
   .sidebar-item {
     padding: 1.5rem;
   }
+
   .sidebar-nav-item {
     padding-left:  1.5rem;
     padding-right: 1.5rem;
@@ -393,7 +400,7 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle`*/
 .sidebar-checkbox {
-    display: none;
+  display: none;
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox`*/
@@ -469,6 +476,7 @@ a.sidebar-nav-item:focus {
       -ms-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+
 .wrap,
 .sidebar-toggle {
   -webkit-transition: -webkit-transform .3s ease-in-out;
@@ -479,6 +487,7 @@ a.sidebar-nav-item:focus {
   z-index: 10;
   visibility: visible;
 }
+
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -499,6 +508,7 @@ a.sidebar-nav-item:focus {
   left: auto;
   right: -14rem;
 }
+
 .layout-reverse .sidebar-toggle {
   left: auto;
   right: 1rem;
@@ -525,9 +535,11 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(0);
           transform: translateX(0);
 }
+
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
   box-shadow: 0 0 0 .25rem #fff;
 }
+
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
 }
@@ -551,6 +563,7 @@ a.sidebar-nav-item:focus {
 .theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ac4142;
 }
+
 .theme-base-red .container a,
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
@@ -562,6 +575,7 @@ a.sidebar-nav-item:focus {
 .theme-base-orange .sidebar-toggle:active {
   background-color: #d28445;
 }
+
 .theme-base-orange .container a,
 .theme-base-orange .sidebar-toggle,
 .theme-base-orange .related-posts li a:hover {
@@ -573,6 +587,7 @@ a.sidebar-nav-item:focus {
 .theme-base-green .sidebar-toggle:active {
   background-color: #90a959;
 }
+
 .theme-base-green .container a,
 .theme-base-green .sidebar-toggle,
 .theme-base-green .related-posts li a:hover {
@@ -584,6 +599,7 @@ a.sidebar-nav-item:focus {
 .theme-base-cyan .sidebar-toggle:active {
   background-color: #75b5aa;
 }
+
 .theme-base-cyan .container a,
 .theme-base-cyan .sidebar-toggle,
 .theme-base-cyan .related-posts li a:hover {
@@ -595,6 +611,7 @@ a.sidebar-nav-item:focus {
 .theme-base-blue .sidebar-toggle:active {
   background-color: #6a9fb5;
 }
+
 .theme-base-blue .container a,
 .theme-base-blue .sidebar-toggle,
 .theme-base-blue .related-posts li a:hover {
@@ -606,6 +623,7 @@ a.sidebar-nav-item:focus {
 .theme-base-magenta .sidebar-toggle:active {
   background-color: #aa759f;
 }
+
 .theme-base-magenta .container a,
 .theme-base-magenta .sidebar-toggle,
 .theme-base-magenta .related-posts li a:hover {
@@ -617,6 +635,7 @@ a.sidebar-nav-item:focus {
 .theme-base-brown .sidebar-toggle:active {
   background-color: #8f5536;
 }
+
 .theme-base-brown .container a,
 .theme-base-brown .sidebar-toggle,
 .theme-base-brown .related-posts li a:hover {
@@ -644,7 +663,8 @@ p.small {
   font-size: 0.8rem;
 }
 
-div.poem, div.narrative {
+div.poem,
+div.narrative {
   margin-bottom: 5rem;
 }
 
@@ -660,7 +680,8 @@ div.toc {
   want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent
 */
 
-.poetry ul, ul.poetry {
+.poetry ul,
+ul.poetry {
   list-style: none;
   list-style-type: none;
   padding-left: 1rem;
@@ -670,7 +691,7 @@ div.toc {
 
 /* This snippet helps us reset the margin for all spans with the indent- class*/
 .poetry span[class^='indent-']{
-    margin: 0;/* reset browsers default margin styles*/
+  margin: 0;/* reset browsers default margin styles*/
 }
 
 
@@ -737,7 +758,8 @@ div.toc {
 }
 
 /* Footnotes styles*/
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -775,17 +797,17 @@ ol.bibliography {
 
 /* Diplomatic editions*/
 .add {
-    color:#288828;
-    font-style: italic;
+  color:#288828;
+  font-style: italic;
 }
 
 .delete {
-    text-decoration: line-through;
-    color: #AA3232;
+  text-decoration: line-through;
+  color: #AA3232;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
@@ -797,12 +819,13 @@ ol.bibliography {
 */
 
 li.centered {
-    text-align: center;
+  text-align: center;
 }
 
-li.speaker, li.speakerGroup {
-    text-align: center;
-    padding-top: 1.2em;
+li.speaker,
+li.speakerGroup {
+  text-align: center;
+  padding-top: 1.2em;
 }
 
 li.speakerGroup {
