@@ -4,10 +4,10 @@
 
     <xsl:output encoding="UTF-8" method="text"></xsl:output>
 
-<!-- for replacements of fancy quotes in source -->    
+<!-- for replacements of fancy quotes in source -->
     <xsl:param name="doubleQuotePat">’</xsl:param>
     <xsl:param name="doubleQuoteRep">&apos;</xsl:param>
-    
+
     <xsl:param name="singleQuotePat">‘</xsl:param>
     <xsl:param name="singleQuoteRep">&apos;</xsl:param>
 
@@ -46,11 +46,11 @@
             <xsl:text>&#x0A;&#x0A;</xsl:text>
             <xsl:text>&lt;div class="inline-nav" markdown="1"&gt;&#x0A;</xsl:text>
 
-	    <!-- open the div -->
+      <!-- open the div -->
 
             <xsl:if test="preceding-sibling::tei:div[1]">
 
-	   <!-- preceding chapter -->
+     <!-- preceding chapter -->
               <xsl:text>[</xsl:text>
               <xsl:value-of select="preceding-sibling::tei:div[1]/tei:head"/>
               <xsl:text>]</xsl:text>
@@ -61,7 +61,7 @@
 
             <xsl:if test="following-sibling::tei:div[1]">
 
-	   <!-- following chapter -->
+     <!-- following chapter -->
               <xsl:text>[</xsl:text>
               <xsl:value-of select="following-sibling::tei:div[1]/tei:head"/>
               <xsl:text>]</xsl:text>
@@ -72,7 +72,7 @@
 
             <xsl:text>&#x0A;&lt;/div&gt;</xsl:text>
 
-	   <!-- close the div -->
+     <!-- close the div -->
 
         </xsl:result-document>
     </xsl:template>
@@ -94,26 +94,26 @@
         <xsl:text>&#x0A;</xsl:text>
     </xsl:template>
 
-<!-- data balloons for links to notes -->    
+<!-- data balloons for links to notes -->
     <xsl:template match="tei:ptr">
       <xsl:text> &lt;button markdown="0" data-balloon-pos="up" data-balloon-length="large" data-balloon="</xsl:text>
       <xsl:value-of  disable-output-escaping="yes" select="following::tei:note[@xml:id=translate(current()/@target, '#', '')]/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)" />
 
-<!--      
+<!--
      <xsl:message select="translate(current()/@target, '#', '')"></xsl:message>
--->     
+-->
       <xsl:text>"&gt;</xsl:text>
       <xsl:apply-templates />
         <xsl:text>&lt;</xsl:text>span class="note_label"<xsl:text>&gt;</xsl:text><xsl:value-of select="@type"/><xsl:text>&lt;/span&gt;&#160;</xsl:text>
       <xsl:text>&lt;/button&gt; </xsl:text>
     </xsl:template>
 
-<!-- sanitize text nodes for kramdown -->    
+<!-- sanitize text nodes for kramdown -->
     <xsl:template match="text()">
         <xsl:value-of select="replace(replace(., '-', '—'), '\s+', ' ')"></xsl:value-of>
     </xsl:template>
 
-<!-- link to page image -->    
+<!-- link to page image -->
     <xsl:template match="tei:pb">
         <xsl:text>&lt;a href=""</xsl:text>
         <xsl:value-of select="@facs"></xsl:value-of>
@@ -127,7 +127,7 @@
         <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="tei:hi[@rend = 'bold']">
         <span class="bold">
         <xsl:apply-templates/>
@@ -135,7 +135,7 @@
     </xsl:template>
 
     <!-- data ballonons for tei:app -->
-    
+
     <xsl:template match="tei:app">
         <xsl:text> &lt;button markdown="0" data-balloon-pos="up" data-balloon-length="large" data-balloon="in MS: </xsl:text>
         <xsl:value-of  disable-output-escaping="yes" select="child::tei:rdg[1]/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)" />
