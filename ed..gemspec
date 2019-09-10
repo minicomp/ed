@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "ed."
   spec.version       = "1.0.2"
-  spec.authors       = ["Alex Gil"]
-  spec.email         = ["colibri.alex@gmail.com"]
+  spec.authors       = ["Alex Gil", "Karl Stolley"]
+  spec.email         = ["colibri.alex@gmail.com", "karl.stolley@gmail.com"]
 
   spec.summary       = "A Jekyll theme for minimal editions"
   spec.homepage      = "http://minicomp.github.io/ed/"
