@@ -1,4 +1,4 @@
-<head prefix="og: http://ogp.me/ns#">
+<head prefix="og: http://ogp.me/ns#; dc: http://purl.org/dc/terms/#">
   <!-- Canonical link to help search engines -->
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 
@@ -17,12 +17,12 @@
   </title>
 
   <!-- Dublin Core metadata for Zotero -->
-  <meta name="DC.title" content="{{ page.title }}" />
-  <meta name="DC.creator" content="{{ page.author }}" />
-  <meta name="DC.contributor" content="{{ page.editor }}" />
-  <meta name="DC.date" content="{{ page.publication-date }}" />
-  <meta name="DC.rights" content="{{ page.rights }}" />
-  <meta name="DC.source" content="{{ site.title }}" />
+  <meta property="dc:title" content="{{ page.title }}" />
+  <meta property="dc:creator" content="{{ page.author }}" />
+  <meta property="dc:contributor" content="{{ page.editor }}" />
+  <meta property="dc:date" content="{{ page.publication-date }}" />
+  <meta property="dc:rights" content="{{ page.rights }}" />
+  <meta property="dc:source" content="{{ site.title }}" />
 
   <!-- Open Graph metadata -->
   <meta property="og:title" content="{{page.title}}" />
