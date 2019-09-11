@@ -8,6 +8,14 @@
   <!-- Enable responsiveness on mobile devices -->
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+  </title>
+
   <!-- Dublin Core metadata for Zotero -->
   <meta name="DC.title" content="{{ page.title }}" />
   <meta name="DC.creator" content="{{ page.author }}" />
@@ -32,14 +40,6 @@
   <meta property="og:description" content="An Ed edition">
   <meta property="og:type" content="article" />
 {% endif %}
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }}
-    {% endif %}
-  </title>
 
   <!-- CSS link -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
