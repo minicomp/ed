@@ -20,7 +20,7 @@
 
   <!-- Dublin Core metadata for Zotero -->
   <meta property="dc:title" content="{{ page.title }}" />
-  <meta property="dc:creator" content="{{ page.author }}" />
+  <meta property="dc:creator" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author.name }}{% endif %}" />
   <meta property="dc:identifier" content="{{ resource_url }}" />
   {% if page.editor %}<meta property="dc:contributor" content="{{ page.editor }}" />{% endif %}
   {% if page.publication-date %}<meta property="dc:date" content="{{ page.publication-date }}" />{% endif %}
