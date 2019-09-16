@@ -21,10 +21,10 @@
   <!-- Dublin Core metadata for Zotero -->
   <meta property="dc:title" content="{{ page.title }}" />
   <meta property="dc:creator" content="{{ page.author }}" />
-  <meta property="dc:contributor" content="{{ page.editor }}" />
-  <meta property="dc:date" content="{{ page.publication-date }}" />
-  <meta property="dc:rights" content="{{ page.rights }}" />
-  <meta property="dc:source" content="{{ page.source }}" />
+  {% if page.editor %}<meta property="dc:contributor" content="{{ page.editor }}" />{% endif %}
+  {% if page.publication-date %}<meta property="dc:date" content="{{ page.publication-date }}" />{% endif %}
+  {% if page.rights %}<meta property="dc:rights" content="{{ page.rights }}" />{% endif %}
+  <meta property="dc:source" content="{% if page.source %}{{ page.source }}{% else %}{{ site.title }}{% endif %}" />
 
   <!-- Open Graph metadata -->
   <meta property="og:title" content="{{page.title}}" />
