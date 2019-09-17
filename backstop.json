@@ -4,27 +4,27 @@
     {
       "label": "micro",
       "width": 315,
-      "height": 800
+      "height": 1040
     },
     {
       "label": "small",
       "width": 400,
-      "height": 800
+      "height": 1040
     },
     {
       "label": "midrange",
       "width": 625,
-      "height": 800
+      "height": 1040
     },
     {
       "label": "large",
       "width": 830,
-      "height": 800
+      "height": 1040
     },
     {
       "label": "larger",
       "width": 1000,
-      "height": 800
+      "height": 1040
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
