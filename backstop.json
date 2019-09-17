@@ -36,6 +36,19 @@
       "url": "http://localhost:4000/ed/"
     },
     {
+      "label": "About",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:4000/ed/about/"
+    },
+    {
+      "label": "About, Expanded",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:4000/ed/about/",
+      "clickSelector": "label.sidebar-toggle",
+      "postInteractionWait": 2000,
+      "selectors": ["viewport"]
+    },
+    {
       "label": "A Julia de Burgos, Collapsed",
       "url": "http://localhost:4000/ed/texts/a-julia/"
     },
