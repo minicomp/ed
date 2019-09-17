@@ -31,23 +31,41 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "Ed Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "url": "http://localhost:4000/ed/"
+    },
+    {
+      "label": "A Julia de Burgos, Collapsed",
+      "url": "http://localhost:4000/ed/texts/a-julia/"
+    },
+    {
+      "label": "A Julia de Burgos, Expanded",
+      "url": "http://localhost:4000/ed/texts/a-julia/",
+      "clickSelector": "label.sidebar-toggle",
+      "postInteractionWait": 2000,
+      "selectors": ["viewport"]
+    },
+    {
+      "label": "Delayed till she had ceased to know",
+      "url": "http://localhost:4000/ed/texts/delayed/"
+    },
+    {
+      "label": "Narrative of the Life of Frederick Douglass",
+      "url": "http://localhost:4000/ed/texts/narrative/",
+      "removeSelectors": ["#main p + p"]
+    },
+    {
+      "label": "Narrative of the Life of Frederick Douglass, TOC Expanded",
+      "url": "http://localhost:4000/ed/texts/narrative/",
+      "removeSelectors": ["#main p + p"],
+      "clickSelector": "label.sidebar-toggle",
+      "postInteractionWait": 2000,
+      "selectors": ["viewport"]
+    },
+    {
+      "label": "O Captain! My Captain!",
+      "url": "http://localhost:4000/ed/texts/o-captain/"
     }
   ],
   "paths": {
