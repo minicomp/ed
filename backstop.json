@@ -2,14 +2,29 @@
   "id": "backstop_default",
   "viewports": [
     {
-      "label": "phone",
-      "width": 320,
-      "height": 480
+      "label": "micro",
+      "width": 315,
+      "height": 800
     },
     {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "label": "small",
+      "width": 400,
+      "height": 800
+    },
+    {
+      "label": "midrange",
+      "width": 625,
+      "height": 800
+    },
+    {
+      "label": "large",
+      "width": 830,
+      "height": 800
+    },
+    {
+      "label": "larger",
+      "width": 1000,
+      "height": 800
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
