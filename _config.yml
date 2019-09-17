@@ -44,6 +44,11 @@ kramdown:
 exclude:
   - optional
   - vendor
+  - ed..gemspec
+  - Gemfile
+  - Gemfile.lock
+  - backstop_data
+  - backstop.json
 
 # Theme
 # (Used for local or custom-server deployments)
