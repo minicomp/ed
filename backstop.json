@@ -32,17 +32,14 @@
   "scenarios": [
     {
       "label": "Ed Homepage",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:4000/ed/"
     },
     {
       "label": "About",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:4000/ed/about/"
     },
     {
       "label": "About, Expanded",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:4000/ed/about/",
       "clickSelector": "label.sidebar-toggle",
       "postInteractionWait": 2000,
