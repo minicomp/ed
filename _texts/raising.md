@@ -7,8 +7,6 @@ source: "Hansberry, Lorraine, and Robert Nemiroff. A Raisin in the Sun. Rep Rei 
 
 ---
 
-<p class="citation"> by {{ page.author }}</p>
-
 (excerpt)
 
 MAMA: Son—how come you talk so much 'bout money?
