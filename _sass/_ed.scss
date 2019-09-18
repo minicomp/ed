@@ -664,6 +664,7 @@ p.small {
 }
 
 div.poem,
+.poem,
 div.narrative,
 .narrative {
   margin-bottom: 5rem;
@@ -681,6 +682,7 @@ div.toc {
   want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent
 */
 
+.poem ul,
 .poetry ul,
 ul.poetry {
   list-style: none;
@@ -751,6 +753,7 @@ ul.poetry {
   padding-left: 10rem;
 }
 
+.poem .byline,
 .poetry .byline {
   font-style: italic;
   font-weight: 300;
