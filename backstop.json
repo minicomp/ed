@@ -79,6 +79,10 @@
     {
       "label": "O Captain! My Captain!",
       "url": "http://localhost:4000/ed/texts/o-captain/"
+    },
+    {
+      "label": "A Raisin in the Sun",
+      "url": "http://localhost:4000/ed/texts/raising/"
     }
   ],
   "paths": {
