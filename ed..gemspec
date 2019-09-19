@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://minicomp.github.io/ed/"
   spec.license       = "MIT"
 
+  spec.required_ruby_version = ">= 2.1.0"
+
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(404|assets|optional|_layouts|_includes|_sass|_texts|index|search|about|credits|documentation|atom|Gemfile|LICENSE|README)}i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.6"
