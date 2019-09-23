@@ -15,6 +15,8 @@ Gem::Specification.new do |spec|
   spec.metadata      = {
     "bug_tracker_uri" => "https://github.com/minicomp/ed/issues",
     "changelog_uri"   => "https://github.com/minicomp/ed/releases",
+    "documentation_uri" => "https://minicomp.github.io/ed/documentation/",
+    "wiki-uri" => "https://github.com/minicomp/ed/wiki",
     "homepage_uri"    => "https://minicomp.github.io/ed/",
     "source_code_uri" => "https://github.com/minicomp/ed"
   }
