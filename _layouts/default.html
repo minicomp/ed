@@ -24,14 +24,13 @@
             <br><small>{{ site.tagline }}</small>
           </h3>
         </div>
+        <button class="sidebar-toggle" aria-label="Open navigation menu" aria-expanded="false"></button>
       </header>
 
       <main class="container content" id="main">
         {{ content }}
       </main>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
 
@@ -49,21 +48,23 @@
         document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
       }
 
-      // Toggle sidebar
+      // Support sidebar toggle
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
+        var sidebarNavLink = document.querySelector('.sidebar-nav-item');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
+        // Make sure we focus on the menu once it opens to aid tab navigation
+        sidebar.addEventListener('transitionend', () => {sidebarNavLink.focus()});
 
-          if(!checkbox.checked ||
-             !sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+        // Toggle sidebar
+        toggle.addEventListener('click', function(e) {
+          e.preventDefault();
 
-          checkbox.checked = false;
-        }, false);
+          checkbox.checked = !checkbox.checked;
+          toggle.setAttribute('aria-expanded', checkbox.checked);
+        });
       })(document);
     </script>
 
