@@ -17,6 +17,11 @@
       collisions with our real content.
     -->
     <div class="wrap">
+      <button class="sidebar-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="sidebar">
+      </button>
       <header class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -24,7 +29,6 @@
             <br><small>{{ site.tagline }}</small>
           </h3>
         </div>
-        <button class="sidebar-toggle" aria-label="Open navigation menu" aria-expanded="false"></button>
       </header>
 
       <main class="container content" id="main">
@@ -55,16 +59,25 @@
         var sidebarNavLink = document.querySelector('.sidebar-nav-item');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
-        // Make sure we focus on the menu once it opens to aid tab navigation
-        sidebar.addEventListener('transitionend', () => {sidebarNavLink.focus()});
-
         // Toggle sidebar
         toggle.addEventListener('click', function(e) {
           e.preventDefault();
 
           checkbox.checked = !checkbox.checked;
           toggle.setAttribute('aria-expanded', checkbox.checked);
+          sidebar.setAttribute('aria-hidden', !checkbox.checked);
         });
+
+        // Make sure we focus on the menu once it opens to aid tab navigation
+        sidebar.addEventListener('transitionend', function() {sidebarNavLink.focus()});
+
+        // Clicking anywhere in the sidebar should close the menu
+        sidebar.addEventListener('click', function(e) {
+          checkbox.checked = false;
+          toggle.setAttribute('aria-expanded', false);
+          sidebar.setAttribute('aria-hidden', true);
+        })
+
       })(document);
     </script>
 
