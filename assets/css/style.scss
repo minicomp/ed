@@ -12,7 +12,7 @@ sitemap: false
 /* Fonts */
 $main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $heading-font: sans-serif;
-$regular-font-size: 20px;
+$regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
 
 
 /*

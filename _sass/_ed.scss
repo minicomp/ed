@@ -37,7 +37,7 @@ body {
 
 html {
   font-family: $main-font;
-  font-size: 16px;
+  font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */
   line-height: 1.5;
 }
 
