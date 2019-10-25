@@ -79,17 +79,11 @@ body {
 */
 
 .container {
-  max-width: 38rem;
+  max-width: 32rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-}
-
-@media (min-width: 38em) {
-  .container {
-    max-width: 32rem;
-  }
 }
 
 @media (min-width: 56em) {
