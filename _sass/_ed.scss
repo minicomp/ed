@@ -672,7 +672,6 @@ ul.poetry {
 /* This snippet helps us reset the margin for all spans with the indent- class */
 .poem span[class^='indent-'],
 .poetry span[class^='indent-'] {
-  font-style: normal; /* TODO: what if poetry lines include italic? */
   margin: 0;/* reset browsers default margin styles*/
 }
 
