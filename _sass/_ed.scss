@@ -233,6 +233,9 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 0;
   color: #505050;
   line-height: .777em;
+  font-family: $main-font;
+  font-size: 1.8rem;
+  margin-top: 2px;
 }
 
 .masthead-title small {
@@ -244,24 +247,15 @@ tbody tr:nth-child(odd) th {
   font-family: $heading-font;
 }
 
-.masthead-title {
-  font-family: $main-font;
-  font-size: 1.8rem;
-  margin-top: 2px;
-}
 
 @media (max-width: 48em) {
   .masthead-title {
     text-align: center;
-  }
-
-  .masthead-title small {
-    display: none;
-  }
-
-  .masthead-title {
     margin-left: 15%;
     margin-right: 15%;
+  }
+  .masthead-title small {
+    display: none;
   }
 }
 
