@@ -248,7 +248,7 @@ tbody tr:nth-child(odd) th {
   font-family: $heading-font;
 }
 
-h3.masthead-title {
+.masthead-title {
   font-family: $main-font;
   font-size: 1.8rem;
   margin-top: 2px;
@@ -263,14 +263,14 @@ h3.masthead-title {
     display: none;
   }
 
-  h3.masthead-title {
+  .masthead-title {
   margin-left: 15%;
   margin-right: 15%;
   }
 }
 
 @media (max-width: 320px) {
-  h3.masthead-title {
+  .masthead-title {
   margin-top: 2em;
   margin-left: 0%;
   margin-right: 0%;
