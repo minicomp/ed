@@ -651,16 +651,19 @@ ol.bibliography {
 }
 
 /* Diplomatic editions */
+ins,
 .add {
   color:#288828;
   font-style: italic;
 }
 
+del,
 .delete {
   text-decoration: line-through;
   color: #AA3232;
 }
 
+u,
 .underline {
   text-decoration: underline;
 }
