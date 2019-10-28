@@ -233,35 +233,33 @@ tbody tr:nth-child(odd) th {
   font-family: $main-font;
   font-size: 1.8rem;
   line-height: .777em;
-  margin-top: 2px;
+  margin-top: 2em;
   margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
 }
 
 .masthead-title small {
   color: $text-color;
+  display: none; /* This is an accessibility no-no */
   font-family: $heading-font;
   font-size: .88rem;
   font-weight: 300;
   letter-spacing: .05rem;
 }
 
-
-@media (max-width: 48em) {
+@media (min-width: 320px) {
   .masthead-title {
+    margin-top: 2px;
     margin-right: 15%;
     margin-left: 15%;
-    text-align: center;
-  }
-  .masthead-title small {
-    display: none;
   }
 }
 
-@media (max-width: 320px) {
-  .masthead-title {
-    margin-top: 2em;
-    margin-right: 0%;
-    margin-left: 0%;
+@media (min-width: 48em) {
+  .masthead-title small {
+    display: inline;
   }
 }
 
