@@ -109,7 +109,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   margin-bottom: .5rem;
-  font-weight: 300;
+  font-weight: normal;
   color: $heading-color;
   letter-spacing: -.025rem;
   line-height: 1.25;
@@ -246,7 +246,7 @@ tbody tr:nth-child(odd) th {
   display: none; /* This is an accessibility no-no */
   font-family: $heading-font;
   font-size: .88rem;
-  font-weight: 300;
+  font-weight: normal;
   letter-spacing: .05rem;
 }
 
@@ -607,7 +607,7 @@ ul.poetry {
 .poem .byline,
 .poetry .byline {
   font-style: italic;
-  font-weight: 300;
+  font-weight: normal;
   letter-spacing: 0;
   margin-top: -.5rem;
 }
