@@ -12,7 +12,8 @@
 */
 
 /*
-  To apply a different color scheme to the whole scroll down to the themes section for instructions
+  To apply a different color scheme to the whole scroll down to the themes section instructions at
+  the very bottom of this file
 */
 
 
@@ -503,99 +504,6 @@ a.sidebar-nav-item:focus {
 
 
 /*
-  Themes
-
-  Applies custom color schemes by adding the appropriate class to the `body`. Based on colors from
-  Base16: http://chriskempson.com/projects/base16/
-*/
-
-/* Red */
-.theme-base-red .sidebar,
-.theme-base-red .sidebar-toggle:active,
-.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #ac4142;
-}
-
-.theme-base-red .container a,
-.theme-base-red .sidebar-toggle,
-.theme-base-red .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-orange .sidebar,
-.theme-base-orange .sidebar-toggle:active {
-  background-color: #d28445;
-}
-
-.theme-base-orange .container a,
-.theme-base-orange .sidebar-toggle,
-.theme-base-orange .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Green */
-.theme-base-green .sidebar,
-.theme-base-green .sidebar-toggle:active {
-  background-color: #90a959;
-}
-
-.theme-base-green .container a,
-.theme-base-green .sidebar-toggle,
-.theme-base-green .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-cyan .sidebar,
-.theme-base-cyan .sidebar-toggle:active {
-  background-color: #75b5aa;
-}
-
-.theme-base-cyan .container a,
-.theme-base-cyan .sidebar-toggle,
-.theme-base-cyan .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-blue .sidebar,
-.theme-base-blue .sidebar-toggle:active {
-  background-color: #6a9fb5;
-}
-
-.theme-base-blue .container a,
-.theme-base-blue .sidebar-toggle,
-.theme-base-blue .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-magenta .sidebar,
-.theme-base-magenta .sidebar-toggle:active {
-  background-color: #aa759f;
-}
-
-.theme-base-magenta .container a,
-.theme-base-magenta .sidebar-toggle,
-.theme-base-magenta .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-brown .sidebar,
-.theme-base-brown .sidebar-toggle:active {
-  background-color: #8f5536;
-}
-
-.theme-base-brown .container a,
-.theme-base-brown .sidebar-toggle,
-.theme-base-brown .related-posts li a:hover {
-  color: #8f5536;
-}
-
-
-/*
  ED special layouts
 */
 
@@ -797,4 +705,97 @@ li.prose {
 
 li.prose-indent {
   text-indent: 2rem;
+}
+
+
+/*
+  Themes
+
+  Applies custom color schemes by adding the appropriate class to the `body`. Based on colors from
+  Base16: http://chriskempson.com/projects/base16/
+*/
+
+/* Red */
+.theme-base-red .sidebar,
+.theme-base-red .sidebar-toggle:active,
+.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #ac4142;
+}
+
+.theme-base-red .container a,
+.theme-base-red .sidebar-toggle,
+.theme-base-red .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-orange .sidebar,
+.theme-base-orange .sidebar-toggle:active {
+  background-color: #d28445;
+}
+
+.theme-base-orange .container a,
+.theme-base-orange .sidebar-toggle,
+.theme-base-orange .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Green */
+.theme-base-green .sidebar,
+.theme-base-green .sidebar-toggle:active {
+  background-color: #90a959;
+}
+
+.theme-base-green .container a,
+.theme-base-green .sidebar-toggle,
+.theme-base-green .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-cyan .sidebar,
+.theme-base-cyan .sidebar-toggle:active {
+  background-color: #75b5aa;
+}
+
+.theme-base-cyan .container a,
+.theme-base-cyan .sidebar-toggle,
+.theme-base-cyan .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-blue .sidebar,
+.theme-base-blue .sidebar-toggle:active {
+  background-color: #6a9fb5;
+}
+
+.theme-base-blue .container a,
+.theme-base-blue .sidebar-toggle,
+.theme-base-blue .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-magenta .sidebar,
+.theme-base-magenta .sidebar-toggle:active {
+  background-color: #aa759f;
+}
+
+.theme-base-magenta .container a,
+.theme-base-magenta .sidebar-toggle,
+.theme-base-magenta .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-brown .sidebar,
+.theme-base-brown .sidebar-toggle:active {
+  background-color: #8f5536;
+}
+
+.theme-base-brown .container a,
+.theme-base-brown .sidebar-toggle,
+.theme-base-brown .related-posts li a:hover {
+  color: #8f5536;
 }
