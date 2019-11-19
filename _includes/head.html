@@ -10,13 +10,13 @@
   <!-- Enable responsiveness on mobile devices -->
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }}
-    {% endif %}
-  </title>
+  {% if page.url == "/" %}
+    {% assign page_title = site.title %}
+  {% else %}
+    {% assign page_title = page.title %}
+  {% endif %}
+
+  <title>{{ page_title }}</title>
 
   <!-- Dublin Core metadata for Zotero -->
   <meta property="dc:title" content="{{ page.title }}" />
