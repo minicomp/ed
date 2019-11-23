@@ -17,6 +17,11 @@
       collisions with our real content.
     -->
     <div class="wrap">
+      <button class="sidebar-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="sidebar">
+      </button>
       <header class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -30,8 +35,6 @@
         {{ content }}
       </main>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
 
@@ -49,21 +52,32 @@
         document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
       }
 
-      // Toggle sidebar
+      // Support sidebar toggle
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
+        var sidebarNavLink = document.querySelector('.sidebar-nav-item');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
+        // Toggle sidebar
+        toggle.addEventListener('click', function(e) {
+          e.preventDefault();
 
-          if(!checkbox.checked ||
-             !sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+          checkbox.checked = !checkbox.checked;
+          toggle.setAttribute('aria-expanded', checkbox.checked);
+          sidebar.setAttribute('aria-hidden', !checkbox.checked);
+        });
 
+        // Make sure we focus on the menu once it opens to aid tab navigation
+        sidebar.addEventListener('transitionend', function() {sidebarNavLink.focus()});
+
+        // Clicking anywhere in the sidebar should close the menu
+        sidebar.addEventListener('click', function(e) {
           checkbox.checked = false;
-        }, false);
+          toggle.setAttribute('aria-expanded', false);
+          sidebar.setAttribute('aria-hidden', true);
+        })
+
       })(document);
     </script>
 
