@@ -713,7 +713,7 @@ li.prose-indent {
 
 /* Table of Contents */
 
-.toc h2 {
+.toc h2, .toc h2 a {
   color: $heading-color;
   font-size: 1em;
 }
