@@ -161,10 +161,6 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-.toc-hr {
-  border-color: $accent-color;
-}
-
 /* Search highlighting */
 mark {
   color: white;
@@ -713,6 +709,15 @@ li.prose-indent {
 
 /* Table of Contents */
 
+div.toc {
+    display: block;
+  } 
+
+div.toc-entry {
+  text-align: center;
+  border-bottom: 2px solid $accent-color;
+}
+
 .toc h2, .toc h2 a {
   color: $heading-color;
   font-size: 1em;
@@ -720,19 +725,17 @@ li.prose-indent {
 
 .toc h2.author {
   font-size: .8em;
+  font-style: italic;
 }
 
-div.toc {
-  margin-bottom: 4rem;
-  display: inline-grid;
-  grid-gap: 4em;
+@media (min-width: 30em) {
+  div.toc {
+    margin-bottom: 4rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4em;
+  }
 }
-
-div.toc-entry {
-  border: 2px solid black; /* for testing purposes */
-  text-align: center;
-}
-
 
 /*
   Themes
