@@ -161,6 +161,11 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+.toc-hr {
+  color: $heading-color;
+  max-width: 20px;
+}
+
 /* Search highlighting */
 mark {
   color: white;
