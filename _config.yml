@@ -1,17 +1,17 @@
 # Built with Jekyll 3.6.0
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
+title:               Nos Cambio la Vida / Our Lives Transformed
+tagline:             'draft'
+description:         'Nos Cambio la Vida is a digital edition of short autobiographical narratives written by Dominican writers of Hatian descent that have 			 been translated into English.'
+url:                 'https://github.com/dhc-barnard/nos-cambio-la-vida.git'
+baseurl:             ''
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Barnard DHC
+  url:               digitalhumanities.barnard.edux
+  email:             apeaker@barnard.edu
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme:
