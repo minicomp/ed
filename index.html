@@ -20,12 +20,32 @@ title: "Nos Cambio la Vida \ Our Lives Transformed"
 <hr>
 
 <div class="toc">
-  {% for item in site.texts %}
-    <div class="toc-entry">
-      <h2><a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a></h2>
-      <h2 class="author">{{ item.author }}</h2>    
-    </div>      
-  {% endfor %}
+  <div class="intro-pref">
+    {% for item in site.texts %}
+    <!-- Replace ids below with preface and intro once those pages are created-->
+      {% if item.id == "/texts/a-julia" or item.id == "/texts/raisin" %}
+        <div class="toc-entry">
+          <h2><a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a></h2>
+          <h2 class="author">{{ item.author }}</h2>    
+        </div>     
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="toc-texts">
+    {% for item in site.texts %}
+    <!-- Replace ids below with preface and intro once those pages are created-->
+      {% if item.id != "/texts/a-julia" and item.id != "/texts/raisin" %}
+        <div class="toc-entry">
+          <h2><a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a></h2>
+          <h2 class="author">{{ item.author }}</h2>    
+        </div>
+      {% endif %}      
+    {% endfor %}
+  </div>
 </div>
+

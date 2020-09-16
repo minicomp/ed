@@ -709,7 +709,7 @@ li.prose-indent {
 
 /* Table of Contents */
 
-div.toc {
+div.toc-texts, div.intro-pref {
     display: block;
   } 
 
@@ -718,22 +718,31 @@ div.toc-entry {
   border-bottom: 2px solid $accent-color;
 }
 
-.toc h2, .toc h2 a {
+div.toc h2, .toc h2 > a {
   color: $heading-color;
   font-size: 1em;
 }
 
-.toc h2.author {
+div.toc h2.author {
   font-size: .8em;
   font-style: italic;
 }
 
 @media (min-width: 30em) {
-  div.toc {
+  div.toc-texts {
     margin-bottom: 4rem;
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 9rem 9rem 9rem;
     grid-gap: 4em;
+  }
+
+  div.intro-pref {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 4em;
+    justify-content: space-evenly;
   }
 }
 
