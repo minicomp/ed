@@ -20,14 +20,16 @@ title: "Ed."
 <hr>
 
 <div class="toc">
-  <h2>sample texts</h2>
+  <h2>Contents</h2>
   <ul class="texts">
   {% for item in site.texts %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
-      </a>
+      </a> 
+      <br/>
+      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.author }}</a>
     </li>
   {% endfor %}
   </ul>
