@@ -135,10 +135,6 @@ h3 {
   margin-top: 1.5rem;
 }
 
-.toc h2 {
-  color: $heading-color;
-}
-
 
 /* Body text */
 p {
@@ -166,8 +162,7 @@ hr {
 }
 
 .toc-hr {
-  color: $accent-color;
-  max-width: 200px;
+  border-color: $accent-color;
 }
 
 /* Search highlighting */
@@ -539,16 +534,6 @@ div.narrative,
   margin-bottom: 5rem;
 }
 
-div.toc {
-  margin-bottom: 4rem;
-  display: inline-block;
-  max-width: 1224px;
-  padding: 8px;
-}
-
-div.toc-entry {
-  border: 2px solid black; /* for testing purposes */
-}
 
 
 /*
@@ -724,6 +709,28 @@ li.prose {
 
 li.prose-indent {
   text-indent: 2rem;
+}
+
+/* Table of Contents */
+
+.toc h2 {
+  color: $heading-color;
+  font-size: 1em;
+}
+
+.toc h2.author {
+  font-size: .8em;
+}
+
+div.toc {
+  margin-bottom: 4rem;
+  display: inline-grid;
+  grid-gap: 4em;
+}
+
+div.toc-entry {
+  border: 2px solid black; /* for testing purposes */
+  text-align: center;
 }
 
 
