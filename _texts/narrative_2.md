@@ -1,5 +1,5 @@
 ---
 layout: narrative
-title: Narrative 2
-author: author 2
+title: Narrative Title 2
+author: author
 ---
