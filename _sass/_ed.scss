@@ -230,15 +230,19 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title {
-  color: #505050;
+  color: $heading-color;
   font-family: $main-font;
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   line-height: .777em;
   margin-top: 2em;
   margin-bottom: 0;
   margin-right: 0;
   margin-left: 0;
   text-align: center;
+}
+
+.masthead-title a {
+  color: $heading-color;
 }
 
 .masthead-title small {
@@ -250,11 +254,21 @@ tbody tr:nth-child(odd) th {
   letter-spacing: .05rem;
 }
 
+.masthead .slash {
+  color: $accent-color;
+  font-size: 1.15em;
+  display: block;
+  line-height: 2.5em;
+}
+
 @media (min-width: 320px) {
   .masthead-title {
     margin-top: 2px;
-    margin-right: 15%;
-    margin-left: 15%;
+    font-size: 1.75rem;
+  }
+
+  .masthead .slash {
+    display: inline;
   }
 }
 
@@ -304,6 +318,13 @@ tbody tr:nth-child(odd) th {
 /* Sidebar content */
 .sidebar {
   background-color: $accent-color;
+}
+
+.sidebar-slash {
+  color: $link-color;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 10%;
 }
 
 .sidebar a {
