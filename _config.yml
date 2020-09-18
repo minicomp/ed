@@ -40,6 +40,10 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# gem specs
+plugins::
+  - jekyll-pdf
+
 # Exclusions from the final site
 exclude:
   - optional

@@ -3,3 +3,4 @@ gemspec
 
 gem "html-proofer"
 gem "kramdown-parser-gfm"
+gem "jekyll-pdf"
