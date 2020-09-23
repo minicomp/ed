@@ -41,7 +41,7 @@ kramdown:
   enable_coderay: false
 
 # gem specs
-plugins
+plugins:
 
 # Exclusions from the final site
 exclude:
