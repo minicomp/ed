@@ -41,8 +41,7 @@ kramdown:
   enable_coderay: false
 
 # gem specs
-plugins::
-  - jekyll-pdf
+plugins
 
 # Exclusions from the final site
 exclude:
