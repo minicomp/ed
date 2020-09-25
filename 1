@@ -40,19 +40,10 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# gem specs
+# gems
 plugins:
   - jekyll-pdf
-
-# front-matter defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "narratives"
-    values:
-      pdf: true
-      pdf_layout: pdf.html
+  - jekyll-assets
 
 # Exclusions from the final site
 exclude:
@@ -63,6 +54,11 @@ exclude:
   - Gemfile.lock
   - backstop_data
   - backstop.json
+
+pdf:
+  cache: false | directory | default:
+  page_size: A4, Letter, etc. | default: A4
+  layout: narrative | default: pdf
 
 # Theme
 # (Used for local or custom-server deployments)
