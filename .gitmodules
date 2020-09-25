@@ -1,0 +1,3 @@
+[submodule "converter-pdf"]
+	path = converter-pdf
+	url = https://github.com/kramdown/converter-pdf.git

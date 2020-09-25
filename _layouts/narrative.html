@@ -1,11 +1,13 @@
 ---
 layout: default
+pdf: true
 ---
 
 <article class="narrative">
   <h1 class="text-title">{{ page.title }}</h1>
   <p class="byline">by {{ page.author }}</p>
-  {{ content }}>
+  {{ content }}
+  <a href={{ page.pdf_url }}>pdf</a>
 </article>
 
 
@@ -92,3 +94,6 @@ for (var i = 0; i < reversefootnotes.length; i++){
 
 
 </script>
+
+
+

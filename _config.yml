@@ -42,6 +42,17 @@ kramdown:
 
 # gem specs
 plugins:
+  - jekyll-pdf
+
+# front-matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "narratives"
+    values:
+      pdf: true
+      pdf_layout: pdf.html
 
 # Exclusions from the final site
 exclude:
