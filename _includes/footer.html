@@ -1,0 +1,108 @@
+<footer>
+	<a href="/texts/output2.pdf" download="{{page.title}}"> 
+  		<button onclick="downloadPdf()" type="button">Download</button> 
+ 	</a> 
+</footer>
+
+
+
+<script type="text/javascript">
+
+	function downloadPdf(){
+		console.log("clicked");
+
+		//Hide download buttons
+		//document.querySelector(".pdfButton").style.display = "none";
+
+		//Toggle CSS
+		//document.querySelector(".footnotes").classList.remove(".footnotes");
+
+	}
+	
+	
+
+</script>
+
+<script type="text/javascript">
+
+//for each list item in footnotes, add a close-button for the pop-up
+var footnoteSection = document.querySelector(".footnotes");
+var items = footnoteSection.getElementsByTagName("p");
+
+for (var i = 0; i < items.length; ++i) {
+	close = '<span class="close-button">&times;</span>';
+	items[i].innerHTML = close + items[i].innerHTML;
+}
+
+//Hide reversefootnote link
+var reversefootnotes = document.querySelectorAll(".reversefootnote");
+
+for (var i = 0; i < reversefootnotes.length; i++){
+	reversefootnotes[i].style.visibility = "hidden";
+}
+
+
+//Drawing from this page for reference on modal: https://sabe.io/tutorials/how-to-create-modal-popup-box
+
+
+//create the pop-up
+	var modal = document.querySelector(".footnotes");
+	var trigger = document.querySelectorAll(".footnote");
+	var closeButton = document.querySelectorAll(".close-button");
+	var footnotes = document.querySelectorAll(".footnotes li");	
+	var footnoteIds = [];
+
+	//Creates an array of all footnote ids
+	for (var i = 0; i < footnotes.length; i++) {
+		footnoteIds.push(footnotes[i].getAttribute("id"));
+	}
+
+	function toggleModal() {
+		
+		//if no class of show-footnote (i.e. when toggled off)
+		if (modal.classList.contains("show-footnote")) {
+
+			modal.classList.remove("show-footnote");
+			document.location.reload();
+
+		}
+
+		//when toggled on
+		else {
+			modal.classList.add("show-footnote");
+
+			//Hide all footnotes except the one selected
+			var selected = document.querySelector(".footnotes");
+			if (selected.classList.contains("show-footnote")) {
+				var x = this.href;
+				var y =  x.slice(x.length - 6); //takes the last six characters of the clicked url which is the footnote id. If we have more than 9 footnotes for a narrative, we'll need to rework this.
+				
+				for (i = 0; i < footnoteIds.length; i++){
+					if (footnoteIds[i] != y) {
+						document.getElementById(footnoteIds[i]).style.visibility = "hidden";
+					} else document.getElementById(footnoteIds[i]).style.visibility = "visible";
+				}
+			} 			
+		}		
+	}
+
+
+
+	function windowOnClick(event) {
+		//console.log(event.target.parentNode.id);
+	    if (event.target === modal) {
+		        toggleModal();
+		    }
+	}
+
+	for (var i = 0; i < trigger.length; i++){
+		trigger[i].addEventListener("click", toggleModal);
+	};	
+	for (var i = 0; i < closeButton.length; i++){
+		closeButton[i].addEventListener("click", toggleModal);
+	}	
+	window.addEventListener("click", windowOnClick);
+
+
+
+</script>
