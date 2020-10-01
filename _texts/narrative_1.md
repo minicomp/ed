@@ -1,6 +1,6 @@
 ---
 layout: narrative
-title: Narrative Title 1
+title: Narrative 1
 author: author
 pdf: true
 pdf_layout: narrative_pdf

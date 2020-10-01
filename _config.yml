@@ -8,10 +8,10 @@ url:                 'https://github.com/dhc-barnard/nos-cambio-la-vida.git'
 baseurl:             ''
 
 # About/contact
-author:
-  name:              Barnard DHC
+author: 
+  name:              Barnard College Digital Humanities Center
   url:               digitalhumanities.barnard.edu
-  email:             apeaker@barnard.edu
+  email:             digitalhumanities@barnard.edu
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme:
