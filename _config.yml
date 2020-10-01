@@ -42,7 +42,6 @@ kramdown:
 
 # gem specs
 plugins:
-  - jekyll-pdf
 
 # front-matter defaults
 defaults:
