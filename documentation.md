@@ -77,12 +77,6 @@ Once the command line tools are installed, using the `cd` command on your termin
 $ git clone https://github.com/minicomp/ed.git
 ~~~
 
-At this point you should navigate inside your Ed project folder and stay there until further notice:
-
-~~~ bash
-$ cd ed
-~~~
-
 Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.2.2. To install `chruby` follow these instructions:
 
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
@@ -109,7 +103,13 @@ $ ruby-install ruby-3.2.2 -- --enable-shared
 $ ruby -v
 ~~~ 
 
-If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. Make sure you navigate to your Ed project folder before doing these final steps:
+If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your ed project files and folders directly inside your user folder:
+
+~~~ bash
+$ cd ~/ed
+~~~
+
+Once  you are inside the ed folder, run these final steps:
 
 ~~~ Bash
 $ gem install bundler
