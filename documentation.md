@@ -59,7 +59,6 @@ If at any point during this process you had an error you could not resolve, move
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
----
 
 ### Installing from scratch
 
