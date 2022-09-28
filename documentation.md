@@ -38,7 +38,7 @@ You can use Ed on GitHub Pages for free, without a local installation, by editin
 
 ### Existing Ruby environments
 
-To install Ed locally you need a contemporary Ruby environment up and running. In 2022 we will use `chruby` with `ruby-3.2.2`. If you don't even know what the last two sentences mean, skip ahead. If you already have your own ruby environment and relatively recent Ruby installed, then you can get up and running by downloading the source code from Github and running  
+To install Ed locally you need a contemporary Ruby environment up and running. In 2022 we will use `chruby` with `ruby-3.1.2`. If you don't even know what the last two sentences mean, skip ahead. If you already have your own ruby environment and relatively recent Ruby installed, then you can get up and running by downloading the source code from Github and running  
 
 Switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed:
 
@@ -76,7 +76,7 @@ Once the command line tools are installed, using the `cd` command on your termin
 $ git clone https://github.com/minicomp/ed.git
 ~~~
 
-Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.2.2. To install `chruby` follow these instructions:
+Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.1.2. To install `chruby` follow these instructions:
 
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
@@ -88,17 +88,17 @@ $ brew install ruby-install chruby
 ~~~
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby ruby-3.2.2
+chruby ruby-3.1.2
 ~~~
 5. Save and quit the text editor you used to edit the file.
 6. Quit and re-open your terminal.
-7. Install Ruby 3.2.2:
+7. Install Ruby 3.1.2:
 ~~~ Bash
-$ ruby-install ruby-3.2.2
+$ ruby-install ruby-3.1.2
 ~~~ 
 If you have a newer Mac with an M1 chip, you might need to add the `--enable-shared` flag like this:
 ~~~ Bash
-$ ruby-install ruby-3.2.2 -- --enable-shared
+$ ruby-install ruby-3.1.2 -- --enable-shared
 ~~~ 
 8. Quit and re-open your terminal again.
 9. Check to see if your new ruby is working:
@@ -106,7 +106,7 @@ $ ruby-install ruby-3.2.2 -- --enable-shared
 $ ruby -v
 ~~~ 
 
-If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your Ed project files and folders directly inside your user folder:
+If the answer is 3.1.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your Ed project files and folders directly inside your user folder:
 
 ~~~ bash
 $ cd ~/ed
