@@ -109,7 +109,7 @@ $ ruby-install ruby-3.2.2 -- --enable-shared
 $ ruby -v
 ~~~ 
 
-If the answer is 3.2.2, you are ready to install the software you will need to run Ed: Jekyll (a static site generator), bundler (a tool to install ruby software) and a few others that bundler will install for you. Make sure you navigate to your Ed project folder before doing these final steps:
+If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. Make sure you navigate to your Ed project folder before doing these final steps:
 
 ~~~ Bash
 $ gem install bundler
