@@ -85,7 +85,7 @@ $ cd ed
 
 Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.2.2. To install `chruby` follow these instructions:
 
-1. Install [Homebrew](https://brew.sh/). Think of Homebrew like an App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
+1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
 3. Install `chruby` and `install-ruby` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
 ~~~ Bash
