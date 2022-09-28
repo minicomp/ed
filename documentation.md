@@ -26,12 +26,12 @@ Jekyll does not run very well on Windows machines. If you are using Windows, thi
 
 You can use Ed on GitHub Pages for free, without a local installation, by editing the project files on github and using the template files. To use Ed this way you must have a Github account of your own. Once logged in, visit the [Github repository for Ed](https://github.com/minicomp/ed), and follow this steps:
 
-a) Select **Use this template** (the big green button).
-b) In the next page, name your new project. Remember to use only lowercase letters and no spaces.
-c) Once you save your new settings, GitHub should take you to your new repository page. Select the **Settings** tab.
-d) Once in **Settings** select **Pages**
-e) In the **Pages** tab select the **main** branch from the **Branch** drop-down menu. Save. Your site will be built shortly. 
-f) Give it a few minutes and refresh the page. GitHub should display the link to your published site when it's ready. 
+1. Select **Use this template** (the big green button).
+1. In the next page, name your new project. Remember to use only lowercase letters and no spaces.
+1. Once you save your new settings, GitHub should take you to your new repository page. Select the **Settings** tab.
+1. Once in **Settings** select **Pages**
+1. In the **Pages** tab select the **main** branch from the **Branch** drop-down menu. Save. Your site will be built shortly. 
+1. Give it a few minutes and refresh the page. GitHub should display the link to your published site when it's ready. 
 
 
 ## Installing Ed Locally
