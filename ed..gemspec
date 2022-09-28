@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(404|assets|optional|_layouts|_includes|_sass|_texts|index|search|about|credits|documentation|atom|Gemfile|LICENSE|README)}i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
-
-  spec.add_development_dependency "bundler", ">= 1.16"
-  spec.add_development_dependency "rake", ">= 12.3.3"
+  spec.add_runtime_dependency "jekyll", "~> 4.2.0"
+  spec.add_development_dependency "bundler", ">= 2.3"
+  spec.add_development_dependency "rake", ">= 13.0"
+  spec.add_development_dependency "webrick", ">= 1.7"
 end
