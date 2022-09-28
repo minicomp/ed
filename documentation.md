@@ -132,7 +132,7 @@ If you did get an error at any point during this process, and don't feel comfort
 
 ---
 
-## Installing Ed: Replacing an existing Jekyll theme
+## Replacing an existing Jekyll theme with Ed
 
 Ed, like Jekyll, is also a gem. Jekyll gives you the option to switch themes, as long as those themes are gems as well. If you have existing content and would like to use Ed, you need to add the following line to your _config.yml file, usually at the bottom:
 
