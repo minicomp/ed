@@ -95,6 +95,10 @@ chruby ruby-3.2.2
 6. Quit and re-open your terminal.
 7. Install Ruby 3.2.2:
 ~~~ Bash
+$ ruby-install ruby-3.2.2
+~~~ 
+If you have a newer Mac with an M1 chip, you might need to add the `--enable-shared` flag like this:
+~~~ Bash
 $ ruby-install ruby-3.2.2 -- --enable-shared
 ~~~ 
 8. Quit and re-open your terminal again.
@@ -103,7 +107,7 @@ $ ruby-install ruby-3.2.2 -- --enable-shared
 $ ruby -v
 ~~~ 
 
-If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your ed project files and folders directly inside your user folder:
+If the answer is 3.2.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your Ed project files and folders directly inside your user folder:
 
 ~~~ bash
 $ cd ~/ed
