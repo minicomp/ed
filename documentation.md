@@ -80,7 +80,8 @@ Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure
 
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
-3. Install `chruby` and `install-ruby` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
+3. Quit and re-open your terminal, just in case.
+3. Install `chruby` and `ruby-install` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
 ~~~ Bash
 $ brew install ruby-install chruby
 ~~~   
