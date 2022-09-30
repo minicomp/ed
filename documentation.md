@@ -75,11 +75,17 @@ Now we begin the long process of installing Jekyll. Jekyll is a Ruby gem (Ruby's
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
 3. Quit and re-open your terminal, just in case.
-4. Install `chruby` and `ruby-install` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
+4. Install `ruby-install` and `chruby` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification). `ruby-install` is a tool designed just to install Ruby. `chruby` is a tool used to manage Ruby. To install:   
 ~~~ Bash
 $ brew install ruby-install chruby
-~~~   
-5. Now we will tell your shell where these commands that you just installed are by editing the "PATH," and make Ruby 3.1.2 the default ruby whenever you use the terminal (even before we install it!). If you are using traditional bash (the one with the `$` before your commands) you must edit the `~/.bash_profile` file (it's hidden, so this is where your command line skills will prove useful). If you are using zsh (the one with the `%` before your commands) you must edit the `~/.zshrc` file instead (this one is also hidden). For most beginners who have never done this, those files probably don't even exist. Let's create the one you need, open the file and then paste the appropriate lines.   
+~~~
+
+<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro Tip: <code>`chruby`</code> is very useful for folks who are running older Jekyll themes that use Ruby 2.x.x, and need to switch back and forth with newer themes that have made the transition to Ruby 3.x.x. Changing the Ruby environment becomes as easy as:</p>
+<pre>$ chruby ruby-3.1.2<br>$ chruby ruby-2.7.2</pre>
+</div>
+ 
+
+&nbsp;&nbsp;&nbsp;5. Now we will tell your shell where these commands that you just installed are by editing the "PATH," and make Ruby 3.1.2 the default ruby whenever you use the terminal (even before we install it!). If you are using traditional bash (the one with the `$` before your commands) you must edit the `~/.bash_profile` file (it's hidden, so this is where your command line skills will prove useful). If you are using zsh (the one with the `%` before your commands) you must edit the `~/.zshrc` file instead (this one is also hidden). For most beginners who have never done this, those files probably don't even exist. Let's create the one you need, open the file and then paste the appropriate lines.   
 **For bash users (the $ on the shell):**: 
 ~~~ Bash
 $ touch ~/.bash_profile
@@ -100,9 +106,10 @@ At this point your terminal will open your text editor. Probably TextEdit. (N.B.
 ~~~
 source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 chruby ruby-3.1.2
-~~~   
-6. Quit and re-open your terminal. You will get an error message saying it doesn't have the Ruby 3.1.2. Ignore. (Any other error message might be worth paying attention to, though).
-7. Now the big moment: Install Ruby 3.1.2:
+~~~
+&nbsp;&nbsp;&nbsp;6. Quit and re-open your terminal. You will get an error message saying it can't find Ruby 3.1.2. Ignore. (Any other error message might be worth paying attention to, though).
+
+&nbsp;&nbsp;&nbsp;7. Now the big moment: Install Ruby 3.1.2:
 ~~~ Bash
 $ ruby-install ruby-3.1.2
 ~~~ 
@@ -110,15 +117,17 @@ If you have a newer Mac with an M1 or M2 chip, you might need to add the `--enab
 ~~~ Bash
 $ ruby-install ruby-3.1.2 -- --enable-shared
 ~~~ 
-8. Quit and re-open your terminal again. There should be no errors at this point.
-9. Check to see if your new Ruby interpreter is working:
+
+&nbsp;&nbsp;&nbsp;8. Quit and re-open your terminal again. There should be no errors at this point.
+
+&nbsp;&nbsp;&nbsp;9. Check to see if your new Ruby interpreter is working:
 ~~~ Bash
 $ ruby -v
 ~~~ 
 
 If the answer is 3.1.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. You are also ready to download the Ed files, which comes witha list of extra software, or "dependencies" that Ed uses. 
 
-<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has webrick included in its <code>Gemfile</code>, the instructions for what gems to install on Ruby projects, so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
+<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has webrick included in its <code>Gemfile</code>—the instructions for what gems to install on Ruby projects—so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
 
 <pre>$ bundler add webrick</pre>
 
