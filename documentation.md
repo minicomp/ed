@@ -97,7 +97,7 @@ source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 chruby ruby-3.1.2
 ~~~   
-**For zsh users (the % on the shell):**: 
+**For zsh users (the % on the shell):**:   
 ~~~ Bash
 $ touch ~/.zshrc
 $ open ~/.zshrc
