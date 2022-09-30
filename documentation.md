@@ -75,28 +75,43 @@ Now we begin the long process of installing Jekyll. Jekyll is a Ruby gem (Ruby's
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
 3. Quit and re-open your terminal, just in case.
-3. Install `chruby` and `ruby-install` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
+4. Install `chruby` and `ruby-install` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification):   
 ~~~ Bash
 $ brew install ruby-install chruby
 ~~~   
-4. Tell your shell what these things you just installed are by editing the "PATH." If you are using traditional bash (the one with the `$` before your commands) you must edit the `~/.bash_profile` file (it's hidden, so this is where your command line skills will prove useful). If you are using zsh (the one with the `%` before your commands) you must edit the `~/.zshrc` file instead (this one is also hidden). Paste these three lines on whichever of these two you need to use:
+5. Now we will tell your shell where these commands that you just installed are by editing the "PATH," and make Ruby 3.1.2 the default ruby whenever you use the terminal (even before we install it!). If you are using traditional bash (the one with the `$` before your commands) you must edit the `~/.bash_profile` file (it's hidden, so this is where your command line skills will prove useful). If you are using zsh (the one with the `%` before your commands) you must edit the `~/.zshrc` file instead (this one is also hidden). For most beginners who have never done this, those files probably don't even exist. Let's create the one you need, open the file and then paste the appropriate lines.   
+**For bash users (the $ on the shell):**: 
+~~~ Bash
+$ touch ~/.bash_profile
+$ open ~/.bash_profile
+~~~   
+At this point your terminal will open your text editor. Probably TextEdit. (N.B. Make sure your TextEdit is set to save in plain text, and not rich text. This setting can be changed in TextEdit/Preferences). Now paste the following lines, save and close:
 ~~~
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 chruby ruby-3.1.2
+~~~   
+**For zsh users (the % on the shell):**: 
+~~~ Bash
+$ touch ~/.zshrc
+$ open ~/.zshrc
+~~~   
+At this point your terminal will open your text editor. Probably TextEdit. (N.B. Make sure your TextEdit is set to save in plain text, and not rich text. This setting can be changed in TextEdit/Preferences). Now paste the following lines, save and close:
 ~~~
-5. Save and quit the text editor you used to edit the file.
-6. Quit and re-open your terminal.
-7. Install Ruby 3.1.2:
+source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
+chruby ruby-3.1.2
+~~~   
+6. Quit and re-open your terminal. You will get an error message saying it doesn't have the Ruby 3.1.2. Ignore. (Any other error message might be worth paying attention to, though).
+7. Now the big moment: Install Ruby 3.1.2:
 ~~~ Bash
 $ ruby-install ruby-3.1.2
 ~~~ 
-If you have a newer Mac with an M1 chip, you might need to add the `--enable-shared` flag like this:
+If you have a newer Mac with an M1 or M2 chip, you might need to add the `--enable-shared` flag like this:
 ~~~ Bash
 $ ruby-install ruby-3.1.2 -- --enable-shared
 ~~~ 
-8. Quit and re-open your terminal again.
-9. Check to see if your new ruby is working:
+8. Quit and re-open your terminal again. There should be no errors at this point.
+9. Check to see if your new Ruby interpreter is working:
 ~~~ Bash
 $ ruby -v
 ~~~ 
