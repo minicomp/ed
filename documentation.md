@@ -86,6 +86,7 @@ $ brew install ruby-install chruby
  
 
 &nbsp;&nbsp;&nbsp;5. Now we will tell your shell where these commands that you just installed are by editing the "PATH," and make Ruby 3.1.2 the default ruby whenever you use the terminal (even before we install it!). If you are using traditional bash (the one with the `$` before your commands) you must edit the `~/.bash_profile` file (it's hidden, so this is where your command line skills will prove useful). If you are using zsh (the one with the `%` before your commands) you must edit the `~/.zshrc` file instead (this one is also hidden). For most beginners who have never done this, those files probably don't even exist. Let's create the one you need, open the file and then paste the appropriate lines.   
+   
 **For bash users (the $ on the shell):**: 
 ~~~ Bash
 $ touch ~/.bash_profile
@@ -127,7 +128,7 @@ $ ruby -v
 
 If the answer is 3.1.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. You are also ready to download the Ed files, which comes witha list of extra software, or "dependencies" that Ed uses. 
 
-<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has webrick included in its <code>Gemfile</code>—the instructions for what gems to install on Ruby projects—so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
+<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has <code>webrick</code> included in its <code>Gemfile</code>—the instructions for what gems to install on Ruby projects—so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
 
 <pre>$ bundler add webrick</pre>
 
