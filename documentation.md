@@ -68,15 +68,9 @@ The first step to install Ed is to download the source files from GitHub. To do 
 $ git --version
 ~~~
 
-If you have github, you're good to go. If you don't, your Mac will ask you to install the XCode command line tools. Say yes, please. 
+If you have github, you're good to go. If you don't, your Mac will ask you to install the XCode command line tools. Say yes, please. This step installs a number of background tools directly from Apple that you will need for everything else to work well.
 
-Once the command line tools are installed, using the `cd` command on your terminal, navigate to the folder where you keep your web projects. Once you're in the folder where you want Ed to live, download it from github using the following line (remember you can copy and paste):
-
-~~~ bash
-$ git clone https://github.com/minicomp/ed.git
-~~~
-
-Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.1.2. To install `chruby` follow these instructions:
+Now we begin the long process of installing Jekyll. Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.1.2. To install `chruby` follow these instructions:
 
 1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
@@ -107,31 +101,50 @@ $ ruby-install ruby-3.1.2 -- --enable-shared
 $ ruby -v
 ~~~ 
 
-If the answer is 3.1.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. At this point you should navigate inside your Ed project folder and stay there until further notice. For example, if you put your Ed project files and folders directly inside your user folder:
+If the answer is 3.1.2, you are ready to install the software you will need to run Ed, including Jekyll (the static site generator that uses the Ed theme). Bundler will do this for you, and along with a couple of other little things that Ed will need to run. You are also ready to download the Ed files, which comes witha list of extra software, or "dependencies" that Ed uses. 
+
+<div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has webrick included in its <code>Gemfile</code>, the instructions for what gems to install on Ruby projects, so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
+
+<pre>$ bundler add webrick</pre>
+
+<p>If you are just installing gems yourself one by one, common on projects that come without a Gemfile, this might do the trick:</p>
+
+<pre>$ gem install webrick</pre>
+</div>
+
+
+Now let's get down to business. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. For the sake of this tutorial, we're going to use a folder called `www`, which will live in your main user folder, next to Documents, Downloads, Desktop, etc. Since you probably don't have this folder in your computer let's create it on the terminal, and move our operation there:
+
+~~~ Bash
+$ mkdir ~/www
+$ cd www
+~~~ 
+
+Once you're in the `www` folder, where Ed will live, download it from github using the following line (remember you can copy and paste), and navigate inside the downloaded folder:
 
 ~~~ bash
-$ cd ~/ed
+$ git clone https://github.com/minicomp/ed.git
+$ cd ed
 ~~~
 
-Once  you are inside the ed folder, run these final steps:
+Once  you are inside the Ed folder, run these final steps:
 
 ~~~ Bash
 $ gem install bundler
 $ bundle install
 ~~~ 
 
-If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. You can build the first version of your site and run the jekyll server at the same time:
+If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built-in server. You can build the first version of your site and run the jekyll server at the same time:
 
 ~~~ bash
 $ bundle exec jekyll serve
 ~~~
 
-Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
+Copy the URL from your terminal log and paste it into your browser of choice (I'm team Firefox myself). This URL usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
-
-If you did get an error at any point during this process, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/minicomp/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
+If you did get an error at any point during this process, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/minicomp/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (*sans* personal information) into your favorite search engine.
 
 
 ---
