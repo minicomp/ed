@@ -138,7 +138,7 @@ If the answer is 3.1.2, you are ready to install the software you will need to r
 </div>
 
 
-Now let's get down to business. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. For the sake of this tutorial, we're going to use a folder called `www`, which will live in your main user folder, next to Documents, Downloads, Desktop, etc. Since you probably don't have this folder in your computer let's create it on the terminal, and move our operation there:
+Now let's get down to business. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. For the sake of this tutorial, we're going to use a folder called `www`, which will live in your main user folder, next to Documents, Downloads, Desktop, etc. Since you probably don't have this folder in your computer, let's create it on the terminal, and move our operation there:
 
 ~~~ Bash
 $ mkdir ~/www
