@@ -130,7 +130,7 @@ If the answer is 3.1.2, you are ready to install the software you will need to r
 
 <div style="border-style: dotted; padding: 1rem; margin-bottom: 1rem;"><p>Pro-tip: Many contemporary Jekyll installs break because the new Jekyll doesn't come with a gem called <code>webrick</code>. Ed already has <code>webrick</code> included in its <code>Gemfile</code>—the instructions for what gems to install on Ruby projects—so it will install this extra gem alongside Jekyll. <strong>But</strong>, if you came to this guide as a reliable way to run other Jekyll projects because this guide is a legend, please remember to add or install the <code>webrick</code> gem if you are going to use newer versions of Jekyll. If you are using Bundler you can use the following command:</p>
 
-<pre>$ bundler add webrick</pre>
+<pre>$ bundle add webrick</pre>
 
 <p>If you are just installing gems yourself one by one, common on projects that come without a Gemfile, this might do the trick:</p>
 
