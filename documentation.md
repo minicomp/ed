@@ -143,7 +143,7 @@ Now let's get down to business.
 The following steps make a couple of assumptions:
 
 1. That you have a GitHub account. If you don't, [please create one](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiq_Lmp-cn6AhV9FlkFHQhLAjYQFnoECA8QAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk). 
-2. That you set up your global credentials for git on your computer:   
+2. That you set up your global credentials for git on your computer. If not, replace the content in quotation marks with your info, and run these lines on the terminal:   
 ~~~ Bash
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
