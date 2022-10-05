@@ -161,7 +161,7 @@ Visit <a href="https://github.com/minicomp/ed.git">the repository for Ed</a>. On
 1. Create a folder called `www` on your Mac user folder, i.e. right next to Documents, Downloads, Desktop, etc. 
 1. Open VS Code
 2. Select 'Clone Git Repository' from the starting page, or go to the Source Control tab on the left (Ctrl + Shift + G), and select 'Clone Repository.' (If you already had a folder open on your VS code, then make sure to close it in the File menu before doing this step)
-3. If this is your first time cloning a repository on VS Code, select "Clone from Github." VS Code will now download a list of all your existing repository, and create a new dropdown menu listing them all. You can search or browse through this list.
+3. If this is your first time cloning a repository on VS Code, select "Clone from Github." VS Code will now download a list of all your existing repositories, and create a new dropdown menu listing them all. You can search or browse through this list.
 4. Select the repository you just created on your GitHub when you copied the Ed template. It should be available from the dropdown menu. 
 4. When prompted where you would like to save the local copy, save it in the `www` folder you created in step #1. 
 
