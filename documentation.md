@@ -36,7 +36,7 @@ You can use Ed on GitHub Pages for free, without a local installation, by editin
 
 ## Installing Ed Locally
 
-### Existing Ruby environments
+### Existing Ruby environments 
 
 To install Ed locally you need a contemporary Ruby environment up and running. In 2022 we will use `chruby` with `ruby-3.1.2`. If you don't even know what the last two sentences mean, skip ahead. If you already have your own ruby environment and relatively recent Ruby installed, then you can get up and running by downloading the source code from Github and running  
 
@@ -62,19 +62,18 @@ If at any point during this process you had an error you could not resolve, move
 
 ### Installing from scratch
 
-The first step to install Ed is to download the source files from GitHub. To do so you must have git installed on your computer. You probably have git already. To check, type the following into your instructions (without the `$`, that's just there to remind you these lines are to be copied and pasted into the terminal)
+The first step to make sure you have XCode Command Line tools, and git specifically, installed in your computer. You may have both already. To check, type the following into your instructions (without the `$`, that's just there to remind you these lines are to be copied and pasted into the terminal)
 
 ~~~ bash
 $ git --version
 ~~~
 
-If you have github, you're good to go. If you don't, your Mac will ask you to install the XCode command line tools. Say yes, please. This step installs a number of background tools directly from Apple that you will need for everything else to work well.
+If you have git, you're good to go. If you don't, your Mac will ask you to install the XCode Command Line Tools, which will also install git. Say yes, please. This step also installs a number of other tools directly from Apple that you will need for everything else to work well.
 
 Now we begin the long process of installing Jekyll. Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use a ruby environment mangager. In our case, we're going to use `chruby`, and the Ruby 3.1.2. To install `chruby` follow these instructions:
 
-1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal.
+1. Install [Homebrew](https://brew.sh/). Think of Homebrew as a sort of App Store for your terminal. You may need to use your password and hit enter a few times after pasting the install link from Homebrew in your terminal. Remember that when you type your password into the terminal, the interface does not show that you are typing. Don't worry, it is listening. After you type it correctly, hit enter, and keep going.
 2. After the installation succeeds, remember to copy the three lines indicated in the "Next Steps" message from Homebrew on your terminal. Now you should be able to brew.
-3. Quit and re-open your terminal, just in case.
 4. Install `ruby-install` and `chruby` on your terminal (I'm using [these instructions](https://mac.install.guide/ruby/12.html) with some modification). `ruby-install` is a tool designed just to install Ruby. `chruby` is a tool used to manage Ruby. To install:   
 ~~~ Bash
 $ brew install ruby-install chruby
