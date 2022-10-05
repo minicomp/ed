@@ -62,7 +62,7 @@ If at any point during this process you had an error you could not resolve, move
 
 ### Installing from scratch
 
-The first step to make sure you have XCode Command Line tools, and git specifically, installed in your computer. You may have both already. To check, type the following into your instructions (without the `$`, that's just there to remind you these lines are to be copied and pasted into the terminal)
+Our first step is to make sure you have XCode Command Line tools, and git specifically, installed in your computer. You may have both already. To check, type the following into your instructions (without the `$`, that's just there to remind you these lines are to be copied and pasted into the terminal)
 
 ~~~ bash
 $ git --version
