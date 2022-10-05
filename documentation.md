@@ -151,8 +151,7 @@ $ git config --global user.name "Your Name"
 
 Ok. If you have your GitHub account and you're set up with your VS Code or your Terminal, you are ready to proceed:
 
-1. Visit <a href="https://github.com/minicomp/ed.git">the repository for Ed</a>. On GitHub, follow the following steps:
-
+Visit <a href="https://github.com/minicomp/ed.git">the repository for Ed</a>. On GitHub, follow the following steps:
 1. Select **Use this template** (the big green button).
 1. In the next page, name your new project. Remember to use only lowercase letters and no spaces.
 1. Once you save your new settings, GitHub should take you to your new repository page. At this point you are ready to clone the project into your computer.
@@ -162,7 +161,8 @@ Ok. If you have your GitHub account and you're set up with your VS Code or your 
 1. Create a folder called `www` on your Mac user folder, i.e. right next to Documents, Downloads, Desktop, etc. 
 1. Open VS Code
 2. Select 'Clone Git Repository' from the starting page, or go to the Source Control tab on the left (Ctrl + Shift + G), and select 'Clone Repository.' (If you already had a folder open on your VS code, then make sure to close it in the File menu before doing this step)
-3. Select the repository you just created from the Ed template, the one in your account. 
+3. If this is your first time cloning a repository on VS Code, select "Clone from Github." VS Code will now download a list of all your existing repository, and create a new dropdown menu listing them all. You can search or browse through this list.
+4. Select the repository you just created on your GitHub when you copied the Ed template. It should be available from the dropdown menu. 
 4. When prompted where you would like to save the local copy, save it in the `www` folder you created in step #1. 
 
 That's it. VS Code should now download it and from now on be able to upload to it. Skip ahead to "All together now" for the last few bits left and to run the local server.
