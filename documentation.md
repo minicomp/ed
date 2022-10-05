@@ -138,19 +138,59 @@ If the answer is 3.1.2, you are ready to install the software you will need to r
 </div>
 
 
-Now let's get down to business. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. For the sake of this tutorial, we're going to use a folder called `www`, which will live in your main user folder, next to Documents, Downloads, Desktop, etc. Since you probably don't have this folder in your computer, let's create it on the terminal, and move our operation there:
+Now let's get down to business. 
+
+The following steps make a couple of assumptions:
+
+1. That you have a GitHub account. If you don't, [please create one](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiq_Lmp-cn6AhV9FlkFHQhLAjYQFnoECA8QAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk). 
+2. That you set up your global credentials for git on your computer:   
+~~~ Bash
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+~~~
+2. That your computer is connected to your GitHub account, and can push (upload), and pull (download) from that account. If you are using Microsoft Visual Studio Code as your main plain text editor (recommended), this can be easily done by linking your GitHub account to VS Code. There are many ways to accomplish this, some built in into VS Code, or by [adding the GitHub extension](https://code.visualstudio.com/docs/sourcecontrol/github). If you're planning to use the Terminal to interact with GitHub and git, then you need to [set up an ssh key connection to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). The latter is a more involved process, and beginners may want to save it for later when they get more comfortable with these type of workflows.
+
+Ok. If you have your GitHub account and you're set up with your VS Code or your Terminal, you are ready to proceed:
+
+1. Visit <a href="https://github.com/minicomp/ed.git">the repository for Ed</a>. On GitHub, follow the following steps:
+
+1. Select **Use this template** (the big green button).
+1. In the next page, name your new project. Remember to use only lowercase letters and no spaces.
+1. Once you save your new settings, GitHub should take you to your new repository page. At this point you are ready to clone the project into your computer.
+
+**For VS Code users:**: 
+
+1. Create a folder called `www` on your Mac user folder, i.e. right next to Documents, Downloads, Desktop, etc. 
+1. Open VS Code
+2. Select 'Clone Git Repository' from the starting page, or go to the Source Control tab on the left (Ctrl + Shift + G), and select 'Clone Repository.' (If you already had a folder open on your VS code, then make sure to close it in the File menu before doing this step)
+3. Select the repository you just created from the Ed template, the one in your account. 
+4. When prompted where you would like to save the local copy, save it in the `www` folder you created in step #1. 
+
+That's it. VS Code should now download it and from now on be able to upload to it. Skip ahead to "All together now" for the last few bits left and to run the local server.
+
+**For Terminal users:**: 
+
+Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. For the sake of this tutorial, we're going to use a folder called `www`, which will live in your main user folder, next to Documents, Downloads, Desktop, etc. Since you probably don't have this folder in your computer, let's create it on the terminal, and move our operation there:
 
 ~~~ Bash
 $ mkdir ~/www
-$ cd www
+$ cd ~/www
 ~~~ 
 
-Once you're in the `www` folder, where Ed will live, download it from github using the following line (remember you can copy and paste), and navigate inside the downloaded folder:
+Once you're in the `www` folder, where Ed will live, download it from github. You will need the right SSH link for this, not the HTTPS key. To get the right key, on your GitHub repo page, on the Code drop-down menu (the green button) you will see 3 tabs. HTTPS, SSH and GitHub CLI. Make sure to select the SSH tab before copying the link. Once you have that link copied in your clipboard, go back to the terminal and "clone" the repository:
 
 ~~~ bash
-$ git clone https://github.com/minicomp/ed.git
-$ cd ed
+$ git clone [the SSH link to your repository]
 ~~~
+
+
+**All together now**
+
+We'll need the terminal for this. At this point we want to make sure that we're all in the `ed` folder:
+
+~~~ Bash
+$ cd ~/www/ed
+~~~ 
 
 Once  you are inside the Ed folder, run these final steps:
 
@@ -159,7 +199,7 @@ $ gem install bundler
 $ bundle install
 ~~~ 
 
-If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built-in server. You can build the first version of your site and run the jekyll server at the same time:
+If you don't get any errors, Ed should work at this point. To see if Ed is working properly, we will take advantage of Jekyll's built-in server. You can build the first version of your site and run the jekyll server at the same time:
 
 ~~~ bash
 $ bundle exec jekyll serve
