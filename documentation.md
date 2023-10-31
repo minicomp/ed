@@ -104,7 +104,7 @@ $ open ~/.zshrc
 ~~~   
 At this point your terminal will open your text editor. Probably TextEdit. (N.B. Make sure your TextEdit is set to save in plain text, and not rich text. This setting can be changed in TextEdit/Preferences). Now paste the following lines, save and close:
 ~~~
-source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby ruby-3.1.2
 ~~~
 &nbsp;&nbsp;&nbsp;6. Quit and re-open your terminal. You will get an error message saying it can't find Ruby 3.1.2. Ignore. (Any other error message might be worth paying attention to, though).
